@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:04/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  bo.xu                                                             |
+|  Email  :  Bo.Xu@tcl-mobile.com                                              |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/06/2013|        bo.xu         |      FR-400302       |[SMS]Cell broadcast |
+|           |                      |                      | SMS support        |
+| **********|**********************|**********************|******************* |
+| 09/06/2013|        yugang.jia    |      FR-516039       |[SMS]Cell broadcast |
+|           |                      |                      | SMS support        |
+| **********|**********************|**********************|******************* |
+| 08/08/2014|      bangju.wang     |      PR-757369       |There is no Ru lang-|
+|           |                      |                      | uage in the lang-  |
+|           |                      |                      | uage list in CB-   |
+|           |                      |                      | settings           |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+
+<resources>
+    <string-array name="channel_dialog_items_enable">
+        <item>@string/channel_dialog_items_enable</item>
+        <item>@string/channel_dialog_items_edit</item>
+        <item>@string/channel_dialog_items_delete</item>
+    </string-array>
+
+    <string-array name="channel_dialog_items_disable">
+        <item>@string/channel_dialog_items_disable</item>
+        <item>@string/channel_dialog_items_edit</item>
+        <item>@string/channel_dialog_items_delete</item>
+    </string-array>
+<!--[FEATURE]-MOD-BEGIN by  bangju.wang,08/08/2014,PR-757369,-->
+<!--[FEATURE]-MOD-BEGIN by TCTNB.yugang.jia,09/06/2013,FR-516039,-->
+    <string-array name="cb_language_items">
+        <item>@string/all_languages</item>
+        <item>Deutsch</item>
+        <item>English</item>
+        <item>Italiano</item>
+        <item>Français</item>
+        <item>Español</item>
+        <item>Nederlands</item>
+        <item>Svenska</item>
+        <item>Danske</item>
+        <item>Português</item>
+        <item>Suomalainen</item>
+        <item>Norske</item>
+        <item>Ελληνικά</item>
+        <item>Türkçe</item>
+        <item>Magyar</item>
+        <item>Polski</item>
+        <item>Русский</item>
+    </string-array>
+<!--[FEATURE]-MOD-END by TCTNB.yugang.jia,09/06/2013,FR-516039,-->
+<!--[FEATURE]-MOD-END by  bangju.wang,08/08/2014,PR-757369,-->
+</resources>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"सेल प्रसारण"</string>
+	<!---->
+	<string name="sms_cb_settings">"आपातकालीन अलर्ट"</string>
+	<!-- no translation found for button_dismiss -->
+	<skip />
+	<!---->
+	<string name="button_hide">"छुपाएं"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"आपके क्षेत्र में कोई सक्रिय अलर्ट नहीं है. आप सेटिंग मेनू विकल्‍प का उपयोग करके अलर्ट सेटिंग बदल सकते हैं."</string>
+	<!-- no translation found for menu_preferences -->
+	<skip />
+	<!---->
+	<string name="menu_delete_all">"प्रसारण हटाएं"</string>
+	<!---->
+	<string name="message_options">"संदेश विकल्‍प"</string>
+	<!---->
+	<string name="menu_view_details">"विवरण देखें"</string>
+	<!---->
+	<string name="menu_delete">"प्रसारण हटाएं"</string>
+	<!---->
+	<string name="view_details_title">"अलर्ट विवरण"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"यह प्रसारण हटाएं?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"सभी हटाएं"</string>
+	<!-- no translation found for confirm_dialog_title_delete -->
+	<skip />
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"प्राप्त हुए सभी प्रसारण संदेश हटाएं?"</string>
+	<!-- no translation found for button_delete -->
+	<skip />
+	<!-- no translation found for button_cancel -->
+	<skip />
+	<!---->
+	<string name="etws_earthquake_warning">"भूकंप चेतावनी"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"सुनामी चेतावनी"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"भूकंप और सुनामी चेतावनी"</string>
+	<!---->
+	<string name="etws_test_message">"ETWS परीक्षण संदेश"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"आपातकालीन चेतावनी"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"अध्‍यक्षीय अलर्ट"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"आपातकालीन अलर्ट: गंभीरतम"</string>
+	<!---->
+	<string name="cmas_severe_alert">"आपातकालीन अलर्ट: गंभीर"</string>
+	<!---->
+	<string name="cmas_amber_alert">"बच्चे का अपहरण (Amber अलर्ट)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"आपातकालीन अलर्ट मासिक परीक्षण"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"आपातकालीन अलर्ट (अभ्‍यास)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"आपातकालीन अलर्ट (ऑपरेटर)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"आपातकालीन अलर्ट"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"सेल प्रसारण"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"अध्‍यक्षीय अलर्ट"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"आपातकालीन अलर्ट: गंभीरतम"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"आपातकालीन अलर्ट: गंभीर"</string>
+	<!-- no translation found for cmas_spanish_amber_alert -->
+	<skip />
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"आपातकालीन अलर्ट मासिक परीक्षण"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"आपातकालीन अलर्ट (अभ्‍यास)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"आपातकालीन अलर्ट (ऑपरेटर)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"आपातकालीन अलर्ट"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"सूचनाएं चालू करें"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"आपातकालीन अलर्ट प्रसारण दिखाएं"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"अलर्ट ध्‍वनि अवधि"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"अलर्ट अनुस्मारक"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"अलर्ट संदेश बोलें"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"आपातकालीन अलर्ट संदेश बोलने के लिए पाठ-से-वाक् का उपयोग करें"</string>
+	<!---->
+	<string name="category_etws_settings_title">"ETWS सेटिंग"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"ETWS परीक्षण प्रसारण दिखाएं"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"भूकंप सुनामी चेतावनी सिस्‍टम के लिए परीक्षण प्रसारण दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"अत्यधिक खतरे दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"जीवन और संपत्ति के अत्यधिक खतरों के लिए अलर्ट दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"गंभीर खतरे दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"जीवन और संपत्ति के गंभीर खतरों के लिए अलर्ट दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"AMBER अलर्ट दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"बच्‍चे के अपहरण की आपातकालीन बुलेटिन दिखाएं (AMBER अलर्ट)"</string>
+	<!-- no translation found for enable_cmas_spanish_language_alerts_title -->
+	<skip />
+	<!-- no translation found for enable_cmas_spanish_language_alerts_summary -->
+	<skip />
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"CMAS परीक्षण प्रसारण दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"व्यावसायिक मोबाइल अलर्ट सिस्‍टम के लिए परीक्षण प्रसारण दिखाएं"</string>
+	<!-- no translation found for enable_alert_vibrate_title -->
+	<skip />
+	<!---->
+	<string name="enable_alert_vibrate_summary">"अलर्ट पर कंपन"</string>
+	<!-- no translation found for enable_alert_audio_title -->
+	<skip />
+	<!-- no translation found for enable_alert_audio_summary -->
+	<skip />
+	<!---->
+	<string name="category_brazil_settings_title">"ब्राज़ील के लिए सेटिंग"</string>
+	<!---->
+	<string name="category_india_settings_title">"भारत के लिए सेटिंग"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"चैनल 50 प्रसारण दिखाएं"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"ब्राज़ील में चैनल 50 को क्षेत्र के लिए नई जानकारी के लिए उपयोग किया जाता है"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"चैनल 60 प्रसारण दिखाएं"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"भारत में चैनल 60 को ऑपरेटर के लिए विशिष्‍ट जानकारी के लिए उपयोग किया जाता है"</string>
+	<!---->
+	<string name="category_dev_settings_title">"डेवलपर विकल्प"</string>
+	<!---->
+	<string name="cmas_category_heading">"अलर्ट श्रेणी:"</string>
+	<!-- no translation found for cmas_category_geo -->
+	<skip />
+	<!-- no translation found for cmas_category_met -->
+	<skip />
+	<!-- no translation found for cmas_category_safety -->
+	<skip />
+	<!-- no translation found for cmas_category_security -->
+	<skip />
+	<!-- no translation found for cmas_category_rescue -->
+	<skip />
+	<!-- no translation found for cmas_category_fire -->
+	<skip />
+	<!-- no translation found for cmas_category_health -->
+	<skip />
+	<!-- no translation found for cmas_category_env -->
+	<skip />
+	<!-- no translation found for cmas_category_transport -->
+	<skip />
+	<!-- no translation found for cmas_category_infra -->
+	<skip />
+	<!-- no translation found for cmas_category_cbrne -->
+	<skip />
+	<!-- no translation found for cmas_category_other -->
+	<skip />
+	<!---->
+	<string name="cmas_response_heading">"प्रतिक्रिया का प्रकार:"</string>
+	<!-- no translation found for cmas_response_shelter -->
+	<skip />
+	<!-- no translation found for cmas_response_evacuate -->
+	<skip />
+	<!-- no translation found for cmas_response_prepare -->
+	<skip />
+	<!-- no translation found for cmas_response_execute -->
+	<skip />
+	<!-- no translation found for cmas_response_monitor -->
+	<skip />
+	<!-- no translation found for cmas_response_avoid -->
+	<skip />
+	<!-- no translation found for cmas_response_assess -->
+	<skip />
+	<!-- no translation found for cmas_response_none -->
+	<skip />
+	<!-- no translation found for cmas_severity_heading -->
+	<skip />
+	<!-- no translation found for cmas_severity_extreme -->
+	<skip />
+	<!-- no translation found for cmas_severity_severe -->
+	<skip />
+	<!-- no translation found for cmas_urgency_heading -->
+	<skip />
+	<!-- no translation found for cmas_urgency_immediate -->
+	<skip />
+	<!-- no translation found for cmas_urgency_expected -->
+	<skip />
+	<!-- no translation found for cmas_certainty_heading -->
+	<skip />
+	<!-- no translation found for cmas_certainty_observed -->
+	<skip />
+	<!-- no translation found for cmas_certainty_likely -->
+	<skip />
+	<!-- no translation found for delivery_time_heading -->
+	<skip />
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> अपठित अलर्ट."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"नए अलर्ट"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"आपातकालीन अलर्ट"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"पहला CMAS अलर्ट (प्रेसिडेंशियल अलर्ट के अलावा) दिखाने के बाद ऑप्ट-आउट संवाद दिखाएं."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"ऑप्ट-आउट संवाद दिखाएं"</string>
+	<!-- no translation found for cmas_opt_out_dialog_text -->
+	<skip />
+	<!-- no translation found for cmas_opt_out_button_yes -->
+	<skip />
+	<!-- no translation found for cmas_opt_out_button_no -->
+	<skip />
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 सेकंड"</item>
+		<item>"4 सेकंड"</item>
+		<item>"6 सेकंड"</item>
+		<item>"8 सेकंड"</item>
+		<item>"10 सेकंड"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Once"</item>
+		<item>"प्रत्येक 2 मिनट में"</item>
+		<item>"प्रत्‍येक 15 मिनट में"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Off"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"सेल प्रसारण"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"ब्राज़ील के लिए सेटिंग"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"सिम कार्ड चुनें"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"प्रत्‍येक सिम की सेल प्रसारण सेटिंग्‍स प्रबंधित करें"</string>
+	<!---->
+	<string name="select_subscription_title">"सिम कार्ड चुनें"</string>
+	<!---->
+	<string name="subscription1_title">"सिम 1"</string>
+	<!---->
+	<string name="subscription2_title">"सिम 2"</string>
+	<!---->
+	<string name="cbsetting">"सेल प्रसारण"</string>
+	<!---->
+	<string name="summary_cbsetting">"सेल प्रसारण चैनल सेट करें"</string>
+	<!---->
+	<string name="title_receive_channel_list">"सभी चैनल चुनें"</string>
+	<!---->
+	<string name="title_channel_list">"चैनल सूची"</string>
+	<!---->
+	<string name="summary_channel_list">"सभी चैनल चुनें या नहीं चुनें"</string>
+	<!---->
+	<string name="title_add_channel">"चैनल जोड़ें"</string>
+	<!---->
+	<string name="summary_add_channel">"चैनल नाम और चैनल इंडेक्‍स डालें"</string>
+	<!---->
+	<string name="channel_name">"चैनल नाम (1-10 वर्ण)"</string>
+	<!---->
+	<string name="channel_index">"चैनल संख्‍या (0-999)"</string>
+	<!-- no translation found for channelEx_index -->
+	<skip />
+	<!---->
+	<string name="enable_channel">"चैनल सक्षम करें"</string>
+	<!-- no translation found for ChannelNameOut -->
+	<skip />
+	<!---->
+	<string name="title_cell_broadcast">"सामान्‍य सेल प्रसारण"</string>
+	<!---->
+	<string name="channel_label">"चैनल जोड़ें"</string>
+	<!-- no translation found for channel_ok -->
+	<skip />
+	<!-- no translation found for channel_cancel -->
+	<skip />
+	<!-- no translation found for channel_dialog_items_disable -->
+	<skip />
+	<!-- no translation found for channel_dialog_items_enable -->
+	<skip />
+	<!-- no translation found for channel_dialog_items_edit -->
+	<skip />
+	<!-- no translation found for channel_dialog_items_delete -->
+	<skip />
+	<!-- no translation found for ChannelExist -->
+	<skip />
+	<!-- no translation found for ChannelNotNumeric -->
+	<skip />
+	<!-- no translation found for ChannelExNotNumeric -->
+	<skip />
+	<!-- no translation found for EmergencyChannelNotAdded -->
+	<skip />
+	<!-- no translation found for ChannelIsNull -->
+	<skip />
+	<!-- no translation found for title_cb_language -->
+	<skip />
+	<!---->
+	<string name="summary_cb_language">"भाषा सेट करें"</string>
+	<!---->
+	<string name="title_language">"भाषा चुनें"</string>
+	<!-- no translation found for language_dialog_cancel -->
+	<skip />
+	<!---->
+	<string name="all_languages">"सभी भाषाएं"</string>
+	<!-- no translation found for enable -->
+	<skip />
+	<!-- no translation found for disable -->
+	<skip />
+	<!---->
+	<string name="title_chile_cb_dialog">"आपातकालीन अलर्ट"</string>
+	<!-- no translation found for call_phone_diablo -->
+	<skip />
+	<!---->
+	<string name="Send_message_diablo">"संदेश भेजें"</string>
+	<!---->
+	<string name="title_channel_mode">"चैनल चुनें"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"सभी चैनल (0-999)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"My channel (channel list)"</item>
+	</string-array>
+	<!-- string-array name="pref_cb_channel_mode_entries_ex" from sourcecode xml -->
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"All channels (0-65534)"</item>
+		<item>"My channel (channel list)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"आवश्‍यक मासिक परीक्षण के लिए अलर्ट दिखायें"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"RMT अलर्ट दिखाएं"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"अभ्‍यास संदेशों के लिए अलर्ट दिखायें"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"अभ्‍यास अलर्ट दिखाएं"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"अध्‍यक्षीय अलर्ट हमेशा प्रदर्शित किये जाते हैं"</string>
+	<!-- no translation found for enable_cmas_presidential_alerts_title -->
+	<skip />
+	<!-- no translation found for dialog_alert_diable_receive_cmas_message -->
+	<skip />
+	<!-- no translation found for disable_receive_cmas_dialog_btn_no -->
+	<skip />
+	<!-- no translation found for disable_receive_cmas_dialog_btn_yes -->
+	<skip />
+	<!-- no translation found for dialog_alert_msg_disable_extreme -->
+	<skip />
+	<!-- no translation found for dialog_alert_msg_enable_severe -->
+	<skip />
+	<!---->
+	<string name="pref_preview_cmas_alert">"सूचना का पूर्वावलोकन करें"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"आपातकालीन अलर्ट टोन का पूर्वावलोकन करें"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"अलर्ट टोन"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"आपातकालीन अलर्ट कंपन का पूर्वावलोकन करें"</string>
+	<!-- no translation found for pref_title_preview_cmas_vibration -->
+	<skip />
+	<!-- no translation found for call_phone_att -->
+	<skip />
+	<!---->
+	<string name="Send_message_att">"संदेश भेजें"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"बातचीत चुनें"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"1 संदेश हटा दिया जायेगा."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"<xliff:g id="count">%s</xliff:g> संदेश हटा दिये जायेंगे."</string>
+	<!-- no translation found for confirm_dialog_title -->
+	<skip />
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!-- no translation found for toast_message_channel_can_not_delete -->
+	<skip />
+	<!-- no translation found for toast_message_can_not_modify_channel -->
+	<skip />
+	<!-- no translation found for toast_message_can_not_delete_channel -->
+	<skip />
+	<!-- no translation found for enable_wpas_extreme_threat_alerts_title -->
+	<skip />
+	<!-- no translation found for enable_wpas_severe_threat_alerts_title -->
+	<skip />
+	<!-- no translation found for enable_wpas_amber_alerts_title -->
+	<skip />
+	<!-- no translation found for wpas_test_alert -->
+	<skip />
+	<!-- no translation found for other_alert_settings_title -->
+	<skip />
+	<!-- no translation found for Russia_dialog_title -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+</resources>

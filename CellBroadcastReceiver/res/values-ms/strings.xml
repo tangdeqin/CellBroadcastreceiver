@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"Mesej siaran sel"</string>
+	<!---->
+	<string name="sms_cb_settings">"Isyarat kecemasan"</string>
+	<!---->
+	<string name="button_dismiss">"OK"</string>
+	<!---->
+	<string name="button_hide">"Sembunyi"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"Tidak ada ingatan aktif di kawasan anda. Anda boleh mengubah seting Ingatan menggunakan opsyen menu Seting."</string>
+	<!---->
+	<string name="menu_preferences">"Tetapan"</string>
+	<!---->
+	<string name="menu_delete_all">"Padam semua"</string>
+	<!---->
+	<string name="message_options">"Opsyen mesej"</string>
+	<!---->
+	<string name="menu_view_details">"Lihat butiran"</string>
+	<!---->
+	<string name="menu_delete">"Padam siaran"</string>
+	<!---->
+	<string name="view_details_title">"Butiran awasan"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"Padam siaran ini?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"Padam semua"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"Padam"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"Semua mesej dan amaran Siaran Selular akan dipadamkan."</string>
+	<!---->
+	<string name="button_delete">"OK"</string>
+	<!---->
+	<string name="button_cancel">"Batal"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"Amaran gempa bumi"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"Amaran tsunami"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"Amaran gempa bumi dan tsunami"</string>
+	<!---->
+	<string name="etws_test_message">"Mesej ujian ETWS"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"Amaran kecemasan"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"Isyarat Presiden"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"Isyarat kecemasan: Ekstrem"</string>
+	<!---->
+	<string name="cmas_severe_alert">"Isyarat kecemasan: Teruk"</string>
+	<!---->
+	<string name="cmas_amber_alert">"Penculikan kanak-kanak (Isyarat Amber)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"Ujian bulanan isyarat kecemasan"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"Isyarat kecemasan (latihan)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"Isyarat kecemasan (pengendali)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"Isyarat kecemasan"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"Siaran Sel"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"Isyarat Presiden"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"Isyarat kecemasan: Ekstrem"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"Isyarat kecemasan: Teruk"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"Penculikan Kanak-kanak (Isyarat Amber)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"Ujian bulanan isyarat kecemasan"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"Isyarat kecemasan (latihan)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"Isyarat kecemasan (pengendali)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"Isyarat kecemasan"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"Hidupkan pemberitahuan"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"Paparkan siaran isyarat kecemasan"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"Tempoh bunyi isyarat"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"Peringatan amaran"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"Tuturkan mesej isyarat"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"Gunakan teks kepada pertuturan untuk menuturkan mesej isyarat kecemasan"</string>
+	<!---->
+	<string name="category_etws_settings_title">"Tetapan ETWS"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"Tunjukkan siaran ujian ETWS"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"Paparkan siaran ujian bagi Sistem Amaran Tsunami Gempa Bumi"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"Tunjukkan ancaman ekstrim"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"Paparkan ingatan bagi ancaman ekstrim kepada nyawa dan harta benda"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"Tunjukkan ancaman teruk"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"Paparkan ingatan bagi ancaman teruk kepada nyawa dan harta benda"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"Tunjukkan amaran AMBER"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"Paparkan buletin kecemasan penculikan kanak-kanak (amaran AMBER)"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"Bahasa Sepanyol"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"Paparkan awasan untuk mesej bahasa Sepanyol"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"Tunjukkan siaran ujian CMAS"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"Paparkan siaran ujian untuk Sistem Amaran Mudah Alih Perdagangan"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"Bergetar"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"Bergetar pada awasan"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"Audio"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"Isyarat audio dihidupkan"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"Tetapan untuk Brazil"</string>
+	<!---->
+	<string name="category_india_settings_title">"Seting untuk India"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"Tunjukkan siaran saluran 50"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"Saluran 50 digunakan di Brazil untuk memberi maklumat kemas kini kawasan"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"Tunjukkan siaran saluran 60"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"Saluran 60 digunakan di India untuk maklumat khusus Operator"</string>
+	<!---->
+	<string name="category_dev_settings_title">"Opsyen pembangun"</string>
+	<!---->
+	<string name="cmas_category_heading">"Kategori Awasan:"</string>
+	<!---->
+	<string name="cmas_category_geo">"Geofizikal"</string>
+	<!---->
+	<string name="cmas_category_met">"Meteorologi"</string>
+	<!---->
+	<string name="cmas_category_safety">"Keselamatan"</string>
+	<!---->
+	<string name="cmas_category_security">"Keselamatan"</string>
+	<!---->
+	<string name="cmas_category_rescue">"Menyelamat"</string>
+	<!---->
+	<string name="cmas_category_fire">"Api"</string>
+	<!---->
+	<string name="cmas_category_health">"Kesihatan"</string>
+	<!---->
+	<string name="cmas_category_env">"Alam sekitar"</string>
+	<!---->
+	<string name="cmas_category_transport">"Pengangkutan"</string>
+	<!---->
+	<string name="cmas_category_infra">"Infrastruktur"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"Kimia/Biologi/Nuklear/Letupan"</string>
+	<!---->
+	<string name="cmas_category_other">"Lain-lain"</string>
+	<!---->
+	<string name="cmas_response_heading">"Jenis respons:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"Berteduh"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"Kosongkan"</string>
+	<!---->
+	<string name="cmas_response_prepare">"Sediakan"</string>
+	<!---->
+	<string name="cmas_response_execute">"Laksana"</string>
+	<!---->
+	<string name="cmas_response_monitor">"Pantau"</string>
+	<!---->
+	<string name="cmas_response_avoid">"Elakkan"</string>
+	<!---->
+	<string name="cmas_response_assess">"Menilai"</string>
+	<!---->
+	<string name="cmas_response_none">"Tiada"</string>
+	<!---->
+	<string name="cmas_severity_heading">"Keterukan:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"Melampau"</string>
+	<!---->
+	<string name="cmas_severity_severe">"Teruk"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"Kesegeraan:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"Segera"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"Dijangkakan"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"Ketentuan:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"Diperhatikan"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"Kemungkinan"</string>
+	<!---->
+	<string name="delivery_time_heading">"Diterima:\u0020"</string>
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> ingatan belum dibaca."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"Ingatan baru"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"Amaran Kecemasan"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"Tunjuk dialog pilih tidak ikut serta selepas paparkan awasan CMAS pertama (selain Awasan Presiden)."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"Tunjukkan dialog pilih tidak ikut serta"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"Anda menerima Isyarat Kecemasan pada masa ini. Teruskan menerimanya?"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"Ya"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"Tidak"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 saat"</item>
+		<item>"4 saat"</item>
+		<item>"6 saat"</item>
+		<item>"8 saat"</item>
+		<item>"10 saat"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"Sekali"</item>
+		<item>"Setiap 2 minit"</item>
+		<item>"Setiap 15 minit"</item>
+		<item>"mati"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"Siaran sel"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"Tetapan untuk Brazil"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"Pilih kad SIM"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"Uruskan seting Penyiaran Sel bagi setiap SIM"</string>
+	<!---->
+	<string name="select_subscription_title">"Pilih kad SIM"</string>
+	<!---->
+	<string name="subscription1_title">"SIM1"</string>
+	<!---->
+	<string name="subscription2_title">"SIM2"</string>
+	<!---->
+	<string name="cbsetting">"Siaran sel"</string>
+	<!---->
+	<string name="summary_cbsetting">"Set saluran siaran sel"</string>
+	<!---->
+	<string name="title_receive_channel_list">"Pilih semua saluran"</string>
+	<!---->
+	<string name="title_channel_list">"Senarai Saluran"</string>
+	<!---->
+	<string name="summary_channel_list">"Pilih atau tidak pilih semua saluran"</string>
+	<!---->
+	<string name="title_add_channel">"Tambah saluran"</string>
+	<!---->
+	<string name="summary_add_channel">"Tambah nama saluran dan indeks saluran"</string>
+	<!---->
+	<string name="channel_name">"Nama saluran (1-10 aksara)"</string>
+	<!---->
+	<string name="channel_index">"Indeks saluran (0~999)"</string>
+	<!---->
+	<string name="channelEx_index">"Nombor saluran (0-65534)"</string>
+	<!---->
+	<string name="enable_channel">"Dayakan saluran"</string>
+	<!---->
+	<string name="ChannelNameOut">"Nama saluran yang dimasukkan melebihi maksimum 14 aksara. Sila laraskan."</string>
+	<!---->
+	<string name="title_cell_broadcast">"Siaran Selular Biasa"</string>
+	<!---->
+	<string name="channel_label">"Tambah saluran"</string>
+	<!---->
+	<string name="channel_ok">"OK"</string>
+	<!---->
+	<string name="channel_cancel">"Batal"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"Nyahdayakan"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"Dayakan"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"Edit"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"Padam"</string>
+	<!---->
+	<string name="ChannelExist">"Indeks saluran sudah wujud."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"Indeks saluran mesti antara 1~999."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"Indeks saluran mesti antara 0-65534."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"Anda hanya boleh menambah indeks saluran untuk siaran sel biasa"</string>
+	<!---->
+	<string name="ChannelIsNull">"Indeks saluran tidak boleh nol."</string>
+	<!---->
+	<string name="title_cb_language">"Bahasa"</string>
+	<!---->
+	<string name="summary_cb_language">"Set bahasa"</string>
+	<!---->
+	<string name="title_language">"Pilih bahasa"</string>
+	<!---->
+	<string name="language_dialog_cancel">"Batal"</string>
+	<!---->
+	<string name="all_languages">"Semua bahasa"</string>
+	<!---->
+	<string name="enable">"Dayakan"</string>
+	<!---->
+	<string name="disable">"Nyahdayakan"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"Isyarat Kecemasan"</string>
+	<!---->
+	<string name="call_phone_diablo">"Panggil"</string>
+	<!---->
+	<string name="Send_message_diablo">"Hantar mesej"</string>
+	<!---->
+	<string name="title_channel_mode">"Pilih saluran"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"Semua saluran(0-999)"</item>
+		<item>"Saluran saya (senarai saluran)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"Semua saluran(0-65534)"</item>
+		<item>"Saluran saya (senarai saluran)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"Paparkan amaran untuk ujian bulanan yang diperlukan"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"Tunjukkan amaran RMT"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"Paparkan amaran untuk mesej latihan"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"Tunjukkan amaran Latihan"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"Amaran Presiden sentiasa dipaparkan"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"Presiden"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"Menukar pilihan ini akan menghalang peranti daripada menerima isyarat.\nTeruskan?"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"Tidak"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"Ya"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"Menukar pilihan ini akan menghalang peranti daripada menerima isyarat yang ekstrem dan serius.\nTeruskan?"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"Menukar pilihan ini juga akan mendayakan isyarat yang ekstrem.\nDayakan kedua-duanya?"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"Pratonton pemberitahuan"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"Pratonton nada amaran kecemasan"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"Nada Amaran"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"Pratonton getaran amaran kecemasan"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"Getaran"</string>
+	<!---->
+	<string name="call_phone_att">"Panggil"</string>
+	<!---->
+	<string name="Send_message_att">"Hantar mesej"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"Pilih perbualan"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"1 mesej akan dipadam."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"<xliff:g id="count">%s</xliff:g> Mesej akan dipadam."</string>
+	<!---->
+	<string name="confirm_dialog_title">"Padam?"</string>
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"Saluran presiden tidak boleh diubah suai."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"Saluran tersuai tidak boleh diubah suai."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"Saluran tersuai tidak boleh dipadam."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"Isyarat ekstrem"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"Isyarat teruk"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"Isyarat AMBER"</string>
+	<!---->
+	<string name="wpas_test_alert">"Isyarat ujian WPAS"</string>
+	<!---->
+	<string name="other_alert_settings_title">"Tetapan Lain"</string>
+	<!---->
+	<string name="Russia_dialog_title">"Mesej Siaran Sel"</string>
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+	<!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 begin -->
+    <string name="summary_startup">"Dayakan penerimaan mesej siaran sel"</string>
+    <string name="title_cbsetting">"Seting siaran sel"</string>
+	<string name="pref_title_select_cb_ringtone">"Nada dering Siaran Sel"</string>
+	<string name="pref_title_enable_cb_led_indicator">"Penunjuk LED"</string>
+    <string name="pref_summary_enable_cb_led_indicator">"Tandakan untuk mendayakan penunjuk CB LED"</string>
+    <string name="pref_title_enable_cb_light_indicator">"Dayakan penyalaan skrin"</string>
+    <string name="pref_summary_enable_cb_light_indicator">"Nyalakan skrin semasa menerima siaran sel"</string>
+	<string-array name="prefEntries_vibrateWhen">
+		<item>"Sentiasa"</item>
+		<item>"Hanya dalam mod Getaran"</item>
+		<item>"Jangan sekali-kali"</item>
+	</string-array>
+    <string name="pref_summary_notification_vibrateWhen">"Juga bergetar apabila diberitahu"</string>
+    <string name="pref_notification_settings_title">"Notifikasi"</string>
+    <string name="sim1_only_summary">"SIM 1 sahaja"</string>
+    <!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 end -->
+</resources>

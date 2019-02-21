@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"Cellekringkastingsmelding"</string>
+	<!---->
+	<string name="sms_cb_settings">"Innstillinger for cellekringkasting"</string>
+	<!---->
+	<string name="button_dismiss">"OK"</string>
+	<!---->
+	<string name="button_hide">"Skjul"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"Det finnes ingen aktive varsler i ditt område. Du kan endre varselsinnstillingene i menyalternativet Innstillinger."</string>
+	<!---->
+	<string name="menu_preferences">"Innstillinger"</string>
+	<!---->
+	<string name="menu_delete_all">"Slett alle"</string>
+	<!---->
+	<string name="message_options">"Innstillinger for melding"</string>
+	<!---->
+	<string name="menu_view_details">"Vis mer informasjon"</string>
+	<!---->
+	<string name="menu_delete">"Slett kringkasting"</string>
+	<!---->
+	<string name="view_details_title">"Varseldetaljer"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"Slette denne kringkastingen?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"Slett alle"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"Slett"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"Alle cellekringkastingsmeldinger og varsler vil bli slettet."</string>
+	<!---->
+	<string name="button_delete">"OK"</string>
+	<!---->
+	<string name="button_cancel">"Avbryt"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"Jordskjelvvarsel"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"Tsunamivarsel"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"Jordskjelv- og tsunamivarsel"</string>
+	<!---->
+	<string name="etws_test_message">"ETWS-testmelding"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"Nødvarsel"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"Presidentvarsel"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"Nødvarsel: Ekstrem"</string>
+	<!---->
+	<string name="cmas_severe_alert">"Nødvarsel: Alvorlig"</string>
+	<!---->
+	<string name="cmas_amber_alert">"Bortføring av barn (AMBER-varsel)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"Månedlig test for nødvarsel"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"Nødvarsel (øvelse)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"Nødvarsel (operatør)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"Nødvarsel"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"Cellekringkasting"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"Presidentvarsel"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"Nødvarsel: Ekstrem"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"Nødvarsel: Alvorlig"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"Bortføring av barn (AMBER-varsel)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"Månedlig test for nødvarsel"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"Nødvarsel (øvelse)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"Nødvarsel (operatør)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"Nødvarselinnstillinger"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"Slå på varslinger"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"Vis kringkastede nødvarsler"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"Varighet på varsellyd"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"Varselpåminnelse"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"Uttal varselmelding"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"Bruk tekst-til-tale for å snakke inn nødvarselmeldinger"</string>
+	<!---->
+	<string name="category_etws_settings_title">"ETWS-innstillinger"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"Vis ETWS-testkringkastinger"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"Vis testkringkastinger for ETWS (Earthquake Tsunami Warning System)"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"Vis ekstreme trusler"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"Vis varsler for ekstreme trusler mot liv og eiendom"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"Vis alvorlige trusler"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"Vis varsler for alvorlige trusler mot liv og eiendom"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"Vis AMBER-varsler"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"Vis nødmeldinger om bortføring av barn (AMBER-varsel)"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"Spansk"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"Vis varsler for melding på spansk"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"Vis CMAS-testkringkastinger"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"Vis testkringkastinger for CMAS (Commercial Mobile Alert System)"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"Vibrer"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"Vibrer når varsel mottas"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"Lyd"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"Lyd på-varsling"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"Innstillinger for Brasil"</string>
+	<!---->
+	<string name="category_india_settings_title">"Innstillinger for India"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"Vis kanal 50-kringkastinger"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"Kanal 50 brukes i Brasil for oppdatert områdeinformasjon"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"Vis kanal 60-kringkastinger"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"Kanal 60 brukes i India for operatørspesifikk informasjon"</string>
+	<!---->
+	<string name="category_dev_settings_title">"Alternativer for utvikler"</string>
+	<!---->
+	<string name="cmas_category_heading">"Varselkategori:"</string>
+	<!---->
+	<string name="cmas_category_geo">"Geofysisk"</string>
+	<!---->
+	<string name="cmas_category_met">"Meteorologisk"</string>
+	<!---->
+	<string name="cmas_category_safety">"Sikkerhet"</string>
+	<!---->
+	<string name="cmas_category_security">"Sikkerhet"</string>
+	<!---->
+	<string name="cmas_category_rescue">"Redning"</string>
+	<!---->
+	<string name="cmas_category_fire">"Brann"</string>
+	<!---->
+	<string name="cmas_category_health">"Helse"</string>
+	<!---->
+	<string name="cmas_category_env">"Miljø"</string>
+	<!---->
+	<string name="cmas_category_transport">"Transport"</string>
+	<!---->
+	<string name="cmas_category_infra">"Infrastruktur"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"Kjemisk/biologisk/kjernefysisk/eksplosivt"</string>
+	<!---->
+	<string name="cmas_category_other">"Annen"</string>
+	<!---->
+	<string name="cmas_response_heading">"Svartype:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"Beskytt"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"Evakuer"</string>
+	<!---->
+	<string name="cmas_response_prepare">"Forbered"</string>
+	<!---->
+	<string name="cmas_response_execute">"Utfør"</string>
+	<!---->
+	<string name="cmas_response_monitor">"Overvåk"</string>
+	<!---->
+	<string name="cmas_response_avoid">"Unngå"</string>
+	<!---->
+	<string name="cmas_response_assess">"Vurder"</string>
+	<!---->
+	<string name="cmas_response_none">"Ingen"</string>
+	<!---->
+	<string name="cmas_severity_heading">"Alvorsgrad:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"Ekstrem"</string>
+	<!---->
+	<string name="cmas_severity_severe">"Alvorlig"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"Haster:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"Umiddelbar"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"Forventet"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"Sikkerhet:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"Observert"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"Sannsynlig"</string>
+	<!---->
+	<string name="delivery_time_heading">"Mottatt:"</string>
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> uleste varsler."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"Nye varsler"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"Nødvarsler"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"Vis en avmeldingsdialogboks etter visning av det første CMAS-varselet (gjelder andre varsler enn presidentvarselet)."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"Vis avmeldingsdialogboks"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"Du mottar for øyeblikket nødvarsler. Vil du fortsette å motta dem?"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"Ja"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"Nei"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 sekunder"</item>
+		<item>"4 sekunder"</item>
+		<item>"6 sekunder"</item>
+		<item>"8 sekunder"</item>
+		<item>"10 sekunder"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"Én gang"</item>
+		<item>"Hvert 2. minutt"</item>
+		<item>"Hvert 15. minutt"</item>
+		<item>"Av"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"Cellekringkasting"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"Innstillinger for Brasil"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"Velg SIM-kort"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"Administrer cellekringkastingsinnstillinger for hvert SIM-kort"</string>
+	<!---->
+	<string name="select_subscription_title">"Velg SIM-kort"</string>
+	<!---->
+	<string name="subscription1_title">"SIM 1"</string>
+	<!---->
+	<string name="subscription2_title">"SIM 2"</string>
+	<!---->
+	<string name="cbsetting">"Cellekringkasting"</string>
+	<!---->
+	<string name="summary_cbsetting">"Angi cellekringkastingskanal"</string>
+	<!---->
+	<string name="title_receive_channel_list">"Velg alle kanaler"</string>
+	<!---->
+	<string name="title_channel_list">"Kanalliste"</string>
+	<!---->
+	<string name="summary_channel_list">"Velg eller opphev valg av alle kanaler"</string>
+	<!---->
+	<string name="title_add_channel">"Legg til kanal"</string>
+	<!---->
+	<string name="summary_add_channel">"Legg til kanalnavn og kanalindeks"</string>
+	<!---->
+	<string name="channel_name">"Kanalnavn (1–10 tegn)"</string>
+	<!---->
+	<string name="channel_index">"Kanalnummer (0~999)"</string>
+	<!---->
+	<string name="channelEx_index">"Kanalnummer (0–65534)"</string>
+	<!---->
+	<string name="enable_channel">"Aktiver kanal"</string>
+	<!---->
+	<string name="ChannelNameOut">"Angitt kanalnavn overskrider maksimallengden på 14 tegn. Endre navnet."</string>
+	<!---->
+	<string name="title_cell_broadcast">"Normal cellekringkasting"</string>
+	<!---->
+	<string name="channel_label">"Legg til kanal"</string>
+	<!---->
+	<string name="channel_ok">"OK"</string>
+	<!---->
+	<string name="channel_cancel">"Avbryt"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"Deaktiver"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"Aktiver"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"Rediger"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"Slette"</string>
+	<!---->
+	<string name="ChannelExist">"Kanalindeksen finnes allerede."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"Kanalindeks må være mellom 1 og 999."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"Kanalindeks må være mellom 0 og 65534."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"Du kan kun legge til kanalliste for normal mobil kringkasting"</string>
+	<!---->
+	<string name="ChannelIsNull">"Kanalindeks kan ikke være null."</string>
+	<!---->
+	<string name="title_cb_language">"Språk"</string>
+	<!---->
+	<string name="summary_cb_language">"Angi språk"</string>
+	<!---->
+	<string name="title_language">"Velg språk"</string>
+	<!---->
+	<string name="language_dialog_cancel">"Avbryt"</string>
+	<!---->
+	<string name="all_languages">"Alle språk"</string>
+	<!---->
+	<string name="enable">"Aktiver"</string>
+	<!---->
+	<string name="disable">"Deaktiver"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"Nødvarsel"</string>
+	<!---->
+	<string name="call_phone_diablo">"Ring"</string>
+	<!---->
+	<string name="Send_message_diablo">"Send melding"</string>
+	<!---->
+	<string name="title_channel_mode">"Velg kanaler"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"Alle kanaler (0-999)"</item>
+		<item>"Min kanal (kanalliste)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"Alle kanaler (0-65534)"</item>
+		<item>"Min kanal (kanalliste)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"Vis varsler for påkrevd månedlig test"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"Vis RMT-varsler"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"Vis varsler for øvelsesmeldinger"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"Vis øvelsesvarsler"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"Nasjonale krisevarsler vises alltid"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"Nasjonale"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"Hvis du endrer dette valget, vil ikke enheten motta varsler.\nFortsette?"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"Nei"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"Ja"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"Hvis du endrer dette valget, vil ikke enheten motta ekstremvarsler og alvorlige varsler.\nFortsette?"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"Hvis du endrer dette valget, aktiveres også ekstremvarsler.\nAktivere begge?"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"Forhåndsvis varsel"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"Forhåndsvis varseltone"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"Varseltone"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"Forhåndsvis varselvibrering"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"Vibrering"</string>
+	<!---->
+	<string name="call_phone_att">"Ring"</string>
+	<!---->
+	<string name="Send_message_att">"Send melding"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"Velg samtaler"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"Én melding vil bli slettet."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"<xliff:g id="count">%s</xliff:g> meldinger blir slettet."</string>
+	<!---->
+	<string name="confirm_dialog_title">"Slette?"</string>
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"Forhåndsdefinerte kanaler kan ikke endres."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"Forhåndsdefinerte kanaler kan ikke endres."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"Tilpassede kanaler kan ikke endres."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"Ekstreme alarmer"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"Alvorlige alarmer"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"AMBER-varsler"</string>
+	<!---->
+	<string name="wpas_test_alert">"WPAS testalarmer"</string>
+	<!---->
+	<string name="other_alert_settings_title">"Andre innstillinger"</string>
+	<!---->
+	<string name="Russia_dialog_title">"Ring tilbake-melding"</string>
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+	<!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 begin -->
+    <string name="summary_startup">"Aktiver mottak av cellekringkastingsmeldinger"</string>
+    <string name="title_cbsetting">"Innstillinger for cellekringkasting"</string>
+	<string name="pref_title_select_cb_ringtone">"Ringetone for cellekringkasting"</string>
+	<string name="pref_title_enable_cb_led_indicator">"LED-indikator"</string>
+    <string name="pref_summary_enable_cb_led_indicator">"Merk av for å aktivere LED-indikator for cellekringkasting"</string>
+    <string name="pref_title_enable_cb_light_indicator">"Aktiver lys på skjermen"</string>
+    <string name="pref_summary_enable_cb_light_indicator">"Lys opp skjermen ved mottak av cellekringkasting"</string>
+	<string-array name="prefEntries_vibrateWhen">
+		<item>"Alltid"</item>
+		<item>"Bare i vibrasjonsmodus"</item>
+		<item>"Aldri"</item>
+	</string-array>
+    <string name="pref_summary_notification_vibrateWhen">"Vibrer ved varsling"</string>
+    <string name="pref_notification_settings_title">"Varsler"</string>
+    <string name="sim1_only_summary">"Bare SIM 1"</string>
+    <!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 end -->
+</resources>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"Kärjeteade"</string>
+	<!---->
+	<string name="sms_cb_settings">"Hädaolukorra märguanded"</string>
+	<!---->
+	<string name="button_dismiss">"OK"</string>
+	<!---->
+	<string name="button_hide">"Peida"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"Teie piirkonnas ei ole aktuaalseid võrguteateid. Võrguteadete seadeid võite muuta menüüvalikus „Seaded”."</string>
+	<!---->
+	<string name="menu_preferences">"Seaded"</string>
+	<!---->
+	<string name="menu_delete_all">"Kustuta saated"</string>
+	<!---->
+	<string name="message_options">"Sõnumite valikud"</string>
+	<!---->
+	<string name="menu_view_details">"Kuva üksikasjad"</string>
+	<!---->
+	<string name="menu_delete">"Kustuta saade"</string>
+	<!---->
+	<string name="view_details_title">"Märguande üksikasjad"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"Kas kustutada see saade?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"Kustuta kõik"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"kustuta"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"Kõik kärjeteated ja hoiatused kustutatakse."</string>
+	<!---->
+	<string name="button_delete">"Kustuta"</string>
+	<!---->
+	<string name="button_cancel">"Tühista"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"Maavärina hoiatus"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"Hiidlaine hoiatus"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"Maavärina ja hiidlaine hoiatus"</string>
+	<!---->
+	<string name="etws_test_message">"ETWS-testi sõnum"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"Hädaolukorra hoiatus"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"Presidenditaseme märguanne"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"Hädaolukorra märguanne: äärmuslik"</string>
+	<!---->
+	<string name="cmas_severe_alert">"Hädaolukorra märguanne: tõsine"</string>
+	<!---->
+	<string name="cmas_amber_alert">"Lapserööv (kollane märguanne)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"Hädaolukorra märguande igakuine test"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"Hädaolukorra märguanne (harjutus)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"Hädaolukorra märguanne (operaator)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"Hädaolukorra märguanne"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"Kärjeteade"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"Presidenditaseme märguanne"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"Hädaolukorra märguanne: äärmuslik"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"Hädaolukorra märguanne: tõsine"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"Lapserööv (kollane märguanne)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"Hädaolukorra märguande igakuine test"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"Hädaolukorra märguanne (harjutus)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"Hädaolukorra märguanne (operaator)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"Hädaolukorra märguanded"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"Lülitage märguanded sisse"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"Hädaolukorra märguandesaadete kuvamine"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"Märguandeheli kestus"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"Märguande meeldetuletus"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"Märguandesõnumi esitamine kõnena"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"Kõnesünteesi funktsiooni kasutamine hädaolukorra märguannete sõnumite esitamiseks kõnena"</string>
+	<!---->
+	<string name="category_etws_settings_title">"ETWS-i seaded"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"Kuva ETWS-i katseteavitusi"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"Maavärina ja hiidlaine hoiatussüsteemi testsaadete kuvamine"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"Kuva äärmuslikud ohud"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"Häirete kuvamine, kui ilmneb äärmuslik oht elule ja varale"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"Kuva rängad ohud"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"Häirete kuvamine, kui ilmneb ränk oht elule ja varale"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"Kuva AMBER-häired"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"Lapseröövi hädateadete (AMBER-häire) kuvamine"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"Hispaania keel"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"Kuva hoiatussõnumid hispaaniak. sõnumi jaoks"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"Kuva CMAS-i katseteavitusi"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"Commercial Mobile Alert Systemi katseteavituste kuvamine"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"Vibreerimine"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"Märguandel vibreeri"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"Heli"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"Heli hädaolukorras"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"Brasiilia seaded"</string>
+	<!---->
+	<string name="category_india_settings_title">"India sätted"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"50. kanali saadete kuvamine"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"50. kanalit kasutatakse Brasiilias piirkonnaandmete värskenduste edastamiseks"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"60. kanali saadete kuvamine"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"60. kanalit kasutatakse Indias operaatori andmete edastamiseks"</string>
+	<!---->
+	<string name="category_dev_settings_title">"Arendaja valikud"</string>
+	<!---->
+	<string name="cmas_category_heading">"Märguandekategooria:"</string>
+	<!---->
+	<string name="cmas_category_geo">"Geofüüsika"</string>
+	<!---->
+	<string name="cmas_category_met">"Meteoroloogia"</string>
+	<!---->
+	<string name="cmas_category_safety">"Ohutus"</string>
+	<!---->
+	<string name="cmas_category_security">"Turvalisus"</string>
+	<!---->
+	<string name="cmas_category_rescue">"Pääste"</string>
+	<!---->
+	<string name="cmas_category_fire">"Tuli"</string>
+	<!---->
+	<string name="cmas_category_health">"Tervishoid"</string>
+	<!---->
+	<string name="cmas_category_env">"Keskkond"</string>
+	<!---->
+	<string name="cmas_category_transport">"Transport"</string>
+	<!---->
+	<string name="cmas_category_infra">"Taristu"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"Keemiline/bioloogiline/tuumakatastroof/plahvatus"</string>
+	<!---->
+	<string name="cmas_category_other">"Muud"</string>
+	<!---->
+	<string name="cmas_response_heading">"Reageerimise tüüp:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"Varjupaik"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"Evakueeruge"</string>
+	<!---->
+	<string name="cmas_response_prepare">"Valmistuge"</string>
+	<!---->
+	<string name="cmas_response_execute">"Täida"</string>
+	<!---->
+	<string name="cmas_response_monitor">"Jälgi"</string>
+	<!---->
+	<string name="cmas_response_avoid">"Väldi"</string>
+	<!---->
+	<string name="cmas_response_assess">"Hinda"</string>
+	<!---->
+	<string name="cmas_response_none">"Puudub"</string>
+	<!---->
+	<string name="cmas_severity_heading">"Tõsidus:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"Ekstreemne"</string>
+	<!---->
+	<string name="cmas_severity_severe">"Ränk"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"Kiireloomulisus:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"Kohe"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"Oodatud"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"Kindlus:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"Täheldatud"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"Tõenäoline"</string>
+	<!---->
+	<string name="delivery_time_heading">"Vastu võetud:"</string>
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> lugemata häiret."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"Uued häired"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"Hädaolukorra märguanded"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"Näita loobumise dialoogi pärast esimese CMAS-märguande kuvamist (v.a presidendi märguanne)."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"Näita loobumise dialoogi"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"Praegu on hädaolukorra märguannete saamine kasutusel. Kas soovite hädaolukorra märguandeid jätkuvalt saada?"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"Jah"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"Ei"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 sekundit"</item>
+		<item>"4 sekundit"</item>
+		<item>"6 sekundit"</item>
+		<item>"8 sekundit"</item>
+		<item>"10 sekundit"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"Üks kord"</item>
+		<item>"Iga 2 minuti järel"</item>
+		<item>"Iga 15 minuti järel"</item>
+		<item>"Väljas"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"Kärjeteade"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"Brasiilia seaded"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"SIM-kaardi valimine"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"Iga SIM-kaardi kärjeteate seadete haldamine"</string>
+	<!---->
+	<string name="select_subscription_title">"SIM-kaardi valimine"</string>
+	<!---->
+	<string name="subscription1_title">"SIM 1"</string>
+	<!---->
+	<string name="subscription2_title">"SIM 2"</string>
+	<!---->
+	<string name="cbsetting">"Kärjeteade"</string>
+	<!---->
+	<string name="summary_cbsetting">"Määra kärjeteate kanal"</string>
+	<!---->
+	<string name="title_receive_channel_list">"Vali kõik kanalid"</string>
+	<!---->
+	<string name="title_channel_list">"Kanaliloend"</string>
+	<!---->
+	<string name="summary_channel_list">"Kõigi kanalite valimine või valiku tühistamine"</string>
+	<!---->
+	<string name="title_add_channel">"Lisa kanal"</string>
+	<!---->
+	<string name="summary_add_channel">"Lisage kanali nimi ja kanali indeks"</string>
+	<!---->
+	<string name="channel_name">"Kanali nimi (1–10 tähemärki)"</string>
+	<!---->
+	<string name="channel_index">"Kanali number (0–999)"</string>
+	<!---->
+	<string name="channelEx_index">"Kanali number (0–65534)"</string>
+	<!---->
+	<string name="enable_channel">"Luba kanal"</string>
+	<!---->
+	<string name="ChannelNameOut">"Sisestatud kanalinime pikkus ületab piirangut (14 tähemärki). Korrigeerige seda."</string>
+	<!---->
+	<string name="title_cell_broadcast">"Tavaline mobiilside"</string>
+	<!---->
+	<string name="channel_label">"Lisa kanal"</string>
+	<!---->
+	<string name="channel_ok">"OK"</string>
+	<!---->
+	<string name="channel_cancel">"Tühista"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"Keela"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"Luba"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"Muuda"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"kustuta"</string>
+	<!---->
+	<string name="ChannelExist">"Kanali indeks on juba olemas."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"Kanali indeks peab jääma vahemikku 1–999."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"Kanali indeks peab jääma vahemikku 0–65534."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"Normaalsele jaama ülekandele saad lisada ainult kanali indeksi"</string>
+	<!---->
+	<string name="ChannelIsNull">"Kanali indeks ei tohi olla null!"</string>
+	<!---->
+	<string name="title_cb_language">"Keel"</string>
+	<!---->
+	<string name="summary_cb_language">"Keelte määramine"</string>
+	<!---->
+	<string name="title_language">"Valige keel"</string>
+	<!---->
+	<string name="language_dialog_cancel">"Tühista"</string>
+	<!---->
+	<string name="all_languages">"Kõikides keeltes"</string>
+	<!---->
+	<string name="enable">"Luba"</string>
+	<!---->
+	<string name="disable">"Keela"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"Hädaolukorra märguanne"</string>
+	<!---->
+	<string name="call_phone_diablo">"Helista"</string>
+	<!---->
+	<string name="Send_message_diablo">"Saada sõnum"</string>
+	<!---->
+	<string name="title_channel_mode">"Kanalite valimine"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"Kõik kanalid (0–999)"</item>
+		<item>"Minu kanal (kanaliloend)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"Kõik kanalid (0-65534)"</item>
+		<item>"Minu kanal (kanaliloend)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"Nõutava igakuise testimise teadaannete kuvamine"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"Kuva RMT-teadaanded"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"Harjutussõnumite teadaannete kuvamine"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"Kuva harjutusteadaanded"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"Presidendi teadaanded kuvatakse alati"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"Presidendi teadaanded"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"Selle valiku muutmine takistab seadmel teadaannete vastuvõtmist.\nKas soovite jätkata?"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"Ei"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"Jah"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"Selle valiku muutmine takistab seadmel nii äärmuslike kui ka tõsiste teadaannete vastuvõtmist.\nKas soovite jätkata?"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"Selle valiku muutmine lubab ka äärmuslikud teadaanded.\nKas soovite mõlemad lubada?"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"Teavituse eelvaade"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"Hädaabihoiatuse tooni eelkuulamine"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"Hoiatustoon"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"Hädaabihoiatuse värina eelkuulamine"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"Vibratsioon"</string>
+	<!---->
+	<string name="call_phone_att">"Helista"</string>
+	<!---->
+	<string name="Send_message_att">"Saada sõnum"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"Vestluste valimine"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"Kustutatakse 1 sõnum."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"Kustutatakse <xliff:g id="count">%s</xliff:g> sõnumit."</string>
+	<!---->
+	<string name="confirm_dialog_title">"Kustutatud"</string>
+	<!---->
+	<string name="sub1">"TELLIMUS 1"</string>
+	<!---->
+	<string name="sub2">"TELLIMUS 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"Presidendi kanaleid ei saa muuta."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"Kohandatud kanaleid ei saa muuta."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"Kohandatud kanaleid ei saa kustutada."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"Äärmuslikud häireteated"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"Tõsised häireteated"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"AMBER-häireteated"</string>
+	<!---->
+	<string name="wpas_test_alert">"WPAS-testi häireteated"</string>
+	<!---->
+	<string name="other_alert_settings_title">"Muu seadistus"</string>
+	<!---->
+	<string name="Russia_dialog_title">"Teenusepakkuja teade"</string>
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+</resources>

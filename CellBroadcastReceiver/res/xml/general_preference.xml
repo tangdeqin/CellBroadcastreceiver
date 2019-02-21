@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="pref_key_root_general" >
+    
+    <!-- The following is for cell broadcast message settings -->
+    <PreferenceCategory
+        android:key="working_cell_broadcast_setting"
+        android:title="@string/title_cbsetting" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="startup"
+            android:summary="@string/summary_startup"
+            android:title="@string/cbsetting" />
+    
+        <PreferenceScreen
+            android:dependency="startup"
+            android:key="cbsetting"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="@string/summary_cbsetting"
+            android:title="@string/title_cbsetting" >
+        </PreferenceScreen>
+         </PreferenceCategory>
+         
+        <!-- The following is for cell broadcast message settings for sim2 -->
+    <PreferenceCategory
+        android:key="working_cell_broadcast_setting_sim2"
+        android:title="@string/title_cbsetting" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="startup_sim2"
+            android:summary="@string/summary_startup"
+            android:title="@string/cbsetting" />
+
+        <PreferenceScreen
+            android:dependency="startup_sim2"
+            android:key="cbsetting_sim2"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="@string/summary_cbsetting"
+            android:title="@string/title_cbsetting" />
+    </PreferenceCategory>
+    
+         <!-- The following is for cell broadcast notification related settings -->
+      <PreferenceCategory
+        android:key="working_cell_broadcast_notificaton" >      
+        <RingtonePreference
+            android:key="pref_key_cb_ringtone"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:ringtoneType="notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/pref_title_select_cb_ringtone" />
+
+        <CheckBoxPreference
+            android:key="pref_key_enable_cb_led_indicator"
+            android:defaultValue="@bool/feature_enable_cb_led_indicator_in_cb_setting"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="@string/pref_summary_enable_cb_led_indicator"
+            android:title="@string/pref_title_enable_cb_led_indicator" />
+        <CheckBoxPreference
+            android:key="pref_key_enable_cb_light_indicator"
+            android:defaultValue="@bool/feature_enable_cb_light_up_screen_in_cb_setting"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="@string/pref_summary_enable_cb_light_indicator"
+            android:title="@string/pref_title_enable_cb_light_indicator" />
+
+        <ListPreference
+            android:dialogTitle="@string/enable_alert_vibrate_title"
+            android:entries="@array/prefEntries_vibrateWhen"
+            android:entryValues="@array/prefValues_vibrateWhen"
+            android:key="pref_key_vibrateWhen_cb"
+            android:defaultValue="@string/def_cb_vibrateWhen_default_value_in_cb_setting"
+            android:layout="?android:attr/preferenceLayoutChild"
+            android:summary="@string/pref_summary_notification_vibrateWhen"
+            android:title="@string/enable_alert_vibrate_title" />
+
+        <PreferenceScreen
+            android:key="perf_key_emergency_alert_settings"
+            android:persistent="false"
+            android:title="@string/sms_cb_settings" >
+        </PreferenceScreen>
+    </PreferenceCategory>  
+</PreferenceScreen>

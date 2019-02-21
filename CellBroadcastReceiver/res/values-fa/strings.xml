@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"پخش پيام"</string>
+	<!---->
+	<string name="sms_cb_settings">"تنظیمات پخش سلولی"</string>
+	<!---->
+	<string name="button_dismiss">"تأیید"</string>
+	<!---->
+	<string name="button_hide">"پنهان کردن"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"هشدار فعالي در ناحيه شما وجود ندارد. مي توانيد با استفاده از گزينه منوي تنظيمات، تنظيمات هشدار را تغيير دهيد."</string>
+	<!---->
+	<string name="menu_preferences">"تنظیمات"</string>
+	<!---->
+	<string name="menu_delete_all">"حذف همه"</string>
+	<!---->
+	<string name="message_options">"گزينه هاي پيام"</string>
+	<!---->
+	<string name="menu_view_details">"مشاهده جزئیات"</string>
+	<!---->
+	<string name="menu_delete">"حذف پخش"</string>
+	<!---->
+	<string name="view_details_title">"جزئیات هشدار"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"حذف اين پخش؟"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"حذف همه موارد"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"حذف"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"همه پیام های پخش سلولی و هشدارها حذف خواهد شد."</string>
+	<!---->
+	<string name="button_delete">"تایید"</string>
+	<!---->
+	<string name="button_cancel">"لغو"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"هشدار زلزله"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"هشدار سونامی"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"هشدار زلزله و سونامی"</string>
+	<!---->
+	<string name="etws_test_message">"پیام آزمایشی ETWS"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"هشدار اضطراری"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"هشدار سطح بالا"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"هشدار اضطراری: خیلی زیاد"</string>
+	<!---->
+	<string name="cmas_severe_alert">"هشدار اضطراری: شدید"</string>
+	<!---->
+	<string name="cmas_amber_alert">"کودک ربایی (هشدار Amber)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"آزمایش ماهانه هشدار اضطراری"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"هشدار اضطراری (تمرین)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"هشدار اضطراری (اپراتور)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"هشدار اضطراری"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"پخش سلولی"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"هشدار سطح بالا"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"هشدار اضطراری: خیلی زیاد"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"هشدار اضطراری: شدید"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"کودک ربایی (هشدار Amber)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"آزمایش ماهانه هشدار اضطراری"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"هشدار اضطراری (تمرین)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"هشدار اضطراری (اپراتور)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"هشدار اضطراری"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"روشن کردن اعلان‌ها"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"نمایش پخش های هشدار اضطراری"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"هشدار مدت زمان صدا"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"یادآور هشدار"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"گفتن پیام هشدار"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"برای گفتن پیام های هشدار اضطراری از متن به گفتار استفاده کنید"</string>
+	<!---->
+	<string name="category_etws_settings_title">"تنظیمات ETWS"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"نمايش پخش هاي آزمايشي ETWS"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"نمایش پخش های آزمایشی برای سیستم هشدار دهنده سونامی زلزله"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"نمايش تهديدهاي بي نهايت"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"نمايش هشدارها براي تهديدهاي بي نهايتي که در مورد زندگي و اموال وجود دارد"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"نمايش هشدارهاي شديد"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"نمايش هشدارها براي تهديدهاي شديدي که در مورد زندگي و اموال وجود دارد"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"نمایش هشدارهای AMBER"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"نمایش بولتن‌های اضطراری ربوده شدن کودک (هشدار AMBER)"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"زبان اسپانیایی"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"نمایش هشدارها برای پیام به زبان اسپانیایی"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"نمايش پخش هاي آزمايشي CMAS"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"نمایش پخش‌های آزمایشی برای سیستم هشدار تجاری سیار"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"لرزش"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"هشدار لرزش فعال"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"صوتی"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"هشدار روشن بودن صدا"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"تنظیمات برای برزیل"</string>
+	<!---->
+	<string name="category_india_settings_title">"تنظیمات برای هند"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"نمایش پخش های کانال 50"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"کانال 50 در برزیل برای اطلاعات به روز رسانی منطقه استفاده می شود"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"نمایش پخش های کانال 60"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"کانال 60 در هند برای اطلاعات خاص اپراتور استفاده می شود"</string>
+	<!---->
+	<string name="category_dev_settings_title">"گزينه هاي برنامه نويس"</string>
+	<!---->
+	<string name="cmas_category_heading">"دسته هشدار:"</string>
+	<!---->
+	<string name="cmas_category_geo">"ژئوفيزيک"</string>
+	<!---->
+	<string name="cmas_category_met">"هواشناسي"</string>
+	<!---->
+	<string name="cmas_category_safety">"ايمني"</string>
+	<!---->
+	<string name="cmas_category_security">"امنيت"</string>
+	<!---->
+	<string name="cmas_category_rescue">"نجات"</string>
+	<!---->
+	<string name="cmas_category_fire">"آتش"</string>
+	<!---->
+	<string name="cmas_category_health">"بهداشت"</string>
+	<!---->
+	<string name="cmas_category_env">"محيطي"</string>
+	<!---->
+	<string name="cmas_category_transport">"حمل و نقل"</string>
+	<!---->
+	<string name="cmas_category_infra">"زيربنا"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"شيميايي/بيولوژيکي/هسته اي/انفجاري"</string>
+	<!---->
+	<string name="cmas_category_other">"ديگر"</string>
+	<!---->
+	<string name="cmas_response_heading">"نوع واکنش:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"پناهگاه"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"تخليه کردن"</string>
+	<!---->
+	<string name="cmas_response_prepare">"آماده شدن"</string>
+	<!---->
+	<string name="cmas_response_execute">"اجرا"</string>
+	<!---->
+	<string name="cmas_response_monitor">"نظارت"</string>
+	<!---->
+	<string name="cmas_response_avoid">"اجتناب"</string>
+	<!---->
+	<string name="cmas_response_assess">"ارزیابی"</string>
+	<!---->
+	<string name="cmas_response_none">"هیچکدام"</string>
+	<!---->
+	<string name="cmas_severity_heading">"شديد:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"خیلی شدید"</string>
+	<!---->
+	<string name="cmas_severity_severe">"شديد"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"اضطراري:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"فوری"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"مورد انتظار"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"اطمينان:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"مشاهده شده"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"احتمالاً"</string>
+	<!---->
+	<string name="delivery_time_heading">"دریافت شده در:\u0020"</string>
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> هشدار خوانده نشده."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"هشدارهاي جديد"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"تنظیمات پخش سلولی"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"پس از نمایش اولین هشدار CMAS (به جز هشدار رياست جمهوری) یک کادر گفتگو نمایش داده شود که امکان انصراف از دریافت هشدارهای بعدی را بدهد."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"نمایش گفتگوی انصراف"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"در حال دریافت هشدارهای اضطراری هستید. به دریافت آنها ادامه می دهید؟"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"بله"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"خير"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 ثانیه"</item>
+		<item>"4 ثانیه"</item>
+		<item>"6 ثانیه"</item>
+		<item>"8 ثانیه"</item>
+		<item>"10 ثانیه"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"یک بار"</item>
+		<item>"هر 2 دقیقه"</item>
+		<item>"هر 15 دقیقه"</item>
+		<item>"خاموش"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"پخش سلولي"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"تنظیمات برای برزیل"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"انتخاب سیم کارت"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"مدیریت تنظیمات پخش سلولی هر کدام از سیم کارت ها"</string>
+	<!---->
+	<string name="select_subscription_title">"انتخاب سیم کارت"</string>
+	<!---->
+	<string name="subscription1_title">"سيم 1"</string>
+	<!---->
+	<string name="subscription2_title">"سيم 2"</string>
+	<!---->
+	<string name="cbsetting">"پخش سلولي"</string>
+	<!---->
+	<string name="summary_cbsetting">"تنظيم پخش سلولی كانال"</string>
+	<!---->
+	<string name="title_receive_channel_list">"انتخاب همه كانال ها"</string>
+	<!---->
+	<string name="title_channel_list">"ليست كانال"</string>
+	<!---->
+	<string name="summary_channel_list">"انتخاب يا عدم انتخاب همه كانال ها"</string>
+	<!---->
+	<string name="title_add_channel">"افزودن كانال"</string>
+	<!---->
+	<string name="summary_add_channel">"افزودن نام كانال و فهرست كانال"</string>
+	<!---->
+	<string name="channel_name">"نام كانال(1 تا 10 نويسه)"</string>
+	<!---->
+	<string name="channel_index">"شماره کانال (0~999)"</string>
+	<!---->
+	<string name="channelEx_index">"شماره کانال (0-65534)"</string>
+	<!---->
+	<string name="enable_channel">"فعال سازی کانال"</string>
+	<!---->
+	<string name="ChannelNameOut">"نام کانال وارد شده بیشتر از حداکثر 14 نویسه است. لطفاً تنظیم کنید."</string>
+	<!---->
+	<string name="title_cell_broadcast">"پخش سلولی عادی"</string>
+	<!---->
+	<string name="channel_label">"افزودن كانال"</string>
+	<!---->
+	<string name="channel_ok">"تایید"</string>
+	<!---->
+	<string name="channel_cancel">"لغو"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"غير فعال كردن"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"فعال سازی"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"ویرایش"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"حذف"</string>
+	<!---->
+	<string name="ChannelExist">"فهرست كانال از قبل وجود دارد."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"فهرست كانال بايد بين 1~999 باشد."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"فهرست كانال بايد بين 0 تا 65534 باشد."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"فقط برای پخش سلولی عادی می توانید فهرست کانال را اضافه کنید"</string>
+	<!---->
+	<string name="ChannelIsNull">"فهرست كانال نمی تواند خالی باشد."</string>
+	<!---->
+	<string name="title_cb_language">"زبان"</string>
+	<!---->
+	<string name="summary_cb_language">"تنظيم زبان ها"</string>
+	<!---->
+	<string name="title_language">"انتخاب زبان"</string>
+	<!---->
+	<string name="language_dialog_cancel">"لغو"</string>
+	<!---->
+	<string name="all_languages">"همه زبان ها"</string>
+	<!---->
+	<string name="enable">"فعال سازی"</string>
+	<!---->
+	<string name="disable">"غير فعال كردن"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"هشدار اضطراری"</string>
+	<!---->
+	<string name="call_phone_diablo">"تماس"</string>
+	<!---->
+	<string name="Send_message_diablo">"ارسال پيام"</string>
+	<!---->
+	<string name="title_channel_mode">"انتخاب کانال ها"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"همه کانال ها(0-999)"</item>
+		<item>"کانال من (لیست کانال)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"همه کانال ها(0-65534)"</item>
+		<item>"کانال من (لیست کانال)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"نمایش هشدارها برای تست ماهانه مورد نیاز"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"نمایش هشدارهای RMT"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"نمایش هشدارها برای پیام های ورزشی"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"نمایش هشدارهای ورزشی"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"هشدارهای ریاست جمهوری همیشه نشان داده می شود"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"ریاست جمهوری"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"تغییر این انتخاب مانع از دریافت هشدارها از طریق دستگاه می شود.\nادامه می دهید؟"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"خير"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"بله"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"تغییر این انتخاب مانع از دریافت هشدارهای شدید و بسیار شدید از طریق دستگاه می شود.\nادامه می دهید؟"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"تغییر این انتخاب همینطور هشدار بسیار شدید را نیز فعال می کند.\nهر دو فعال شوند؟"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"پیش نمایش اعلان"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"پیش نمایش آهنگ هشدار اضطراری"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"آهنگ هشدار"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"پیش نمایش لرزش هشدار اضطراری"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"لرزش"</string>
+	<!---->
+	<string name="call_phone_att">"تماس"</string>
+	<!---->
+	<string name="Send_message_att">"ارسال پيام"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"انتخاب مکالمات"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"1 پيام حذف می شود."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"<xliff:g id="count">%s</xliff:g> پیام حذف خواهد شد."</string>
+	<!---->
+	<string name="confirm_dialog_title">"حذف شود؟"</string>
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"کانال های ریاست جمهوری قابل تغيير نيستند."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"کانال های سفارشی قابل تغيير نيستند."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"کانال های سفارشی قابل حذف نيستند."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"هشدارهاي بسيار شديد"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"هشدارهاي شديد"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"هشدار AMBER"</string>
+	<!---->
+	<string name="wpas_test_alert">"هشدار آزمايش WPAS"</string>
+	<!---->
+	<string name="other_alert_settings_title">"سایر تنظیمات"</string>
+	<!---->
+	<string name="Russia_dialog_title">"پیام پخش سلولی"</string>
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+	<!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 begin -->
+    <string name="summary_startup">"فعال کردن دريافت پيام هاي پخش سلولي"</string>
+    <string name="title_cbsetting">"تنظيمات پخش سلولي"</string>
+	<string name="pref_title_select_cb_ringtone">"آهنگ زنگ پخش سلولی"</string>
+	<string name="pref_title_enable_cb_led_indicator">"نشانگر LED"</string>
+    <string name="pref_summary_enable_cb_led_indicator">"براي فعال کردن نشانگر CB LED علامت بزنید"</string>
+    <string name="pref_title_enable_cb_light_indicator">"فعال کردن روشن شدن صفحه"</string>
+    <string name="pref_summary_enable_cb_light_indicator">"روشن شدن صفحه هنگام دریافت پخش سلولی"</string>
+	<string-array name="prefEntries_vibrateWhen">
+		<item>"هميشه"</item>
+		<item>"فقط در حالت لرزش"</item>
+		<item>"هرگز"</item>
+	</string-array>
+    <string name="pref_summary_notification_vibrateWhen">"همچنین لرزش هنگام اعلان"</string>
+    <string name="pref_notification_settings_title">"اعلان ها"</string>
+    <string name="sim1_only_summary">"فقط سیم 1"</string>
+    <!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 end -->
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:04/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  bo.xu                                                             |
+|  Email  :  Bo.Xu@tcl-mobile.com                                              |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/06/2013|        bo.xu         |      FR-400302       |[SMS]Cell broadcast |
+|           |                      |                      | SMS support        |
+| **********|**********************|**********************|******************* |
+| 06/15/2013|        bo.xu         |      CR-451418       |Set dedicated Cell  |
+|           |                      |                      |broadcast MI for I- |
+|           |                      |                      |srael Programs      |
+| **********|**********************|**********************|******************* |
+| 09/06/2013|        yugang.jia    |      FR-516039       |[SMS]Cell broadcast |
+|           |                      |                      | SMS support        |
+| **********|**********************|**********************|******************* |
+================================================================================
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/cbsetting" >
+
+    <PreferenceCategory
+        android:key="cbsetting_prefcategory"
+        android:title="@string/title_cell_broadcast" >
+        <!--[BUGFIX]-Mod-BEGIN by TCTNB.bo.xu,06/15/2013,CR-451418,                  -->
+        <!--Set dedicated Cell broadcast MI for Israel Programs-->
+        <ListPreference
+            android:defaultValue="@string/def_is_all_channel_mode_cellbroadcast"
+            android:dialogTitle="@string/title_channel_mode"
+            android:entries="@array/pref_cb_channel_mode_entries"
+            android:entryValues="@array/pref_cb_channel_mode_values"
+            android:key="pref_key_choose_channel"
+            android:title="@string/title_channel_mode" />
+    <!--[FEATURE]-MOD-BEGIN by TCTNB.yugang.jia,09/06/2013,FR-516039,-->
+        <!-- [FEATURE]-Del-BEGIN by TCTNB.bo.xu,04/10/2013,FR-400302, -->
+        <!-- delete cb language -->
+        <PreferenceScreen
+            android:key="cb_language"
+            android:summary="@string/summary_cb_language"
+            android:title="@string/title_cb_language" >
+        </PreferenceScreen>
+    <!--[FEATURE]-MOD-END by TCTNB.yugang.jia,09/06/2013,FR-516039,-->
+        <!-- [FEATURE]-Del-END by TCTNB.bo.xu -->
+        <!--[BUGFIX]-Mod-END by TCTNB.bo.xu-->
+        <PreferenceScreen
+            android:key="channel_add"
+            android:summary="@string/summary_add_channel"
+            android:title="@string/title_add_channel" >
+        </PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="channel_list"
+        android:title="@string/title_channel_list" >
+    </PreferenceCategory>
+
+</PreferenceScreen>

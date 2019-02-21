@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Jul 13 17:33:32 CST 2017
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"Mensajes de difusión"</string>
+	<!---->
+	<string name="sms_cb_settings">"Alertas de Emergencia"</string>
+	<!---->
+	<string name="button_dismiss">"Aceptar"</string>
+	<!---->
+	<string name="button_hide">"Ocultar"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"No hay alertas activas en su área. Puede cambiar los ajustes de alertas con la opción de menú Ajustes."</string>
+	<!---->
+	<string name="menu_preferences">"Ajustes"</string>
+	<!---->
+	<string name="menu_delete_all">"Eliminar todo"</string>
+	<!---->
+	<string name="message_options">"Opciones de mensajes"</string>
+	<!---->
+	<string name="menu_view_details">"Ver detalles"</string>
+	<!---->
+	<string name="menu_delete">"Eliminar emisión"</string>
+	<!---->
+	<string name="view_details_title">"Detalles de la alerta"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"¿Desea eliminar este mensaje de difusión?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"Eliminar todo"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"Borrar"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"Todos los mensajes de Difusión Móvil y alertas serán eliminadas."</string>
+	<!---->
+	<string name="button_delete">"OK"</string>
+	<!---->
+	<string name="button_cancel">"Cancelar"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"Alerta de terremoto"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"Alerta de tsunami"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"Alerta de terremotos y tsunamis"</string>
+	<!---->
+	<string name="etws_test_message">"Mensaje de prueba de ETWS"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"Advertencia de emergencia"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"Alerta de emergencia"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"Alerta de emergencia: extrema"</string>
+	<!---->
+	<string name="cmas_severe_alert">"Alerta de emergencia: grave"</string>
+	<!---->
+	<string name="cmas_amber_alert">"Secuestro de menores (alerta Amber)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"Prueba mensual de alerta de emergencia"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"Alerta de emergencia (ejercicio)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"Alerta de emergencia (operador)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"Alerta de emergencia"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"Mensajes de difusión"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"Alerta de emergencia"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"Alerta de emergencia: extrema"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"Alerta de emergencia: grave"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"Secuestro de menores (alerta Amber)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"Prueba mensual de alerta de emergencia"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"Alerta de emergencia (ejercicio)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"Alerta de emergencia (operador)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"Alertas de emergencia"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"Activar notificaciones"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"Mostrar emisiones de alerta de emergencia"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"Duración de sonido de alerta"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"Recordatorio de alerta"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"Decir mensaje de alerta"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"Utilizar síntesis de voz para los mensajes de alerta de emergencia"</string>
+	<!---->
+	<string name="category_etws_settings_title">"Configuración ETWS"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"Ver difusiones de prueba ETWS"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"Mostrar emisiones de prueba del sistema de alerta de tsunami y de terremoto"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"Mostrar alertas extremas"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"Mostrar alertas para amenazas extremas a la vida y la propiedad"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"Mostrar amenazas graves"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"Mostrar alertas para amenazas graves a la vida y la propiedad"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"Mostrar alertas AMBER"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"Mostrar anuncios de emergencia de secuestro de menores (alerta AMBER)"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"Español"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"Mostrar alertas para mensajes en español"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"Ver difusiones de prueba de CMAS"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"Mostrar transmisiones de prueba del Sistema comercial de alerta móvil"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"Vibración"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"Vibrar al recibir alerta"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"Audio"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"Alerta mediante audio"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"Ajustes para Brasil"</string>
+	<!---->
+	<string name="category_india_settings_title">"Ajustes para la India"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"Mostrar emisiones de canal 50"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"En Brasil, se utiliza el canal 50 para obtener información actualizada sobre la zona."</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"Mostrar emisiones de canal 60"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"En la India, se utiliza el canal 60 para obtener información específica sobre el Operador"</string>
+	<!---->
+	<string name="category_dev_settings_title">"Opciones de desarrollador"</string>
+	<!---->
+	<string name="cmas_category_heading">"Categoría de alerta:"</string>
+	<!---->
+	<string name="cmas_category_geo">"Geofísica"</string>
+	<!---->
+	<string name="cmas_category_met">"Meteorológica"</string>
+	<!---->
+	<string name="cmas_category_safety">"Protección"</string>
+	<!---->
+	<string name="cmas_category_security">"Seguridad"</string>
+	<!---->
+	<string name="cmas_category_rescue">"Rescate"</string>
+	<!---->
+	<string name="cmas_category_fire">"Fuego"</string>
+	<!---->
+	<string name="cmas_category_health">"Salud"</string>
+	<!---->
+	<string name="cmas_category_env">"Medioambiental"</string>
+	<!---->
+	<string name="cmas_category_transport">"Transporte"</string>
+	<!---->
+	<string name="cmas_category_infra">"Infraestructuras"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"Química/biológica/nuclear/explosiva"</string>
+	<!---->
+	<string name="cmas_category_other">"Otras"</string>
+	<!---->
+	<string name="cmas_response_heading">"Tipo de respuesta:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"Refugiarse"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"Evacuar"</string>
+	<!---->
+	<string name="cmas_response_prepare">"Prepararse"</string>
+	<!---->
+	<string name="cmas_response_execute">"Ejecutar"</string>
+	<!---->
+	<string name="cmas_response_monitor">"Controlar"</string>
+	<!---->
+	<string name="cmas_response_avoid">"Evitar"</string>
+	<!---->
+	<string name="cmas_response_assess">"Evaluar"</string>
+	<!---->
+	<string name="cmas_response_none">"Ninguna"</string>
+	<!---->
+	<string name="cmas_severity_heading">"Gravedad:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"Extremo"</string>
+	<!---->
+	<string name="cmas_severity_severe">"Grave"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"Urgencia:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"Inmediato"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"Prevista"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"Certeza:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"Observado"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"Probable"</string>
+	<!---->
+	<string name="delivery_time_heading">"Recibido:"</string>
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> alertas no leídas."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"Nuevas alertas"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"Alertas de Emergencia"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"Mostrar un cuadro de diálogo de desactivación después de mostrar la primera alerta CMAS (excepto Alerta Presidencial)."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"Mostrar cuadro de desactivación"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"Actualmente está recibiendo alertas de emergencia. ¿Desea seguir recibiéndolas?"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"Sí"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"No"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 segundos"</item>
+		<item>"4 segundos"</item>
+		<item>"6 segundos"</item>
+		<item>"8 segundos"</item>
+		<item>"10 segundos"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"Una vez"</item>
+		<item>"Cada 2 minutos"</item>
+		<item>"Cada 15 minutos"</item>
+		<item>"Apagado"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"Mensajes de difusión"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"Ajustes para Brasil"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"Seleccionar tarjeta SIM"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"Gestionar ajustes de difusión móvil de cada SIM"</string>
+	<!---->
+	<string name="select_subscription_title">"Seleccionar tarjeta SIM"</string>
+	<!---->
+	<string name="subscription1_title">"SIM 1"</string>
+	<!---->
+	<string name="subscription2_title">"SIM 2"</string>
+	<!---->
+	<string name="cbsetting">"Mensajes de difusión"</string>
+	<!---->
+	<string name="summary_cbsetting">"Establecer canal de mensajes de difusión"</string>
+	<!---->
+	<string name="title_receive_channel_list">"Selecc. todos los canales"</string>
+	<!---->
+	<string name="title_channel_list">"Lista de emisoras"</string>
+	<!---->
+	<string name="summary_channel_list">"Seleccionar o no seleccionar todos los canales"</string>
+	<!---->
+	<string name="title_add_channel">"Añadir canal"</string>
+	<!---->
+	<string name="summary_add_channel">"Añadir nombre de canal e índice de canal"</string>
+	<!---->
+	<string name="channel_name">"Nombre de emisora (de 1 a 10 caracteres)"</string>
+	<!---->
+	<string name="channel_index">"Índice de canal (0-999)"</string>
+	<!---->
+	<string name="channelEx_index">"Número de canal (0-65534)"</string>
+	<!---->
+	<string name="enable_channel">"Habilitar canal"</string>
+	<!---->
+	<string name="ChannelNameOut">"El nombre del canal introducido supera el máximo de 14 caracteres. Reajústelo."</string>
+	<!---->
+	<string name="title_cell_broadcast">"Mensajes de difusión"</string>
+	<!---->
+	<string name="channel_label">"Añadir canal"</string>
+	<!---->
+	<string name="channel_ok">"Aceptar"</string>
+	<!---->
+	<string name="channel_cancel">"Cancelar"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"Deshabilitar"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"Activar"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"Editar"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"Borrar"</string>
+	<!---->
+	<string name="ChannelExist">"El índice de canales ya existe."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"El índice de canal debe ser entre 1 y 999."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"El índice de canal debe ser entre 0 y 65534."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"Solo puede añadir un índice de canal para difusión por móvil normal"</string>
+	<!---->
+	<string name="ChannelIsNull">"El índice de canal no puede ser nulo."</string>
+	<!---->
+	<string name="title_cb_language">"Idioma"</string>
+	<!---->
+	<string name="summary_cb_language">"Establecer idiomas"</string>
+	<!---->
+	<string name="title_language">"Seleccionar idioma"</string>
+	<!---->
+	<string name="language_dialog_cancel">"Cancelar"</string>
+	<!---->
+	<string name="all_languages">"Todos los idiomas"</string>
+	<!---->
+	<string name="enable">"Activar"</string>
+	<!---->
+	<string name="disable">"Deshabilitar"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"Alerta de emergencia"</string>
+	<!---->
+	<string name="call_phone_diablo">"Teléfono"</string>
+	<!---->
+	<string name="Send_message_diablo">"Enviar mensaje"</string>
+	<!---->
+	<string name="title_channel_mode">"Seleccionar canales"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"Todos los canales (0-999)"</item>
+		<item>"Mi canal (lista de canales)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"Todos los canales (0-65534)"</item>
+		<item>"Mi canal (lista de canales)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"Muestra alertas para la prueba mensual"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"Mostrar alertas RTM"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"Mostrar alertas para mensajes de ejercicio"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"Mostrar alertas de ejercicios"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"Las alertas presidenciales se muestran siempre"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"Presidencial"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"Si cambia esta selección, el dispositivo no recibirá alertas.\n¿Desea continuar?"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"No"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"Sí"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"Si cambia esta selección, el dispositivo no recibirá alertas extremas y graves.\n¿Desea continuar?"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"Si cambia esta selección, también se activaran las alertas extremas.\n¿Desea activar las dos?"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"Notificación previa"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"Previsualizar tono de alerta de emergencias"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"Tono de alertas"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"Previsualizar vibración de alerta de emergencias"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"Vibración"</string>
+	<!---->
+	<string name="call_phone_att">"Teléfono"</string>
+	<!---->
+	<string name="Send_message_att">"Enviar mensaje"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"Seleccionar conversaciones"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"Se eliminará un mensaje."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"Se eliminarán <xliff:g id="count">%s</xliff:g> mensajes."</string>
+	<!---->
+	<string name="confirm_dialog_title">"¿Eliminar?"</string>
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"Los canales presidenciales no se pueden modificar."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"No se pueden modificar los canales personalizados."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"No se pueden eliminar los canales personalizados."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"Alertas extremas"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"Alertas graves"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"Alertas AMBER"</string>
+	<!---->
+	<string name="wpas_test_alert">"Alertas de prueba WPAS"</string>
+	<!---->
+	<string name="other_alert_settings_title">"Otros ajustes"</string>
+	<!---->
+	<string name="Russia_dialog_title">"Mensaje de difusión"</string>
+</resources>

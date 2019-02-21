@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+================================================================================
+|                                                                 Date:04/2013 |
+|                                 PRESENTATION                                 |
+|                                                                              |
+|        Copyright 2013 TCL Communication Technology Holdings Limited.         |
+|                                                                              |
+| This material is company confidential, cannot be reproduced in any form      |
+| without the written permission of TCL Communication Technology Holdings      |
+| Limited.                                                                     |
+|                                                                              |
+| **************************************************************************** |
+|  Author :  bo.xu                                                             |
+|  Email  :  Bo.Xu@tcl-mobile.com                                              |
+|  Role   :                                                                    |
+|  Reference documents :                                                       |
+| **************************************************************************** |
+|  Comments :                                                                  |
+|  File     :                                                                  |
+|  Labels   :                                                                  |
+| **************************************************************************** |
+| ============================================================================ |
+|      Modifications on Features list / Changes Request / Problems Report      |
+| **************************************************************************** |
+|    date   |        author        |         Key          |      comment       |
+| **********|**********************|**********************|******************* |
+| 04/06/2013|        bo.xu         |      FR-400302       |[SMS]Cell broadcast |
+|           |                      |                      | SMS support        |
+| **********|**********************|**********************|******************* |
+| 08/08/2014|      bangjun.wang    |        757381        |[HOMO][CB]Cannot    |
+|           |                      |                      |add Russian name    |
+|           |                      |                      |for CB channel      |
+| **************************************************************************** |
+================================================================================
+-->
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "23dip"
+        android:layout_marginRight = "23dip"
+        android:text="@string/channel_name" />
+    <!--[BUGFIX]-Add-BEGIN by TSCD.bangjun.wang,08/08/2014,757381,[HOMO][CB]Cannot add Russian name for CB channel-->
+    <EditText
+        android:id="@+id/channelname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:layout_marginLeft = "23dip"
+        android:layout_marginRight = "23dip"
+        android:maxLength="10" />
+    <!--[BUGFIX]-Add-END by TSCD.bangjun.wang-->
+    <TextView
+        android:id="@+id/channelindextitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "23dip"
+        android:layout_marginRight = "23dip"
+        android:text="@string/channel_index" />
+    <!-- [BUGFIX]-mod-BEGIN by TCTNB.yugang.jia,12/02/2013,564967 ,-->
+    <EditText
+        android:id="@+id/channelindex"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="3"
+        android:numeric="integer"
+        android:layout_marginLeft = "23dip"
+        android:layout_marginRight = "23dip"
+        android:singleLine="true" />
+    <!-- [BUGFIX]-mod-END by TCTNB.yugang.jia,12/02/2013,564967 ,-->
+    <CheckBox
+        android:id="@+id/channelenable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/enable_channel"
+        android:layout_marginLeft = "23dip"
+        android:layout_marginRight = "23dip"
+        android:typeface="normal" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft = "23dip"
+        android:layout_marginRight = "23dip">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor = "#259688"
+            android:layout_toLeftOf="@+id/ok"
+            android:text="@string/channel_cancel" />
+        <!-- PR998179-shaoxia.wang modify -->
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight ="true"
+            android:layout_marginRight = "50dip"
+            android:background="@android:color/transparent"
+            android:textColor = "#259688"
+            android:text="@string/channel_ok" />
+    </RelativeLayout>
+</LinearLayout>
