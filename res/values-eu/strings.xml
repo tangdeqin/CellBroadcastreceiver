@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"Igorpen zelularreko mezua"</string>
+	<!---->
+	<string name="sms_cb_settings">"Larrialdi-abisuak"</string>
+	<!---->
+	<string name="button_dismiss">"Ados"</string>
+	<!---->
+	<string name="button_hide">"Ezkutatu"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"Ez dago alerta aktiborik zure inguruan. abisuen ezarpenak aldatzeko, joan menuko Ezarpenak aukerara."</string>
+	<!---->
+	<string name="menu_preferences">"Ezarpenak"</string>
+	<!---->
+	<string name="menu_delete_all">"Ezabatu igorpenak"</string>
+	<!---->
+	<string name="message_options">"Mezuen aukerak"</string>
+	<!---->
+	<string name="menu_view_details">"Ikusi xehetasunak"</string>
+	<!---->
+	<string name="menu_delete">"Ezabatu igorpena"</string>
+	<!---->
+	<string name="view_details_title">"Alertaren xehetasunak"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"Igorpena ezabatu?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"Ezabatu guztiak"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"Ezabatu"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"Jasotako igorpen-mezu guztiak ezabatu?"</string>
+	<!---->
+	<string name="button_delete">"Ezabatu"</string>
+	<!---->
+	<string name="button_cancel">"Utzi"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"Lurrikaren abisua"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"Tsunamien abisua"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"Lurrikaren eta tsunamien abisua"</string>
+	<!---->
+	<string name="etws_test_message">"Lurrikara eta tsunamien abisuen testu-mezua"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"Larrialdi-abisua"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"Gobernuaren alerta"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"Larrialdi-alerta: Muturrekoa"</string>
+	<!---->
+	<string name="cmas_severe_alert">"Larrialdi-alerta: Handia"</string>
+	<!---->
+	<string name="cmas_amber_alert">"Haurren bahiketa (alerta laranja)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"Larrialdi-alertaren hileroko froga"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"Larrialdi-alerta (simulazioa)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"Larrialdi-alerta (operadorea)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"Larrialdi-alerta"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"Igorpen zelularra"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"Gobernuaren alerta"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"Larrialdi-alerta: Muturrekoa"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"Larrialdi-alerta: Handia"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"Haurren bahiketa (AMBER alerta)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"Larrialdi-alertaren hileroko froga"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"Larrialdi-alerta (simulazioa)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"Larrialdi-alerta (operadorea)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"Larrialdi-abisuak"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"Aktibatu jakinarazpenak"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"Bistaratu larrialdi-alerten igorpenak"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"Alertaren soinuaren iraupena"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"Alerta-abisua"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"Entzun alerta-mezua"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"Erabili testua ahots bihurtzeko aukera larrialdi-alerten mezuak entzuteko"</string>
+	<!---->
+	<string name="category_etws_settings_title">"Lurrikaren eta tsunamien abisuen ezarpenak"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"Erakutsi ETWS testu-igorpenak"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"Bistaratu lurrikaren edo tsunamien abisu-sistemaren testu-igorpenak"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"Erakutsi muturreko arriskuak"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"Bistaratu alertak bizitza eta ondasunak muturreko arriskuan daudenean"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"Bistaratu arrisku larriak"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"Bistaratu bizitza eta jabetzak arrisku larrian egotearen alertak"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"Erakutsi alerta laranjak"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"Bistaratu haurren bahiketagatiko larrialdien oharrak (alerta laranjak)"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"Gaztelania"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"Bistaratu alertak gaztelaniako hizkuntzen mezuetarako"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"Bistaratu CMSA testu-igorpenak"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"Bistaratu mugikorreko alerta-sistema komertzialaren testu-igorpenak"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"Dardara"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"Bibrazio bidezko alerta aktibatuta"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"Audioa"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"Egin soinua alerta agertzean"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"Brasilgo ezarpenak"</string>
+	<!---->
+	<string name="category_india_settings_title">"Indiarako ezarpenak"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"Erakutsi 50 kanaleko iragarpenak"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"50. kanala eremuko informazioa eguneratzeko erabiltzen da Brasilen"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"Erakutsi kanalaren 60 igorpenak"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"60. kanala operadorearen informazioa eskaintzeko erabiltzen da Indian"</string>
+	<!---->
+	<string name="category_dev_settings_title">"Garatzaileentzako aukerak"</string>
+	<!---->
+	<string name="cmas_category_heading">"Alerta-kategoria:"</string>
+	<!---->
+	<string name="cmas_category_geo">"Geofisika"</string>
+	<!---->
+	<string name="cmas_category_met">"Metereologia"</string>
+	<!---->
+	<string name="cmas_category_safety">"Segurtasuna"</string>
+	<!---->
+	<string name="cmas_category_security">"Segurtasun-neurriak"</string>
+	<!---->
+	<string name="cmas_category_rescue">"Salbamendua"</string>
+	<!---->
+	<string name="cmas_category_fire">"Sua"</string>
+	<!---->
+	<string name="cmas_category_health">"Osasuna"</string>
+	<!---->
+	<string name="cmas_category_env">"Ingurumena"</string>
+	<!---->
+	<string name="cmas_category_transport">"Garraioa"</string>
+	<!---->
+	<string name="cmas_category_infra">"Azpiegitura"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"Kimika/Biologia/Energia nuklearra/Lehergaiak"</string>
+	<!---->
+	<string name="cmas_category_other">"Gehiago"</string>
+	<!---->
+	<string name="cmas_response_heading">"Erantzun mota:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"Babestu"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"Ebakuatu"</string>
+	<!---->
+	<string name="cmas_response_prepare">"Prestatu"</string>
+	<!---->
+	<string name="cmas_response_execute">"Exekutatu"</string>
+	<!---->
+	<string name="cmas_response_monitor">"Kontrolatu"</string>
+	<!---->
+	<string name="cmas_response_avoid">"Saihestu"</string>
+	<!---->
+	<string name="cmas_response_assess">"Aholkatu"</string>
+	<!---->
+	<string name="cmas_response_none">"Bat ere ez"</string>
+	<!---->
+	<string name="cmas_severity_heading">"Larritasuna:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"Muturrekoa"</string>
+	<!---->
+	<string name="cmas_severity_severe">"Handia"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"Urgentzia:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"Hartu neurriak berehala"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"Espero zena"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"Ziurtasuna:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"Egiaztatu da"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"Posible da"</string>
+	<!---->
+	<string name="delivery_time_heading">"Jasotze-data:\u0020"</string>
+	<!---->
+	<string name="notification_multiple">"<xliff:g id="count">%s</xliff:g> alerta irakurri gabe."</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"Alerta berriak"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"Larrialdi-abisuak"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"Erakutsi aukera-leihoa lehen CMAS alerta bistaratu ondoren (gobernuaren alertak izan ezik)."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"Erakutsi aukera-leihoa"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"Larrialdi-alertak jasotzen ari zara. Jasotzen jarraitu nahi duzu?"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"Bai"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"Ez"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2 segundo"</item>
+		<item>"4 segundo"</item>
+		<item>"6 segundo"</item>
+		<item>"8 segundo"</item>
+		<item>"10 segundo"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"Behin"</item>
+		<item>"2 minuturo"</item>
+		<item>"15 minuturo"</item>
+		<item>"desaktibatuta"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"Igorpen zelularra"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"Brasilgo ezarpenak"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"Hautatu SIM txartela"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"Kudeatu SIM txartel bakoitzaren igorpen zelularraren ezarpenak"</string>
+	<!---->
+	<string name="select_subscription_title">"Hautatu SIM txartela"</string>
+	<!---->
+	<string name="subscription1_title">"SIM 1"</string>
+	<!---->
+	<string name="subscription2_title">"SIM 2"</string>
+	<!---->
+	<string name="cbsetting">"Igorpen zelularra"</string>
+	<!---->
+	<string name="summary_cbsetting">"Ezarri igorpen zelularraren kanala"</string>
+	<!---->
+	<string name="title_receive_channel_list">"Hautatu kanal guztiak"</string>
+	<!---->
+	<string name="title_channel_list">"Irrati-kateen zerrenda"</string>
+	<!---->
+	<string name="summary_channel_list">"Hautatu edo desautatu kanal guztiak"</string>
+	<!---->
+	<string name="title_add_channel">"Gehitu kanala"</string>
+	<!---->
+	<string name="summary_add_channel">"Gehitu kanalaren izena eta aurkibidea"</string>
+	<!---->
+	<string name="channel_name">"Kanalaren izena (1-10 karaktere)"</string>
+	<!---->
+	<string name="channel_index">"Kanalaren zenbakia (0~999)"</string>
+	<!---->
+	<string name="channelEx_index">"Kanal-zenbakia (0-65534)"</string>
+	<!---->
+	<string name="enable_channel">"Gaitu katea"</string>
+	<!---->
+	<string name="ChannelNameOut">"Idatzi duzun kanalaren izenak gehienezko karaktere kopurua (14) gainditzen du. Alda ezazu."</string>
+	<!---->
+	<string name="title_cell_broadcast">"Igorpen zelularra"</string>
+	<!---->
+	<string name="channel_label">"Gehitu kanala"</string>
+	<!---->
+	<string name="channel_ok">"Ados"</string>
+	<!---->
+	<string name="channel_cancel">"Utzi"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"Desgaitu"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"Gaitu"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"Editatu"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"ezabatu"</string>
+	<!---->
+	<string name="ChannelExist">"Kanalaren aurkibidea jada badago."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"Kanalaren aurkibideak 1 eta 999 artekoa izan behar du."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"Kanalaren indizeak 0 eta 65534 artekoa izan behar du."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"Igorpen zelular normaletarako soilik gehi dezakezu kanalaren indizea"</string>
+	<!---->
+	<string name="ChannelIsNull">"Channel index can not be null."</string>
+	<!---->
+	<string name="title_cb_language">"Hizkuntza"</string>
+	<!---->
+	<string name="summary_cb_language">"Ezarri hizkuntzak"</string>
+	<!---->
+	<string name="title_language">"Hautatu hizkuntza"</string>
+	<!---->
+	<string name="language_dialog_cancel">"Utzi"</string>
+	<!---->
+	<string name="all_languages">"Hizkuntza guztiak"</string>
+	<!---->
+	<string name="enable">"Gaitu"</string>
+	<!---->
+	<string name="disable">"Desgaitu"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"Larrialdi-alerta"</string>
+	<!---->
+	<string name="call_phone_diablo">"Deitu"</string>
+	<!---->
+	<string name="Send_message_diablo">"Bidali mezua"</string>
+	<!---->
+	<string name="title_channel_mode">"Hautatu kanalak"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"Kanal guztiak (0-999)"</item>
+		<item>"Nire kanala (kanalen zerrenda)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"Kanal guztiak (0-65534)"</item>
+		<item>"Nire kanala (kanalen zerrenda)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"Bistaratu hileroko derrigorrezko proben alertak"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"Erakutsi RMT alertak"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"Bistaratu ariketa fisikoaren mezuen alertak"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"Erakutsi ariketa fisikoaren alertak"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"Gobernuaren alertak beti bistaratzen dira"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"Gobernua"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"Hautapen hau aldatuz gero, gailuak ez du alertarik jasoko.\nJarraitu nahi duzu?"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"Ez"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"Bai"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"Hautapen hau aldatuz gero, gailuak ez du alerta larririk jasoko.\nJarraitu nahi duzu?"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"Hautapen hau aldatuz gero, muturreko alertak ere gaituko dira.\nJarraitu nahi duzu?"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"Aurreikusi jakinarazpena"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"Aurreikusi larrialdi-alertaren tonua"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"Alertaren tonua"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"Aurreikusi larrialdi-alertaren dardara"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"Dardara"</string>
+	<!---->
+	<string name="call_phone_att">"Deitu"</string>
+	<!---->
+	<string name="Send_message_att">"Bidali mezua"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"Aukeratu elkarrizketak"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"1 mezu ezabatuko da."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"<xliff:g id="count">%s</xliff:g> mezu ezabatuko dira."</string>
+	<!---->
+	<string name="confirm_dialog_title">"Ezabatu"</string>
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"Ezin dira aldatu zehaztuta gobernuko kanalak."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"Ezin dira aldatu kanal pertsonalizatuak."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"Ezin dira ezabatu kanal pertsonalizatuak."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"Premia larrizko alertak"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"Alerta larriak"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"AMBER alertak"</string>
+	<!---->
+	<string name="wpas_test_alert">"Probako WPAS alertak"</string>
+	<!---->
+	<string name="other_alert_settings_title">"Beste ezarpen batzuk"</string>
+	<!---->
+	<string name="Russia_dialog_title">"Igorpen zelularreko mezua"</string>
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+	<!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 begin -->
+    <string name="summary_startup">"Gaitu igorpen zelularreko mezuak jasotzeko aukera"</string>
+    <string name="title_cbsetting">"Igorpen zelular ezarpenak"</string>
+	<string name="pref_title_select_cb_ringtone">"Igorpen zelularraren dei-tonua"</string>
+	<string name="pref_title_enable_cb_led_indicator">"LED adierazlea"</string>
+    <string name="pref_summary_enable_cb_led_indicator">"Markatu igorpen zelularraren LED adierazlea gaitzeko"</string>
+    <string name="pref_title_enable_cb_light_indicator">"Gaitu pantaila argitzea"</string>
+    <string name="pref_summary_enable_cb_light_indicator">"Piztu pantaila sareko igorpenak jasotzean"</string>
+	<string-array name="prefEntries_vibrateWhen">
+		<item>"Beti"</item>
+		<item>"Dardara moduan soilik"</item>
+		<item>"Inoiz ez"</item>
+	</string-array>
+    <string name="pref_summary_notification_vibrateWhen">"Egin dardara jakinaraztean"</string>
+    <string name="pref_notification_settings_title">"Jakinarazpenak"</string>
+    <string name="sim1_only_summary">"SIM 1 txartela soilik"</string>
+    <!-- Add by liang.zhang for Defect 6511785 at 2018-07-06 end -->
+</resources>

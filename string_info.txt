@@ -1,0 +1,3 @@
+StringLabel:GAPPN-ANDROID7.0-WLANGUAGE-P1.0-84
+StringLabelTime:Tue May 23 14:25:12 2017
+this file is built by arct v:froyo_2011-03-23, Tue May 23 15:23:42 GMT+08:00 2017

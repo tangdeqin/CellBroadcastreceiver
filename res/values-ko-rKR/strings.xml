@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Mon Apr 09 14:16:19 CST 2018
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_label">"셀 브로드캐스트"</string>
+	<!---->
+	<string name="sms_cb_settings">"셀 브로드캐스트 설정"</string>
+	<!---->
+	<string name="button_dismiss">"확인"</string>
+	<!---->
+	<string name="button_hide">"숨기기"</string>
+	<!---->
+	<string name="no_cell_broadcasts">"사용자 지역에 표시된 경보가 없습니다. 설정 메뉴 옵션을 사용하여 경보 설정을 변경할 수 있습니다."</string>
+	<!---->
+	<string name="menu_preferences">"설정"</string>
+	<!---->
+	<string name="menu_delete_all">"브로드캐스트 삭제"</string>
+	<!---->
+	<string name="message_options">"메시지 옵션"</string>
+	<!---->
+	<string name="menu_view_details">"세부정보 보기"</string>
+	<!---->
+	<string name="menu_delete">"브로드캐스트 삭제"</string>
+	<!---->
+	<string name="view_details_title">"알리미 세부정보"</string>
+	<!---->
+	<string name="confirm_delete_broadcast">"브로드캐스트를 삭제하시겠습니까?"</string>
+	<!---->
+	<string name="confirm_dialog_title_deleteall">"모두삭제"</string>
+	<!---->
+	<string name="confirm_dialog_title_delete">"삭제"</string>
+	<!---->
+	<string name="confirm_delete_all_broadcasts">"모든 셀 브로드캐스트 메시지 및 경고는 삭제됩니다."</string>
+	<!---->
+	<string name="button_delete">"삭제"</string>
+	<!---->
+	<string name="button_cancel">"취소"</string>
+	<!---->
+	<string name="etws_earthquake_warning">"지진 경고"</string>
+	<!---->
+	<string name="etws_tsunami_warning">"해일 경고"</string>
+	<!---->
+	<string name="etws_earthquake_and_tsunami_warning">"지진 및 해일 경고"</string>
+	<!---->
+	<string name="etws_test_message">"ETWS 테스트 메시지"</string>
+	<!---->
+	<string name="etws_other_emergency_type">"비상사태 경고"</string>
+	<!---->
+	<string name="cmas_presidential_level_alert">"대통령 경고"</string>
+	<!---->
+	<string name="cmas_extreme_alert">"비상사태 경고: 긴급"</string>
+	<!---->
+	<string name="cmas_severe_alert">"비상사태 경고: 심각"</string>
+	<!---->
+	<string name="cmas_amber_alert">"아동 유괴(황색 경고)"</string>
+	<!---->
+	<string name="cmas_required_monthly_test">"비상사태 경고 월별 테스트"</string>
+	<!---->
+	<string name="cmas_exercise_alert">"비상사태 경고(실행)"</string>
+	<!---->
+	<string name="cmas_operator_defined_alert">"비상사태 경고(통신사)"</string>
+	<!---->
+	<string name="pws_other_message_identifiers">"비상사태 경고"</string>
+	<!---->
+	<string name="cb_other_message_identifiers">"셀 브로드캐스트"</string>
+	<!---->
+	<string name="cmas_spanish_presidential_level_alert">"대통령 경고"</string>
+	<!---->
+	<string name="cmas_spanish_extreme_alert">"비상사태 경고: 긴급"</string>
+	<!---->
+	<string name="cmas_spanish_severe_alert">"비상사태 경고: 심각"</string>
+	<!---->
+	<string name="cmas_spanish_amber_alert">"아동 유괴(황색 경고)"</string>
+	<!---->
+	<string name="cmas_spanish_required_monthly_test">"비상사태 경고 월별 테스트"</string>
+	<!---->
+	<string name="cmas_spanish_exercise_alert">"비상사태 경고(실행)"</string>
+	<!---->
+	<string name="cmas_spanish_operator_defined_alert">"비상사태 경고(통신사)"</string>
+	<!---->
+	<string name="emergency_alert_settings_title">"비상사태 경고"</string>
+	<!---->
+	<string name="enable_emergency_alerts_title">"알림 메시지 표시"</string>
+	<!---->
+	<string name="enable_emergency_alerts_summary">"비상사태 경고 브로드캐스트 표시"</string>
+	<!---->
+	<string name="alert_sound_duration_title">"경고음 지속 시간"</string>
+	<!-- no translation found for alert_sound_duration_summary -->
+	<skip />
+	<!---->
+	<string name="alert_reminder_interval_title">"경고 알림"</string>
+	<!-- no translation found for alert_reminder_interval_summary -->
+	<skip />
+	<!---->
+	<string name="enable_alert_speech_title">"경고 메시지를 음성 언어로 표시"</string>
+	<!---->
+	<string name="enable_alert_speech_summary">"비상사태 경고 메시지를 TTX 기능을 사용하여 음성 언어로 알림"</string>
+	<!---->
+	<string name="category_etws_settings_title">"ETWS 설정"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_title">"ETWS 테스트 브로드캐스트 표시"</string>
+	<!---->
+	<string name="enable_etws_test_alerts_summary">"지진 해일 경보 시스템용 테스트 브로드캐스트 표시"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_title">"극단적인 위협 표시"</string>
+	<!---->
+	<string name="enable_cmas_extreme_threat_alerts_summary">"생명과 재산에 대한 극단적인 위협에 대해 경보 표시"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_title">"심각한 위협 표시"</string>
+	<!---->
+	<string name="enable_cmas_severe_threat_alerts_summary">"생명 및 재산에 대한 심각한 위협에 대해 경보 표시"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_title">"앰버 경고 표시"</string>
+	<!---->
+	<string name="enable_cmas_amber_alerts_summary">"아동 유괴 긴급상황 공지 표시(황색 경보)"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_title">"스페인어"</string>
+	<!---->
+	<string name="enable_cmas_spanish_language_alerts_summary">"스페인어 메시지 알림 표시"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_title">"CMAS 테스트 브로드캐스트 표시"</string>
+	<!---->
+	<string name="enable_cmas_test_alerts_summary">"모바일 경보 시스템(CMAS)에 대한 테스트 브로드캐스트 표시"</string>
+	<!---->
+	<string name="enable_alert_vibrate_title">"진동"</string>
+	<!---->
+	<string name="enable_alert_vibrate_summary">"알리미 받을 때 진동"</string>
+	<!---->
+	<string name="enable_alert_audio_title">"오디오"</string>
+	<!---->
+	<string name="enable_alert_audio_summary">"경고음 울림"</string>
+	<!---->
+	<string name="category_brazil_settings_title">"브라질에 대한 설정"</string>
+	<!---->
+	<string name="category_india_settings_title">"인도용 설정"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_title">"채널 50 브로드캐스트 표시"</string>
+	<!---->
+	<string name="enable_channel_50_alerts_summary">"지역 업데이트 정보용으로 브라질에서 사용되는 채널 50"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_title">"채널 60 브로드캐스트 표시"</string>
+	<!---->
+	<string name="enable_channel_60_alerts_summary">"채널 60은 운영자 지정 정보를 위해 인도에서 사용됩니다."</string>
+	<!---->
+	<string name="category_dev_settings_title">"개발자 옵션"</string>
+	<!---->
+	<string name="cmas_category_heading">"알리미 카테고리:"</string>
+	<!---->
+	<string name="cmas_category_geo">"지구 물리"</string>
+	<!---->
+	<string name="cmas_category_met">"기상"</string>
+	<!---->
+	<string name="cmas_category_safety">"안전"</string>
+	<!---->
+	<string name="cmas_category_security">"보안"</string>
+	<!---->
+	<string name="cmas_category_rescue">"구조"</string>
+	<!---->
+	<string name="cmas_category_fire">"화재"</string>
+	<!---->
+	<string name="cmas_category_health">"건강"</string>
+	<!---->
+	<string name="cmas_category_env">"환경"</string>
+	<!---->
+	<string name="cmas_category_transport">"교통"</string>
+	<!---->
+	<string name="cmas_category_infra">"인프라"</string>
+	<!---->
+	<string name="cmas_category_cbrne">"화학/생물학/원자력/폭발물"</string>
+	<!---->
+	<string name="cmas_category_other">"기타"</string>
+	<!---->
+	<string name="cmas_response_heading">"대응 유형:"</string>
+	<!---->
+	<string name="cmas_response_shelter">"대피"</string>
+	<!---->
+	<string name="cmas_response_evacuate">"소개"</string>
+	<!---->
+	<string name="cmas_response_prepare">"준비"</string>
+	<!---->
+	<string name="cmas_response_execute">"계획 실행"</string>
+	<!---->
+	<string name="cmas_response_monitor">"모니터"</string>
+	<!---->
+	<string name="cmas_response_avoid">"예방"</string>
+	<!---->
+	<string name="cmas_response_assess">"평가"</string>
+	<!---->
+	<string name="cmas_response_none">"대응하지 않음"</string>
+	<!---->
+	<string name="cmas_severity_heading">"심각도:"</string>
+	<!---->
+	<string name="cmas_severity_extreme">"긴급"</string>
+	<!---->
+	<string name="cmas_severity_severe">"위험"</string>
+	<!---->
+	<string name="cmas_urgency_heading">"긴급:"</string>
+	<!---->
+	<string name="cmas_urgency_immediate">"즉시"</string>
+	<!---->
+	<string name="cmas_urgency_expected">"예상"</string>
+	<!---->
+	<string name="cmas_certainty_heading">"확실성:"</string>
+	<!---->
+	<string name="cmas_certainty_observed">"주시"</string>
+	<!---->
+	<string name="cmas_certainty_likely">"주의 요망"</string>
+	<!---->
+	<string name="delivery_time_heading">"받은시간:"</string>
+	<!---->
+	<string name="notification_multiple">"읽지 않은 경보 <xliff:g id="COUNT">%s</xliff:g>개"</string>
+	<!---->
+	<string name="notification_multiple_title_cb">"새 경보"</string>
+	<!---->
+	<string name="notification_multiple_title_cmas">"비상사태 경고"</string>
+	<!---->
+	<string name="show_cmas_opt_out_summary">"대통령령 경보가 아닌 첫 번째 CMAS(민간 이동통신 경보체계) 알림을 표시한 뒤에 선택 해제 대화상자를 표시합니다."</string>
+	<!---->
+	<string name="show_cmas_opt_out_title">"선택 해제 대화상자 표시"</string>
+	<!---->
+	<string name="cmas_opt_out_dialog_text">"현재 긴급 알림을 수신하고 있습니다. 긴급 알림을 계속 수신하시겠습니까?"</string>
+	<!---->
+	<string name="cmas_opt_out_button_yes">"예"</string>
+	<!---->
+	<string name="cmas_opt_out_button_no">"아니요"</string>
+	<string-array name="alert_sound_duration_entries">
+		<item>"2초"</item>
+		<item>"4초"</item>
+		<item>"6초"</item>
+		<item>"8초"</item>
+		<item>"10초"</item>
+	</string-array>
+	<!-- no translation found for alert_sound_duration_values -->
+	<skip />
+	<string-array name="alert_reminder_interval_entries">
+		<item>"1회"</item>
+		<item>"매 2분 마다"</item>
+		<item>"매 15분"</item>
+		<item>"꺼짐"</item>
+	</string-array>
+	<!-- no translation found for alert_reminder_interval_values -->
+	<skip />
+	<!---->
+	<string name="cell_broadcast_sms_title">"셀 브로드캐스트"</string>
+	<!---->
+	<string name="category_brazil_settings_title_sub">"브라질에 대한 설정"</string>
+	<!---->
+	<string name="cb_settings_sel_sub">"SIM 카드 선택"</string>
+	<!---->
+	<string name="summary_manage_subscriptions">"각 SIM의 관리 셀 브로드캐스트 설정"</string>
+	<!---->
+	<string name="select_subscription_title">"SIM 카드 선택"</string>
+	<!---->
+	<string name="subscription1_title">"SIM 1"</string>
+	<!---->
+	<string name="subscription2_title">"SIM 2"</string>
+	<!---->
+	<string name="cbsetting">"셀 브로드캐스트"</string>
+	<!---->
+	<string name="summary_cbsetting">"셀 브로드캐스트 채널 설정"</string>
+	<!---->
+	<string name="title_receive_channel_list">"모든 채널 선택"</string>
+	<!---->
+	<string name="title_channel_list">"채널목록"</string>
+	<!---->
+	<string name="summary_channel_list">"모든 채널 선택 또는 선택 취소"</string>
+	<!---->
+	<string name="title_add_channel">"채널추가"</string>
+	<!---->
+	<string name="summary_add_channel">"채널명과 채널 인덱스 추가"</string>
+	<!---->
+	<string name="channel_name">"채널이름 (1-10 문자)"</string>
+	<!---->
+	<string name="channel_index">"채널 번호(0~999)"</string>
+	<!---->
+	<string name="channelEx_index">"채널 번호(0-65534)"</string>
+	<!---->
+	<string name="enable_channel">"채널시작"</string>
+	<!---->
+	<string name="ChannelNameOut">"최대 14자를 초과하는 채널명 입력함 조정하십시오."</string>
+	<!---->
+	<string name="title_cell_broadcast">"셀 브로드캐스트"</string>
+	<!---->
+	<string name="channel_label">"채널추가"</string>
+	<!---->
+	<string name="channel_ok">"확인"</string>
+	<!---->
+	<string name="channel_cancel">"취소"</string>
+	<!---->
+	<string name="channel_dialog_items_disable">"정지"</string>
+	<!---->
+	<string name="channel_dialog_items_enable">"사용"</string>
+	<!---->
+	<string name="channel_dialog_items_edit">"수정"</string>
+	<!---->
+	<string name="channel_dialog_items_delete">"삭제"</string>
+	<!---->
+	<string name="ChannelExist">"채널 지수가 이미 존재합니다."</string>
+	<!---->
+	<string name="ChannelNotNumeric">"채널 지수는 1에서 999 사이여야 합니다."</string>
+	<!---->
+	<string name="ChannelExNotNumeric">"채널 지수는 0-65534여야 합니다."</string>
+	<!---->
+	<string name="EmergencyChannelNotAdded">"일반 셀 브로드캐스트용 채널 지수만 추가할 수 있습니다"</string>
+	<!---->
+	<string name="ChannelIsNull">"채널 지수는 공란일 수 없습니다."</string>
+	<!---->
+	<string name="title_cb_language">"언어"</string>
+	<!---->
+	<string name="summary_cb_language">"언어 설정"</string>
+	<!---->
+	<string name="title_language">"선택언어"</string>
+	<!---->
+	<string name="language_dialog_cancel">"취소"</string>
+	<!---->
+	<string name="all_languages">"모든 언어"</string>
+	<!---->
+	<string name="enable">"사용"</string>
+	<!---->
+	<string name="disable">"정지"</string>
+	<!---->
+	<string name="title_chile_cb_dialog">"비상사태 경고"</string>
+	<!---->
+	<string name="call_phone_diablo">"전화걸기"</string>
+	<!---->
+	<string name="Send_message_diablo">"메시지 보내기"</string>
+	<!---->
+	<string name="title_channel_mode">"채널 선택"</string>
+	<string-array name="pref_cb_channel_mode_entries">
+		<item>"모든 채널(0-999)"</item>
+		<item>"내 채널(채널 목록)"</item>
+	</string-array>
+	<string-array name="pref_cb_channel_mode_entries_ex">
+		<item>"모든 채널(0-65534)"</item>
+		<item>"내 채널(채널 목록)"</item>
+	</string-array>
+	<!-- no translation found for pref_cb_channel_mode_values -->
+	<skip />
+	<!---->
+	<string name="pref_summary_enable_cmas_rmt_alerts">"필수 월별 테스트를 위한 알림 표시"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_rmt_alerts">"RMT 경고 표시"</string>
+	<!---->
+	<string name="pref_summary_enable_cmas_exercise_alerts">"연습 메시지용 경고 표시"</string>
+	<!---->
+	<string name="pref_title_enable_cmas_exercise_alerts">"활동 경고 표시"</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_summary">"프레지덴셜 경고가 항상 표시됩니다."</string>
+	<!---->
+	<string name="enable_cmas_presidential_alerts_title">"주요"</string>
+	<!---->
+	<string name="dialog_alert_diable_receive_cmas_message">"이 선택을 변경하면 장치에서 경고 받기를 금지합니다.\n계속하시겠습니까?"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_no">"아니요"</string>
+	<!---->
+	<string name="disable_receive_cmas_dialog_btn_yes">"예"</string>
+	<!---->
+	<string name="dialog_alert_msg_disable_extreme">"이 선택을 변경하면 장치에서 매우 높음 또는 높음 경고 받기를 금지합니다.\n계속하시겠습니까?"</string>
+	<!---->
+	<string name="dialog_alert_msg_enable_severe">"이 선택을 변경하면 또한 매우 높음 경고가 가능합니다.\n둘 다 실행하시겠습니까?"</string>
+	<!---->
+	<string name="pref_preview_cmas_alert">"미리 보기 알림"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_alert_tone">"비상 경고 톤 미리 보기"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_alert_tone">"경고 톤"</string>
+	<!---->
+	<string name="pref_summary_preview_cmas_vibration">"비상 경고 진동 미리 보기"</string>
+	<!---->
+	<string name="pref_title_preview_cmas_vibration">"진동"</string>
+	<!---->
+	<string name="call_phone_att">"전화걸기"</string>
+	<!---->
+	<string name="Send_message_att">"메시지 보내기"</string>
+	<!---->
+	<string name="action_bar_title_choose_messages">"대화 선택"</string>
+	<!---->
+	<string name="one_selected_message_to_be_deleted">"1개 메시지가 삭제됩니다."</string>
+	<!---->
+	<string name="multi_selected_message_to_be_deleted">"<xliff:g id="count">%s</xliff:g>개 메시지가 삭제됩니다."</string>
+	<!---->
+	<string name="confirm_dialog_title">"삭제하시겠습니까?"</string>
+	<!---->
+	<string name="sub1">"SIM 1"</string>
+	<!---->
+	<string name="sub2">"SIM 2"</string>
+	<!---->
+	<string name="toast_message_channel_can_not_delete">"주요 채널을 변경할 수 없습니다."</string>
+	<!---->
+	<string name="toast_message_can_not_modify_channel">"사용자 지정된 채널을 변경할 수 없습니다."</string>
+	<!---->
+	<string name="toast_message_can_not_delete_channel">"사용자 지정된 채널을 삭제할 수 없습니다."</string>
+	<!---->
+	<string name="enable_wpas_extreme_threat_alerts_title">"최고 위험 경보"</string>
+	<!---->
+	<string name="enable_wpas_severe_threat_alerts_title">"심각 경보"</string>
+	<!---->
+	<string name="enable_wpas_amber_alerts_title">"앰버 경보"</string>
+	<!---->
+	<string name="wpas_test_alert">"WPAS 테스트 경보"</string>
+	<!---->
+	<string name="other_alert_settings_title">"다른 설정"</string>
+	<!---->
+	<string name="Russia_dialog_title">"CB 메시지"</string>
+	<!-- no translation found for uae_dialog_title_class1 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class2 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class3 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class4 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class5 -->
+	<skip />
+	<!-- no translation found for uae_dialog_title_class6 -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_test -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for peru_dialog_title_informative -->
+	<skip />
+	<!-- no translation found for latam_dialog_title_reserved -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_test -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_exercise -->
+	<skip />
+	<!-- no translation found for mexico_dialog_title_informative -->
+	<skip />
+</resources>
