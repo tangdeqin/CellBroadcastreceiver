@@ -1,0 +1,130 @@
+<!-- task811570 shortcuts settings -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/navigate_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <tct.func.CheckablelView
+            android:id="@+id/car"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:scaleType="center" />
+
+        <tct.func.CheckablelView
+            android:id="@+id/transit"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:scaleType="center" />
+
+        <tct.func.CheckablelView
+            android:id="@+id/biking"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:scaleType="center" />
+
+        <tct.func.CheckablelView
+            android:id="@+id/walk"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:scaleType="center" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/type_indicator_container"
+        android:layout_width="360dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/navigate_type" >
+
+        <View
+            android:layout_width="360dp"
+            android:layout_height="1dp"
+            android:background="#d2d2d2" />
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="2dp"
+            android:orientation="horizontal" >
+
+            <View
+                android:id="@+id/car_indicator"
+                android:layout_width="90dp"
+                android:layout_height="2dp" />
+
+            <View
+                android:id="@+id/transit_indicator"
+                android:layout_width="90dp"
+                android:layout_height="2dp" />
+
+            <View
+                android:id="@+id/biking_indicator"
+                android:layout_width="90dp"
+                android:layout_height="2dp" />
+
+            <View
+                android:id="@+id/walk_indicator"
+                android:layout_width="90dp"
+                android:layout_height="2dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/home_address_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/type_indicator_container"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edittext_background"
+        android:singleLine="true"
+        android:focusable="true"
+        android:hint="@string/your_home_address"
+        android:textColor="#aaaaaa"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/button_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/navigate_cancel"
+            android:textColor="#444444" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:background="#e5e5e5" />
+
+        <Button
+            android:id="@+id/save"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/navigate_save"
+            android:textColor="#2196f3" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/button_container"
+        android:background="#e5e5e5" />
+
+</RelativeLayout>

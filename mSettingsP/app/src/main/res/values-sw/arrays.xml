@@ -1,0 +1,1358 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Europa"</item>
+		<item>"Afrika"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asia"</item>
+		<item>"Australia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pacific"</item>
+		<item>"Tamaasa"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekundtit"</item>
+		<item>"30 sekundtit"</item>
+		<item>"1 minutsi"</item>
+		<item>"2 minutsit"</item>
+		<item>"5 minutsit"</item>
+		<item>"10 minutsit"</item>
+		<item>"30 minutsit"</item>
+		<item>"Taamaalinngisaannassaaq"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Erngertumik"</item>
+		<item>"5 sekundtit"</item>
+		<item>"15 sekundtit"</item>
+		<item>"30 sekundtit"</item>
+		<item>"1 minutsi"</item>
+		<item>"2 minutsit"</item>
+		<item>"5 minutsit"</item>
+		<item>"10 minutsit"</item>
+		<item>"30 minutsit"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Mikisut"</item>
+		<item>"Nalinginnaasoq"</item>
+		<item>"Angisuut"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Largest"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<!--inherit from sourcecode xml-->
+		<item>"Scanning..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connecting..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Authenticating\u2026"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Obtaining IP address..."</item>
+		<item>"Attaveqalerpoq"</item>
+		<item>"Atorunnaarsinneqarpoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnecting..."</item>
+		<item>"Attaveqanngilaq"</item>
+		<item>"Iluatsinngilaq"</item>
+		<item>"Matoqqavoq"</item>
+		<item>"Utaqqiisaasumik attaviluttut avaqquppai"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<!--inherit from sourcecode xml-->
+		<item>"Scanning..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connecting to <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Authenticating with <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Obtaining IP address from <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<item>"Attaveqarpoq uunga <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Atorunnaarsinneqarpoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnecting from <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<item>"Attaveqanngilaq"</item>
+		<item>"Iluatsinngilaq"</item>
+		<item>"Matoqqavoq"</item>
+		<item>"Utaqqiisaasumik attaviluttut avaqquppai"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Attataasaq"</item>
+		<item>"PIN pigisamiit paarlaateqatigiittartumiit"</item>
+		<item>"PIN uannga pigisamiit"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Attaveqalerpoq"</item>
+		<item>"Qaaqquneqarpoq"</item>
+		<item>"Iluatsinngilaq"</item>
+		<item>"Atorneqarsinnaavoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Out-of-range"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minutsit"</item>
+		<item>"5 minutsit"</item>
+		<item>"1 tiimi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Never time out"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Annikitsoq"</item>
+		<item>"Annikitsoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fair"</item>
+		<item>"Ajunngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Excellent"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Tamatigut"</item>
+		<item>"Taamaallaat ikkuteqqagaangat"</item>
+		<item>"Taamaalinngisaannassaaq"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Tamatigut"</item>
+		<item>"Taamaallaat ikkuteqqagaangat"</item>
+		<item>"Taamaalinngisaannassaaq"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<!-- no translation found for data_usage_data_range -->
+	<skip />
+	<string-array name="usage_stats_display_order_types">
+		<item>"Atornerata piffissaa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Last time used"</item>
+		<item>"App-ip aqqa"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Soqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<!-- no translation found for wifi_peap_phase2_entries_with_sim_auth -->
+	<skip />
+	<string-array name="wifi_phase2_entries">
+		<item>"Soqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Uninggaannartoq"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Soqanngilaq"</item>
+		<item>"Nammineerluni aqutsineq""</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Proxy Auto-Config"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Soqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP imaluunniit CHAP"</item>
+	</string-array>
+	<!-- no translation found for apn_protocol_entries -->
+	<skip />
+	<!-- no translation found for bearer_entries -->
+	<skip />
+	<string-array name="mvno_type_entries">
+		<item>"Soqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"Pigisap iluani toqqorsivik"</item>
+		<item>"SD kort peerneqarsinnaasoq"</item>
+		<item>"Ilusilersugaq aalajangiitiguk"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Sumiiffik"</item>
+		<item>"NAMMINEQ"</item>
+		<item>"Allaqatigiinneq"</item>
+		<item>"Appitassat"</item>
+		<item>"PIGISAQ"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"sumiissuseq eqqoriaannagaq"</item>
+		<item>"sumiissuseq iluameersoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<!--inherit from sourcecode xml-->
+		<item>"vibrate"</item>
+		<item>"Attaveqarfissat atuakkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify contacts"</item>
+		<item>"Sianertut allattorneri atuakkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify call log"</item>
+		<item>"Ullorsiutit atuakkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify calendar"</item>
+		<item>"Wi-Fi-imik scan-erineq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification"</item>
+		<item>"cell scan"</item>
+		<item>"telefon-i sianerfigiuk"</item>
+		<item>"SMS atuaruk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write SMS"</item>
+		<item>"SMS tigujuk"</item>
+		<item>"pinatoqartillugu SMS tigujuk"</item>
+		<item>"MMS tigujuk"</item>
+		<item>"Wap nuisartoq tigujuk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"send SMS"</item>
+		<item>"ICC SMS atuaruk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write ICC SMS"</item>
+		<item>"aaqqiinerit allanngortikkit"</item>
+		<item>"qulaani titartaagit"</item>
+		<item>"ilisimatitsissutit isikkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"camera"</item>
+		<item>"Nipi immiuguk"</item>
+		<item>"Nipi appiguk"</item>
+		<item>"Utaqqiisaasumik toqqorsivik atuaruk"</item>
+		<item>"Utaqqiisaasumik toqqorsivik allanngortiguk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"media buttons"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"audio focus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"master volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"voice volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"ring volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"media volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"alarm volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification volume"</item>
+		<item>"Blutoothip nipitussusaa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"keep awake"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor high power location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get usage stats"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mute/unmute microphone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"show toast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"body sensors"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read cell broadcasts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"accessibility volume"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Sumiiffik"</item>
+		<item>"Sumiiffik"</item>
+		<item>"Sumiiffik"</item>
+		<item>"Sajukulaartiguk"</item>
+		<item>"Attaveqarfissat atuakkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify contacts"</item>
+		<item>"Sianertut allattorneri atuakkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify call log"</item>
+		<item>"Ullorsiutit atuakkit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify calendar"</item>
+		<item>"Sumiiffik"</item>
+		<item>"Ilisimatitsissut ikkuguk"</item>
+		<item>"Sumiiffik"</item>
+		<item>"telefon-i sianerfigiuk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Send SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<item>"Aaqqiinerit allanngortikkit"</item>
+		<item>"Qulaani titartaagit"</item>
+		<item>"Ilisimatitsissutit isikkit"</item>
+		<item>"Assiliivik"</item>
+		<item>"Nipi immiuguk"</item>
+		<item>"Nipi appiguk"</item>
+		<item>"Utaqqiisaasumik toqqorsivik atuaruk"</item>
+		<item>"Utaqqiisaasumik toqqorsivik allanngortiguk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Media buttons"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Audio focus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Master volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Voice volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ring volume"</item>
+		<item>"Appitassap nipitussusaa"</item>
+		<item>"Itersaatip nipitussusaa"</item>
+		<item>"Ilisimatitsissutip nipitussusaa"</item>
+		<item>"Blutoothip nipitussusaa"</item>
+		<item>"Eqqumaannartiguk"</item>
+		<item>"Sumiiffik"</item>
+		<item>"Sumiiffik"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get usage stats"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mute/unmute microphone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show toast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Body sensors"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read cell broadcasts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accessibility volume"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Naatsoq"</item>
+		<item>"Akunnattut"</item>
+		<item>"Takisooq"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Atugassiaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sans-serif condensed"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sans-serif monospace"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Serif"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Serif monospace"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Casual"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cursive"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Small capitals"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Very small"</item>
+		<item>"Mikisut"</item>
+		<item>"Nalinginnaasoq"</item>
+		<item>"Angisuut"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Very large"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Atugassiaq"</item>
+		<item>"Soqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Outline"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Drop shadow"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Raised"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Depressed"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Use app defaults"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"White on black"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Black on white"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yellow on black"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yellow on blue"</item>
+		<item>"Naleqqussagaq"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN siammariikkanik naqinnilik"</item>
+		<item>"L2TP/IPSec VPN allagartartalik"</item>
+		<item>"IPSec VPN siammariikkanik naqinnilik kiisalu Xauth-imik uppernarsaatilik"</item>
+		<item>"IPSec VPN allagartartalik kiisalu Xauth-imik uppernarsaatilik"</item>
+		<item>"IPSec VPN allagartartalik kiisalu sanaamik uppernarsaatilik"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Attaveqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Unlocking SIM card..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connecting..."</item>
+		<item>"Attaveqalerpoq"</item>
+		<item>"Unippoq"</item>
+		<item>"Iluatsinngilaq"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Aperiuk"</item>
+		<item>"Akuerinngisaannaruk"</item>
+		<item>"Akueriuaannaruk"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Nalinginnaasoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moderate"</item>
+		<item>"Annikitsoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Critical"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Nalinginnaasoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moderate"</item>
+		<item>"Annikitsoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Critical"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<!--inherit from sourcecode xml-->
+		<item>"Persistent"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Top activity"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Important (foreground)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Important (background)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Backup"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Heavy weight"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Service (running)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Service (restarting)"</item>
+		<item>"Tigooraat"</item>
+		<item>"Angerlarsimaffik"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Last activity"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (activity)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (activity client)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (empty)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<!--inherit from sourcecode xml-->
+		<item>"Teal"</item>
+		<item>"Tungujortoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Indigo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Purple"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pink"</item>
+		<item>"Aappaluttoq"</item>
+	</string-array>
+	<!-- no translation found for tcl_color_picker -->
+	<skip />
+	<!-- no translation found for automatic_storage_management_days -->
+	<skip />
+	<string-array name="hdcp_checking_titles">
+		<item>"Misissunngisaannaruk"</item>
+		<item>"DRM-ip imarisai taamaallaat misissortakkit"</item>
+		<item>"Misissortuaannaruk"</item>
+	</string-array>
+	<!-- no translation found for hdcp_checking_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_versions -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_version_values -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_summaries -->
+	<skip />
+	<!-- no translation found for select_logpersist_titles -->
+	<skip />
+	<!-- no translation found for select_logpersist_summaries -->
+	<skip />
+	<string-array name="window_animation_scale_entries">
+		<item>"Ingerlaatunik takutitsisarnera qamiguk"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa .5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 1x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 1.5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 2x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Ingerlaatunik takutitsisarnera qamiguk"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa .5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 1x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 1.5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 2x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Ingerlaatunik takutitsisarnera qamiguk"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa .5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 1x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 1.5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 2x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 5x"</item>
+		<item>"Ingerlaartunik takutitsisarnerata sukkassusaa 10x"</item>
+	</string-array>
+	<!-- no translation found for overlay_display_devices_entries -->
+	<skip />
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Soqanngilaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Logcat"</item>
+		<item>"Systrace (Qalipaatit)"</item>
+		<item>"glAjortoqarneranikPisaqarit nakkutigitiguk"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Qamiguk"</item>
+		<item>"Tungujortumik kipparissuunngitsumik titartaagit"</item>
+		<item>"Ersarinnerit misilinneqarput titartaasoqarnissaanik naalakkiutit qorsorpaluttuusut"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Qamiguk"</item>
+		<item>"Skærm-imi assiliaaqqatut"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"In <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"Qamippoq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show overdraw areas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show areas for Deuteranomaly"</item>
+	</string-array>
+	<!-- no translation found for debug_hw_renderer_entries -->
+	<skip />
+	<string-array name="app_process_limit_entries">
+		<item>"Nalinginnaasumik killissaq"</item>
+		<item>"Tunuliaqutaani ingerlaartoqanngilaq"</item>
+		<item>"Annerpaamik ingerlaartoq 1"</item>
+		<item>"Annerpaamik ingerlaartut 2"</item>
+		<item>"Annerpaamik ingerlaartut 3"</item>
+		<item>"Annerpaamik ingerlaartut 4"</item>
+	</string-array>
+	<!-- no translation found for usb_configuration_titles_new -->
+	<skip />
+	<!-- no translation found for icontype_picker -->
+	<skip />
+	<!-- no translation found for service_title -->
+	<skip />
+	<!-- no translation found for service_sim_choices -->
+	<skip />
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_default -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_latam -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM (auto)"</item>
+		<item>"UMTS/GSM (nammineertoq)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"LTE only"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS only"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"GSM only"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type3 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type4 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type6 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type7 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type8 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type9 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type10 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type12 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_russian1 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type14 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type15_default -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_2006N -->
+	<skip />
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type16 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM (auto connect)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM (auto connect)"</item>
+		<item>"WCDMA kisiat"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<!--inherit from sourcecode xml-->
+		<item>"Midway Island"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hawaii"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Alaska"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pacific Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tijuana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Arizona"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chihuahua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mountain Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Central America"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Central Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saskatchewan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Eastern Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Venezuela"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Atlantic Time (Barbados)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Atlantic Time (Canada)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manaus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Newfoundland"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mid-Atlantic"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Azores"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cape Verde Islands"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Casablanca"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"W. Africa Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Amman, Jordan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Istanbul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Beirut, Lebanon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tehran"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ural\'sk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yekaterinburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kolkata"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kathmandu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yangon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Krasnoyarsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bangkok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hong Kong"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Irkutsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Perth"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Osaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yakutsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Adelaide"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Darwin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brisbane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hobart"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sydney"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vladivostok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Magadan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Auckland"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fiji"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paraguay"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Abu Dhabi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Abuja"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Adamstown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Addis Ababa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Algiers"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Alofi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Amsterdam"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Andorra la Vella"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ankara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Antananarivo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ashgabat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asmara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Astana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Athens"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Avarua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Baghdad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Baku"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bamako"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bandar Seri Begawan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Zagreb"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bangui"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Banjul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Basseterre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Beijing"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belfast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belgrade"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belmopan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Berlin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bern"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bishkek"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bissau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bogota"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brasilia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bratislava"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brazzaville"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bridgetown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brussels"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bucharest"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Budapest"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Buenos Aires"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bujumbura"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cairo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Canberra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cardiff"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Castries"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cayenne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Charlotte Amalie"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chisinau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cockburn Town"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Conakry"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Copenhagen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dakar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dhaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dili"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Djibouti"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dodoma"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Doha"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Douglas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dubai"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dublin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dushanbe"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Edinburgh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Edinburgh of the Seven Seas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Flying Fish Cove"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Freetown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Funafuti"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gaborone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"George Town (Cayman Islands)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Georgetown (Ascension Island)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Georgetown (Guyana)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gibraltar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Grytviken"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Guatemala City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gustavia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hagatna"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hamilton"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hanga Roa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hanoi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Harare"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Havana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Helsinki"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Honiara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Islamabad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jakarta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jamestown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jerusalem"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Juba"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kabul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kampala"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Khartoum"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kiev"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kigali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingston (Jamaica)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingston (Norfolk Island)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingstown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kinshasa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kuala Lumpur"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kuwait"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Libreville"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lilongwe"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lima"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lisbon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ljubljana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"London"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Luanda"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lusaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Luxembourg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Madrid"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Majuro"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Malabo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Male"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Managua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manama"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manila"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Maputo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Marigot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Maseru"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mata-Utu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mbabane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melekeok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mexico City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Minsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mogadishu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Monaco"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Monrovia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Montevideo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moroni"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moscow"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Muscat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nairobi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nassau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Naypyidaw"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"N\'Djamena"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"New Delhi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Niamey"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nicosia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nouakchott"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Noumea"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nuku alofa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nuuk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Oranjestad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Oslo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ottawa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ouagadougou"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pago Pago"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Palikir"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Panama City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Papeete"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paramaribo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paris"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Philipsburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Phnom Penh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Plymouth"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Podgorica"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Louis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Moresby"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Vila"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port-au-Prince"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port of Spain"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Porto-Novo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Prague"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Praia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pretoria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pristina"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pyongyang"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Quito"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Rabat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Reykjavik"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Riga"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Riyadh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Road Town"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Rome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Roseau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saipan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Jose"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Juan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Marino"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Salvador"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Santiago"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Santo Domingo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sao Tome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sarajevo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Seoul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Singapore"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Skopje"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sofia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. George\'s"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Helier"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. John\'s"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Peter Port"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Pierre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stanley"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stockholm"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sucre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Taipei"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tallinn"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tarawa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tashkent"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tbilisi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Thimphu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tirana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tokyo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Torshavn"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tripoli"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tunis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan Bator"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vaduz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Valletta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"The Valley"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vatican City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Victoria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vienna"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vientiane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vilnius"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Warsaw"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Washington, D.C."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Wellington"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"West Island"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Willemstad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Windhoek"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yamoussoukro"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yaounde"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yaren"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yerevan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bolivia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Novosibirsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kaliningrad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asuncion"</item>
+		<item>"La Paz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Khabarovsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Severo-Kurilsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<item>"Anadyr"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Samara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melbourne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saint Petersburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Volgograd"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Astrakhan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Izhevsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ufa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chelyabinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Omsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Barnaul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan-Ude"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chita"</item>
+	</string-array>
+	<!-- no translation found for russian_timezonename -->
+	<skip />
+	<!-- no translation found for timezone_label_ATT -->
+	<skip />
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<!-- no translation found for sim_slot -->
+	<skip />
+	<!-- no translation found for wifi_ap_max_connection_entries -->
+	<skip />
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Attataasaq"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"PIN from client"</item>
+	</string-array>
+</resources>

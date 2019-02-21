@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"امریکہ"</item>
+		<item>"یورپ"</item>
+		<item>"افریقہ"</item>
+		<item>"ایشیا"</item>
+		<item>"آسٹریلیا"</item>
+		<item>"پیسفک"</item>
+		<item>"سبھی"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 سیکنڈ"</item>
+		<item>"30 سیکنڈ"</item>
+		<item>"1 منٹ"</item>
+		<item>"2 منٹ"</item>
+		<item>"5 منٹ"</item>
+		<item>"10 منٹ"</item>
+		<item>"30 منٹ"</item>
+		<item>"کبھی نہیں"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"فوری طور پر"</item>
+		<item>"5 سیکنڈ"</item>
+		<item>"15 سیکنڈ"</item>
+		<item>"30 سیکنڈ"</item>
+		<item>"1 منٹ"</item>
+		<item>"2 منٹ"</item>
+		<item>"5 منٹ"</item>
+		<item>"10 منٹ"</item>
+		<item>"30 منٹ"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"چھوٹا"</item>
+		<item>"عام"</item>
+		<item>"بڑا"</item>
+		<item>"اضافی طور پر بڑا"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"... کی اسکیننگ ہورہی ہے"</item>
+		<item>"مربوط ہو رہا ہے…"</item>
+		<item>"... کی تصدیق ہورہی ہے"</item>
+		<item>"\u2026 آئی پی پتوں کا حصول کیا جارہا ہے"</item>
+		<item>"مربوط ہو گیا"</item>
+		<item>"معطل شدہ"</item>
+		<item>"... کو منقطع کیا جارہا ہے"</item>
+		<item>"منقطع ہو گیا"</item>
+		<item>"ناکام"</item>
+		<item>"مسدود"</item>
+		<item>"عارضی طور پر خراب کنکشن سے اجتناب کر رہا ہے"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"… کی اسکیننگ ہورہی ہے"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g>… سے جوڑا جارہا ہے"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g>… کے ساتھ تصدیق کی جارہی ہے"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g>… سے IP پتہ حاصل کیا جارہا ہے"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g>سے مربوط ہوگیا"</item>
+		<item>"معطل شدہ"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g>… سے رابطہ منقطع کیا جارہا ہے"</item>
+		<item>"منقطع ہو گیا"</item>
+		<item>"ناکام"</item>
+		<item>"مسدود ہے"</item>
+		<item>"عارضی طور پر خراب کنکشن سے اجتناب کر رہا ہے"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"پش بٹن"</item>
+		<item>"‏ہمسر آلہ سے PIN"</item>
+		<item>"‏اس آلہ سے PIN"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"مربوط"</item>
+		<item>"مدعو"</item>
+		<item>"ناکام"</item>
+		<item>"دستیاب"</item>
+		<item>"حد سے باہر"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 منٹ"</item>
+		<item>"5 منٹ"</item>
+		<item>"1 گھنٹہ"</item>
+		<item>"کبھی ٹائم آؤٹ نہ کریں"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"ناقص"</item>
+		<item>"ناقص"</item>
+		<item>"اچھا"</item>
+		<item>"اچھی"</item>
+		<item>"شاندار"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"ہمیشہ"</item>
+		<item>"صرف پلگ ان ہونے پر"</item>
+		<item>"کبھی نہیں"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"ہمیشہ"</item>
+		<item>"صرف پلگ ان ہونے پر"</item>
+		<item>"کبھی نہیں"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"گزشتہ 30 دن"</item>
+		<item>"سیٹ کے استعمال کا دور..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"استعمال کا وقت"</item>
+		<item>"آخری بار استعمال کردہ"</item>
+		<item>"ایپ کا نام"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"کوئی نہیں"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"کوئی نہیں"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"کوئی نہیں"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"جامد"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"کوئی نہیں"</item>
+		<item>"مینوئل"</item>
+		<item>"پراکسی آٹو کنفیگ"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"کوئی نہیں"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"‏PAP یا CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"غیر متعینہ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"کوئی نہیں"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"آلہ کا داخلی اسٹوریج"</item>
+		<item>"‏ہٹانے لائق SD کارڈ"</item>
+		<item>"سسٹم کو فیصلہ کرنے دیں"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"مقام"</item>
+		<item>"ذاتی"</item>
+		<item>"پیغام رسانی"</item>
+		<item>"میڈیا"</item>
+		<item>"آلہ"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"اندازاً مقام"</item>
+		<item>"ٹھیک مقام"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"وائبریٹ"</item>
+		<item>"رابطوں کو پڑھیں"</item>
+		<item>"رابطوں میں ترمیم کریں"</item>
+		<item>"کال لاگ پڑھیں"</item>
+		<item>"کال لاگ میں ترمیم کریں"</item>
+		<item>"کیلنڈر پڑھیں"</item>
+		<item>"کیلنڈر میں ترمیم کریں"</item>
+		<item>"‏wi-fi اسکین"</item>
+		<item>"اطلاع"</item>
+		<item>"سیل اسکین"</item>
+		<item>"فون پر کال کریں"</item>
+		<item>"‏SMS پڑھیں"</item>
+		<item>"SMS لکھیں"</item>
+		<item>"‏SMS وصول کریں"</item>
+		<item>"‏ہنگامی SMS موصول کریں"</item>
+		<item>"‏MMS وصول کریں"</item>
+		<item>"‏WAP پش وصول کریں"</item>
+		<item>"SMS بھیجیں"</item>
+		<item>"‏ICC SMS پڑھیں"</item>
+		<item>"‏ICC SMS لکھیں"</item>
+		<item>"ترتیبات میں ترمیم کریں"</item>
+		<item>"سب سے اوپر ڈرا کریں"</item>
+		<item>"اطلاعات تک رسائی حاصل کریں"</item>
+		<item>"کیمرا"</item>
+		<item>"آڈیو ریکارڈ کریں"</item>
+		<item>"آڈیو چلائیں"</item>
+		<item>"کلپ بورڈ پڑھیں"</item>
+		<item>"کلپ بورڈ میں ترمیم کریں"</item>
+		<item>"میڈیا بٹنز"</item>
+		<item>"آڈیو فوکس"</item>
+		<item>"ماسٹر والیوم"</item>
+		<item>"صوتی والیوم"</item>
+		<item>"رنگ والیوم"</item>
+		<item>"میڈیا والیوم"</item>
+		<item>"الارم والیوم"</item>
+		<item>"اطلاعی والیوم"</item>
+		<item>"بلوٹوتھ کا والیوم"</item>
+		<item>"جاگتے رہيں"</item>
+		<item>"مانیٹر کا مقام"</item>
+		<item>"مانٹیر کا اعلی قوت کا مقام"</item>
+		<item>"استعمال کے اعداد و شمار حاصل کریں"</item>
+		<item>"مائیکروفون کو خاموش کریں/اس کی آواز چلائیں"</item>
+		<item>"پروجیکٹ میڈیا"</item>
+		<item>"وی پی این فعال کریں"</item>
+		<item>"وی پی این فعال کریں"</item>
+		<item>"لکھنے کا وال پیپر"</item>
+		<item>"امدادی ڈھانچہ"</item>
+		<item>"امدادی اسکرین شاٹ"</item>
+		<item>"فون کی حالت پڑھیں"</item>
+		<item>"صوتی میل شامل کریں"</item>
+		<item>"sip استعمال کریں"</item>
+		<item>"باہر جانے والی کال پر عمل کریں"</item>
+		<item>"فنگرپرنٹ"</item>
+		<item>"باڈی سینسرز"</item>
+		<item>"سیل براڈکاسٹ پڑھیں"</item>
+		<item>"فرضی مقام"</item>
+		<item>"اسٹوریج پڑھیں"</item>
+		<item>"اسٹوریج لکھیں"</item>
+		<item>"اسکرین چالو کریں"</item>
+		<item>"اکاونٹس حاصل کریں"</item>
+		<item>"پس منظر میں چلائيں"</item>
+		<item>"رسائی کی والیوم"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"مقام"</item>
+		<item>"مقام"</item>
+		<item>"مقام"</item>
+		<item>"وائبریٹ"</item>
+		<item>"رابطوں کو پڑھیں"</item>
+		<item>"رابطوں میں ترمیم کریں"</item>
+		<item>"کال لاگ پڑھیں"</item>
+		<item>"کال لاگ میں ترمیم کریں"</item>
+		<item>"کیلنڈر پڑھیں"</item>
+		<item>"کیلنڈر میں ترمیم کریں"</item>
+		<item>"مقام"</item>
+		<item>"اطلاع شائع کریں"</item>
+		<item>"مقام"</item>
+		<item>"فون پر کال کریں"</item>
+		<item>"SMS/MMS پڑھیں"</item>
+		<item>"SMS/MMS لکھیں"</item>
+		<item>"SMS/MMS وصول کریں"</item>
+		<item>"SMS/MMS وصول کریں"</item>
+		<item>"SMS/MMS وصول کریں"</item>
+		<item>"SMS/MMS وصول کریں"</item>
+		<item>"SMS/MMS بھیجیں"</item>
+		<item>"SMS/MMS پڑھیں"</item>
+		<item>"SMS/MMS لکھیں"</item>
+		<item>"ترتیبات میں ترمیم کریں"</item>
+		<item>"سب سے اوپر ڈرا کریں"</item>
+		<item>"اطلاعات تک رسائی حاصل کریں"</item>
+		<item>"کمیرہ"</item>
+		<item>"آڈیو ریکارڈ کریں"</item>
+		<item>"آڈیو چلائیں"</item>
+		<item>"کلپ بورڈ پڑھیں"</item>
+		<item>"کلپ بورڈ میں ترمیم کریں"</item>
+		<item>"میڈیا بٹنز"</item>
+		<item>"آڈیو فوکس"</item>
+		<item>"ماسٹر والیوم"</item>
+		<item>"صوتی والیوم"</item>
+		<item>"رنگ والیوم"</item>
+		<item>"میڈیا والیوم"</item>
+		<item>"الارم والیوم"</item>
+		<item>"اطلاع کا والیوم"</item>
+		<item>"بلوٹوتھ کا والیوم"</item>
+		<item>"بیدار رکھیں"</item>
+		<item>"مقام"</item>
+		<item>"مقام"</item>
+		<item>"استعمال کے اعداد و شمار حاصل کریں"</item>
+		<item>"مائیکروفون کو خاموش کریں/اس کی آواز چلائیں"</item>
+		<item>"پروجیکٹ میڈیا"</item>
+		<item>"‏VPN کو فعال کریں"</item>
+		<item>"وال پیپر لکھیں"</item>
+		<item>"امدادی ڈھانچہ"</item>
+		<item>"امدادی اسکرین شاٹ"</item>
+		<item>"امدادی اسکرین شاٹ"</item>
+		<item>"فون کی حالت پڑھیں"</item>
+		<item>"صوتی میل شامل کریں"</item>
+		<item>"SIP استعمال کریں"</item>
+		<item>"باہر جانے والی کال پر عمل کریں"</item>
+		<item>"فنگرپرنٹ"</item>
+		<item>"باڈی سینسرز"</item>
+		<item>"سیل براڈکاسٹ پڑھیں"</item>
+		<item>"فرضی مقام"</item>
+		<item>"اسٹوریج پڑھیں"</item>
+		<item>"اسٹوریج لکھیں"</item>
+		<item>"اسکرین چالو کریں"</item>
+		<item>"اکاونٹس حاصل کریں"</item>
+		<item>"پس منظر میں چلائيں"</item>
+		<item>"رسائی کی والیوم"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"مختصر"</item>
+		<item>"متوسط"</item>
+		<item>"طویل"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"ڈیفالٹ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"‏Sans-serif گٹھا ہوا"</item>
+		<item>"Sans-serif monospace"</item>
+		<item>"Sans-serif monospace"</item>
+		<item>"Serif monospace"</item>
+		<item>"Casual"</item>
+		<item>"بڑے حروف چھوٹے سائز میں"</item>
+		<item>"بڑے حروف چھوٹے سائز میں"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"بہت چھوٹا"</item>
+		<item>"چھوٹا"</item>
+		<item>"عام"</item>
+		<item>"بڑا"</item>
+		<item>"بہت بڑا"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"ڈیفالٹ"</item>
+		<item>"کوئی نہیں"</item>
+		<item>"آؤٹ لائن"</item>
+		<item>"سایہ شامل کریں"</item>
+		<item>"ابھرا ہوا"</item>
+		<item>"دبا ہوا"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"ایپ کے ڈیفالٹس استعمال کریں"</item>
+		<item>"سیاہ پر سفید"</item>
+		<item>"سفید پر سیاہ"</item>
+		<item>"سیاہ پر پیلا"</item>
+		<item>"نیلے پر پیلا"</item>
+		<item>"حسب ضرورت"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"‏پہلے سے اشتراک کردہ کلیدوں کے ساتھ L2TP/IPSec VPN"</item>
+		<item>"‏سرٹیفیکیٹس کے ساتھ L2TP/IPSec VPN"</item>
+		<item>"‏پہلے سے اشتراک کردہ کلیدوں اور Xauth توثیق کے ساتھ IPSec VPN"</item>
+		<item>"‏سرٹیفیکیٹس اور Xauth توثیق کے ساتھ IPSec VPN"</item>
+		<item>"‏سرٹیفیکیٹس اور ہائی برڈ توثیق کے ساتھ IPSec VPN"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"منقطع"</item>
+		<item>"...کو شروع کررہاہے"</item>
+		<item>"مربوط ہو رہا ہے…"</item>
+		<item>"مربوط"</item>
+		<item>"ٹائم آؤٹ"</item>
+		<item>"ناکام"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"پوچھیں"</item>
+		<item>"کبھی اجازت نہ دیں"</item>
+		<item>"ہمیشہ اجازت دیں"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"عام"</item>
+		<item>"معتدل"</item>
+		<item>"کم"</item>
+		<item>"اہم"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"عام"</item>
+		<item>"متوسط"</item>
+		<item>"کم"</item>
+		<item>"انتہائی کم"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"استقلال پذیر"</item>
+		<item>"سرفہرست سرگرمی"</item>
+		<item>"اہم (پیش منظر)"</item>
+		<item>"اہم (پس منظر)"</item>
+		<item>"بیک اپ"</item>
+		<item>"بھاری بھرکم"</item>
+		<item>"سروس (چل رہی ہے)"</item>
+		<item>"سروس (دوبارہ شروع ہو رہی ہے)"</item>
+		<item>"وصول کنندہ"</item>
+		<item>"ہوم"</item>
+		<item>"آخری سرگرمی"</item>
+		<item>"کیش کی ہوئی (سرگرمی)"</item>
+		<item>"کیش کی ہوئی (سرگرمی کلائنٹ)"</item>
+		<item>"کیش کی ہوئی (خالی)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"نیلگوں سبز"</item>
+		<item>"نیلا"</item>
+		<item>"انڈیگو"</item>
+		<item>"جامنی"</item>
+		<item>"گلابی"</item>
+		<item>"سرخ"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"نیلگوں سبز"</item>
+		<item>"نیلا"</item>
+		<item>"انڈیگو"</item>
+		<item>"جامنی"</item>
+		<item>"گلابی"</item>
+		<item>"سرخ"</item>
+		<item>"نارنگی"</item>
+		<item>"گہرا سبز"</item>
+		<item>"سبز"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"30 دن سے زیادہ"</item>
+		<item>"60 دن سے زیادہ"</item>
+		<item>"90 دن سے زیادہ"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"کبھی چیک نہ کریں"</item>
+		<item>"‏صرف DRM مواد چیک کریں"</item>
+		<item>"ہمیشہ چیک کریں"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"HDCP جانچ کبھی استعمال نہ کریں"</item>
+		<item>"HDCP جانچ صرف DRM مواد کے لیے استعمال کریں"</item>
+		<item>"ہمیشہ HDCP چیکنگ استعمال کریں"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (ڈیفالٹ)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> آڈیو"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> آڈیو"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"اختیاری کوڈکس کو فعال کریں"</item>
+		<item>"اختیاری کوڈکس کو غیر فعال کریں"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> آڈیو"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> آڈیو"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"اختیاری کوڈکس کو فعال کریں"</item>
+		<item>"اختیاری کوڈکس کو غیر فعال کریں"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<item>"16 بٹس/نمونہ"</item>
+		<item>"24 بٹس/نمونہ"</item>
+		<item>"32 بٹس/نمونہ"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<item>"16 بٹس/نمونہ"</item>
+		<item>"24 بٹس/نمونہ"</item>
+		<item>"32 بٹس/نمونہ"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<item>"مونو"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"سسٹم انتخاب کا استعمال کریں (ڈیفالٹ)"</item>
+		<item>"مونو"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"آڈیو کوالٹی کیلئے بہتر بنایا گیا (990kbps/909kbps)"</item>
+		<item>"متوازن آدیو اور کنکشن کوالٹی (660kbps/606kbps)"</item>
+		<item>"کنکشن کوالٹی کیلئے بہتر بنایا گیا (330kbps/303kbps)"</item>
+		<item>"بہترین کوشش (مطابقت پذیر بٹ کی شرح)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"آڈیو کوالٹی کیلئے بہتر بنایا گیا"</item>
+		<item>"متوازن آدیو اور کنکشن کوالٹی"</item>
+		<item>"کنکشن کوالٹی کیلئے بہتر بنایا گیا"</item>
+		<item>"بہترین کوشش (مطابقت پذیر بٹ کی شرح)"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<string-array name="select_logd_size_titles">
+		<item>"آف"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"آف"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"آف"</item>
+		<item>"64K فی لاگ بفر"</item>
+		<item>"256K فی لاگ بفر"</item>
+		<item>"1M فی لاگ بفر"</item>
+		<item>"4M فی لاگ بفر"</item>
+		<item>"16M فی لاگ بفر"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"بند"</item>
+		<item>"سبھی"</item>
+		<item>"ریڈيو کے علاوہ سبھی"</item>
+		<item>"صرف کرنل"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"بند"</item>
+		<item>"تمام لاگ بفر کرتے ہیں"</item>
+		<item>"ریڈیو لاگ کے علاوہ سبھی بفر کرتے ہیں"</item>
+		<item>"صرف کرنل لاگ بفر کرتا ہے"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"انیمیشن آف ہے"</item>
+		<item>"‏انیمیشن اسکیل 5x."</item>
+		<item>"‏انیمیشن اسکیل 1x"</item>
+		<item>"‏انیمیشن اسکیل 1.5x"</item>
+		<item>"‏انیمیشن اسکیل 2x"</item>
+		<item>"‏اینیمیشن اسکیل 5x"</item>
+		<item>"‏انیمیشن اسکیل 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"انیمیشن آف ہے"</item>
+		<item>"‏انیمیشن اسکیل 5x."</item>
+		<item>"‏انیمیشن اسکیل 1x"</item>
+		<item>"‏انیمیشن اسکیل 1.5x"</item>
+		<item>"‏انیمیشن اسکیل 2x"</item>
+		<item>"‏اینیمیشن اسکیل 5x"</item>
+		<item>"‏انیمیشن اسکیل 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"انیمیشن آف ہے"</item>
+		<item>"‏انیمیشن اسکیل 5x."</item>
+		<item>"‏انیمیشن اسکیل 1x"</item>
+		<item>"‏انیمیشن اسکیل 1.5x"</item>
+		<item>"‏انیمیشن اسکیل 2x"</item>
+		<item>"‏اینیمیشن اسکیل 5x"</item>
+		<item>"‏انیمیشن اسکیل 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"کوئی نہيں"</item>
+		<item>"480p"</item>
+		<item>"480p (محفوظ)"</item>
+		<item>"720p"</item>
+		<item>"720p (محفوظ)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (محفوظ)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (محفوظ)"</item>
+		<item>"4K (محفوظ)"</item>
+		<item>"4K (بہتر درجہ، محفوظ)"</item>
+		<item>"720p، 1080p (دوہرا اسکرین)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"کوئی نہیں"</item>
+		<item>"لاگ کیٹ"</item>
+		<item>"‏Systrace (گرافکس)"</item>
+		<item>"‏glGetError پر کال کا انبار"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"آف"</item>
+		<item>"نیلا غیر مستطیل نما کلپ خطہ بنائیں"</item>
+		<item>"سبز رنگ میں آزمودہ ڈرائنگ کمانڈز کو نمایاں کریں"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"آف"</item>
+		<item>"بارز کے بطور اسکرین پر"</item>
+		<item>"در <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"آف"</item>
+		<item>"اوور ڈرا والے حصے دکھائیں"</item>
+		<item>"رنگ دیکھنے کی صلاحیت میں کمی والے لوگوں کیلئے علاقے دکھائیں"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (ڈیفالٹ)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"معیاری حد"</item>
+		<item>"کوئی پس منظر والے پروسیسز نہیں ہیں"</item>
+		<item>"زیادہ سے زیادہ 1 پروسیس"</item>
+		<item>"زیادہ سے زیادہ 2 پروسیسز"</item>
+		<item>"زیادہ سے زیادہ 3 پروسیسز"</item>
+		<item>"زیادہ سے زیادہ 4 پروسیسز"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles_new">
+		<item>"صرف چارجنگ"</item>
+		<item>"MTP (میڈیا ٹرانسفر پروٹوکول)"</item>
+		<item>"PTP (پکچر ٹرانسفر پروٹوکول)"</item>
+		<item>"RNDIS (USB ایتھرنیٹ)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"ڈیفالٹ"</item>
+		<item>"ڈیٹا"</item>
+		<item>"کال کریں"</item>
+		<item>"پیغام"</item>
+		<item>"ہوم"</item>
+		<item>"دفتر"</item>
+		<item>"سفر"</item>
+		<item>"محبت"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G سروس"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"بند"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"خودکار"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"خودکار  4جی/3جی/2جی"</item>
+		<item>"صرف 4جی"</item>
+		<item>"صرف 3جی"</item>
+		<item>"صرف 2جی"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (خودکار)"</item>
+		<item>"ڈبلیو سی ڈی ایم اے/جی ایس ایم"</item>
+		<item>"صرف ایل ٹی ای"</item>
+		<item>"صرف یو ٹی ایم ایس"</item>
+		<item>"صرف جی ایس ایم"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"صرف ڈبلیو سی ڈی ایم اے"</item>
+		<item>"صرف جی ایس ایم"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4جی/3جی/2جی (خودکار )"</item>
+		<item>"3جی/2جی (خودکار)"</item>
+		<item>"صرف 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (خودکار)"</item>
+		<item>"3G/2G (خودکار)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (خودکار)"</item>
+		<item>"3G/2G (خودکار)"</item>
+		<item>"3G صرف"</item>
+		<item>"صرف 2جی"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"خودکار ایل ٹی ای/ڈبلیو سی ڈی ایم اے/جی ایس ایم"</item>
+		<item>"صرف ڈبلیو سی ڈی ایم اے"</item>
+		<item>"خودکار ڈبلیو سی ڈی ایم اے/جی ایس ایم"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (خودکار)"</item>
+		<item>"3G/2G (خودکار)"</item>
+		<item>"صرف 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"صرف جی ایس ایم"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE خودکار"</item>
+		<item>"جی ایس ایم/ڈبلیو سی ڈی ایم اے خودکار"</item>
+		<item>"صرف جی ایس ایم"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"ایل ٹی ای/یو ایم ٹی ایس/جی ایس ایم (خودکار)"</item>
+		<item>"یو ایم ٹی ایس/جی ایس ایم خودکار"</item>
+		<item>"صرف یو ٹی ایم ایس"</item>
+		<item>"صرف جی ایس ایم"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (خودکار)"</item>
+		<item>"3G/2G (خودکار)"</item>
+		<item>"صرف 4G"</item>
+		<item>"صرف 3G"</item>
+		<item>"صرف 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE مرجح ہے)"</item>
+		<item>"WCDMA/2G (WCDMA مرجح)"</item>
+		<item>"صرف 3جی"</item>
+		<item>"صرف 2جی"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE مرجح ہے)"</item>
+		<item>"صرف 3جی"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"‏4G/3G/2G (تجویز کردہ)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"ایل ٹی ای/ڈبلیو سی ڈی ایم اے/جی ایس ایم (خودکار جڑے)"</item>
+		<item>"ڈبلیو سی ڈی ایم اے/جی ایس ایم (خودکار جڑے)"</item>
+		<item>"صرف ڈبلیو سی ڈی ایم اے"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"مڈوے آئلینڈ"</item>
+		<item>"ہوائی"</item>
+		<item>"الاسکا"</item>
+		<item>"پیسیفک ٹائم"</item>
+		<item>"تیجوانا"</item>
+		<item>"اریزونا"</item>
+		<item>"چی ہوا ہوا"</item>
+		<item>"ماؤنٹین ٹائم"</item>
+		<item>"وسطی امریکہ"</item>
+		<item>"سنٹرل ٹائم"</item>
+		<item>"سسکٹشیوان"</item>
+		<item>"ایسٹرن ٹائم"</item>
+		<item>"وینزوئیلا"</item>
+		<item>"اٹلانٹک ٹائم (بارباڈوس)"</item>
+		<item>"اٹلانٹک ٹائم (کینیڈا)"</item>
+		<item>"مناؤس"</item>
+		<item>"نیو فاؤنڈلینڈ"</item>
+		<item>"مڈ-اٹلانٹک"</item>
+		<item>"ازوریس"</item>
+		<item>"کیپ ورڈی آئلینڈز"</item>
+		<item>"کاسا بلانکا"</item>
+		<item>"ویسٹ افریقہ ٹائم"</item>
+		<item>"عمان، اردن"</item>
+		<item>"استنبول"</item>
+		<item>"بیروت، لبنان"</item>
+		<item>"تہران"</item>
+		<item>"Ural\'sk"</item>
+		<item>"یکاٹرین برگ"</item>
+		<item>"کولکاتا"</item>
+		<item>"کھٹمنڈو"</item>
+		<item>"ینگون"</item>
+		<item>"کراسنویارسک"</item>
+		<item>"بنکاک"</item>
+		<item>"ہانگ کانگ"</item>
+		<item>"ایرکوسک"</item>
+		<item>"پرتھ"</item>
+		<item>"اوساکا"</item>
+		<item>"یاکوتسک"</item>
+		<item>"ایڈیلیڈ"</item>
+		<item>"ڈرون"</item>
+		<item>"برسبین"</item>
+		<item>"ہوبارٹ"</item>
+		<item>"سڈنی"</item>
+		<item>"ولادی ووستوک"</item>
+		<item>"مگادان"</item>
+		<item>"آکلینڈ"</item>
+		<item>"فجی"</item>
+		<item>"پیراگوئے"</item>
+		<item>"ابو ظہبی"</item>
+		<item>"ابوجا"</item>
+		<item>"اکّارہ"</item>
+		<item>"آڈمس ٹاؤن"</item>
+		<item>"عدیس ابابا"</item>
+		<item>"الجیرس"</item>
+		<item>"الوفی"</item>
+		<item>"ایمسٹرڈم"</item>
+		<item>"اندورا لاویلا"</item>
+		<item>"انقرہ"</item>
+		<item>"انٹناریوو"</item>
+		<item>"اشگبت"</item>
+		<item>"اسمارا"</item>
+		<item>"استانہ"</item>
+		<item>"یونان"</item>
+		<item>"آواروا"</item>
+		<item>"بغداد"</item>
+		<item>"باکو"</item>
+		<item>"باماکو"</item>
+		<item>"بندر سری بھگوان"</item>
+		<item>"زغریب"</item>
+		<item>"بنگوئی"</item>
+		<item>"بنجول"</item>
+		<item>"باسیٹیرے"</item>
+		<item>"بیجنگ"</item>
+		<item>"بیلفاسٹ"</item>
+		<item>"بلغراد"</item>
+		<item>"بیلموپان"</item>
+		<item>"برلن"</item>
+		<item>"برن"</item>
+		<item>"بشکیک"</item>
+		<item>"بساؤ"</item>
+		<item>"بگوٹا"</item>
+		<item>"براسیلیا"</item>
+		<item>"براتیسلوا"</item>
+		<item>"برازویلی"</item>
+		<item>"برج ٹاؤن"</item>
+		<item>"بروسیلز"</item>
+		<item>"بخارسٹ"</item>
+		<item>"بڈاپسٹ"</item>
+		<item>"بیونس آئرس"</item>
+		<item>"بوجمبورا"</item>
+		<item>"قاہرہ"</item>
+		<item>"کینبرا"</item>
+		<item>"کارڈف"</item>
+		<item>"کیسٹریز"</item>
+		<item>"کائنے"</item>
+		<item>"شارلوٹ امالی"</item>
+		<item>"چزیناؤ"</item>
+		<item>"کوک برن ٹاؤن"</item>
+		<item>"کوناکری"</item>
+		<item>"کوپن ہیگن"</item>
+		<item>"ڈکار"</item>
+		<item>"ڈھاکہ"</item>
+		<item>"دلی"</item>
+		<item>"جبوتی"</item>
+		<item>"دودوما"</item>
+		<item>"دوحہ"</item>
+		<item>"ڈوگلس"</item>
+		<item>"دبئی"</item>
+		<item>"ڈبلن"</item>
+		<item>"دوشنبے"</item>
+		<item>"ایڈنبرا"</item>
+		<item>"ایڈنبرا آف دی سیون سیز"</item>
+		<item>"فلائنگ فش کوو"</item>
+		<item>"فری ٹاؤن"</item>
+		<item>"فنافوٹی"</item>
+		<item>"گیبورون"</item>
+		<item>"جارج ٹاؤن (جزائر کریمن)"</item>
+		<item>"جارج ٹاؤن (جزائر اسینیشن)"</item>
+		<item>"جارج ٹاؤن (گیانا)"</item>
+		<item>"جبرالٹر"</item>
+		<item>"گرائیٹ ویکن"</item>
+		<item>"گوئٹے مالا سٹی"</item>
+		<item>"گسٹاویا"</item>
+		<item>"ہگاتنا"</item>
+		<item>"ہملٹن"</item>
+		<item>"ہنگا روآ"</item>
+		<item>"ہنوئی"</item>
+		<item>"ہرارے"</item>
+		<item>"ہوانا"</item>
+		<item>"ہیلنسکی"</item>
+		<item>"ہونائیرا"</item>
+		<item>"اسلام آباد"</item>
+		<item>"جکارتہ"</item>
+		<item>"جیمس ٹاؤن"</item>
+		<item>"یروشلم"</item>
+		<item>"جوبا"</item>
+		<item>"کابل"</item>
+		<item>"کمپالا"</item>
+		<item>"کراچی"</item>
+		<item>"اپیا"</item>
+		<item>"خرطوم"</item>
+		<item>"کائیو"</item>
+		<item>"کیگالی"</item>
+		<item>"کنگسٹن (جمائیکا)"</item>
+		<item>"کنگسٹن (نارفوک آئیلینڈ)"</item>
+		<item>"کنگس ٹاؤن"</item>
+		<item>"کنشاسا"</item>
+		<item>"کوآلا لمپور"</item>
+		<item>"کویت"</item>
+		<item>"لیبرویلی"</item>
+		<item>"لیلونگوی"</item>
+		<item>"لیما"</item>
+		<item>"لزبن"</item>
+		<item>"لوبیانا"</item>
+		<item>"لوم"</item>
+		<item>"لندن"</item>
+		<item>"لوانڈا"</item>
+		<item>"لوساکا"</item>
+		<item>"لگژمبرگ"</item>
+		<item>"میڈرڈ"</item>
+		<item>"ماجورو"</item>
+		<item>"مالابو"</item>
+		<item>"مذکر"</item>
+		<item>"مناگوآ"</item>
+		<item>"مناما"</item>
+		<item>"منیلا"</item>
+		<item>"ماپوتو"</item>
+		<item>"ماریگوٹ"</item>
+		<item>"ماسیرو"</item>
+		<item>"ماٹا-اوٹو"</item>
+		<item>"بیبین"</item>
+		<item>"میلیکیوک"</item>
+		<item>"میکسیکو سٹی"</item>
+		<item>"منسک"</item>
+		<item>"موگادیشو"</item>
+		<item>"موناکو"</item>
+		<item>"مونروویا"</item>
+		<item>"مونٹی ویڈیو"</item>
+		<item>"مورونی"</item>
+		<item>"ماسکو"</item>
+		<item>"مسقط"</item>
+		<item>"نیروبی"</item>
+		<item>"ناساؤ"</item>
+		<item>"نیپیڈاؤ"</item>
+		<item>"نجمینا"</item>
+		<item>"نئی دہلی"</item>
+		<item>"نیامے"</item>
+		<item>"نکوسیا"</item>
+		<item>"نوآکشوٹ"</item>
+		<item>"نومیا"</item>
+		<item>"نوکوآلوفا"</item>
+		<item>"نووک"</item>
+		<item>"اورنجستاد"</item>
+		<item>"اوسلو"</item>
+		<item>"اوٹاوا"</item>
+		<item>"اوگاڈوگو"</item>
+		<item>"پاگو پاگو"</item>
+		<item>"پالیکر"</item>
+		<item>"پاناما سٹی"</item>
+		<item>"پاپیتی"</item>
+		<item>"پاراماریبو"</item>
+		<item>"پیرس"</item>
+		<item>"فلپس برگ"</item>
+		<item>"نام پنہہ"</item>
+		<item>"پلائی ماؤتھ"</item>
+		<item>"پوڈ گوریکا"</item>
+		<item>"پورٹ لوئس"</item>
+		<item>"پورٹ مورسبے"</item>
+		<item>"پورٹ ویلا"</item>
+		<item>"پورٹ-آؤ-پرنس"</item>
+		<item>"پورٹ آف اسپین"</item>
+		<item>"پورٹو-نووو"</item>
+		<item>"پراگوئے"</item>
+		<item>"پرائیا"</item>
+		<item>"پریٹوریا"</item>
+		<item>"پرسٹینا"</item>
+		<item>"پیونگیانگ"</item>
+		<item>"کوئیٹو"</item>
+		<item>"رباط"</item>
+		<item>"ریک جاوک"</item>
+		<item>"ریگا"</item>
+		<item>"ریاض"</item>
+		<item>"روڈ ٹاؤن"</item>
+		<item>"روم"</item>
+		<item>"روزیاؤ"</item>
+		<item>"سائیپن"</item>
+		<item>"سان جوز"</item>
+		<item>"سان جوان"</item>
+		<item>"سان مارینو"</item>
+		<item>"سان سلواڈور"</item>
+		<item>"ثناء"</item>
+		<item>"سانٹیاگو"</item>
+		<item>"سانٹو ڈومینگو"</item>
+		<item>"ساؤٹومے"</item>
+		<item>"سیراجیوو"</item>
+		<item>"سیئول"</item>
+		<item>"سنگاپور"</item>
+		<item>"اسکوپجے"</item>
+		<item>"صوفیہ"</item>
+		<item>"سری جے وردھناپورا - کوٹّے"</item>
+		<item>"سینٹ جارجز"</item>
+		<item>"سینٹ ھیلر"</item>
+		<item>"سینٹ جانس"</item>
+		<item>"سینٹ پیٹر پورٹ"</item>
+		<item>"سینٹ پیئرے"</item>
+		<item>"اسٹینلے"</item>
+		<item>"اسٹاک ہوم"</item>
+		<item>"سوکرے"</item>
+		<item>"تائپے"</item>
+		<item>"تالین"</item>
+		<item>"تراوا"</item>
+		<item>"تاشقند"</item>
+		<item>"طبلیسی"</item>
+		<item>"تھمپو"</item>
+		<item>"تیرانا"</item>
+		<item>"ٹوکیو"</item>
+		<item>"ٹورشاؤن"</item>
+		<item>"ٹریپولی"</item>
+		<item>"ٹیونس"</item>
+		<item>"اولان بٹور"</item>
+		<item>"وادوز"</item>
+		<item>"ولیٹا"</item>
+		<item>"دی ویلی"</item>
+		<item>"ویٹیکن سٹی"</item>
+		<item>"وکٹوریا"</item>
+		<item>"ویانا"</item>
+		<item>"وینتیان"</item>
+		<item>"ویلنوئیس"</item>
+		<item>"وارسا"</item>
+		<item>"واشنگٹن، ڈی سی"</item>
+		<item>"ویلنگٹن"</item>
+		<item>"ویسٹ آئیلینڈ"</item>
+		<item>"ویلیم اسٹیڈ"</item>
+		<item>"ونڈہویک"</item>
+		<item>"یاموسوکرو"</item>
+		<item>"یاونڈے"</item>
+		<item>"یارن"</item>
+		<item>"یریوان"</item>
+		<item>"بولیویا"</item>
+		<item>"نووسیبریسک"</item>
+		<item>"لینن گراڈ"</item>
+		<item>"اسنسیئن"</item>
+		<item>"لا پاز"</item>
+		<item>"خباروسک"</item>
+		<item>"یوژنو-سخالنسک"</item>
+		<item>"سیویرو کوریسک"</item>
+		<item>"پیٹروپاولوک-کمچیشکی"</item>
+		<item>"انادیر"</item>
+		<item>"سمارا"</item>
+		<item>"میلبورن"</item>
+		<item>"سینٹ پیٹرز برگ"</item>
+		<item>"وولگو گراد"</item>
+		<item>"استراخان"</item>
+		<item>"ایجیفسک"</item>
+		<item>"اوفا"</item>
+		<item>"چیلیابنسک"</item>
+		<item>"اومسک"</item>
+		<item>"بارناول"</item>
+		<item>"اولان-اودے"</item>
+		<item>"چیتا"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"روسی ٹائم زون 1"</item>
+		<item>"روسی ٹائم زون 2 (ماسکو)"</item>
+		<item>"روسی ٹائم زون 3"</item>
+		<item>"روسی ٹائم زون 4"</item>
+		<item>"روسی ٹائم زون 5"</item>
+		<item>"روسی ٹائم زون 6"</item>
+		<item>"روسی ٹائم زون 7"</item>
+		<item>"روسی ٹائم زون 8"</item>
+		<item>"روسی ٹائم زون 9"</item>
+		<item>"روسی ٹائم زون 10"</item>
+		<item>"روسی ٹائم زون 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"ہرموسیلو"</item>
+		<item>"Ojinaga"</item>
+		<item>"کانکون"</item>
+		<item>"میریڈا"</item>
+		<item>"مانٹیری"</item>
+		<item>"ماتاموروس"</item>
+		<item>"بندیراس بے"</item>
+		<item>"ماساتلان"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(غیر متعینہ)"</item>
+		<item>"Sim سلاٹ 1"</item>
+		<item>"Sim سلاٹ 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 صارف"</item>
+		<item>"2 صارفین"</item>
+		<item>"3 صارفین"</item>
+		<item>"4 صارفین"</item>
+		<item>"5 صارفین"</item>
+		<item>"6 صارفین"</item>
+		<item>"7 صارفین"</item>
+		<item>"8 صارفین"</item>
+		<item>"9 صارفین"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"پش بٹن"</item>
+		<item>"کلائنٹ کی جانب سے PIN"</item>
+	</string-array>
+</resources>

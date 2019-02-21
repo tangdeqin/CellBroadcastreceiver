@@ -1,0 +1,7 @@
+<!-- Add this file by shilei.zhang for eye_comfort_mode ergo dev XR7033708 on 2018/09/25-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="available_reading_mode_apps_page"
+    android:title="@string/reading_mode_manage_apps">
+
+</PreferenceScreen>

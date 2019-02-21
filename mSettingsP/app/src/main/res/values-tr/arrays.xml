@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Avrupa"</item>
+		<item>"Afrika"</item>
+		<item>"Asya"</item>
+		<item>"Avusturalya"</item>
+		<item>"Pasifik"</item>
+		<item>"Tümü"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 saniye"</item>
+		<item>"30 saniye"</item>
+		<item>"1 dakika"</item>
+		<item>"2 dakika"</item>
+		<item>"5 dakika"</item>
+		<item>"10 dakika"</item>
+		<item>"30 dakika"</item>
+		<item>"Asla"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Hemen"</item>
+		<item>"5 saniye"</item>
+		<item>"15 saniye"</item>
+		<item>"30 saniye"</item>
+		<item>"1 dakika"</item>
+		<item>"2 dakika"</item>
+		<item>"5 dakika"</item>
+		<item>"10 dakika"</item>
+		<item>"30 dakika"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Küçük"</item>
+		<item>"Varsayılan"</item>
+		<item>"Büyük"</item>
+		<item>"En geniş"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Taranıyor..."</item>
+		<item>"Bağlanıyor..."</item>
+		<item>"Doğrulanıyor..."</item>
+		<item>"IP adresi alınıyor\u2026"</item>
+		<item>"Bağlandı"</item>
+		<item>"Askıya alındı"</item>
+		<item>"Bağlantı kesiliyor..."</item>
+		<item>"Bağlantı kesildi"</item>
+		<item>"Başarısız"</item>
+		<item>"Bloke"</item>
+		<item>"Kötü bağlantıdan geçici olarak kaçınılıyor"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Taranıyor…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> ağına bağlanıyor…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> ağıyla doğrulanıyor…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> ağından IP adresi alınıyor…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> ağına bağlandı"</item>
+		<item>"Askıya alındı"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> ağı bağlantısı kesiliyor…"</item>
+		<item>"Bağlantı kesildi"</item>
+		<item>"Başarısız"</item>
+		<item>"Bloke"</item>
+		<item>"Kötü bağlantıdan geçici olarak kaçınılıyor"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Düğme"</item>
+		<item>"Eş cihazın PIN\'i"</item>
+		<item>"Bu cihazın PIN\'i"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Bağlı"</item>
+		<item>"Davet edildi"</item>
+		<item>"Başarısız"</item>
+		<item>"Müsait"</item>
+		<item>"Kapsama alanı dışında"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 dakika"</item>
+		<item>"5 dakika"</item>
+		<item>"1 saat"</item>
+		<item>"Asla zaman aşımı olmasın"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Zayıf"</item>
+		<item>"Zayıf"</item>
+		<item>"Orta"</item>
+		<item>"İyi"</item>
+		<item>"Mükemmel"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Her zaman"</item>
+		<item>"Yalnızca prize takıldığında"</item>
+		<item>"Asla"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Her zaman"</item>
+		<item>"Yalnızca prize takıldığında"</item>
+		<item>"Hiçbir zaman"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Son 30 gün"</item>
+		<item>"Kullanım dönemini ayarla..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Kullanım süresi"</item>
+		<item>"En son kullanım"</item>
+		<item>"Uygulama adı"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Yok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Hiçbiri"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Yok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statik"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Yok"</item>
+		<item>"El ile"</item>
+		<item>"Proxy oto yapılandır"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Yok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP veya CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Belirtilmedi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Yok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"Dahili aygıt depolama"</item>
+		<item>"Çıkarılabilir SD kart"</item>
+		<item>"Sistem karar versin"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Konum"</item>
+		<item>"Kişisel"</item>
+		<item>"Mesaj"</item>
+		<item>"Medya"</item>
+		<item>"Cihaz"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"kabaca konum"</item>
+		<item>"hassas konum"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"titret"</item>
+		<item>"kişileri oku"</item>
+		<item>"kişileri değiştir"</item>
+		<item>"arama kaydına bak"</item>
+		<item>"çağrı günlüğünü değiştir"</item>
+		<item>"takvimi oku"</item>
+		<item>"takvimi değiştir"</item>
+		<item>"wi-fi tarama"</item>
+		<item>"Bildirim"</item>
+		<item>"hücre tarama"</item>
+		<item>"telefon et"</item>
+		<item>"SMS oku"</item>
+		<item>"SMS yaz"</item>
+		<item>"SMS alma"</item>
+		<item>"acil durum SMS al"</item>
+		<item>"MMS alma"</item>
+		<item>"WAP gönderimi al"</item>
+		<item>"SMS gönder"</item>
+		<item>"ICC SMS oku"</item>
+		<item>"ICC SMS yaz"</item>
+		<item>"ayarları değiştir"</item>
+		<item>"üste çiz"</item>
+		<item>"erişim bildirimleri"</item>
+		<item>"kamera"</item>
+		<item>"ses kaydetme"</item>
+		<item>"ses oynat"</item>
+		<item>"panoyu oku"</item>
+		<item>"panoyu değiştir"</item>
+		<item>"medya düğmeleri"</item>
+		<item>"ses odağı"</item>
+		<item>"ana ses"</item>
+		<item>"konuşma sesi düzeyi"</item>
+		<item>"zil sesi düzeyi"</item>
+		<item>"Medya ses düzeyi"</item>
+		<item>"Alarm ses düzeyi"</item>
+		<item>"Bildirim ses düzeyi"</item>
+		<item>"Bluetooth ses düzeyi"</item>
+		<item>"Açık tut"</item>
+		<item>"Konumu izle"</item>
+		<item>"Yüksek güç konumunu izle"</item>
+		<item>"kullanım istatistiklerini al"</item>
+		<item>"Mikrofonu aç/kapat"</item>
+		<item>"bildirimi göster"</item>
+		<item>"Proje medyası"</item>
+		<item>"VPN\'i etkinleştir"</item>
+		<item>"yazı duvar kağıdı"</item>
+		<item>"yardım yapısı"</item>
+		<item>"Yardım ekran görüntüsü"</item>
+		<item>"telefon durumuna bak"</item>
+		<item>"sesli mesaj ekle"</item>
+		<item>"sip kullan"</item>
+		<item>"giden aramayı işle"</item>
+		<item>"parmak izi"</item>
+		<item>"vücut sensörleri"</item>
+		<item>"hücre yayınlarına bak"</item>
+		<item>"konumu taklit et"</item>
+		<item>"depolamaya bak"</item>
+		<item>"depolamaya yaz"</item>
+		<item>"ekranı aç"</item>
+		<item>"hesapları al"</item>
+		<item>"arkaplanda çalıştır"</item>
+		<item>"erişilebilirlik sesi"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Konum"</item>
+		<item>"Konum"</item>
+		<item>"Konum"</item>
+		<item>"Titret"</item>
+		<item>"Kişileri oku"</item>
+		<item>"Kişileri değiştir"</item>
+		<item>"arama kaydına bak"</item>
+		<item>"Çağrı günlüğünü değiştir"</item>
+		<item>"Takvimi oku"</item>
+		<item>"Takvimi değiştir"</item>
+		<item>"Konum"</item>
+		<item>"Bildirim gönder"</item>
+		<item>"Konum"</item>
+		<item>"Telefon ara"</item>
+		<item>"SMS/MMS oku"</item>
+		<item>"SMS/MMS yaz"</item>
+		<item>"SMS/MMS al"</item>
+		<item>"SMS/MMS al"</item>
+		<item>"SMS/MMS al"</item>
+		<item>"SMS/MMS al"</item>
+		<item>"SMS/MMS gönder"</item>
+		<item>"SMS/MMS oku"</item>
+		<item>"SMS/MMS yaz"</item>
+		<item>"Ayarları değiştir"</item>
+		<item>"Üste çiz"</item>
+		<item>"Erişim bildirimleri"</item>
+		<item>"Kamera"</item>
+		<item>"Ses kaydetme"</item>
+		<item>"Ses oynat"</item>
+		<item>"Panoyu oku"</item>
+		<item>"Panoyu değiştir"</item>
+		<item>"Medya düğmeleri"</item>
+		<item>"Ses odağı"</item>
+		<item>"Ana ses"</item>
+		<item>"Konuşma sesi düzeyi"</item>
+		<item>"Zil sesi düzeyi"</item>
+		<item>"Medya ses düzeyi"</item>
+		<item>"Alarm ses düzeyi"</item>
+		<item>"Bildirim ses düzeyi"</item>
+		<item>"Bluetooth ses düzeyi"</item>
+		<item>"Açık tut"</item>
+		<item>"Konum"</item>
+		<item>"Konum"</item>
+		<item>"kullanım istatistiklerini al"</item>
+		<item>"Mikrofonu aç/kapat"</item>
+		<item>"Bildirimi göster"</item>
+		<item>"Proje medyası"</item>
+		<item>"VPN\'i etkinleştir"</item>
+		<item>"Duvar kağıdına yaz"</item>
+		<item>"Yardım yapısı"</item>
+		<item>"Yardım ekran görüntüsü"</item>
+		<item>"Telefon durumuna bak"</item>
+		<item>"Sesli mesaj ekle"</item>
+		<item>"Sip kullan"</item>
+		<item>"Giden aramayı işle"</item>
+		<item>"Parmak izi"</item>
+		<item>"Vücut sensörleri"</item>
+		<item>"Hücre yayınlarına bak"</item>
+		<item>"Konumu taklit et"</item>
+		<item>"Depolamaya bak"</item>
+		<item>"Depolamaya yaz"</item>
+		<item>"Ekranı aç"</item>
+		<item>"Hesapları al"</item>
+		<item>"Arkaplanda çalıştır"</item>
+		<item>"Erişilebilirlik sesi"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Kısa"</item>
+		<item>"Orta"</item>
+		<item>"Uzun"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Varsayılan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif dar"</item>
+		<item>"Tek aralıklı Sans-serif"</item>
+		<item>"Serif"</item>
+		<item>"Tek aralıklı Serif"</item>
+		<item>"Serbest"</item>
+		<item>"El yazısı"</item>
+		<item>"Küçük tipte büyük harfler"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Çok küçük"</item>
+		<item>"Küçük"</item>
+		<item>"Normal"</item>
+		<item>"Büyük"</item>
+		<item>"Çok büyük"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Varsayılan"</item>
+		<item>"Yok"</item>
+		<item>"Dış hat"</item>
+		<item>"Gölge"</item>
+		<item>"Kalkmış"</item>
+		<item>"Basılmış"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Uygulama varsayılanlarını kullan"</item>
+		<item>"Siyah üzerine beyaz"</item>
+		<item>"Beyaz üzerine siyah"</item>
+		<item>"Siyah üzerine sarı"</item>
+		<item>"Mavi üzerine sarı"</item>
+		<item>"Özel"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"Önceden paylaşılan anahtara sahip L2TP/IPSec VPN"</item>
+		<item>"Sertifikalara sahip L2TP/IPSec VPN"</item>
+		<item>"Önceden paylaşılan anahtarlara ve Xauth kimlik doğrulamaya sahip IPSec VPN"</item>
+		<item>"Sertifikalara ve Xauth kimlik doğrulamaya sahip IPSec VPN"</item>
+		<item>"Sertifikalara ve karma kimlik doğrulamaya sahip IPSec VPN"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Bağlı değil"</item>
+		<item>"Başlatılıyor…"</item>
+		<item>"Bağlanıyor…"</item>
+		<item>"Bağlı"</item>
+		<item>"Zaman aşımı"</item>
+		<item>"Başarısız"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Sor"</item>
+		<item>"Hiçbir zaman izin verme"</item>
+		<item>"Her zaman izin ver"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Normal"</item>
+		<item>"Orta"</item>
+		<item>"Alçak"</item>
+		<item>"Kritik"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normal"</item>
+		<item>"Orta"</item>
+		<item>"Alçak"</item>
+		<item>"Kritik"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Sürekli"</item>
+		<item>"En iyi etkinlik"</item>
+		<item>"Önemli (ön plan)"</item>
+		<item>"Önemli (arka plan)"</item>
+		<item>"Yedekleme"</item>
+		<item>"Ağır sıklet"</item>
+		<item>"Hizmet (çalışıyor)"</item>
+		<item>"Hizmet (tekrar başlıyor)"</item>
+		<item>"Alıcı"</item>
+		<item>"Ev"</item>
+		<item>"En son etkinlik"</item>
+		<item>"Ön bellekte (etkinlik)"</item>
+		<item>"Ön bellekte (etkinlik istemcisi)"</item>
+		<item>"Önbellek (boş)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Camgöbeği"</item>
+		<item>"Mavi"</item>
+		<item>"Indigo"</item>
+		<item>"Mor"</item>
+		<item>"Pembe"</item>
+		<item>"Kırmızı"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Camgöbeği"</item>
+		<item>"Mavi"</item>
+		<item>"Indigo"</item>
+		<item>"Mor"</item>
+		<item>"Pembe"</item>
+		<item>"Kırmızı"</item>
+		<item>"Turuncu"</item>
+		<item>"Koyu yeşil"</item>
+		<item>"Yeşil"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"30 günden eski"</item>
+		<item>"60 günden eski"</item>
+		<item>"90 günden eski"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Hiçbir zaman denetleme"</item>
+		<item>"Yalnızca DRM içeriğini denetle"</item>
+		<item>"Her zaman denetle"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"HDCP denetimini hiçbir zaman kullanma"</item>
+		<item>"HDCP denetimini yalnızca DRM içeriği için kullan"</item>
+		<item>"HDCP denetimini her zaman kullan"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (Varsayılan)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> ses"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> ses"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"İsteğe Bağlı Codec Bileşenlerini Etkinleştir"</item>
+		<item>"İsteğe Bağlı Codec Bileşenlerini Devre Dışı Bırak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> ses"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> ses"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"İsteğe Bağlı Codec Bileşenlerini Etkinleştir"</item>
+		<item>"İsteğe Bağlı Codec Bileşenlerini Devre Dışı Bırak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<item>"örnek başına 16 bit"</item>
+		<item>"örnek başına 24 bit"</item>
+		<item>"örnek başına 32 bit"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<item>"örnek başına 16 bit"</item>
+		<item>"örnek başına 24 bit"</item>
+		<item>"örnek başına 32 bit"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Sistem Seçimini Kullan (Varsayılan)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Ses Kalitesi İçin İyileştirme (990 kbps/909 kbps)"</item>
+		<item>"Dengeli Ses ve Bağlantı Kalitesi (660 kbps/606 kbps)"</item>
+		<item>"Bağlantı Kalitesi İçin İyileştirme (330 kbps/303 kbps)"</item>
+		<item>"Dengeli (Uyarlamalı Bit Hızı)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Ses Kalitesi için İyileştirme"</item>
+		<item>"Dengeli Ses ve Bağlantı Kalitesi"</item>
+		<item>"Bağlantı Kalitesi için İyileştirme"</item>
+		<item>"Dengeli (Uyarlamalı Bit Hızı)"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<string-array name="select_logd_size_titles">
+		<item>"Kapalı"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Kapalı"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Kapalı"</item>
+		<item>"Günlük ara belleği başına 64K"</item>
+		<item>"Günlük ara belleği başına 256K"</item>
+		<item>"Günlük ara belleği başına 1M"</item>
+		<item>"Günlük ara belleği başına 4M"</item>
+		<item>"Günlük ara belleği başına 16M"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Kapalı"</item>
+		<item>"Tümü"</item>
+		<item>"Radyo dışında tümü"</item>
+		<item>"Sadece çekirdek"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Kapalı"</item>
+		<item>"Tüm günlük ön bellekleri"</item>
+		<item>"Radyo günlük ön bellekleri dışında tümü"</item>
+		<item>"Sadece çekirdek günlük ön belleği"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animasyon kapalı"</item>
+		<item>"Animasyon ölçeği 0,5x"</item>
+		<item>"Animasyon ölçeği 1x"</item>
+		<item>"Animasyon ölçeği 1,5x"</item>
+		<item>"Animasyon ölçeği 2x"</item>
+		<item>"Animasyon ölçeği 5x"</item>
+		<item>"Animasyon ölçeği 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animasyon kapalı"</item>
+		<item>"Animasyon ölçeği 0,5x"</item>
+		<item>"Animasyon ölçeği 1x"</item>
+		<item>"Animasyon ölçeği 1,5x"</item>
+		<item>"Animasyon ölçeği 2x"</item>
+		<item>"Animasyon ölçeği 5x"</item>
+		<item>"Animasyon ölçeği 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animasyon kapalı"</item>
+		<item>"Animasyon ölçeği 0,5x"</item>
+		<item>"Animasyon ölçeği 1x"</item>
+		<item>"Animasyon ölçeği 1,5x"</item>
+		<item>"Animasyon ölçeği 2x"</item>
+		<item>"Animasyon ölçeği 5x"</item>
+		<item>"Animasyon ölçeği 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Hiçbiri"</item>
+		<item>"480p"</item>
+		<item>"480p (güvenli)"</item>
+		<item>"720p"</item>
+		<item>"720p (güvenli)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (güvenli)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (güvenli)"</item>
+		<item>"4K (yükseltilmiş)"</item>
+		<item>"4K (yükseltilmiş, güvenli)"</item>
+		<item>"720p, 1080p (çift ekran)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Hiçbiri"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (Grafik)"</item>
+		<item>"glGetERror\'da arama yığını"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Kapalı"</item>
+		<item>"Mavi renkte dörtgen olmayan kesme bölgesi çiz"</item>
+		<item>"Test edilen çizim komutlarını yeşil olarak vurgula"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Kapalı"</item>
+		<item>"Çubuk olarak ekranda"</item>
+		<item>"<xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g> öğesinde"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"KAPALI"</item>
+		<item>"Fazla çizim alanlarını göster"</item>
+		<item>"Döteranomali için alanları göster"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (Varsayılan)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standart sınır"</item>
+		<item>"Arka planda işlem yok"</item>
+		<item>"En çok 1 işlem"</item>
+		<item>"En çok 2 işlem"</item>
+		<item>"En çok 3 işlem"</item>
+		<item>"En çok 4 işlem"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles_new">
+		<item>"Sadece şarj"</item>
+		<item>"MTP (Medya Aktarma Protokolü)"</item>
+		<item>"PTP (Resim Aktarma Protokolü)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Varsayılan"</item>
+		<item>"Veri"</item>
+		<item>"Ara"</item>
+		<item>"mesaj"</item>
+		<item>"Ana ekran"</item>
+		<item>"İş"</item>
+		<item>"Seyahat"</item>
+		<item>"Sevgi"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G servisi"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Kapalı"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Oto."</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Otomatik 4G/3G/2G"</item>
+		<item>"Sadece 4G"</item>
+		<item>"Sadece 3G"</item>
+		<item>"Yalnızca 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (otomatik)"</item>
+		<item>"UMTS/GSM (otomatik)"</item>
+		<item>"Yalnız LTE"</item>
+		<item>"Yalnızca GSM"</item>
+		<item>"Yalnız GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Yalnız WCDMA"</item>
+		<item>"Yalnız GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (tercih edilen)/3G/2G"</item>
+		<item>"3G (tercih edilen)/2G"</item>
+		<item>"Yalnızca 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (Otomatik)"</item>
+		<item>"3G/2G (Otomatik)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G(Otomatik)"</item>
+		<item>"3G/2G (Otomatik)"</item>
+		<item>"Yalnız 3G"</item>
+		<item>"Yalnız 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM otomatik"</item>
+		<item>"Yalnız WCDMA"</item>
+		<item>"WCDMA/GSM otomatik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (otomatik)"</item>
+		<item>"3G/2G (otomatik)"</item>
+		<item>"Yalnızca 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Yalnız GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE otomatik"</item>
+		<item>"GSM/WCDMA otomatik"</item>
+		<item>"Yalnız GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM otomatik"</item>
+		<item>"UMTS/GSM otomatik"</item>
+		<item>"Yalnızca GSM"</item>
+		<item>"Yalnız GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G(Otomatik)"</item>
+		<item>"3G/2G (Otomatik)"</item>
+		<item>"Yalnızca 4G"</item>
+		<item>"Yalnızca 3G"</item>
+		<item>"Yalnızca 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE Tercih Edilir)"</item>
+		<item>"WCDMA/2G (WCDMA Tercih Edilir)"</item>
+		<item>"Sadece 3G"</item>
+		<item>"Yalnızca 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE Tercih Edilir)"</item>
+		<item>"Sadece 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (önerilen)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (otomatik bağlan)"</item>
+		<item>"WCDMA/GSM (otomatik bağlan)"</item>
+		<item>"Yalnız WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Midway Adası"</item>
+		<item>"Hawai"</item>
+		<item>"Alaska"</item>
+		<item>"Pasifik Saati"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Sıradağlar Saati"</item>
+		<item>"Orta Amerika"</item>
+		<item>"Merkezi Saat"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Doğu Saati"</item>
+		<item>"Venezuela"</item>
+		<item>"Atlantik Saati (Barbados)"</item>
+		<item>"Atlantik Saati (Kanada)"</item>
+		<item>"Manaus"</item>
+		<item>"Newfoundland"</item>
+		<item>"Orta Atlantik"</item>
+		<item>"Azorlar"</item>
+		<item>"Cape Verde Adaları"</item>
+		<item>"Kazablanka"</item>
+		<item>"Batı Afrika Saati"</item>
+		<item>"Amman, Ürdün"</item>
+		<item>"İstanbul"</item>
+		<item>"Beyrut, Lübnan"</item>
+		<item>"Tahran"</item>
+		<item>"Ural\'sk"</item>
+		<item>"Ekaterinburg"</item>
+		<item>"Kalküta"</item>
+		<item>"Katmandu"</item>
+		<item>"Yangon"</item>
+		<item>"Krasnoyarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"İrkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Yakutsk"</item>
+		<item>"Adelaide"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sidney"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fiji"</item>
+		<item>"Paraguay"</item>
+		<item>"Abu Dabi"</item>
+		<item>"Abuja"</item>
+		<item>"Akra"</item>
+		<item>"Adamstown"</item>
+		<item>"Adisababa"</item>
+		<item>"Cezayir"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Aşkabat"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Atina"</item>
+		<item>"Avarua"</item>
+		<item>"Bağdat"</item>
+		<item>"Bakü"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagrep"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Pekin"</item>
+		<item>"Belfast"</item>
+		<item>"Belgrad"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Bern"</item>
+		<item>"Bişkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogota"</item>
+		<item>"Brasilia"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brüksel"</item>
+		<item>"Bükreş"</item>
+		<item>"Budapeşte"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Kahire"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chisinau"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Kopenhag"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Djibouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubai"</item>
+		<item>"Dublin"</item>
+		<item>"Dushanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh"</item>
+		<item>"Flying Fish Koyu"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Cayman Adaları)"</item>
+		<item>"Georgetown (Ascension Adası)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Cebelitarık"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala City"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havana"</item>
+		<item>"Helsinki"</item>
+		<item>"Honiara"</item>
+		<item>"İslamabad"</item>
+		<item>"Cakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Kudüs"</item>
+		<item>"Juba"</item>
+		<item>"Kabil"</item>
+		<item>"Kampala"</item>
+		<item>"Karaçi"</item>
+		<item>"Apia"</item>
+		<item>"Hartum"</item>
+		<item>"Kiev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaika)"</item>
+		<item>"Kingston (Norfolk Adası)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinşasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuveyt"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lizbon"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lome"</item>
+		<item>"Londra"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Lüksemburg"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Meksiko"</item>
+		<item>"Minsk"</item>
+		<item>"Mogadişu"</item>
+		<item>"Monako"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskova"</item>
+		<item>"Muscat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"Yeni Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Lefkoşa"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paris"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Prag"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Priştine"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykavik"</item>
+		<item>"Riga"</item>
+		<item>"Riyad"</item>
+		<item>"Road Town"</item>
+		<item>"Roma"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Saraybosna"</item>
+		<item>"Seul"</item>
+		<item>"Singapur"</item>
+		<item>"Üsküp"</item>
+		<item>"Sofya"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Taipei"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Taşkent"</item>
+		<item>"Tiflis"</item>
+		<item>"Thimpu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokyo"</item>
+		<item>"Torshavn"</item>
+		<item>"Trablus"</item>
+		<item>"Tunus"</item>
+		<item>"Ulan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valetta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatikan"</item>
+		<item>"Victoria"</item>
+		<item>"Viyana"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnüs"</item>
+		<item>"Varşova"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"Erivan"</item>
+		<item>"Bolivya"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asunción"</item>
+		<item>"La Paz"</item>
+		<item>"Khabarovsk"</item>
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"St. Petersburg"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrakhan"</item>
+		<item>"Izhevsk"</item>
+		<item>"Ufa"</item>
+		<item>"Chelyabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Chita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Rus Zaman Dilimi 1"</item>
+		<item>"Rus Zaman Dilimi 2 (Moskova)"</item>
+		<item>"Rus Zaman Dilimi 3"</item>
+		<item>"Rus Zaman Dilimi 4"</item>
+		<item>"Rus Zaman Dilimi 5"</item>
+		<item>"Rus Zaman Dilimi 6"</item>
+		<item>"Rus Zaman Dilimi 7"</item>
+		<item>"Rus Zaman Dilimi 8"</item>
+		<item>"Rus Zaman Dilimi 9"</item>
+		<item>"Rus Zaman Dilimi 10"</item>
+		<item>"Rus Zaman Dilimi 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancun"</item>
+		<item>"Merida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Bahia de Banderas"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Belirtilmedi)"</item>
+		<item>"SIM yuvası 1"</item>
+		<item>"SIM yuvası 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 kullanıcı"</item>
+		<item>"2 kullanıcı"</item>
+		<item>"3 kullanıcı"</item>
+		<item>"4 kullanıcı"</item>
+		<item>"5 kullanıcı"</item>
+		<item>"6 kullanıcı"</item>
+		<item>"7 kullanıcı"</item>
+		<item>"8 kullanıcı"</item>
+		<item>"9 kullanıcı"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Düğme"</item>
+		<item>"İstemciden gelen PIN"</item>
+	</string-array>
+</resources>

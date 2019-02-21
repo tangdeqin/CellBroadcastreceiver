@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Begin added by jinlong.lu for XR6618444 on 18-7-31-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/security_settings_fingerprint_preference_title">
+    <PreferenceCategory
+        android:key="fingerprints_list"
+        android:title="@string/fingerprints_list_title" />
+    <PreferenceCategory
+        android:key="features"
+        android:title="@string/fingerprint_functions_title">
+        <SwitchPreference
+            android:key="fingerprint_enable_keyguard_toggle"
+            android:persistent="false"
+            android:summary="@string/fingerprint_functions_unlock_screen_summary"
+            android:title="@string/fingerprint_functions_unlock_screen" />
+        <SwitchPreference
+            android:key="fingerprint_quick_launch_func"
+            android:persistent="false"
+            android:summary="@string/fingerprint_quick_launch_func_summary"
+            android:title="@string/fingerprint_quick_launch_func_title" />
+        <SwitchPreference
+            android:key="fingerprint_unlock_app_enable"
+            android:persistent="false"
+            android:summary="@string/fingerprint_functions_unlock_apps_summary"
+            android:title="@string/fingerprint_functions_unlock_apps_title" />
+    </PreferenceCategory>
+</PreferenceScreen>
+<!--End added by jinlong.lu for XR6618444 on 18-7-31-->
+

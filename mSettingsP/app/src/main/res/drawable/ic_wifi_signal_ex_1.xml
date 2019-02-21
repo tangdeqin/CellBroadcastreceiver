@@ -1,0 +1,57 @@
+<!--
+Copyright (C) 2017 The Android Open Source Project
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="16dp"
+        android:height="17dp"
+        android:viewportWidth="16.0"
+        android:viewportHeight="17.0">
+    <path
+        android:pathData="M9.82,11.017C9.356,10.536 8.705,10.237 7.984,10.237C7.273,10.237 6.63,10.528 6.168,10.997"
+        android:strokeLineCap="round"
+        android:fillAlpha="0.5"
+        android:fillType="evenOdd"
+        android:strokeColor="#90000000"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.47"
+        android:strokeLineJoin="round"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:pathData="M12.127,8.474C11.031,7.551 9.616,6.995 8.07,6.995C6.457,6.995 4.986,7.601 3.872,8.598"
+        android:strokeLineCap="round"
+        android:fillAlpha="0.5"
+        android:fillType="evenOdd"
+        android:strokeColor="#90000000"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.47"
+        android:strokeLineJoin="round"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:pathData="M14.399,6.082C12.66,4.643 10.43,3.779 7.997,3.779C5.565,3.779 3.335,4.643 1.597,6.08"
+        android:strokeLineCap="round"
+        android:fillAlpha="0.5"
+        android:fillType="evenOdd"
+        android:strokeColor="#90000000"
+        android:fillColor="#00000000"
+        android:strokeWidth="1.47"
+        android:strokeLineJoin="round"
+        android:strokeAlpha="0.5"/>
+    <path
+        android:pathData="M8.004,13.772m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"
+        android:fillType="evenOdd"
+        android:fillColor="@color/setting_wifi_icon_color"
+        android:strokeWidth="1"/>
+</vector>
+

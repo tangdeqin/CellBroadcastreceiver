@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2013, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<!--Modified by nanbing.zou/ronghui.yi for P23463/7230328 on 2018-12-19 begin-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:pathData="M5.312,4.055L17.795,16.538C16.16,17.471 14.16,18.019 12,18.019C11.745,18.019 11.492,18.011 11.241,17.996L7.002,21L7.002,16.948C4.012,15.564 2,12.975 2,10.01C2,7.646 3.279,5.521 5.312,4.055ZM6.911,3.113C8.402,2.406 10.142,2 12,2C17.523,2 22,5.586 22,10.01C22,12.131 20.97,14.059 19.29,15.492L12.976,9.179L6.911,3.113Z"
+        android:strokeColor="#00000000"
+        android:fillType="nonZero"
+        android:fillColor="#1BB0F4"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M12,11.002C12.552,11.002 13,10.554 13,10.001C13,9.448 12.552,9 12,9C11.448,9 11,9.448 11,10.001C11,10.554 11.448,11.002 12,11.002Z"
+        android:strokeColor="#00000000"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M15,10.001a1,1.001 0,1 0,2 0a1,1.001 0,1 0,-2 0z"
+        android:strokeColor="#00000000"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M2.542,2.546L2.542,2.546C2.191,2.897 2.191,3.466 2.542,3.816L18.002,19.276C18.353,19.627 18.921,19.627 19.272,19.276L19.272,19.276C19.623,18.926 19.623,18.357 19.272,18.006L10.907,9.641L3.812,2.546C3.461,2.196 2.893,2.196 2.542,2.546Z"
+        android:strokeColor="#00000000"
+        android:fillType="nonZero"
+        android:fillColor="#1BB0F4"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M7,10.001a1,1.001 0,1 0,2 0a1,1.001 0,1 0,-2 0z"
+        android:strokeColor="#00000000"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"/>
+</vector>
+<!--Modified by nanbing.zou/ronghui.yi for P23463/7230328 on 2018-12-19 end-->

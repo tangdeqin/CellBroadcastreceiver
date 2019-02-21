@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Begin added by jinlong.lu for XRP23382 on 18-8-30 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.DialogWindowTitle"
+        android:layout_width="match_parent"
+        android:paddingStart="22dip"
+        android:paddingEnd="16dip"
+        android:paddingTop="16dip"
+        android:paddingBottom="16dip"
+        android:text="@string/fp_reset_unlock_device_title"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+<!--End added by jinlong.lu for XRP23382 on 18-8-30 -->

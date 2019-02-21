@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Europa"</item>
+		<item>"Afrika"</item>
+		<item>"Asia"</item>
+		<item>"Australia"</item>
+		<item>"Pazifikoa"</item>
+		<item>"Guztiak"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 segundo"</item>
+		<item>"30 segundo"</item>
+		<item>"1 minutu"</item>
+		<item>"2 minutu"</item>
+		<item>"5 minutu"</item>
+		<item>"10 minutu"</item>
+		<item>"30 minutu"</item>
+		<item>"Inoiz ez"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Berehala"</item>
+		<item>"5 segundo"</item>
+		<item>"15 segundo"</item>
+		<item>"30 segundo"</item>
+		<item>"1 minutu"</item>
+		<item>"2 minutu"</item>
+		<item>"5 minutu"</item>
+		<item>"10 minutu"</item>
+		<item>"30 minutu"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Txikia"</item>
+		<item>"Lehenetsia"</item>
+		<item>"Handia"</item>
+		<item>"Handiena"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Bilatzen..."</item>
+		<item>"Konektatzen..."</item>
+		<item>"Autentifikatzen..."</item>
+		<item>"IP helbidea eskuratzen…"</item>
+		<item>"Konektatuta"</item>
+		<item>"Esekita"</item>
+		<item>"Deskonektatzen…"</item>
+		<item>"Deskonektatuta"</item>
+		<item>"Huts egin du"</item>
+		<item>"Blokeatuta"</item>
+		<item>"Konexio eskasa aldi baterako ekiditen"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Bilatzen..."</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> sarera konektatzen…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> autentifikatzen…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> sarearen IP helbidea eskuratzen…"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> sarera konektatuta"</item>
+		<item>"Esekita"</item>
+		<item>"<xliff:g id="network_name">%1$s</xliff:g> deskonektatzen…"</item>
+		<item>"Deskonektatuta"</item>
+		<item>"Huts egin du"</item>
+		<item>"Blokeatuta"</item>
+		<item>"Konexio eskasa aldi baterako ekiditen"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"PIN kodea"</item>
+		<item>"Pareko gailuko PINa"</item>
+		<item>"Gailu honetako PINa"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Konektatuta"</item>
+		<item>"Gonbidatua"</item>
+		<item>"Huts egin du"</item>
+		<item>"Libre"</item>
+		<item>"Barrutitik kanpo"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minutu"</item>
+		<item>"5 minutu"</item>
+		<item>"1 ordu"</item>
+		<item>"Ez iraungi inoiz"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Eskasa"</item>
+		<item>"Eskasa"</item>
+		<item>"Arrunta"</item>
+		<item>"Ona"</item>
+		<item>"Oso ona"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Beti"</item>
+		<item>"Inoiz ez konektatuta dagoenean"</item>
+		<item>"Inoiz ez"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Beti"</item>
+		<item>"Konektatuta dagoela soilik"</item>
+		<item>"Inoiz ez"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Azken 30 egunak"</item>
+		<item>"Ezarri datu-erabileraren zikloa..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Erabilera-denbora"</item>
+		<item>"Erabilitako azken aldia"</item>
+		<item>"Aplikazioaren izena"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Bat ere ez"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Bat ere ez"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Bat ere ez"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Estatikoa"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Bat ere ez"</item>
+		<item>"Eskuz"</item>
+		<item>"Proxyaren konfigurazio automatikoa"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Bat ere ez"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP edo CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Zehaztugabea"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Bat ere ez"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"Gailuaren barneko biltegia"</item>
+		<item>"SD txartel aldagarria"</item>
+		<item>"Utzi sistemari erabakitzen"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Kokapena"</item>
+		<item>"Pertsonala"</item>
+		<item>"Mezuak"</item>
+		<item>"Multimedia"</item>
+		<item>"Gailua"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"gutxi gorabeherako kokapena"</item>
+		<item>"kokapen zehatza"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"Dardara"</item>
+		<item>"Irakurri kontaktuak"</item>
+		<item>"Aldatu kontaktuak"</item>
+		<item>"irakurri deien erregistroa"</item>
+		<item>"Aldatu deien erregistroa"</item>
+		<item>"Irakurri egutegia"</item>
+		<item>"Idatzi/Ezabatu egutegia"</item>
+		<item>"Wi-Fi sareen bilaketa"</item>
+		<item>"Jakinarazpena"</item>
+		<item>"sare mugikorren bilaketa"</item>
+		<item>"deitu telefonora"</item>
+		<item>"irakurri SMSa"</item>
+		<item>"Idatzi SMSak"</item>
+		<item>"jaso SMSak"</item>
+		<item>"jaso larrialdi SMSak"</item>
+		<item>"jaso MMSak"</item>
+		<item>"jaso WAP push mezuak"</item>
+		<item>"Bidali SMSa"</item>
+		<item>"irakurri ICC SMSak"</item>
+		<item>"Idatzi/Ezabatu ICC SMSak"</item>
+		<item>"Aldatu ezarpenak"</item>
+		<item>"marraztu gainean"</item>
+		<item>"Atzitu jakinarazpenak"</item>
+		<item>"Kamera"</item>
+		<item>"grabatu audioa"</item>
+		<item>"Erreproduzitu audioa"</item>
+		<item>"Irakurri arbela"</item>
+		<item>"aldatu arbela"</item>
+		<item>"multimedia-botoiak"</item>
+		<item>"audio-fokatzea"</item>
+		<item>"bolumen nagusia"</item>
+		<item>"ahots-bolumena"</item>
+		<item>"dei-tonuen bolumena"</item>
+		<item>"Multimedia-bolumena"</item>
+		<item>"Alarmaren bolumena"</item>
+		<item>"Jakinarazpenen bolumena"</item>
+		<item>"Bluetooth-aren bolumena"</item>
+		<item>"Ez lokartu"</item>
+		<item>"Kontrolatu kokapena"</item>
+		<item>"Kontrolatu gaitasun handiko kokapena"</item>
+		<item>"eskuratu erabilera-estatistikak"</item>
+		<item>"Aktibatu/Desaktibatu mikrofonoa"</item>
+		<item>"erakutsi jakinarazpena"</item>
+		<item>"aktibatu VPN konexioa"</item>
+		<item>"Aktibatu VPN"</item>
+		<item>"Idatzi horma-papera"</item>
+		<item>"Laguntza-egitura"</item>
+		<item>"Laguntzako pantaila-argazkia"</item>
+		<item>"irakurri telefonoaren egoera"</item>
+		<item>"gehitu erantzungailua"</item>
+		<item>"erabili SIP"</item>
+		<item>"prozesatu irteera deiak"</item>
+		<item>"hatz-marka"</item>
+		<item>"gorputz-sentsoreak"</item>
+		<item>"Irakurri igorpen zelularra"</item>
+		<item>"simulatu kokapena"</item>
+		<item>"irakurri biltegia"</item>
+		<item>"idatzi biltegia"</item>
+		<item>"aktibatu pantaila"</item>
+		<item>"eskuratu kontuak"</item>
+		<item>"exekutatu atzeko planoan"</item>
+		<item>"erabilerraztasunaren bolumena"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Kokapena"</item>
+		<item>"Kokapena"</item>
+		<item>"Kokapena"</item>
+		<item>"Dardara"</item>
+		<item>"Irakurri kontaktuak"</item>
+		<item>"Idatzi/Ezabatu kontaktuak"</item>
+		<item>"irakurri deien erregistroa"</item>
+		<item>"Aldatu deien erregistroa"</item>
+		<item>"Irakurri egutegia"</item>
+		<item>"Aldatu egutegia"</item>
+		<item>"Kokapena"</item>
+		<item>"Argitaratu jakinarazpena"</item>
+		<item>"Kokapena"</item>
+		<item>"Deitu telefonora"</item>
+		<item>"Irakurri SMS/MMS mezuak"</item>
+		<item>"Idatzi SMS/MMS mezuak"</item>
+		<item>"Jaso SMS/MMS mezuak"</item>
+		<item>"Jaso SMS/MMS mezuak"</item>
+		<item>"Jaso SMS/MMS mezuak"</item>
+		<item>"Jaso SMS/MMS mezuak"</item>
+		<item>"Bidali SMS/MMS mezuak"</item>
+		<item>"Irakurri SMS/MMS mezuak"</item>
+		<item>"Idatzi SMS/MMS mezuak"</item>
+		<item>"Aldatu ezarpenak"</item>
+		<item>"Marraztu goialdean"</item>
+		<item>"Atzitu jakinarazpenak"</item>
+		<item>"Kamera"</item>
+		<item>"Grabatu audioa"</item>
+		<item>"Erreproduzitu audioa"</item>
+		<item>"Irakurri arbela"</item>
+		<item>"Aldatu arbela"</item>
+		<item>"Multimedia-botoiak"</item>
+		<item>"Audio-fokatzea"</item>
+		<item>"Bolumen nagusia"</item>
+		<item>"Ahots-bolumena"</item>
+		<item>"Dei-tonuen bolumena"</item>
+		<item>"Multimedia-bolumena"</item>
+		<item>"Alarmaren bolumena"</item>
+		<item>"Jakinarazpenen bolumena"</item>
+		<item>"Bluetooth-aren bolumena"</item>
+		<item>"Ez lokartu"</item>
+		<item>"Kokalekua"</item>
+		<item>"Kokalekua"</item>
+		<item>"eskuratu erabilera-estatistikak"</item>
+		<item>"Aktibatu/Desaktibatu mikrofonoa"</item>
+		<item>"Erakutsi jakinarazpena"</item>
+		<item>"Proiektuaren multimedia-edukia"</item>
+		<item>"Aktibatu VPN"</item>
+		<item>"Idatzi horma-papera"</item>
+		<item>"Laguntza-egitura"</item>
+		<item>"Laguntzako pantaila-argazkia"</item>
+		<item>"Irakurri telefonoaren egoera"</item>
+		<item>"Gehitu erantzungailua"</item>
+		<item>"Erabili SIP"</item>
+		<item>"Prozesatu irteera deiak"</item>
+		<item>"Hatz-marka digitala"</item>
+		<item>"Gorputz-sentsoreak"</item>
+		<item>"Irakurri igorpen zelularra"</item>
+		<item>"Simulatu kokapena"</item>
+		<item>"Irakurri biltegia"</item>
+		<item>"Idatzi biltegia"</item>
+		<item>"Aktibatu pantaila"</item>
+		<item>"Eskuratu kontuak"</item>
+		<item>"Exekutatu atzeko planoan"</item>
+		<item>"Erabilerraztasunaren bolumena"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Laburra"</item>
+		<item>"Ertaina"</item>
+		<item>"Luzea"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Lehenetsia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif condensed"</item>
+		<item>"Sans-serif monospace"</item>
+		<item>"Serif"</item>
+		<item>"Serif monospace"</item>
+		<item>"Kasuala"</item>
+		<item>"Etzana"</item>
+		<item>"Maiuskula txikiak"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Oso txikia"</item>
+		<item>"Txikia"</item>
+		<item>"Arrunta"</item>
+		<item>"Handia"</item>
+		<item>"Oso handia"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Lehenetsia"</item>
+		<item>"Bat ere ez"</item>
+		<item>"Eskema"</item>
+		<item>"Itzalak"</item>
+		<item>"Goratua"</item>
+		<item>"Beheratua"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Erabili aplikazioaren ezarpen lehenetsiak"</item>
+		<item>"Zuria beltzaren gainean"</item>
+		<item>"Beltza zuriaren gainean"</item>
+		<item>"Horia beltzaren gainean"</item>
+		<item>"Horia urdinaren gainean"</item>
+		<item>"Pertsonalizatua"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN, aurrez partekatutako gakoekin"</item>
+		<item>"L2TP/IPSec VPN, ziurtagiriekin"</item>
+		<item>"IPSec VPN, aurrez partekatutako gakoekin eta Xauth autentifikazioarekin"</item>
+		<item>"IPSec VPN, ziurtagiriekin eta Xauth autentifikazioarekin"</item>
+		<item>"IPSec VPN, ziurtagiriekin eta autentifikazio hibridoarekin"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Deskonektatuta"</item>
+		<item>"Hasieratzen…"</item>
+		<item>"Konektatzen\u2026"</item>
+		<item>"Konektatuta"</item>
+		<item>"Denbora-muga"</item>
+		<item>"Huts egin du"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Galdetu"</item>
+		<item>"Ukatu beti"</item>
+		<item>"Baimendu beti"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Arrunta"</item>
+		<item>"Ertaina"</item>
+		<item>"Txikia"</item>
+		<item>"Larria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Arrunta"</item>
+		<item>"Ertaina"</item>
+		<item>"Txikia"</item>
+		<item>"Larria"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Iraunkorra"</item>
+		<item>"Jarduera nagusia"</item>
+		<item>"Garrantzitsua (aurreko planoa)"</item>
+		<item>"Garrantzitsua (atzeko planoa)"</item>
+		<item>"Egin babeskopiak"</item>
+		<item>"Pisu handia"</item>
+		<item>"Zerbitzua (abian)"</item>
+		<item>"Zerbitzua (berrabiarazten)"</item>
+		<item>"Hartzailea"</item>
+		<item>"Etxea"</item>
+		<item>"Azken jarduera"</item>
+		<item>"Cachean gordeta (jarduera)"</item>
+		<item>"Cachean gordeta (jarduera-bezeroa)"</item>
+		<item>"Cachean gordeta (hutsik)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Turkesa"</item>
+		<item>"Urdina"</item>
+		<item>"Urdin iluna"</item>
+		<item>"Lila"</item>
+		<item>"Arrosa"</item>
+		<item>"Gorria"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Turkesa"</item>
+		<item>"Urdina"</item>
+		<item>"Urdin iluna"</item>
+		<item>"Lila"</item>
+		<item>"Arrosa"</item>
+		<item>"Gorria"</item>
+		<item>"Laranja"</item>
+		<item>"Berde iluna"</item>
+		<item>"Berdea"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"30 egunetik gorakoak"</item>
+		<item>"60 egunetik gorakoak"</item>
+		<item>"90 egunetik gorakoak"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Ez egiaztatu inoiz"</item>
+		<item>"Egiaztatu DRM edukia soilik"</item>
+		<item>"Egiaztatu beti"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Ez erabili inoiz HDCP egiaztapena"</item>
+		<item>"Erabili HDCP egiaztapena DRM edukirako soilik"</item>
+		<item>"Erabili beti HDCP egiaztapena"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1,4 (lehenetsia)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audioa"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audioa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Gaitu aukerako kodekak"</item>
+		<item>"Desgaitu aukerako kodekak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audioa"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audioa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Gaitu aukerako kodekak"</item>
+		<item>"Desgaitu aukerako kodekak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<item>"16 bit lagineko"</item>
+		<item>"24 bit lagineko"</item>
+		<item>"32 bit lagineko"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<item>"16 bit lagineko"</item>
+		<item>"24 bit lagineko"</item>
+		<item>"32 bit lagineko"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<item>"Bakarra"</item>
+		<item>"Estereoa"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Erabili sistemaren hautapena (lehenetsia)"</item>
+		<item>"Bakarra"</item>
+		<item>"Estereoa"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Audioaren kalitaterako optimizatuta (990-909 kb/s)"</item>
+		<item>"Audio eta konexioaren kalitate orekatua (660-606 kb/s)"</item>
+		<item>"Konexioaren kalitaterako optimizatuta (330-303 kb/s)"</item>
+		<item>"Esfortzurik onena (bit-abiadura moldakorra)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Audioaren kalitaterako optimizatuta"</item>
+		<item>"Audio eta konexioaren kalitate orekatua"</item>
+		<item>"Konexioaren kalitaterako optimizatuta"</item>
+		<item>"Esfortzurik onena (bit-abiadura moldakorra)"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<string-array name="select_logd_size_titles">
+		<item>"Desaktibatuta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Desaktibatuta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Desaktibatuta"</item>
+		<item>"64 K erregistro-buffer bakoitzeko"</item>
+		<item>"256 K erregistro-buffer bakoitzeko"</item>
+		<item>"1 M erregistro-buffer bakoitzeko"</item>
+		<item>"4 M erregistro-buffer bakoitzeko"</item>
+		<item>"16 M erregistro-buffer bakoitzeko"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Desaktibatuta"</item>
+		<item>"Guztiak"</item>
+		<item>"Guztiak, irratia izan ezik"</item>
+		<item>"Kernel soilik"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Desaktibatuta"</item>
+		<item>"Erregistro-buffer guztiak"</item>
+		<item>"Guztiak, irratiaren erregistro-buferrak izan ezik"</item>
+		<item>"Kernel erregistro-buferra soilik"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animazioa desaktibatuta"</item>
+		<item>"x 0,5 animazio-eskala"</item>
+		<item>"Animazio-eskala x1"</item>
+		<item>"Animazioaren eskala: 1.5x"</item>
+		<item>"Animazio-eskala x2"</item>
+		<item>"Animazio-eskala x5"</item>
+		<item>"Animazio-eskala x10"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animazioa desaktib."</item>
+		<item>"x 0,5 animazio-eskala"</item>
+		<item>"Animazioaren eskala: 1x"</item>
+		<item>"Animazioaren eskala: 1.5x"</item>
+		<item>"Animazioaren eskala: 2x"</item>
+		<item>"Animazioaren eskala: 5x"</item>
+		<item>"Animazioaren eskala: 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animazioa desakt."</item>
+		<item>"x 0,5 animazio-eskala"</item>
+		<item>"Animazioaren eskala: 1x"</item>
+		<item>"Animazioaren eskala: 1.5x"</item>
+		<item>"Animazioaren eskala: 2x"</item>
+		<item>"Animazioaren eskala: 5x"</item>
+		<item>"Animazioaren eskala: 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Inoiz ez"</item>
+		<item>"480 p"</item>
+		<item>"480 p (segurua)"</item>
+		<item>"720 p"</item>
+		<item>"720p (segurua)"</item>
+		<item>"1080 p"</item>
+		<item>"1080p (segurua)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (segurua)"</item>
+		<item>"4K (hobetua)"</item>
+		<item>"4K (hobetua, segurua)"</item>
+		<item>"720p, 1080p (pantaila bikoitza)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Inoiz ez"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (grafikoak)"</item>
+		<item>"Deitu gIGetError multzoari"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Desaktibatuta"</item>
+		<item>"Marraztu kliparen eremu ez-angeluzuzena urdinez"</item>
+		<item>"Nabarmendu probatutako marrazketa-aginduak berdez"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Desaktibatuta"</item>
+		<item>"Pantailan barra gisa"</item>
+		<item>"Kokapena: <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"DESAKTIBATUTA"</item>
+		<item>"Erakutsi gainidatzitako eremuak"</item>
+		<item>"Erakutsi deuteranopia dutenentzako eremuak"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (lehenetsia)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Muga arrunta"</item>
+		<item>"Ez dago atzeko planoko prozesurik"</item>
+		<item>"Gehienez prozesu 1"</item>
+		<item>"Gehienez 2 prozesu"</item>
+		<item>"Gehienez 3 prozesu"</item>
+		<item>"Gehienez 4 prozesu"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles_new">
+		<item>"Kargatu soilik"</item>
+		<item>"MTP (multimedia-elementuak transferitzeko protokoloa"</item>
+		<item>"PTP (irudiak transferitzeko protokoloa)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Lehenetsia"</item>
+		<item>"Datuak"</item>
+		<item>"Deitu"</item>
+		<item>"mezu"</item>
+		<item>"Hasierako pantaila"</item>
+		<item>"Lana"</item>
+		<item>"Bidaiak"</item>
+		<item>"Maitasuna"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G zerbitzua"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Desaktibatuta"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Automatikoa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automatikoa 4G/3G/2G"</item>
+		<item>"4G soilik"</item>
+		<item>"3G soilik"</item>
+		<item>"2G soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (automatikoa)"</item>
+		<item>"UMTS/GSM (automatikoa)"</item>
+		<item>"LTE soilik"</item>
+		<item>"GSM soilik"</item>
+		<item>"GSM soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"WCDMA soilik"</item>
+		<item>"GSM soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (hobetsia) / 3G / 2G"</item>
+		<item>"3G (hobetsia) / 2G"</item>
+		<item>"3G soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automatikoa)"</item>
+		<item>"3G/2G (automatikoa)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (automatikoa)"</item>
+		<item>"3G/2G (automatikoa)"</item>
+		<item>"3G Soilik"</item>
+		<item>"2G Soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA//GSM (automatikoa)"</item>
+		<item>"WCDMA soilik"</item>
+		<item>"WCDMA/GSM (automatikoa)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (automatikoa)"</item>
+		<item>"3G/2G (automatikoa)"</item>
+		<item>"3G soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"GSM soilik"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE automatikoa"</item>
+		<item>"GSM / WCDMA automatikoa"</item>
+		<item>"GSM soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM (automatikoa)"</item>
+		<item>"UMTS/GSM (automatikoa)"</item>
+		<item>"GSM soilik"</item>
+		<item>"GSM soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (automatikoa)"</item>
+		<item>"3G/2G (automatikoa)"</item>
+		<item>"4G soilik"</item>
+		<item>"3G soilik"</item>
+		<item>"2G soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE Hobetsia)"</item>
+		<item>"WCDMA/2G (WCDMA Hobetsia)"</item>
+		<item>"3G soilik"</item>
+		<item>"2G soilik"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE Hobetsia)"</item>
+		<item>"3G soilik"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (gomendatua)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA//GSM (konexio automatikoa)"</item>
+		<item>"WCDMA/GSM (konexio automatikoa)"</item>
+		<item>"WCDMA soilik"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Midway uhartea"</item>
+		<item>"Hawaii"</item>
+		<item>"Alaska"</item>
+		<item>"Pazifikoko ordua"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Mendialdeko ordua"</item>
+		<item>"Amerika erdialdea"</item>
+		<item>"Erdialdeko ordua"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Ekialdeko ordua"</item>
+		<item>"Venezuela"</item>
+		<item>"Atlantikoko ordua"</item>
+		<item>"Atlantikoko ordua (Kanada)"</item>
+		<item>"Manaus"</item>
+		<item>"Ternua"</item>
+		<item>"Atlantiko erdialdea"</item>
+		<item>"Azoreak"</item>
+		<item>"Cabo Verde uharteak"</item>
+		<item>"Casablanca"</item>
+		<item>"Afrika mendebaldeko ordua"</item>
+		<item>"Amman, Jordania"</item>
+		<item>"Istanbul"</item>
+		<item>"Beirut, Libano"</item>
+		<item>"Teheran"</item>
+		<item>"Oral"</item>
+		<item>"Jekaterinburg"</item>
+		<item>"Kolkata"</item>
+		<item>"Kathmandu"</item>
+		<item>"Rangun"</item>
+		<item>"Krasnoyarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"Irkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Yakutsk"</item>
+		<item>"Adelaida"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sydney"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fiji"</item>
+		<item>"Paraguay"</item>
+		<item>"Abu Dhabi"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Abeba"</item>
+		<item>"Aljer"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Ashgabat"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Atenas"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdad"</item>
+		<item>"Baku"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagreb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Pekin"</item>
+		<item>"Belfast"</item>
+		<item>"Belgrad"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Berna"</item>
+		<item>"Bishkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogota"</item>
+		<item>"Brasilia"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brusela"</item>
+		<item>"Bukarest"</item>
+		<item>"Budapest"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Cairo"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chisinau"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Kopenhage"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Djibouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubai"</item>
+		<item>"Dublin"</item>
+		<item>"Dushanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Zazpi Itsasoetako Edinburg"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Kaiman uharteak)"</item>
+		<item>"Georgetown (Ascension uhartea)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala hiria"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havana"</item>
+		<item>"Helsinki"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabad"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Jerusalem"</item>
+		<item>"Juba"</item>
+		<item>"Kabul"</item>
+		<item>"Kampala"</item>
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<item>"Khartoum"</item>
+		<item>"Kiev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaika)"</item>
+		<item>"Kingston (Norfolk uhartea)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuwait"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lisboa"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lome"</item>
+		<item>"Londres"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxenburgo"</item>
+		<item>"Madril"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Mexiko Hiria"</item>
+		<item>"Minsk"</item>
+		<item>"Mogadishu"</item>
+		<item>"Monako"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Mosku"</item>
+		<item>"Muscat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"New Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nicosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama hiria"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paris"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Praga"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Pristina"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavik"</item>
+		<item>"Riga"</item>
+		<item>"Riyadh"</item>
+		<item>"Road Town"</item>
+		<item>"Erroma"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajevo"</item>
+		<item>"Seul"</item>
+		<item>"Singapur"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Taipei"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Tashkent"</item>
+		<item>"Tbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokio"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunis"</item>
+		<item>"Ulan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatikano Hiria"</item>
+		<item>"Victoria"</item>
+		<item>"Viena"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnius"</item>
+		<item>"Varsovia"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"Erevan"</item>
+		<item>"Bolivia"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asuncion"</item>
+		<item>"La Paz"</item>
+		<item>"Khabarovsk"</item>
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"San Petersburgo"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrakhan"</item>
+		<item>"Izhevsk"</item>
+		<item>"Ufa"</item>
+		<item>"Chelyabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Chita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Errusiako 1. ordu-zona"</item>
+		<item>"Errusiako 2. ordu-zona (Mosku)"</item>
+		<item>"Errusiako 3. ordu-zona"</item>
+		<item>"Errusiako 4. ordu-zona"</item>
+		<item>"Errusiako 5. ordu-zona"</item>
+		<item>"Errusiako 6. ordu-zona"</item>
+		<item>"Errusiako 7. ordu-zona"</item>
+		<item>"Errusiako 8. ordu-zona"</item>
+		<item>"Errusiako 9. ordu-zona"</item>
+		<item>"Errusiako 10. ordu-zona"</item>
+		<item>"Errusiako 11. ordu-zona"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancún"</item>
+		<item>"Mérida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Bahía de Banderas"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Zehaztu gabe)"</item>
+		<item>"SIM txartelaren 1. zirrikitua"</item>
+		<item>"SIM txartelaren 2. zirrikitua"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 erabiltzaile"</item>
+		<item>"2 erabiltzaile"</item>
+		<item>"3 erabiltzaile"</item>
+		<item>"4 erabiltzaile"</item>
+		<item>"5 erabiltzaile"</item>
+		<item>"6 erabiltzaile"</item>
+		<item>"7 erabiltzaile"</item>
+		<item>"8 erabiltzaile"</item>
+		<item>"9 erabiltzaile"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"PIN kodea"</item>
+		<item>"Bezeroaren PINa"</item>
+	</string-array>
+</resources>

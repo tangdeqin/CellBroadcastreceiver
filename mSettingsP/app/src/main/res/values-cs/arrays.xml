@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Evropa"</item>
+		<item>"Afrika"</item>
+		<item>"Asie"</item>
+		<item>"Austrálie"</item>
+		<item>"Tichomoří"</item>
+		<item>"Všechny"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekund"</item>
+		<item>"30 sekund"</item>
+		<item>"1 minuta"</item>
+		<item>"2 minuty"</item>
+		<item>"5 minut"</item>
+		<item>"10 minut"</item>
+		<item>"30 minut"</item>
+		<item>"Nikdy"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Okamžitě"</item>
+		<item>"5 sekund"</item>
+		<item>"15 sekund"</item>
+		<item>"30 sekund"</item>
+		<item>"1 minuta"</item>
+		<item>"2 minuty"</item>
+		<item>"5 minut"</item>
+		<item>"10 minut"</item>
+		<item>"30 minut"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Malé"</item>
+		<item>"Výchozí"</item>
+		<item>"Velké"</item>
+		<item>"Největší"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Vyhledávání..."</item>
+		<item>"Připojování..."</item>
+		<item>"Ověřování..."</item>
+		<item>"Získávání adresy IP\u2026"</item>
+		<item>"Připojeno"</item>
+		<item>"Pozastaveno"</item>
+		<item>"Odpojování..."</item>
+		<item>"Odpojeno"</item>
+		<item>"Neúspěšné"</item>
+		<item>"Blokováno"</item>
+		<item>"Dočasné předcházení slabému připojení"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Vyhledávání…"</item>
+		<item>"Připojování k síti <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Ověřování v síti <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Získávání adresy IP ze sítě <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Připojeno k síti <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Pozastaveno"</item>
+		<item>"Odpojování od sítě <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Odpojeno"</item>
+		<item>"Neúspěšné"</item>
+		<item>"Blokováno"</item>
+		<item>"Dočasné předcházení slabému připojení"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Stisknutí tlačítka"</item>
+		<item>"PIN ze sdíleného zařízení"</item>
+		<item>"PIN z tohoto zařízení"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Připojeno"</item>
+		<item>"Pozvané"</item>
+		<item>"Neúspěšné"</item>
+		<item>"K dispozici"</item>
+		<item>"Mimo dosah"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minuty"</item>
+		<item>"5 minut"</item>
+		<item>"1 hodina"</item>
+		<item>"Bez časového limitu"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Nízká"</item>
+		<item>"Nízká"</item>
+		<item>"Dostačující"</item>
+		<item>"Dobrá"</item>
+		<item>"Vynikající"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Vždy"</item>
+		<item>"Pouze při nabíjení"</item>
+		<item>"Nikdy"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Vždy"</item>
+		<item>"Pouze při nabíjení"</item>
+		<item>"Nikdy"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Posledních 30 dní"</item>
+		<item>"Nastavit cyklus využití..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Doba používání"</item>
+		<item>"Naposledy použito"</item>
+		<item>"Název aplikace"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Žádné"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Žádné"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Žádné"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statická"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Žádné"</item>
+		<item>"Ručně"</item>
+		<item>"Autom. konfigurace serveru"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Žádné"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP nebo CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Nespecifikováno"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Žádný"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"Vnitřní úložiště zařízení"</item>
+		<item>"Vyjímatelná karta SD"</item>
+		<item>"Podle rozhodnutí systému"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Poloha"</item>
+		<item>"Osobní"</item>
+		<item>"Zprávy"</item>
+		<item>"Média"</item>
+		<item>"Zařízení"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"přibližná poloha"</item>
+		<item>"přesná poloha"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"vibrovat"</item>
+		<item>"číst kontakty"</item>
+		<item>"Změna kontaktů"</item>
+		<item>"číst seznam hovorů"</item>
+		<item>"Změna seznamu hovorů"</item>
+		<item>"číst kalendář"</item>
+		<item>"Změnit kalendář"</item>
+		<item>"vyhledávání sítí Wi-Fi"</item>
+		<item>"Upozornění"</item>
+		<item>"vyhledávání mobilních sítí"</item>
+		<item>"volání na telefon"</item>
+		<item>"číst zprávy SMS"</item>
+		<item>"Zápis zpráv SMS"</item>
+		<item>"přijímat zprávy SMS"</item>
+		<item>"přijmout nouzové zprávy SMS"</item>
+		<item>"přijímat zprávy MMS"</item>
+		<item>"přijmout zprávy WAP push"</item>
+		<item>"Odeslat SMS"</item>
+		<item>"číst zprávy SMS ICC"</item>
+		<item>"Psát zprávy SMS ICC"</item>
+		<item>"změnit nastavení"</item>
+		<item>"vykreslení navrch"</item>
+		<item>"přístup k oznámením"</item>
+		<item>"fotoaparát"</item>
+		<item>"zaznamenat zvuk"</item>
+		<item>"přehrát zvuk"</item>
+		<item>"číst data ve schránce"</item>
+		<item>"upravit obsah schránky"</item>
+		<item>"Tlačítka médií"</item>
+		<item>"Zaměření na zvuk"</item>
+		<item>"Hlavní hlasitost"</item>
+		<item>"Hlasitost hlasu"</item>
+		<item>"Hlasitost vyzvánění"</item>
+		<item>"Hlasitost médií"</item>
+		<item>"Hlasitost budíku"</item>
+		<item>"Hlasitost oznámení"</item>
+		<item>"Hlasitost Bluetooth"</item>
+		<item>"Udržovat zapnuté"</item>
+		<item>"Monitorovat zjišťování polohy"</item>
+		<item>"Monitorovat zjišťování polohy s vysokou spotřebou"</item>
+		<item>"získat statistiky využití"</item>
+		<item>"Ztlumit/aktivovat mikrofon"</item>
+		<item>"zobrazit zprávu v bublině"</item>
+		<item>"aktivovat VPN"</item>
+		<item>"aktivovat funkci VPN"</item>
+		<item>"zápis tapety"</item>
+		<item>"struktura asistence"</item>
+		<item>"Pomoc – snímek obrazovky"</item>
+		<item>"číst stav telefonu"</item>
+		<item>"přidat hlasovou zprávu"</item>
+		<item>"použít sip"</item>
+		<item>"zpracovat odchozí hovor"</item>
+		<item>"otisk prstu"</item>
+		<item>"snímače na těle"</item>
+		<item>"čtení lokálních zpráv sítě"</item>
+		<item>"falešná poloha"</item>
+		<item>"čtení úložiště"</item>
+		<item>"zápis úložiště"</item>
+		<item>"zapnout obrazovku"</item>
+		<item>"získat účty"</item>
+		<item>"spustit na pozadí"</item>
+		<item>"hlasitost usnadnění"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Poloha"</item>
+		<item>"Poloha"</item>
+		<item>"Poloha"</item>
+		<item>"Vibrace"</item>
+		<item>"Číst kontakty"</item>
+		<item>"Upravovat kontakty"</item>
+		<item>"číst seznam hovorů"</item>
+		<item>"Změnit seznam hovorů"</item>
+		<item>"Číst kalendář"</item>
+		<item>"Změna kalendáře"</item>
+		<item>"Poloha"</item>
+		<item>"Zobrazit oznámení"</item>
+		<item>"Poloha"</item>
+		<item>"Volat na telefonní číslo"</item>
+		<item>"Číst zprávy SMS/MMS"</item>
+		<item>"Psát zprávy SMS/MMS"</item>
+		<item>"Příjem zpráv SMS/MMS"</item>
+		<item>"Příjem zpráv SMS/MMS"</item>
+		<item>"Příjem zpráv SMS/MMS"</item>
+		<item>"Příjem zpráv SMS/MMS"</item>
+		<item>"Odesílání zpráv SMS/MMS"</item>
+		<item>"Číst zprávy SMS/MMS"</item>
+		<item>"Psát zprávy SMS/MMS"</item>
+		<item>"Změnit nastavení"</item>
+		<item>"Vykreslit na popředí"</item>
+		<item>"Přejít k oznámením"</item>
+		<item>"Foto"</item>
+		<item>"Zaznamenat zvuk"</item>
+		<item>"Přehrát zvuk"</item>
+		<item>"Číst data ve schránce"</item>
+		<item>"Upravit obsah schránky"</item>
+		<item>"Tlačítka médií"</item>
+		<item>"Zaměření na zvuk"</item>
+		<item>"Hlavní hlasitost"</item>
+		<item>"Hlasitost hlasu"</item>
+		<item>"Hlasitost vyzvánění"</item>
+		<item>"Hlasitost médií"</item>
+		<item>"Hlasitost budíku"</item>
+		<item>"Hlasitost oznámení"</item>
+		<item>"Hlasitost Bluetooth"</item>
+		<item>"Udržovat zapnuté"</item>
+		<item>"Místo"</item>
+		<item>"Místo"</item>
+		<item>"získat statistiky využití"</item>
+		<item>"Ztlumit/aktivovat mikrofon"</item>
+		<item>"Zobrazit zprávu v bublině"</item>
+		<item>"aktivovat VPN"</item>
+		<item>"aktivovat funkci VPN"</item>
+		<item>"Psát na tapetu"</item>
+		<item>"Pomoc – struktura"</item>
+		<item>"Pomoc – snímek obrazovky"</item>
+		<item>"Číst stav telefonu"</item>
+		<item>"Přidat hlasovou zprávu"</item>
+		<item>"Použít sip"</item>
+		<item>"Zpracovat odchozí hovor"</item>
+		<item>"Otisk prstu"</item>
+		<item>"Snímače na těle"</item>
+		<item>"Čtení lokálních zpráv sítě"</item>
+		<item>"Falešná poloha"</item>
+		<item>"Čtení úložiště"</item>
+		<item>"Zápis úložiště"</item>
+		<item>"Zapnout obrazovku"</item>
+		<item>"Získat účty"</item>
+		<item>"Spustit na pozadí"</item>
+		<item>"Hlasitost usnadnění"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Krátká"</item>
+		<item>"Střední"</item>
+		<item>"Dlouhá"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Výchozí nastavení"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Zhuštěné písmo Sans-Serif"</item>
+		<item>"Sans-serif, monospace"</item>
+		<item>"Serif"</item>
+		<item>"Serif, monospace"</item>
+		<item>"Ležérní"</item>
+		<item>"kurzíva"</item>
+		<item>"Malé kapitálky"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Velmi malé"</item>
+		<item>"Malá"</item>
+		<item>"Normální"</item>
+		<item>"Velké"</item>
+		<item>"Velmi velké"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Výchozí nastavení"</item>
+		<item>"Žádné"</item>
+		<item>"Obrysy"</item>
+		<item>"Stín"</item>
+		<item>"Zvýšené"</item>
+		<item>"Vnořené"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Použít výchozí nastavení aplikace"</item>
+		<item>"Bílá na černé"</item>
+		<item>"Černá na bílé"</item>
+		<item>"Žlutá na černé"</item>
+		<item>"Žlutá na modré"</item>
+		<item>"Vlastní"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN s předsdílenými klíči"</item>
+		<item>"L2TP/IPSec VPN s certifikáty"</item>
+		<item>"IPSec VPN s předsdílenými klíči a ověřením Xauth"</item>
+		<item>"IPSec VPN s certifikáty a ověřením Xauth"</item>
+		<item>"IPSec VPN s certifikáty a hybridním ověřením"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Odpojeno"</item>
+		<item>"Inicializace…"</item>
+		<item>"Připojování\u2026"</item>
+		<item>"Připojeno"</item>
+		<item>"Časový limit vypršel"</item>
+		<item>"Neúspěšné"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Zeptat se"</item>
+		<item>"Nikdy nepovolovat"</item>
+		<item>"Vždy povolit"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Normální"</item>
+		<item>"Střední"</item>
+		<item>"Nízká"</item>
+		<item>"Kritické"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normální"</item>
+		<item>"Střední"</item>
+		<item>"Nízká"</item>
+		<item>"Kritické"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Trvalý"</item>
+		<item>"Hlavní činnost"</item>
+		<item>"Důležité (popředí)"</item>
+		<item>"Důležité (pozadí)"</item>
+		<item>"Zálohovat"</item>
+		<item>"Těžké"</item>
+		<item>"Služba (spuštěná)"</item>
+		<item>"Služba (restartuje se)"</item>
+		<item>"Příjemce"</item>
+		<item>"Domů"</item>
+		<item>"Poslední činnost"</item>
+		<item>"V mezipaměti (činnost)"</item>
+		<item>"V mezipaměti (klient činnosti)"</item>
+		<item>"V mezipaměti (prázdný)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Šedozelené"</item>
+		<item>"Modrá"</item>
+		<item>"Indigo"</item>
+		<item>"Fialová"</item>
+		<item>"Růžová"</item>
+		<item>"Červená"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Šedozelené"</item>
+		<item>"Modrá"</item>
+		<item>"Indigo"</item>
+		<item>"Fialová"</item>
+		<item>"Růžová"</item>
+		<item>"Červená"</item>
+		<item>"Oranžová"</item>
+		<item>"Tmavě zelená"</item>
+		<item>"Zelená"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Starší 30 dní"</item>
+		<item>"Starší 60 dní"</item>
+		<item>"Starší 90 dní"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Nikdy nekontrolovat"</item>
+		<item>"Kontrolovat jen obsah DRM"</item>
+		<item>"Vždy kontrolovat"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Nikdy nepoužívat kontrolu HDCP"</item>
+		<item>"Použít kontrolu HDCP pouze pro obsah DRM"</item>
+		<item>"Vždy používat kontrolu HDCP"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (výchozí)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"Zvuk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>"</item>
+		<item>"Zvuk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Povolit volitelné kodeky"</item>
+		<item>"Zakázat volitelné kodeky"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"Zvuk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>"</item>
+		<item>"Zvuk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Povolit volitelné kodeky"</item>
+		<item>"Zakázat volitelné kodeky"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<item>"16 bitů/vzorek"</item>
+		<item>"24 bitů/vzorek"</item>
+		<item>"32 bitů/vzorek"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<item>"16 bitů/vzorek"</item>
+		<item>"24 bitů/vzorek"</item>
+		<item>"32 bitů/vzorek"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<item>"Černobíle"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Použít systémový výběr (výchozí)"</item>
+		<item>"Černobíle"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Optimalizováno pro kvalitu zvuku (990 kb/s / 909 kb/s)"</item>
+		<item>"Vyvážená kvalita zvuku a připojení (660 kb/s / 606 kb/s)"</item>
+		<item>"Optimalizováno pro kvalitu připojení (330 kb/s / 303 kb/s)"</item>
+		<item>"Nejlepší úsilí (adaptivní přenosová rychlost)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Optimalizováno pro kvalitu zvuku"</item>
+		<item>"Vyvážená kvalita zvuku a připojení"</item>
+		<item>"Optimalizováno pro kvalitu připojení"</item>
+		<item>"Nejlepší úsilí (adaptivní přenosová rychlost)"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<string-array name="select_logd_size_titles">
+		<item>"Vypnuto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Vypnuto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Vypnuto"</item>
+		<item>"64 tis. na vyrovnávací paměť protokolu"</item>
+		<item>"256 tis. na vyrovnávací paměť protokolu"</item>
+		<item>"1 mil. na vyrovnávací paměť protokolu"</item>
+		<item>"4 mil. na vyrovnávací paměť protokolu"</item>
+		<item>"16 mil. na vyrovnávací paměť protokolu"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Vypnuto"</item>
+		<item>"Všechny"</item>
+		<item>"Vše kromě rádia"</item>
+		<item>"Pouze jádro"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Vypnuto"</item>
+		<item>"Všechny vyrovnávací paměti protokolů"</item>
+		<item>"Vše kromě vyrovnávacích pamětí protokolů rádia"</item>
+		<item>"Pouze vyrovnávací paměť protokolů jádra"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animace vypnuta"</item>
+		<item>"Měřítko animace 0,5x"</item>
+		<item>"Rychlost animace 1x"</item>
+		<item>"Rychlost animace 1,5x"</item>
+		<item>"Rychlost animace 2x"</item>
+		<item>"Rychlost animace 5x"</item>
+		<item>"Rychlost animace 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animace vypnuta"</item>
+		<item>"Měřítko animace 0,5x"</item>
+		<item>"Rychlost animace 1x"</item>
+		<item>"Rychlost animace 1,5x"</item>
+		<item>"Rychlost animace 2x"</item>
+		<item>"Rychlost animace 5x"</item>
+		<item>"Rychlost animace 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animace je vypnuta"</item>
+		<item>"Měřítko animace 0,5x"</item>
+		<item>"Měřítko animace 1x"</item>
+		<item>"Měřítko animace 1,5x"</item>
+		<item>"Měřítko animace 2x"</item>
+		<item>"Měřítko animace 5x"</item>
+		<item>"Měřítko animace 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Žádné"</item>
+		<item>"480p"</item>
+		<item>"480p (zabezpečeno)"</item>
+		<item>"720p"</item>
+		<item>"720p (zabezpečené)"</item>
+		<item>"1 080p"</item>
+		<item>"1080p (zabezpečené)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (zabezpečené)"</item>
+		<item>"4K (přepočítané)"</item>
+		<item>"4K (přepočítané, zabezpečené)"</item>
+		<item>"720p, 1080p (duální obrazovka)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Žádné"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (grafika)"</item>
+		<item>"Zásobník volání na glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Vypnuto"</item>
+		<item>"Nakreslit nepravidelnou oblast ústřižku modrou barvou"</item>
+		<item>"Zvýraznit testované příkazy kreslení zeleně"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Vypnuto"</item>
+		<item>"Na obrazovce jako pruhy"</item>
+		<item>"V <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"VYPNUTO"</item>
+		<item>"Zobrazit oblasti překreslení"</item>
+		<item>"Zobrazit oblasti pro deuteranomálii"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (výchozí)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standardní limit"</item>
+		<item>"Procesy na pozadí deaktivovány"</item>
+		<item>"Maximálně 1 proces"</item>
+		<item>"Maximálně 2 procesy"</item>
+		<item>"Maximálně 3 procesy"</item>
+		<item>"Maximálně 4 procesy"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles_new">
+		<item>"Jen dobíjení"</item>
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Výchozí nastavení"</item>
+		<item>"Data"</item>
+		<item>"Volat"</item>
+		<item>"Zpráva"</item>
+		<item>"Úvodní obrazovka"</item>
+		<item>"Práce"</item>
+		<item>"Cestování"</item>
+		<item>"Láska"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"Služba 3G/4G"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Vypnuto"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Automaticky"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automaticky (4G/3G/2G)"</item>
+		<item>"Pouze síť 4G"</item>
+		<item>"Pouze síť 3G"</item>
+		<item>"Pouze síť 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (automaticky)"</item>
+		<item>"UMTS/GSM (Auto)"</item>
+		<item>"Pouze LTE"</item>
+		<item>"Pouze GSM"</item>
+		<item>"Pouze GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE / WCDMA / GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Pouze WCDMA"</item>
+		<item>"Pouze GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (pref.)/3G/2G"</item>
+		<item>"3G (prefer.)/2G"</item>
+		<item>"Jen 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automaticky)"</item>
+		<item>"3G/2G (automaticky)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (automaticky)"</item>
+		<item>"3G/2G (automaticky)"</item>
+		<item>"Pouze 3G"</item>
+		<item>"Pouze 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM – automaticky"</item>
+		<item>"Pouze WCDMA"</item>
+		<item>"WCDMA/GSM – automaticky"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (automaticky)"</item>
+		<item>"3G/2G (automaticky)"</item>
+		<item>"Jen 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS / GSM"</item>
+		<item>"Pouze GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE automaticky "</item>
+		<item>"GSM/WCDMA – automaticky"</item>
+		<item>"Pouze GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM – automaticky"</item>
+		<item>"UMTS/GSM – automaticky"</item>
+		<item>"Pouze GSM"</item>
+		<item>"Pouze GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (automaticky)"</item>
+		<item>"3G/2G (automaticky)"</item>
+		<item>"Pouze 4G"</item>
+		<item>"Jen 3G"</item>
+		<item>"Jen 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE Pref.)"</item>
+		<item>"WCDMA/2G (WCDMA Pref.)"</item>
+		<item>"Pouze síť 3G"</item>
+		<item>"Pouze síť 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE Pref.)"</item>
+		<item>"Pouze síť 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (doporučeno)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (automatické připojení)"</item>
+		<item>"WCDMA/GSM (automatické připojení)"</item>
+		<item>"Pouze WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Midwayské ostrovy"</item>
+		<item>"Havaj"</item>
+		<item>"Aljaška"</item>
+		<item>"Tichomořský čas"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Horský čas"</item>
+		<item>"Střední Amerika"</item>
+		<item>"Centrální čas"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Východní čas"</item>
+		<item>"Venezuela"</item>
+		<item>"Atlantický čas (Barbados)"</item>
+		<item>"Atlantický čas (Kanada)"</item>
+		<item>"Manaus"</item>
+		<item>"Nový Foundland"</item>
+		<item>"Střední Atlantik"</item>
+		<item>"Azory"</item>
+		<item>"Kapverdské ostrovy"</item>
+		<item>"Casablanca"</item>
+		<item>"Západoafrický čas"</item>
+		<item>"Ammán, Jordánsko"</item>
+		<item>"Istanbul"</item>
+		<item>"Bejrút, Libanon"</item>
+		<item>"Teherán"</item>
+		<item>"Uralsk"</item>
+		<item>"Jekatěrinburg"</item>
+		<item>"Kalkata"</item>
+		<item>"Káthmándú"</item>
+		<item>"Rangún"</item>
+		<item>"Krasnojarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"Irkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Ósaka"</item>
+		<item>"Jakutsk"</item>
+		<item>"Adelaide"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sydney"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fidži"</item>
+		<item>"Paraguay"</item>
+		<item>"Abú Dhabí"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Abeba"</item>
+		<item>"Alžír"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Ašchabad"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Atény"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdád"</item>
+		<item>"Baku"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Záhřeb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Peking"</item>
+		<item>"Belfast"</item>
+		<item>"Bělehrad"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlín"</item>
+		<item>"Bern"</item>
+		<item>"Bishkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogotá"</item>
+		<item>"Brasília"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brusel"</item>
+		<item>"Bukurešť"</item>
+		<item>"Budapešť"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Káhira"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Kišiněv"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Kodaň"</item>
+		<item>"Dakar"</item>
+		<item>"Dháka"</item>
+		<item>"Dili"</item>
+		<item>"Džibutsko"</item>
+		<item>"Dodoma"</item>
+		<item>"Dauhá"</item>
+		<item>"Douglas"</item>
+		<item>"Dubaj"</item>
+		<item>"Dublin"</item>
+		<item>"Dušambe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Vánoční ostrov"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Kajmanské ostr.)"</item>
+		<item>"Georgetown (ostrov Ascension)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala City"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havana"</item>
+		<item>"Helsinky"</item>
+		<item>"Honiara"</item>
+		<item>"Islámábád"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Jeruzalém"</item>
+		<item>"Juba"</item>
+		<item>"Kábul"</item>
+		<item>"Kampala"</item>
+		<item>"Karáčí"</item>
+		<item>"Apia"</item>
+		<item>"Chartúm"</item>
+		<item>"Kyjev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamajka)"</item>
+		<item>"Kingston (ostrov Norfolk)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuvajt"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lisabon"</item>
+		<item>"Lublaň"</item>
+		<item>"Lome"</item>
+		<item>"Londýn"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Lucemburk"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Mexico City"</item>
+		<item>"Minsk"</item>
+		<item>"Mogadišo"</item>
+		<item>"Monako"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskva"</item>
+		<item>"Maskat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Neipyijto"</item>
+		<item>"N\'Djamena"</item>
+		<item>"Nové Dillí"</item>
+		<item>"Niamey"</item>
+		<item>"Nikósie"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama City"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paříž"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Praha"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Priština"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavík"</item>
+		<item>"Riga"</item>
+		<item>"Rijád"</item>
+		<item>"Road Town"</item>
+		<item>"Řím"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Saná"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajevo"</item>
+		<item>"Soul"</item>
+		<item>"Singapur"</item>
+		<item>"Skopje"</item>
+		<item>"Sofie"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Tchaj-pej"</item>
+		<item>"Talin"</item>
+		<item>"Tarawa"</item>
+		<item>"Taškent"</item>
+		<item>"Tbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokio"</item>
+		<item>"Tórshavn"</item>
+		<item>"Tripolis"</item>
+		<item>"Tunis"</item>
+		<item>"Ulánbátar"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatikán"</item>
+		<item>"Victoria"</item>
+		<item>"Vídeň"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnius"</item>
+		<item>"Varšava"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaoundé"</item>
+		<item>"Yaren"</item>
+		<item>"Jerevan"</item>
+		<item>"Bolívie"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asunción"</item>
+		<item>"La Paz"</item>
+		<item>"Chabarovsk"</item>
+		<item>"Južno-Sachalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamčatskij"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"Petrohrad"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrachaň"</item>
+		<item>"Iževsk"</item>
+		<item>"Ufa"</item>
+		<item>"Čeljabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Čita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Ruské časové pásmo 1"</item>
+		<item>"Ruské časové pásmo 2 (Moskva)"</item>
+		<item>"Ruské časové pásmo 3"</item>
+		<item>"Ruské časové pásmo 4"</item>
+		<item>"Ruské časové pásmo 5"</item>
+		<item>"Ruské časové pásmo 6"</item>
+		<item>"Ruské časové pásmo 7"</item>
+		<item>"Ruské časové pásmo 8"</item>
+		<item>"Ruské časové pásmo 9"</item>
+		<item>"Ruské časové pásmo 10"</item>
+		<item>"Ruské časové pásmo 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancún"</item>
+		<item>"Mérida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Banderas Bay"</item>
+		<item>"Mazatlán"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Nespecifikováno)"</item>
+		<item>"Slot na kartu SIM 1"</item>
+		<item>"Slot na kartu SIM 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 uživatel"</item>
+		<item>"2 uživatelé"</item>
+		<item>"3 uživatelé"</item>
+		<item>"4 uživatelé"</item>
+		<item>"5 uživatelů"</item>
+		<item>"6 uživatelů"</item>
+		<item>"7 uživatelů"</item>
+		<item>"8 uživatelů"</item>
+		<item>"9 uživatelů"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Stisknutí tlačítka"</item>
+		<item>"PIN od klienta"</item>
+	</string-array>
+</resources>

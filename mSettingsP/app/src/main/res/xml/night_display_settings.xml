@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<!-- Modify this file by shilei.zhang for eye_comfort_mode ergo dev XR7033708 on 2018/09/25-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/eye_comfort_mode_title">
+
+    <PreferenceCategory
+        android:title="@string/eye_comfort_mode_content"
+        android:layout="@layout/ecm_night_content_preferencecategory">
+        <SwitchPreference
+            android:key="auto_schedule"
+            android:persistent="false"
+            android:title="@string/night_mode_auto_enable"
+            />
+        <Preference
+            android:key="schedule_plan"
+            android:title="@string/night_mode_schedule_plan"
+            android:fragment="com.android.settings.display.SchedulePlanSettings"
+            settings:widgetLayout="@null"
+            />
+        <SwitchPreference
+            android:key="turn_on_now"
+            android:title="@string/ecm_turn_on_now_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/when_ecm_on_title">
+        <com.android.settings.display.NightDisplaySeekBarPreference
+            android:key="night_display_temperature"
+            android:title="@string/night_mode_color_temperature"/>
+        <!--Begin modify by shilei.zhang for fixed XR7169244 2018/11/28-->
+        <Preference
+            android:key="ecm_color_space"
+            android:title="@string/ecm_color_space_title"
+            android:selectable="false"
+            style="@style/Preference.ColorSpace_title"
+            settings:widgetLayout="@null"
+            />
+        <com.android.settings.display.MyRadioButtonPreference
+            android:key="ecm_color_space_normal_theme"
+            android:title="@string/ecm_color_space_normal_theme_title"
+            style="@style/Preference.ColorSpace_first"
+            android:summary="@string/ecm_color_space_normal_theme_summary"
+            />
+        <com.android.settings.display.MyRadioButtonPreference
+            android:key="ecm_color_space_night_theme"
+            android:title="@string/ecm_color_space_night_theme_title"
+            style="@style/Preference.ColorSpace_sec"
+            android:summary="@string/ecm_color_space_night_theme_summary"
+            />
+        <!--End modify by shilei.zhang for fixed XR7169244 2018/11/28-->
+    </PreferenceCategory>
+</PreferenceScreen>

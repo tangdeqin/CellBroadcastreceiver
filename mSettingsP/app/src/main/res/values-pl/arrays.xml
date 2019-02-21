@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Ameryka"</item>
+		<item>"Europa"</item>
+		<item>"Afryka"</item>
+		<item>"Azja"</item>
+		<item>"Australia"</item>
+		<item>"Pacyfik"</item>
+		<item>"Wszystkie"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekund"</item>
+		<item>"30 sekund"</item>
+		<item>"1 minuta"</item>
+		<item>"2 minut"</item>
+		<item>"5 minut"</item>
+		<item>"10 minut"</item>
+		<item>"30 minut"</item>
+		<item>"Nigdy"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Natychmiast"</item>
+		<item>"5 sekund"</item>
+		<item>"15 sekund"</item>
+		<item>"30 sekund"</item>
+		<item>"1 minuta"</item>
+		<item>"2 minuty"</item>
+		<item>"5 minut"</item>
+		<item>"10 minut"</item>
+		<item>"30 minut"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Mały"</item>
+		<item>"Domyślna"</item>
+		<item>"Duży"</item>
+		<item>"Największe"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Skanowanie..."</item>
+		<item>"Łączenie..."</item>
+		<item>"Uwierzytelnianie..."</item>
+		<item>"Odczytywanie adresu IP\u2026"</item>
+		<item>"Połączono"</item>
+		<item>"Zawieszono"</item>
+		<item>"Rozłączanie..."</item>
+		<item>"Rozłączono"</item>
+		<item>"Nieudane"</item>
+		<item>"Zablokowane"</item>
+		<item>"Tymczasowo, by uniknąć połączenia o niskiej jakości"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Skanowanie…"</item>
+		<item>"Łączenie z <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Uwierzytelnianie <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Odczytywanie adresu IP z <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Połączono z <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Zawieszono"</item>
+		<item>"Rozłączanie <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Rozłączono"</item>
+		<item>"Nieudane"</item>
+		<item>"Zablokowano"</item>
+		<item>"Tymczasowo, by uniknąć połączenia o niskiej jakości"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Naciśnij przycisk"</item>
+		<item>"Kod PIN z drugiego urządzenia"</item>
+		<item>"Kod PIN z tego urządzenia"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Połączono"</item>
+		<item>"Zaproszono"</item>
+		<item>"Niepowodzenie"</item>
+		<item>"Dostępna"</item>
+		<item>"Poza zasięgiem"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minuty"</item>
+		<item>"5 minut"</item>
+		<item>"1 godzina"</item>
+		<item>"Brak limitu czasu"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Słaba"</item>
+		<item>"Słaba"</item>
+		<item>"Dostateczna"</item>
+		<item>"Dobra"</item>
+		<item>"Doskonała"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Zawsze"</item>
+		<item>"Tylko, gdy podłączony"</item>
+		<item>"Nigdy"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Zawsze"</item>
+		<item>"Tylko, gdy podłączony"</item>
+		<item>"Nigdy"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Ostatnie 30 dni"</item>
+		<item>"Ustaw cykl użycia..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Czas użytkowania"</item>
+		<item>"Uruchom licznik"</item>
+		<item>"Nazwa aplikacji"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Brak"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Brak"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Brak"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statyczny"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Brak"</item>
+		<item>"Ręcznie"</item>
+		<item>"Automatyczna konfiguracja proxy"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Brak"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP lub CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Nie określono"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Brak"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"Pamięć wewnętrzna"</item>
+		<item>"Wymienna karta SD"</item>
+		<item>"Zastosuj ustawienia systemowe"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Lokalizacja"</item>
+		<item>"Ustawienia osobiste"</item>
+		<item>"SMS/MMS"</item>
+		<item>"Multimedia"</item>
+		<item>"Urządzenie"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"przybliżona lokalizacja"</item>
+		<item>"precyzyjna lokalizacja"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"wibracje"</item>
+		<item>"czytaj kontakty"</item>
+		<item>"modyfikuj kontakty"</item>
+		<item>"odczyt rejestru połączeń"</item>
+		<item>"modyfikuj rejestr połączeń"</item>
+		<item>"czytaj kalendarz"</item>
+		<item>"Modyfikuj kalendarz"</item>
+		<item>"skanowanie Wi-Fi"</item>
+		<item>"Powiadomienie"</item>
+		<item>"skanowanie sieci komórkowej"</item>
+		<item>"połączenia telefoniczne"</item>
+		<item>"odczytaj wiadomość SMS"</item>
+		<item>"napisz wiadomość SMS"</item>
+		<item>"odbieranie wiadomości SMS"</item>
+		<item>"otrzymuj alarmowe wiadomości SMS"</item>
+		<item>"odbieranie wiadomości MMS"</item>
+		<item>"otrzymuj wiadomości WAP push"</item>
+		<item>"Wyślij SMS"</item>
+		<item>"odczytaj wiadomość ICC SMS"</item>
+		<item>"Utwórz ICC SMS"</item>
+		<item>"modyfikuj ustawienia"</item>
+		<item>"rysuj na górze"</item>
+		<item>"dostęp do powiadomień"</item>
+		<item>"kamera"</item>
+		<item>"nagrywanie dźwięku"</item>
+		<item>"odtwórz plik audio"</item>
+		<item>"odczytaj zawartość schowka"</item>
+		<item>"modyfikuj schowek"</item>
+		<item>"przyciski multimediów"</item>
+		<item>"aktywność audio"</item>
+		<item>"głośność główna"</item>
+		<item>"głośność mowy"</item>
+		<item>"głośność dzwonka"</item>
+		<item>"Głośność multimediów"</item>
+		<item>"Głośność alarmu"</item>
+		<item>"Głośność powiadomienia"</item>
+		<item>"Głośność Bluetooth"</item>
+		<item>"Zostaw włączony"</item>
+		<item>"Monitorowanie lokalizacji"</item>
+		<item>"Bardzo czułe monitorowanie lokalizacji"</item>
+		<item>"Zmiana przez Wi-Fi"</item>
+		<item>"Wycisz mikrofon/wyłącz wyciszenie"</item>
+		<item>"pokaż wyskakujące powiadomienie"</item>
+		<item>"Wyświetl multimedia"</item>
+		<item>"Aktywuj VPN"</item>
+		<item>"zapis tapety"</item>
+		<item>"wsparcie struktury"</item>
+		<item>"wsparcie robienia zrzutów ekranu"</item>
+		<item>"odczyt stanu telefonu"</item>
+		<item>"dodawanie poczty głosowej"</item>
+		<item>"użyj sip"</item>
+		<item>"przetwarzaj połączenie wychodzące"</item>
+		<item>"odcisk palca"</item>
+		<item>"czujniki badające ciało"</item>
+		<item>"odczyt CB"</item>
+		<item>"pozorowane położenie"</item>
+		<item>"odczytaj pamięć"</item>
+		<item>"zapisz w pamięci"</item>
+		<item>"włącz ekran"</item>
+		<item>"pobierz konta"</item>
+		<item>"uruchom w tle"</item>
+		<item>"głośność ułatwień dostępu"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Lokalizacja"</item>
+		<item>"Lokalizacja"</item>
+		<item>"Lokalizacja"</item>
+		<item>"Wibracje"</item>
+		<item>"Czytaj kontakty"</item>
+		<item>"Modyfikuj kontakty"</item>
+		<item>"odczyt rejestru połączeń"</item>
+		<item>"Modyfikuj rejestr połączeń"</item>
+		<item>"Czytaj kalendarz"</item>
+		<item>"Modyfikuj kalendarz"</item>
+		<item>"Lokalizacja"</item>
+		<item>"Opublikuj powiadomienie"</item>
+		<item>"Lokalizacja"</item>
+		<item>"Połącz z numerem telefonu"</item>
+		<item>"Odczytaj SMS/MMS"</item>
+		<item>"Utwórz SMS/MMS"</item>
+		<item>"Otrzymuj wiadomości SMS/MMS"</item>
+		<item>"Otrzymuj wiadomości SMS/MMS"</item>
+		<item>"Otrzymuj wiadomości SMS/MMS"</item>
+		<item>"Otrzymuj wiadomości SMS/MMS"</item>
+		<item>"Wyślij wiadomość SMS/MMS"</item>
+		<item>"Odczytaj SMS/MMS"</item>
+		<item>"Utwórz SMS/MMS"</item>
+		<item>"Modyfikuj ustawienia"</item>
+		<item>"Wyświetlaj na wierzchu"</item>
+		<item>"Dostęp do powiadomień"</item>
+		<item>"Aparat"</item>
+		<item>"Nagraj audio"</item>
+		<item>"Odtwórz plik audio"</item>
+		<item>"Odczytaj zawartość schowka"</item>
+		<item>"Modyfikuj schowek"</item>
+		<item>"Przyciski multimediów"</item>
+		<item>"Aktywność audio"</item>
+		<item>"Głośność główna"</item>
+		<item>"Głośność mowy"</item>
+		<item>"Głośność dzwonka"</item>
+		<item>"Głośność multimediów"</item>
+		<item>"Głośność alarmu"</item>
+		<item>"Głośność powiadomienia"</item>
+		<item>"Głośność Bluetooth"</item>
+		<item>"Zostaw włączony"</item>
+		<item>"Lokalizacja"</item>
+		<item>"Lokalizacja"</item>
+		<item>"Zmiana przez Wi-Fi"</item>
+		<item>"Wycisz mikrofon/wyłącz wyciszenie"</item>
+		<item>"Pokaż wyskakujące powiadomienie"</item>
+		<item>"Wyświetl multimedia"</item>
+		<item>"Aktywuj VPN"</item>
+		<item>"Zapisz tapetę"</item>
+		<item>"Struktura opcji pomocy"</item>
+		<item>"Zrzut ekranu opcji pomocy"</item>
+		<item>"Odczyt stanu telefonu"</item>
+		<item>"Dodawanie poczty głosowej"</item>
+		<item>"Użyj sip"</item>
+		<item>"Przetwarzaj połączenie wychodzące"</item>
+		<item>"Odcisk palca"</item>
+		<item>"Czujniki badające ciało"</item>
+		<item>"Odczyt CB"</item>
+		<item>"Pozorowane położenie"</item>
+		<item>"Odczytaj pamięć"</item>
+		<item>"Zapisz w pamięci"</item>
+		<item>"Włącz ekran"</item>
+		<item>"Pobierz konta"</item>
+		<item>"Uruchom w tle"</item>
+		<item>"Głośność ułatwień dostępu"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Krótkie"</item>
+		<item>"Średnie"</item>
+		<item>"Długie"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Domyślne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Bezszeryfowy, skondensowany"</item>
+		<item>"Serif"</item>
+		<item>"Serif"</item>
+		<item>"Serif monospace"</item>
+		<item>"Zwykła"</item>
+		<item>"Kursywa"</item>
+		<item>"Kapitaliki"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Bardzo mały"</item>
+		<item>"Mały"</item>
+		<item>"Normalny"</item>
+		<item>"Duży"</item>
+		<item>"Bardzo duży"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Domyślne"</item>
+		<item>"Brak"</item>
+		<item>"Kontur"</item>
+		<item>"Z cieniem"</item>
+		<item>"Wypukła"</item>
+		<item>"Obniżona"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Użyj wartości domyślnych aplikacji"</item>
+		<item>"Biały na czarnym"</item>
+		<item>"Czarny na białym"</item>
+		<item>"Żółty na czarnym"</item>
+		<item>"Żółty na niebieskim"</item>
+		<item>"Niestandardowy"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"Sieć VPN wykorzystująca protokół L2TP/IPSec z kluczami wspólnymi"</item>
+		<item>"Sieć VPN wykorzystująca protokół L2TP/IPSec z certyfikatami"</item>
+		<item>"Sieć VPN wykorzystująca protokół IPSec z kluczami wspólnymi i uwierzytelnianiem Xauth"</item>
+		<item>"Sieć VPN wykorzystująca protokół IPSec z certyfikatami i uwierzytelnianiem Xauth"</item>
+		<item>"Sieć VPN wykorzystująca protokół IPSec z certyfikatami i uwierzytelnianiem hybrydowym"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Rozłączono"</item>
+		<item>"Inicjalizacja…"</item>
+		<item>"Łączenie…"</item>
+		<item>"Połączono"</item>
+		<item>"Przekroczenie czasu"</item>
+		<item>"Niepowodzenie"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Pytaj"</item>
+		<item>"Nigdy nie zezwalaj"</item>
+		<item>"Zawsze zezwalaj"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Normalny"</item>
+		<item>"Średni poziom"</item>
+		<item>"Niski"</item>
+		<item>"Poziom krytyczny"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normalna"</item>
+		<item>"Średni poziom"</item>
+		<item>"Niski"</item>
+		<item>"Poziom krytyczny"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Niezmienne"</item>
+		<item>"Najczęstsza aktywność"</item>
+		<item>"Ważne (pierwszy plan)"</item>
+		<item>"Ważne (w tle)"</item>
+		<item>"Kopia zapasowa"</item>
+		<item>"Duże obciążenie"</item>
+		<item>"Usługa (uruchomiona)"</item>
+		<item>"Usługa (ponowne uruchomienie)"</item>
+		<item>"Odbiorca"</item>
+		<item>"Strona główna"</item>
+		<item>"Ostatnia aktywność"</item>
+		<item>"Pamięć podręczna (aktywność)"</item>
+		<item>"Pamięć podręczna (klient aktywności)"</item>
+		<item>"Pamięć podręczna (pusta)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Zielonomodry"</item>
+		<item>"Niebieski"</item>
+		<item>"Indygo"</item>
+		<item>"Fioletowy"</item>
+		<item>"Róż"</item>
+		<item>"Czerwony"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Zielonomodry"</item>
+		<item>"Niebieski"</item>
+		<item>"Indygo"</item>
+		<item>"Fioletowy"</item>
+		<item>"Róż"</item>
+		<item>"Czerwony"</item>
+		<item>"Inne dźwięki"</item>
+		<item>"Ciemnozielony"</item>
+		<item>"Zielony"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Ponad 30 dni temu"</item>
+		<item>"Ponad 60 dni temu"</item>
+		<item>"Ponad 90 dni temu"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Nigdy nie sprawdzaj"</item>
+		<item>"Sprawdzaj tylko w przypadku treści chronionych DRM"</item>
+		<item>"Zawsze sprawdzaj"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Nie sprawdzaj HDCP"</item>
+		<item>"Użyj sprawdzania HDCP tylko w przypadku treści chronionych DRM"</item>
+		<item>"Zawsze używaj sprawdzania HDCP"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (domyślnie)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"Dźwięk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>"</item>
+		<item>"Dźwięk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Włącz dodatkowe kodeki"</item>
+		<item>"Wyłącz dodatkowe kodeki"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"Dźwięk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>"</item>
+		<item>"Dźwięk <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Włącz dodatkowe kodeki"</item>
+		<item>"Wyłącz dodatkowe kodeki"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<item>"16 bitów na próbkę"</item>
+		<item>"24 bity na próbkę"</item>
+		<item>"32 bity na próbkę"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<item>"16 bitów na próbkę"</item>
+		<item>"24 bity na próbkę"</item>
+		<item>"32 bity na próbkę"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<item>"Monochromatyczny"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Użyj ustawienia systemowego (domyślnie)"</item>
+		<item>"Monochromatyczny"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Optymalizacja pod kątem jakości dźwięku (990 kbps/909 kbps)"</item>
+		<item>"Równowaga jakości dźwięku i połączenia (660 kbps/606 kbps)"</item>
+		<item>"Optymalizacja pod kątem jakości połączenia (330 kbps/303 kbps)"</item>
+		<item>"Najlepsza możliwa jakość (automatyczna regulacja przesyłania)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Optymalizacja pod kątem jakości dźwięku"</item>
+		<item>"Równowaga jakości dźwięku i połączenia"</item>
+		<item>"Optymalizacja pod kątem jakości połączenia"</item>
+		<item>"Najlepsza możliwa jakość (automatyczna regulacja przesyłania)"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<string-array name="select_logd_size_titles">
+		<item>"Wył."</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Wył."</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Wył."</item>
+		<item>"Rozmiar bufora dziennika: 64 kB"</item>
+		<item>"Rozmiar bufora dziennika: 256K"</item>
+		<item>"Rozmiar bufora dziennika: 1 MB"</item>
+		<item>"Rozmiar bufora dziennika: 4 MB"</item>
+		<item>"Rozmiar bufora dziennika: 16 MB"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Wył."</item>
+		<item>"Wszystkie"</item>
+		<item>"Wszystko oprócz radia"</item>
+		<item>"Tylko jądro"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Wył."</item>
+		<item>"Wszystkie bufory dziennika"</item>
+		<item>"Wszystkie oprócz buforów dziennika radia"</item>
+		<item>"Tylko bufor dziennika jądra"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animacja wyłączona"</item>
+		<item>"Skala animacji 0,5x"</item>
+		<item>"Skala animacji 1x"</item>
+		<item>"Skala animacji 1,5x"</item>
+		<item>"Skala animacji 2x"</item>
+		<item>"Skala animacji 5x"</item>
+		<item>"Skala animacji 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animacja wyłączona"</item>
+		<item>"Skala animacji 0,5x"</item>
+		<item>"Skala animacji 1x"</item>
+		<item>"Skala animacji 1,5x"</item>
+		<item>"Skala animacji 2x"</item>
+		<item>"Skala animacji 5x"</item>
+		<item>"Skala animacji 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animacja wyłączona"</item>
+		<item>"Skala animacji 0,5x"</item>
+		<item>"Skala animacji 1x"</item>
+		<item>"Skala animacji 1,5x"</item>
+		<item>"Skala animacji 2x"</item>
+		<item>"Skala animacji 5x"</item>
+		<item>"Skala animacji 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Brak"</item>
+		<item>"480p"</item>
+		<item>"480p (tryb bezpieczny)"</item>
+		<item>"720p"</item>
+		<item>"720p (bezpieczna rozdzielczość)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (bezpieczna rozdzielczość)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (bezpieczna rozdzielczość)"</item>
+		<item>"4K (zwiększona rozdzielczość)"</item>
+		<item>"4K (zwiększona rozdzielczość, bezp.)"</item>
+		<item>"720p, 1080p (dwa ekrany)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Brak"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (grafika)"</item>
+		<item>"Stos wywołań dla glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Wył."</item>
+		<item>"Zaznacz nieprostokątny obszar wycinania na niebiesko"</item>
+		<item>"Zaznacz testowe polecenia rysowania na zielono"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Wył."</item>
+		<item>"Na ekranie jako paski"</item>
+		<item>"W <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"Wyłącz"</item>
+		<item>"Pokaż przerysowywane obszary"</item>
+		<item>"Pokaż obszary dostosowane do deuteranomalii"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (domyślnie)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standardowy limit"</item>
+		<item>"Brak procesów w tle"</item>
+		<item>"Maksymalnie 1 proces"</item>
+		<item>"Maksymalnie 2 procesy"</item>
+		<item>"Maksymalnie 3 procesy"</item>
+		<item>"Maksymalnie 4 procesy"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles_new">
+		<item>"Tylko ładowanie"</item>
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Domyślne"</item>
+		<item>"Dane"</item>
+		<item>"Zadzwoń"</item>
+		<item>"wiadomość"</item>
+		<item>"Ekran główny"</item>
+		<item>"Służbowy"</item>
+		<item>"Podróże"</item>
+		<item>"Miłość"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"Usługa 3G/4G"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Wył."</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Auto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automatyczny 4G/3G/2G"</item>
+		<item>"Tylko 4G"</item>
+		<item>"Tylko 3G"</item>
+		<item>"Tylko 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (automatycznie)"</item>
+		<item>"UMTS/GSM (automatyczne)"</item>
+		<item>"Tylko LTE"</item>
+		<item>"Tylko GSM"</item>
+		<item>"Tylko GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Tylko WCDMA"</item>
+		<item>"Tylko GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (preferowana)/3G/2G"</item>
+		<item>"3G (preferowana)/2G"</item>
+		<item>"Tylko 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automatyczne)"</item>
+		<item>"3G/2G (automatyczne)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (auto)"</item>
+		<item>"3G/2G (automatycznie)"</item>
+		<item>"Tylko 3G"</item>
+		<item>"Tylko 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM (automatyczne)"</item>
+		<item>"Tylko WCDMA"</item>
+		<item>"WCDMA/GSM (automatyczne)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (auto)"</item>
+		<item>"3G/2G (auto)"</item>
+		<item>"Tylko 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Tylko GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE (automatycznie)"</item>
+		<item>"Automatyczny GSM/WCDMA"</item>
+		<item>"Tylko GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM (automatyczne)"</item>
+		<item>"UMTS/GSM (automatyczne)"</item>
+		<item>"Tylko GSM"</item>
+		<item>"Tylko GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (auto)"</item>
+		<item>"3G/2G (automatycznie)"</item>
+		<item>"Tylko 4G"</item>
+		<item>"Tylko 3G"</item>
+		<item>"Tylko 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE Preferowany)"</item>
+		<item>"WCDMA/2G (WCDMA Preferowany)"</item>
+		<item>"Tylko 3G"</item>
+		<item>"Tylko 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE Preferowany)"</item>
+		<item>"Tylko 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (zalecana)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (automatyczne połączenie)"</item>
+		<item>"WCDMA/GSM (automatyczne połączenie)"</item>
+		<item>"Tylko WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Wyspy Midway"</item>
+		<item>"Hawaje"</item>
+		<item>"Alaska"</item>
+		<item>"Czas pacyficzny"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Czas górski"</item>
+		<item>"Ameryka Środkowa"</item>
+		<item>"Czas centralny"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Czas wschodni"</item>
+		<item>"Wenezuela"</item>
+		<item>"Czas atlantycki (Barbados)"</item>
+		<item>"Czas atlantycki (Kanada)"</item>
+		<item>"Manaus"</item>
+		<item>"Nowa Fundlandia"</item>
+		<item>"Środkowoatlantycki"</item>
+		<item>"Azory"</item>
+		<item>"Wys. Zielonego Przylądka"</item>
+		<item>"Casablanca"</item>
+		<item>"Czas zachodnioafrykański"</item>
+		<item>"Amman, Jordania"</item>
+		<item>"Stambuł"</item>
+		<item>"Bejrut, Liban"</item>
+		<item>"Teheran"</item>
+		<item>"Orał"</item>
+		<item>"Jekaterynburg"</item>
+		<item>"Kalkuta"</item>
+		<item>"Katmandu"</item>
+		<item>"Rangun"</item>
+		<item>"Krasnojarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"Irkuck"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Jakuck"</item>
+		<item>"Adelajda"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sydney"</item>
+		<item>"Władywostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fidżi"</item>
+		<item>"Paragwaj"</item>
+		<item>"Abu Dhabi"</item>
+		<item>"Abudża"</item>
+		<item>"Akra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Ababa"</item>
+		<item>"Algier"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarywa"</item>
+		<item>"Aszchabad"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Ateny"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdad"</item>
+		<item>"Baku"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagrzeb"</item>
+		<item>"Bangi"</item>
+		<item>"Bandżul"</item>
+		<item>"Basseterre"</item>
+		<item>"Pekin"</item>
+		<item>"Belfast"</item>
+		<item>"Belgrad"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Berno"</item>
+		<item>"Biszkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogota"</item>
+		<item>"Brasilia"</item>
+		<item>"Bratysława"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Bruksela"</item>
+		<item>"Bukareszt"</item>
+		<item>"Budapeszt"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bużumbura"</item>
+		<item>"Kair"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Kajenna"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Kiszyniów"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Konakry"</item>
+		<item>"Kopenhaga"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Dżibuti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubaj"</item>
+		<item>"Dublin"</item>
+		<item>"Duszanbe"</item>
+		<item>"Edynburg"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Kajmany)"</item>
+		<item>"Georgetown (W. Wniebowstąp.)"</item>
+		<item>"Georgetown (Gujana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Gwatemala (miasto)"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Hawana"</item>
+		<item>"Helsinki"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabad"</item>
+		<item>"Dżakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Jerozolima"</item>
+		<item>"Dżuba"</item>
+		<item>"Kabul"</item>
+		<item>"Kampala"</item>
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<item>"Chartum"</item>
+		<item>"Kijów"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamajka)"</item>
+		<item>"Kingston (Wyspa Norfolk)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinszasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuwejt"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lizbona"</item>
+		<item>"Lublana"</item>
+		<item>"Lome"</item>
+		<item>"Londyn"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luksemburg"</item>
+		<item>"Madryt"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Meksyk"</item>
+		<item>"Mińsk"</item>
+		<item>"Mogadiszu"</item>
+		<item>"Monako"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskwa"</item>
+		<item>"Muskat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"Ndżamena"</item>
+		<item>"New Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nikozja"</item>
+		<item>"Nawakszut"</item>
+		<item>"Numea"</item>
+		<item>"Nuku\'alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Wagadugu"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama (miasto)"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paryż"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Praga"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Prisztina"</item>
+		<item>"Pjongjang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavik"</item>
+		<item>"Ryga"</item>
+		<item>"Rijad"</item>
+		<item>"Road Town"</item>
+		<item>"Rzym"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajewo"</item>
+		<item>"Seul"</item>
+		<item>"Singapur"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Dźajawardanapura Kotte"</item>
+		<item>"Saint George\'s"</item>
+		<item>"Saint Helier"</item>
+		<item>"Saint John\'s"</item>
+		<item>"Saint Peter Port"</item>
+		<item>"Saint-Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Sztokholm"</item>
+		<item>"Sucre"</item>
+		<item>"Tajpej"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Taszkent"</item>
+		<item>"Tbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokio"</item>
+		<item>"Thorshavn"</item>
+		<item>"Trypolis"</item>
+		<item>"Tunis"</item>
+		<item>"Ułan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Watykan (miasto)"</item>
+		<item>"Victoria"</item>
+		<item>"Wiedeń"</item>
+		<item>"Wientian"</item>
+		<item>"Wilno"</item>
+		<item>"Warszawa"</item>
+		<item>"Waszyngton, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhuk"</item>
+		<item>"Jamusukro"</item>
+		<item>"Jaunde"</item>
+		<item>"Yaren"</item>
+		<item>"Erywań"</item>
+		<item>"Boliwia"</item>
+		<item>"Nowosybirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Kaliningrad"</item>
+		<item>"La Paz"</item>
+		<item>"Chabarowsk"</item>
+		<item>"Jużnosachalińsk"</item>
+		<item>"Siewiero-Kurilsk"</item>
+		<item>"Pietropawłowsk Kamczacki"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"St. Petersburg"</item>
+		<item>"Wołgograd"</item>
+		<item>"Astrachań"</item>
+		<item>"Iżewsk"</item>
+		<item>"Ufa"</item>
+		<item>"Czelabińsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnauł"</item>
+		<item>"Ułan Ude"</item>
+		<item>"Czyta"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Rosyjska strefa czasowa 1"</item>
+		<item>"Rosyjska strefa czasowa 2 (Moskwa)"</item>
+		<item>"Rosyjska strefa czasowa 3"</item>
+		<item>"Rosyjska strefa czasowa 4"</item>
+		<item>"Rosyjska strefa czasowa 5"</item>
+		<item>"Rosyjska strefa czasowa 6"</item>
+		<item>"Rosyjska strefa czasowa 7"</item>
+		<item>"Rosyjska strefa czasowa 8"</item>
+		<item>"Rosyjska strefa czasowa 9"</item>
+		<item>"Rosyjska strefa czasowa 10"</item>
+		<item>"Rosyjska strefa czasowa 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancun"</item>
+		<item>"Merida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Banderas Bay"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Nieokreślone)"</item>
+		<item>"Gniazdo SIM 1"</item>
+		<item>"Gniazdo SIM 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 użytkownik"</item>
+		<item>"2 użytkowników"</item>
+		<item>"3 użytkowników"</item>
+		<item>"4 użytkowników"</item>
+		<item>"5 użytkowników"</item>
+		<item>"6 użytkowników"</item>
+		<item>"7 użytkowników"</item>
+		<item>"8 użytkowników"</item>
+		<item>"9 użytkowników"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Naciśnij przycisk"</item>
+		<item>"Kod PIN z drugiego urządzenia"</item>
+	</string-array>
+</resources>

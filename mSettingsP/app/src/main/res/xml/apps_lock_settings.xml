@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="reset_password"
+        android:title="@string/apps_lock_reset_password"
+        android:persistent="false">
+    </Preference>
+
+    <SwitchPreference
+        android:key="fingerprint_unlock_enable"
+        android:title="@string/apps_lock_fingerprint_unlock_enable_title"
+        android:summary="@string/apps_lock_fingerprint_unlock_enable_summary"
+        android:persistent="false" />
+
+</PreferenceScreen>

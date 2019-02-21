@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Begin added by jinlong.lu for XR6618444 on 18-7-31-->
+<!-- Settings button -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--Begin added by jinlong.lu for XR7074057 on 18-11-2 -->
+    <!-- set to visible-->
+    <!--Begin modified by jinlong.lu for XR6618444 on 18-7-31 -->
+   <!-- set to gone-->
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/delete"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="?android:attr/listPreferredItemPaddingEnd"
+        android:scaleType="center"
+        android:src="@drawable/ic_fingerprint_delete" />
+    <!--End modified by jinlong.lu for XR6618444 on 18-7-31 -->
+    <!--End added by jinlong.lu for XR7074057 on 18-11-2 -->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="start|center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp">
+       <!--Begin modified by jinlong.lu for XR6618444 on 18-7-31 -->
+        <!--set to gone-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@drawable/list_divider_dark" />
+       <!--End modified by jinlong.lu for XR6618444 on 18-7-31 -->
+    </LinearLayout>
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="@string/settings_button"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingStart="?android:attr/listPreferredItemPaddingEnd"
+        android:scaleType="center"
+        android:src="@drawable/ic_settings_gear" />
+</LinearLayout>
+<!--End added by jinlong.lu for XR6618444 on 18-7-31-->

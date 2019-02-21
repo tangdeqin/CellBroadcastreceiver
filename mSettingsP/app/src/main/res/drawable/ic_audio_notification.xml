@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2013, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<!--Modified by nanbing.zou/ronghui.yi for P23463/7230328 on 2018-12-19 begin-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0">
+    <path
+        android:pathData="M7.002,16.948C4.012,15.564 2,12.975 2,10.01C2,5.586 6.477,2 12,2C17.523,2 22,5.586 22,10.01C22,14.433 17.523,18.019 12,18.019C11.745,18.019 11.492,18.011 11.241,17.996L7.002,21L7.002,16.948Z"
+        android:strokeColor="#00000000"
+        android:fillType="nonZero"
+        android:fillColor="#1BB0F4"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M7,10.001a1,1.001 0,1 0,2 0a1,1.001 0,1 0,-2 0z"
+        android:strokeColor="#00000000"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M11,10.001a1,1.001 0,1 0,2 0a1,1.001 0,1 0,-2 0z"
+        android:strokeColor="#00000000"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"/>
+    <path
+        android:pathData="M15,10.001a1,1.001 0,1 0,2 0a1,1.001 0,1 0,-2 0z"
+        android:strokeColor="#00000000"
+        android:fillType="evenOdd"
+        android:fillColor="#FFFFFF"
+        android:strokeWidth="1"/>
+</vector>
+<!--Modified by nanbing.zou/ronghui.yi for P23463/7230328 on 2018-12-19 end-->

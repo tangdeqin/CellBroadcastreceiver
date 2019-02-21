@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<!--
+/**
+* Copyright (c) 2009, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License. 
+* You may obtain a copy of the License at 
+*
+*     http://www.apache.org/licenses/LICENSE-2.0 
+*
+* Unless required by applicable law or agreed to in writing, software 
+* distributed under the License is distributed on an "AS IS" BASIS, 
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+* See the License for the specific language governing permissions and 
+* limitations under the License.
+*/
+-->
+<!--
+TOOLS: prd2h-v5.7
+USER: user
+DATE: 2018-06-08
+TIME: 08:20:40 (G6T)
+-->
+<resources>
+<!-- Boolean def_settings_hide_ntp_server - [FR/PR]:723835s
+[Function]:NTP server settings in Date and Time should be hide.
+[Value]:0x01:hide NTP server; 0x00: display NTP server default:0x01
+[Special C]:no -->
+    <bool name="def_settings_hide_ntp_server" >true</bool>
+<!-- Boolean def_Settings_LED_menu_enable - [FR/PR]:723691
+[Function]:To control whether display LED indicator.
+[Value]:0x00 hide the menu,0x01 show the menu,default 0x00
+[Special C]:no -->
+    <bool name="def_Settings_LED_menu_enable" >false</bool>
+<!-- Byte def_Settings_remove_LocationMode - [FR/Defect]:5197563
+[Function]:Customize whether show the location mode prefrence in the location settings.
+[Option Value]:0x00:show the location mode preference,0x01:not show the location mode preference
+default:0x00 show the preference
+[Dependency] No -->
+    <bool name="def_Settings_remove_LocationMode" >false</bool>
+<!-- AsciiString def_baseband_about_phone - [FR/PR]: 5222599
+[Function]: display baseband version string in Settings->About phone
+[Value]: baseband version
+[Special C]:no -->
+    <!-- zhixiong.liu.hz change default for 6816404 on 20180816 -->
+    <string name="def_baseband_about_phone" >""</string>
+<!-- AsciiString def_kernel_about_phone - [FR/PR]: 5222529
+[Function]: display kernel version string in Settings->About phone
+[Value]: kernel version
+[Special C]:no -->
+    <string name="def_kernel_about_phone" >"4.9.77"</string>
+<!-- eBOOLEAN def_Settings_buildnum_display_enable - [FR/PR]: 5222529
+[Function]: control the display of build number in Settings->About phone
+[Value]: true means display, false means hide, default is true(0x1) -->
+    <bool name="def_Settings_buildnum_display_enable" >true</bool>
+
+<!-- Boolean def_settings_sdcard_slow_warning - Control whether pop up slow warning when format low speed SDCard as internal storage.Default pop up.0x00:not pop up slow warning;0x01:pop up slow warning;  The default value is 0x01 -->
+    <bool name="def_settings_sdcard_slow_warning" >true</bool>
+<!-- eBOOLEAN def_settings_custom_build_version_enable - [FR/PR]:5198503
+[Function]:To control whether display custom build version
+[Value]:0x00 hides the menu
+0x01 shows the menu
+default 0x01
+[Dependency]:NO -->
+    <!--zhixiong.liu.hz remove useless code defect 7169297 20181130-->
+    <!--<bool name="def_settings_custom_build_version_enable" >true</bool>-->
+<!-- AsciiString user manual uri - [FR/PR]:5198641
+[Function]:To customize the URL where user can download the user manual
+[Value]:user manual download url
+[Dependency]:NO -->
+    <string name="UM_Link_URL" >"https://www.alcatelmobile.com/content/support/"</string>
+<!-- eBOOLEAN def_settings_about_phone_um_display - [FR/PR]:5198723
+[Function]:To customize whether displays user manual menu in about phone
+[Value]: 0x00:not display; 0x01:display
+default is 0x01
+[Dependency]:NO -->
+    <bool name="def_settings_about_phone_um_display" >true</bool>
+<!-- Boolean def_settings_showHardwareversion_enable - [FR/PR]:5163371
+[Function]:this item control whether display hardwareVersion in settings->About phone->Status menu. 
+[Value]:"0x01" is display and "0x00" is hidden,default is 0x01
+[Dependency]:NO -->
+    <bool name="def_settings_showHardwareversion_enable" >true</bool>
+<!-- eBOOLEAN def_show_GMSdatetime_whitout_simcard - [FR/PR]:4009059
+[Function]:Define whether show GMS datetime activity when there is no sim card insert during Setup Wizard.0x00: not show 0x01: show GMS  date time default is 0x00
+[Value]:0x00
+[Special C]:no -->
+    <bool name="def_show_GMSdatetime_whitout_simcard" >false</bool>
+
+<!-- Boolean def_usb_tethering_on_restraint_data_connect - [FR/PR]:5872985
+[Function]:no
+[Value]:0x00:Usb tethering can be enabled regardless of network(mobile data/wifi) connect or not
+0x01:Usb tethering can be enabled only when mobile data enabled or wifi connect to AP
+[Special C]:no -->
+    <bool name="def_usb_tethering_on_restraint_data_connect" >false</bool>
+    <!--Begin modified by nanbing.zou P24504 on 18-10-10-->
+<!-- AsciiString def_ssv_alarm_ringtone - The default alarm ringtone for SSV. -->
+    <string name="def_ssv_alarm_ringtone" >"Forest.mp3"</string>
+<!-- AsciiString def_ssv_notification_ringtone - The default notification ringtone for SSV. -->
+    <string name="def_ssv_notification_ringtone" >"Success.mp3"</string>
+<!-- AsciiString def_ssv_ring_ringtone - The default ringtone for SSV. -->
+    <string name="def_ssv_ring_ringtone" >"Fresh.ogg"</string>
+    <!--End modified by nanbing.zou P24504 on 18-10-10-->
+    <!--Begin modified by jinlong.lu for XR7086584 on 18-11-10-->
+<!-- AsciiString def_fp_launch_app_list - [FR/PR]:5854853
+[Function]:This SDM is used to control the menu of fingerprint launch application at settings,we can remove "fp_none;"to delete "None" menu
+[Value]:"fp_none;func_call_a_contact;func_recent_calls;func_selfie;func_camera;func_torch;func_start_sound_record;
+func_set_timer;func_calculator;func_navigate_home;fp_launch_new_message;fp_launch_new_email;func_add_contact;func_add_agenda;
+func_google_voice_search;func_apps"
+[Special C]:no -->
+    <string name="def_fp_launch_app_list" >"func_call_a_contact;func_recent_calls;func_selfie;func_camera;func_torch;func_start_sound_record;func_set_timer;func_calculator;func_navigate_home;fp_launch_new_message;fp_launch_new_email;func_add_contact;func_add_agenda;func_google_voice_search;func_apps"</string>
+    <!--End modified by jinlong.lu for XR7086584 on 18-11-10-->
+
+<!-- Boolean def_Settings_typecode_enable - [FR/PR]:6008699
+[Function]:To control whether display type code menu in Settings->About phone.
+[Value]:0x00 hide the menu,0x01 show the menu,default 0x00
+[Special C]:no -->
+    <bool name="def_Settings_typecode_enable" >false</bool>
+<!-- AsciiString def_Settings_typecode - [FR/PR]: 6008699
+[Function]: display type code string in Settings->About phone
+[Value]: type code
+[Special C]:no -->
+    <string name="def_Settings_typecode" >"5052D"</string>
+<!-- eBOOLEAN def_settings_show_iccid_imsi_in_sim_status - [FR/Defect]:6006868
+[Function]:This item control if show iccid imsi in settings->about phone ->status->Sim status
+[Value]:0x01 show iccid and imsi
+        0x00 not show iccid and imsi
+        default 0x01
+[Dependency]:NO -->
+    <bool name="def_settings_show_iccid_imsi_in_sim_status" >true</bool>
+<!-- eBOOLEAN def_Settings_wifi_preconfig_ap_no_edit - 0x01:it means the preconfig ap could not be edited
+      0x00:it means the preconfig ap could be edited
+   this just for precongig Ap for wifi
+default is 0x00 -->
+    <bool name="def_Settings_wifi_preconfig_ap_no_edit" >false</bool>
+<!-- eBOOLEAN def_Settings_wifi_preconfig_ap_no_forget - decide to forget or disable the ap. 0x01: show disconnect button the ap just be disabled,not forget;
+	0x00: the forget button show,and user could forget 
+	this just forget the ap when you click it,after you switch wifi on and off,it will connect the preap again
+	this is the behaivor as before,no cts ask to modify -->
+    <bool name="def_Settings_wifi_preconfig_ap_no_forget" >true</bool>
+<!-- BYTE def_settings_wifi_network_exist - this SDM represents the num of pre-configure ap, default is 0x00, no pre configured ap.
+0x00: There is none Pre-Configured AP existed
+0x01: There is one pre-config AP
+0x02: There are two pre-config AP
+0x03: There are three pre-config AP
+0x04: There are four pre-config AP
+0x05: There are five pre-config AP -->
+    <integer name="def_Settings_wifi_network_exist" >0</integer>
+<!-- AsciiString def_settings_wifi_network_ssid - wifi network name ssid, max length is 32 -->
+    <string name="def_Settings_wifi_network_ssid" >""</string>
+<!-- AsciiString def_settings_wifi_password - wifi security passoword:max length is 63, min length is 8 -->
+    <string name="def_Settings_wifi_password" >""</string>
+<!-- AsciiString def_settings_wifi_security_mode - wifi security mode: four modes(Open/WEP/PSK/EAP) -->
+    <string name="def_Settings_wifi_security_mode" >"EAP"</string>
+<!-- AsciiString def_settings_wifi_eap_identity - Input the identity only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_identity" >""</string>
+<!-- AsciiString def_settings_wifi_eap_method - Input the eap method only when the security mode is EAP, four methods:PEAP/PWD/SIM/AKA -->
+    <string name="def_Settings_wifi_eap_method" >"SIM"</string>
+<!-- AsciiString def_Settings_preloaded_eap_sim_mcc_mnc - Input SIM mcc+mnc, if has more than one separate with ';' e.g. 46000;46002.
+default is empty,at most 60 length,mnc2 to mnc5 is the same. -->
+    <string name="def_Settings_preloaded_eap_sim_mcc_mnc" >"46000"</string>
+<!-- AsciiString def_settings_wifi_eap_phrase2_authentication - Input the eap phase2 only when the security mode is EAP, three methods:None/MSCHAPV2/GTC -->
+    <string name="def_Settings_wifi_eap_phrase2_authentication" >"None"</string>
+<!-- AsciiString def_settings_wifi_eap_ca_certification - Input the ca certificate only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_ca_certification" >""</string>
+<!-- AsciiString def_settings_wifi_eap_user_certificate - Input the user certificate only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_user_certificate" >""</string>
+<!-- AsciiString def_settings_wifi_eap_anonymous_identity - Input the anonymous identity only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_anonymous_identity" >""</string>
+<!-- AsciiString def_settings_wifi_network_status - wifi network status: Public - Network is not hidden, Other Case- Network is hidden, max length is set to 40 -->
+    <string name="def_Settings_wifi_network_status" >"Public"</string>
+<!-- BYTE def_Settings_wifi_priority - priority for perdefined config network.
+0x00: it's priority is 0, less than 1/2/3/4/5.
+0x01: it's priority is 1, less than 2/3/4/5.
+0x02: it's priority is 2, less than 3/4/5.
+0x03: it's priority is 3, less than 4/5.
+0x04: it's priority is 4, less than 5.
+0x05: it's priority is 5, the highest priority. -->
+    <integer name="def_Settings_wifi_priority" >0</integer>
+<!-- AsciiString def_settings_wifi_network_ssid_2 - wifi network name ssid, max length is 32 -->
+    <string name="def_Settings_wifi_network_ssid_2" >""</string>
+<!-- AsciiString def_settings_wifi_password_2 - wifi security passoword:max length is 63, min length is 8 -->
+    <string name="def_Settings_wifi_password_2" >""</string>
+<!-- AsciiString def_settings_wifi_security_mode_2 - wifi security mode: four modes(Open/WEP/PSK/EAP) -->
+    <string name="def_Settings_wifi_security_mode_2" >"EAP"</string>
+<!-- AsciiString def_settings_wifi_eap_identity_2 - Input the identity only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_identity_2" >""</string>
+<!-- AsciiString def_settings_wifi_eap_method_2 - Input the eap method only when the security mode is EAP, four methods:PEAP/PWD/SIM/AKA -->
+    <string name="def_Settings_wifi_eap_method_2" >"SIM"</string>
+<!-- AsciiString def_Settings_preloaded_eap_sim_mcc_mnc_2 - Input SIM mcc+mnc, if has more than one separate with ';' e.g. 46000;46002.
+default is empty. -->
+    <string name="def_Settings_preloaded_eap_sim_mcc_mnc_2" >""</string>
+<!-- AsciiString def_settings_wifi_eap_phrase2_authentication_2 - Input the eap phase2 only when the security mode is EAP, five methods:None/PAP/MSCHAP/MSCHAPV2/GTC -->
+    <string name="def_Settings_wifi_eap_phrase2_authentication_2" >"None"</string>
+<!-- AsciiString def_settings_wifi_eap_ca_certification_2 - Input the ca certificate only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_ca_certification_2" >""</string>
+<!-- AsciiString def_settings_wifi_eap_user_certificate_2 - Input the user certificate only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_user_certificate_2" >""</string>
+<!-- AsciiString def_settings_wifi_eap_anonymous_identity_2 - Input the anonymous identity only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_anonymous_identity_2" >""</string>
+<!-- AsciiString def_settings_wifi_network_status_2 - wifi network status: Public - Network is not hidden, Other Case- Network is hidden, max length is set to 40 -->
+    <string name="def_Settings_wifi_network_status_2" >"Public"</string>
+<!-- BYTE def_Settings_wifi_priority_2 - priority for perdefined config network 2.
+0x00: it's priority is 0, less than 1/2/3/4/5.
+0x01: it's priority is 1, less than 2/3/4/5.
+0x02: it's priority is 2, less than 3/4/5.
+0x03: it's priority is 3, less than 4/5.
+0x04: it's priority is 4, less than 5.
+0x05: it's priority is 5, the highest priority. -->
+    <integer name="def_Settings_wifi_priority_2" >0</integer>
+<!-- AsciiString def_settings_wifi_network_ssid_3 - wifi network name ssid, max length is 32 -->
+    <string name="def_Settings_wifi_network_ssid_3" >""</string>
+<!-- AsciiString def_settings_wifi_password_3 - wifi security passoword:max length is 63, min length is 8 -->
+    <string name="def_Settings_wifi_password_3" >""</string>
+<!-- AsciiString def_settings_wifi_security_mode_3 - wifi security mode: four modes(Open/WEP/PSK/EAP) -->
+    <string name="def_Settings_wifi_security_mode_3" >"Open"</string>
+<!-- AsciiString def_settings_wifi_eap_identity_3 - Input the identity only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_identity_3" >""</string>
+<!-- AsciiString def_settings_wifi_eap_method_3 - Input the eap method only when the security mode is EAP, four methods:PEAP/PWD/SIM/AKA -->
+    <string name="def_Settings_wifi_eap_method_3" >"SIM"</string>
+<!-- AsciiString def_Settings_preloaded_eap_sim_mcc_mnc_3 - Input SIM mcc+mnc, if has more than one separate with ';' e.g. 46000;46002.
+default is empty. -->
+    <string name="def_Settings_preloaded_eap_sim_mcc_mnc_3" >""</string>
+<!-- AsciiString def_settings_wifi_eap_phrase2_authentication_3 - Input the eap phase2 only when the security mode is EAP, five methods:None/PAP/MSCHAP/MSCHAPV2/GTC -->
+    <string name="def_Settings_wifi_eap_phrase2_authentication_3" >"None"</string>
+<!-- AsciiString def_settings_wifi_eap_ca_certification_3 - Input the ca certificate only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_ca_certification_3" >""</string>
+<!-- AsciiString def_settings_wifi_eap_user_certificate_3 - Input the user certificate only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_user_certificate_3" >""</string>
+<!-- AsciiString def_settings_wifi_eap_anonymous_identity_3 - Input the anonymous identity only when the security mode is EAP, the default is none -->
+    <string name="def_Settings_wifi_eap_anonymous_identity_3" >""</string>
+<!-- AsciiString def_settings_wifi_network_status_3 - wifi network status: Public - Network is not hidden, Other Case- Network is hidden, max length is set to 40 -->
+    <string name="def_Settings_wifi_network_status_3" >"Public"</string>
+<!-- BYTE def_Settings_wifi_priority_3 - priority for perdefined config network 3.
+0x00: it's priority is 0, less than 1/2/3/4/5.
+0x01: it's priority is 1, less than 2/3/4/5.
+0x02: it's priority is 2, less than 3/4/5.
+0x03: it's priority is 3, less than 4/5.
+0x04: it's priority is 4, less than 5.
+0x05: it's priority is 5, the highest priority. -->
+    <integer name="def_Settings_wifi_priority_3" >0</integer>
+<!-- Boolean def_settings_wifi_direct_hide_flag - [FR/PR]:723876
+[Function]:Wi-Fi Direct in menu,default is 0x01.
+[Value]:0x01:Wi-Fi Direct display, 0x00:Wi-Fi Direct hide,
+[Special C]:no -->
+    <bool name="def_Settings_wifi_direct_hide_flag" >true</bool>
+<!-- Boolean def_settings_showtips_switch_wifi_hotspot - [FR/PR]:5559402
+[Function]:To control whether show tips to when switch in wifi and hotspot,default 0x01(show tips).
+[Value]:show:0x01
+hide:0x00
+[Special C]:no -->
+    <bool name="def_settings_showtips_switch_wifi_hotspot" >true</bool>
+<!-- eBOOLEAN def_settings_hotspot_enable - [FR/PR]:5163362
+[Function]:To customize hotspot function, if support hotspot show wifi hotspot title, otherwise not show hotspot title.
+[Value]: 0x00:not show; 0x01:show
+default is 0x01
+[Dependency]:NO -->
+    <bool name="def_settings_hotspot_enable" >true</bool>
+<!-- Boolean def_settings_hotspot_timeout_entries - [FR/PR]:4920448
+[Function]:To control whether show ALGB hotspot timeout entries,Keep the original entries: 0x00, Show time out entries: 0x01. Default: 0x00
+[Value]:0x00
+[Special C]:no -->
+    <!-- eBOOLEAN def_settings_hide_joy_ui - whether hide joy ui picture in settings. 0x01:hide; 0x00:show; default value 0x00 -->
+    <!-- eBOOLEAN def_settings_baseband_show - [FR/Defect]:6272377
+[Function]:This item control whether baseband item show or not
+[Value]:0x01" is show and "0x00" is hidden.
+        default 0x01
+[Dependency]:NO -->
+    <bool name="def_settings_baseband_show" >true</bool>
+<!-- eBOOLEAN def_settings_use_auto_time_checkpref - [FR/PR]:6006882
+[Function]:Whether Automatic date time in Date and Time should be use checkpreference.
+[Value]:0x01:yes; 0x00: no default:0x00
+[Special C]:no -->
+    <!-- Boolean def_settings_usb_plugin_display - [FR/PR]:6057922
+[Function]:To control whether display usb menu when usb plug in.
+[Value]:0x00 don't display the usb menu, 0x01 display the usb menu,default 0x01
+[Special C]:no -->
+    <bool name="def_settings_usb_plugin_display" >false</bool>
+    
+    <integer name="def_settings_display_build_number" >1</integer>
+    <bool name="def_Settings_imeisv_display_style" >false</bool>
+
+    <!-- Begin add by chenli.gao.hz for XR6507882 on 2018/07/20 -->
+    <bool name="def_Settings_rename_wificalling_menu">false</bool>
+    <string name="def_Settings_wificalling_menu_list">""</string>
+    <!-- End add by chenli.gao.hz for XR6507882 on 2018/07/20 -->
+
+    <!-- Begin added by zubo.li for XR6628870, XRXR7072293 telecomcode sim-settings on 2018.10.31 -->
+    <!--bai-settings-->
+    <bool name="def_settings_hide_MSISDN">true</bool>
+    <bool name="def_settings_MSISDN_editable">false</bool>
+    <!-- End added by zubo.li for XR6628870, XRXR7072293 telecomcode sim-settings on 2018.10.31 -->
+
+    <!-- Begin added by yeqing.lv for XR6619997 on 2018/07/25 -->
+    <!-- End added by yeqing.lv for XR6619997 on 2018/07/25 -->
+     <!-- Begin deleted by miaoliu for XR7119445 on 2018/11/17 -->
+    <!-- Begin added by ruihua.zhang.hz for tclPlugin telecomcode on 2018/08/21 -->
+    <!-- <bool name="feature_tctfw_data_enalbewarning_on">false</bool> -->
+    <!-- End added by ruihua.zhang.hz for tclPlugin telecomcode on 2018/08/21 -->
+    <!-- Being added by ruihua.zhang.hz for XR6347291 telecomcode on 2018/08/28 -->
+    <!-- <bool name="def_settings_display_mobile_for_single_SIM">false</bool> -->
+    <!-- End added by ruihua.zhang.hz for XR6347291 telecomcode on 2018/08/28 -->
+     <!-- End deleted by miaoliu for XR7119445 on 2018/11/17 -->
+    <!--[TCT-ROM][SSV] Added by nanbing.zou for Task6703307 on 2018-08-21 begin-->
+    <bool name="def_ssv_vibrate_ring">false</bool>
+    <!--[TCT-ROM][SSV] Added by nanbing.zou for Task6703307 on 2018-08-21 end-->
+
+    <!-- Begin added by ronghui.yi for XR P23187,2018/8/28 -->
+    <bool name="def_setting_screen_off_item_hide">true</bool>
+    <!-- End added by ronghui.yi for XR P23187,2018/8/28 -->
+
+    <!-- Begin added by yimin.guo for XR P23338 on 2018/08/28 -->
+    <bool name="def_setting_gesture_menu_enable">true</bool>
+    <!-- Begin added by yimin.guo for XR P23338 on 2018/08/28 -->
+
+    <!--[TCT-ROM][SoundEnhancement] Added by nanbing.zou for P23236 on 2018-09-05 begin-->
+    <bool name="def_sound_enhancement_support">false</bool>
+    <!--[TCT-ROM][SoundEnhancement] Added by nanbing.zou for P23236 on 2018-09-05 end-->
+    
+    <!--Begin added by quan.luo for XR7025239 telecomcode on 2018-09-15-->
+    <!-- Deleted by miaoliu for XR7115736 on 2018/11/16 -->
+    <!-- <integer name="def_settings_LTE_network_icon_display">8</integer> -->
+    <!--Begin added by quan.luo for XR7025239 telecomcode on 2018-09-15-->
+
+    <!--Begin added by wenli for P23942  on 20180917-->
+    <bool name="def_show_notification_folder_preference">true</bool>
+    <!--End added by wenli for P23942  on 20180917-->
+
+    <!-- Begin added by ronghui.yi for XR P23825,2018/10/10 -->
+    <!-- <bool name="def_settings_vibration_duration_switch">true</bool> -->
+    <!-- End added by ronghui.yi for XR P23825,2018/10/10 -->
+     <!-- Begin added by miaoliu for XRP10024265 on 2018/10/10 -->
+    <bool name="def_settings_not_necessary_pin_for_vpn">false</bool>
+    <!-- End added by miaoliu for XRP10024265 on 2018/10/10 -->
+    <!-- Begin added by miaoliu for XRP10024265 on 2018/10/11 -->
+    <!-- for add telecom sdm -->
+    <bool name="def_disable_apn_roaming_protocol_field">false</bool>
+    <integer name="def_default_protocol_new_APN">0</integer>
+    <integer name="def_settings_defaultPortInApn">0</integer>
+    <bool name="def_settings_apn_disable_bearer_item">false</bool>
+    <string name="def_settings_set_none_mvno_type_list">""</string>
+    <bool name="def_apn_edit_exit_flg">true</bool>
+    <bool name="def_exitdirectly_after_backkey">true</bool>
+    <string name="def_settings_unSelectable_for_Apn_list">"ia,ims"</string>
+    <!-- End added by miaoliu for XRP10024265 on 2018/10/11 -->
+    <!-- Begin added by yongjun.zou for XR P10024995 on 2018/10/26 -->
+    <string name="def_func_which_app_delete">"@"</string>
+    <!-- End added by yongjun.zou for XR P10024995 on 2018/10/26 -->
+    <!-- Begin added by shengjiao.liu.hz for XR7069617 on 2018/10/30 -->
+    <bool name="def_apn_ask_user_save">false</bool>
+    <!-- End added by shengjiao.liu.hz for XR7069617 on 2018/10/30 -->
+    <!-- Begin deleted by miaoliu for XR7107006 on 2018/11/15 -->
+    <!--  Begin added by miaoliu for XR7102824 on 2018/11/7 -->
+    <!-- <integer name="def_networks_datausage_forcestopthreshold">5000</integer> -->
+    <!--  End added by miaoliu for XR7102824 on 2018/11/7 -->
+     <!-- End deleted by miaoliu for XR7107006 on 2018/11/15 -->
+    <!-- added by wenjie.chen for XR7143737 on 2018/11/24 begin -->
+    <string name="def_set_default_browser">" "</string>
+    <!-- added by wenjie.chen for XR7143737 on 2018/11/24 end -->
+    <!-- add by yeqing.lv for XR7219033 on 2018-12-13 begin -->
+    <bool name="def_timezone_ru_flag">true</bool>
+    <bool name="def_settings_add_timezone_for_ATT">false</bool>
+    <!-- add by yeqing.lv for XR7219033 on 2018-12-13 end -->
+    
+    <!--begin add by zhixiong.liu.hz  for 7445476 on 20190212 -->
+    <bool name="def_show_dual_app_ui">true</bool>
+    <!--end add by zhixiong.liu.hz  for 7445476 on 20190212 -->
+    
+    <!--begin add by zhixiong.liu.hz  for 7442064 on 20190213 -->
+    <bool name="def_settings_typecode_system_summary_show">true</bool>
+    <!--end add by zhixiong.liu.hz  for 7442064 on 20190213 -->
+   
+    <!--begin add by zhixiong.liu.hz  for P10040183 on 20190213 -->
+    <bool name="def_hide_carrier_operator_name">false</bool>
+    <!--end add by zhixiong.liu.hz  for P10040183 on 20190213 -->
+    
+</resources>

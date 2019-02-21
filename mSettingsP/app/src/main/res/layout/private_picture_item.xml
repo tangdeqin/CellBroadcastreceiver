@@ -1,0 +1,65 @@
+<!-- create by dongchi.chen -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="56dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <FrameLayout
+        android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/thumb_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/icon_drm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_gravity="right|bottom"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/picture_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#de000000"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/picture_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/pick_picture_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:visibility="gone" >
+    </CheckBox>
+
+</LinearLayout>

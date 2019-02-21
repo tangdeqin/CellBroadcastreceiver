@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Америка"</item>
+		<item>"Европа"</item>
+		<item>"Африка"</item>
+		<item>"Азия"</item>
+		<item>"Австралия"</item>
+		<item>"тихоокеанско"</item>
+		<item>"Всички"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 секунди"</item>
+		<item>"30 секунди"</item>
+		<item>"1 минута"</item>
+		<item>"2 минути"</item>
+		<item>"5 минути"</item>
+		<item>"10 минути"</item>
+		<item>"30 минути"</item>
+		<item>"Никога"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Незабавно"</item>
+		<item>"5 секунди"</item>
+		<item>"15 секунди"</item>
+		<item>"30 секунди"</item>
+		<item>"1 минута"</item>
+		<item>"2 минути"</item>
+		<item>"5 минути"</item>
+		<item>"10 минути"</item>
+		<item>"30 минути"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Малък"</item>
+		<item>"По подразбиране"</item>
+		<item>"Голям"</item>
+		<item>"Най-голямо"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Сканиране..."</item>
+		<item>"Свързва се..."</item>
+		<item>"Удостоверяване..."</item>
+		<item>"Получаване на IP адрес…"</item>
+		<item>"Свързан"</item>
+		<item>"Преустановен"</item>
+		<item>"Изключване..."</item>
+		<item>"Прекъснат"</item>
+		<item>"Неуспешен"</item>
+		<item>"Блокиран"</item>
+		<item>"Временно се избягва лоша връзка"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Сканиране..."</item>
+		<item>"Свързва се с <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Удостоверяване с<xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Получаване на IP адрес от <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Свързано към <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Преустановен"</item>
+		<item>"Изключване от <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Изключен"</item>
+		<item>"Неуспешно"</item>
+		<item>"Блокирана"</item>
+		<item>"Временно се избягва лоша връзка"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Бутон"</item>
+		<item>"ПИН от съответното устройство"</item>
+		<item>"ПИН от това у-во"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Свързано"</item>
+		<item>"Има покана"</item>
+		<item>"Неуспешно"</item>
+		<item>"Налице"</item>
+		<item>"Извън обхват"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 минути"</item>
+		<item>"5 минути"</item>
+		<item>"1 час"</item>
+		<item>"Времето за изчакване да не изтича никога"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Слаб"</item>
+		<item>"Слаб"</item>
+		<item>"Среден"</item>
+		<item>"Добър"</item>
+		<item>"Отличен"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Винаги"</item>
+		<item>"Само при включено захранване"</item>
+		<item>"Никога"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Винаги"</item>
+		<item>"Само при включено захранване"</item>
+		<item>"Никога"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Последните 30 дни"</item>
+		<item>"Задаване на цикъл на използване..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Време на употреба"</item>
+		<item>"Последно използван"</item>
+		<item>"Име на приложението"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Няма"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Няма"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Няма"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Статични"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Няма"</item>
+		<item>"Ръчно"</item>
+		<item>"Автоматична конфигурация на прокси"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Няма"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP или CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Неизвестен"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Без"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"Вътр. памет на устройст."</item>
+		<item>"Сменяема SD карта"</item>
+		<item>"Нека системата да реши"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Местоположение"</item>
+		<item>"ЛИЧНИ"</item>
+		<item>"Съобщения"</item>
+		<item>"Медия"</item>
+		<item>"УСТРОЙСТВО"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"груба локация"</item>
+		<item>"чудесно локация"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"вибрация"</item>
+		<item>"прочети контакти"</item>
+		<item>"Промяна на контакти"</item>
+		<item>"четене на регистър на повикванията"</item>
+		<item>"Промяна на регистър на повикванията"</item>
+		<item>"прочети календар"</item>
+		<item>"Промяна на календар"</item>
+		<item>"Wi-Fi сканиране"</item>
+		<item>"Уведомление"</item>
+		<item>"клетъчно сканиране"</item>
+		<item>"обаждане по телефона"</item>
+		<item>"прочетете SMS"</item>
+		<item>"Съставяне на SMS"</item>
+		<item>"Входящи SMS"</item>
+		<item>"получавате аварийна SMS"</item>
+		<item>"Входящи MMS"</item>
+		<item>"получавате WAP Push"</item>
+		<item>"Изпрати SMS"</item>
+		<item>"прочети ICC SMS"</item>
+		<item>"Напиши ICC SMS"</item>
+		<item>"промяна на настройки"</item>
+		<item>"рисуване върху елемент"</item>
+		<item>"уведомления за достъп"</item>
+		<item>"камера"</item>
+		<item>"Аодио запис"</item>
+		<item>"Пусни аудио"</item>
+		<item>"прочети клипборда"</item>
+		<item>"промяна на буферната памет"</item>
+		<item>"медия клавиши"</item>
+		<item>"Bluetooth промени"</item>
+		<item>"промяна на данни"</item>
+		<item>"Изпрати MMS"</item>
+		<item>"Прочети MMS"</item>
+		<item>"Напиши MMS"</item>
+		<item>"Звук на аларма"</item>
+		<item>"Сила звук известия"</item>
+		<item>"Сила на звука за Bluetooth"</item>
+		<item>"Поддърж.активно"</item>
+		<item>"Локация на монитор"</item>
+		<item>"Местоположение на висока енергия за монитора"</item>
+		<item>"получи статистиката за използване"</item>
+		<item>"Изключване/включване на звука на микрофона"</item>
+		<item>"показване на горещо известие"</item>
+		<item>"Прожекционна медия"</item>
+		<item>"Активиране на VPN"</item>
+		<item>"Писане на тапет"</item>
+		<item>"Помощна структура"</item>
+		<item>"Помощна снимка на екрана"</item>
+		<item>"четене на състоянието на телефона"</item>
+		<item>"добавяне на гласова поща"</item>
+		<item>"използване на sip"</item>
+		<item>"обработване на изходящо повикване"</item>
+		<item>"пръстов отпечатък"</item>
+		<item>"сензори на тялото"</item>
+		<item>"Четене на излъчвани клетъчни съобщения"</item>
+		<item>"фалшиво местоположение"</item>
+		<item>"четене на паметта"</item>
+		<item>"записване в паметта"</item>
+		<item>"включване на екрана"</item>
+		<item>"получаване на профили"</item>
+		<item>"стартиране във фонов режим"</item>
+		<item>"сила на звука за достъпност"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Местоположение"</item>
+		<item>"Местоположение"</item>
+		<item>"Местоположение"</item>
+		<item>"Вибрация"</item>
+		<item>"прочети контакти"</item>
+		<item>"Промяна на контакти"</item>
+		<item>"четене на регистър на повикванията"</item>
+		<item>"Промяна на регистъра на повиквания"</item>
+		<item>"Виж календ."</item>
+		<item>"Промяна на календар"</item>
+		<item>"Местоположение"</item>
+		<item>"Публикувай уведомление"</item>
+		<item>"Местоположение"</item>
+		<item>"повикване по телефона"</item>
+		<item>"виж SMS/MMS"</item>
+		<item>"Изпрати SMS/MMS"</item>
+		<item>"Получаване на SMS/MMS"</item>
+		<item>"Получаване на SMS/MMS"</item>
+		<item>"Получаване на SMS/MMS"</item>
+		<item>"Получаване на SMS/MMS"</item>
+		<item>"Изпращане на SMS/MMS"</item>
+		<item>"Получав. SMS/MMS"</item>
+		<item>"Напиши SMS"</item>
+		<item>"промяна на настройки"</item>
+		<item>"отидете на върха"</item>
+		<item>"Уведомления за достъп"</item>
+		<item>"Камера"</item>
+		<item>"Запис на аудио"</item>
+		<item>"Пусни аудио"</item>
+		<item>"прочети клипборда"</item>
+		<item>"Промяна на буферната памет"</item>
+		<item>"Wi-Fi промени"</item>
+		<item>"Bluetooth
+ промени"</item>
+		<item>"промяна на данни"</item>
+		<item>"Изпрати MMS"</item>
+		<item>"Сила на звука за звънене"</item>
+		<item>"Напиши SMS"</item>
+		<item>"Звук на аларма"</item>
+		<item>"Сила звук известия"</item>
+		<item>"Сила на звука за Bluetooth"</item>
+		<item>"Поддърж.активно"</item>
+		<item>"Местоположение"</item>
+		<item>"Местоположение"</item>
+		<item>"получи статистиката за използване"</item>
+		<item>"Изключване/включване на звука на микрофона"</item>
+		<item>"Показване на горещо известие"</item>
+		<item>"Прожекционна медия"</item>
+		<item>"Активиране на VPN"</item>
+		<item>"Писане в тапет"</item>
+		<item>"Помощна структура"</item>
+		<item>"Помощна снимка на екрана"</item>
+		<item>"Четене на състоянието на телефона"</item>
+		<item>"Добавяне на гласова поща"</item>
+		<item>"Използване на sip"</item>
+		<item>"Обработване на изходящо повикване"</item>
+		<item>"Пръстов отпечатък"</item>
+		<item>"Датчици за тяло"</item>
+		<item>"Четене на излъчвани клетъчни съобщения"</item>
+		<item>"Фалшиво местоположение"</item>
+		<item>"Четене на паметта"</item>
+		<item>"Записване в паметта"</item>
+		<item>"Включване на екрана"</item>
+		<item>"Получаване на профили"</item>
+		<item>"Стартиране във фонов режим"</item>
+		<item>"Сила на звука за достъпност"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Кратко"</item>
+		<item>"Средно"</item>
+		<item>"Продължително"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"По подразбиране"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif "</item>
+		<item>"Sans-serif monospace"</item>
+		<item>"Серифен"</item>
+		<item>"Serif monospace"</item>
+		<item>"Случайно"</item>
+		<item>"Курсив"</item>
+		<item>"Малки главни букви"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Много малко"</item>
+		<item>"Малки"</item>
+		<item>"Нормален"</item>
+		<item>"Голям"</item>
+		<item>"Много голям"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"По подразбиране"</item>
+		<item>"Няма"</item>
+		<item>"Очертаване"</item>
+		<item>"Падаща сянка"</item>
+		<item>"Повдигнат"</item>
+		<item>"Снишен"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Използвай стандартни настр за прилож."</item>
+		<item>"Бяло на черен фон"</item>
+		<item>"Черно на бяло"</item>
+		<item>"Жълто на черно"</item>
+		<item>"Жълто на синьо"</item>
+		<item>"По избор"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"VPN с L2TP/IPSec с предварително споделени ключове"</item>
+		<item>"VPN с L2TP/IPSec със сертификати"</item>
+		<item>"VPN с IPSec с предварително споделени ключове и удостоверяване за Xauth"</item>
+		<item>"VPN с IPSec със сертификати и удостоверяване за Xauth"</item>
+		<item>"VPN с IPSec със сертификати и хибридно удостоверяване"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Няма връзка"</item>
+		<item>"Инициализиране..."</item>
+		<item>"Свързване\u2026"</item>
+		<item>"Има връзка"</item>
+		<item>"Таймаут"</item>
+		<item>"Неуспешно"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Питане"</item>
+		<item>"Никога не позволявайте"</item>
+		<item>"Винаги позволявайте"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Нормлно"</item>
+		<item>"Умерен"</item>
+		<item>"Нисък"</item>
+		<item>"Критичен"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Нормално"</item>
+		<item>"Модерирай"</item>
+		<item>"Нисък"</item>
+		<item>"Критично"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Постоянен"</item>
+		<item>"Изключително важна дейност"</item>
+		<item>"Важно (на преден план)"</item>
+		<item>"Важно (на заден план)"</item>
+		<item>"Резервно копие"</item>
+		<item>"Тежък товар"</item>
+		<item>"Услуга (изпълнява се)"</item>
+		<item>"Услуга (рестартира се)"</item>
+		<item>"Получател"</item>
+		<item>"Начало"</item>
+		<item>"Последна активност"</item>
+		<item>"Кеширано (активност)"</item>
+		<item>"Кеширано (клиент на активността)"</item>
+		<item>"Кеширано (празно)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Синьо"</item>
+		<item>"Син"</item>
+		<item>"Indigo"</item>
+		<item>"Пурпурен"</item>
+		<item>"Розов"</item>
+		<item>"Червен"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Синьо"</item>
+		<item>"Син"</item>
+		<item>"Indigo"</item>
+		<item>"Пурпурен"</item>
+		<item>"Розов"</item>
+		<item>"Червен"</item>
+		<item>"Оранжев"</item>
+		<item>"Тъмнозелено"</item>
+		<item>"Зелен"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"На повече от 30 дни"</item>
+		<item>"На повече от 60 дни"</item>
+		<item>"На повече от 90 дни"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Проверка - никога"</item>
+		<item>"Проверка само за DRM съдържание"</item>
+		<item>"Винаги да се проверява"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Никога да не се използва проверка с HDCP"</item>
+		<item>"Да се използва проверка с HDCP само за DRM съдържание"</item>
+		<item>"Винаги да се използва проверка с HDCP"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (по подразбиране)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> аудио"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> аудио"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Активиране на допълнителни кодеци"</item>
+		<item>"Деактивиране на допълнителни кодеци"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> аудио"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> аудио"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Активиране на допълнителни кодеци"</item>
+		<item>"Деактивиране на допълнителни кодеци"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<item>"16 бита/семпъл"</item>
+		<item>"24 бита/семпъл"</item>
+		<item>"32 бита/семпъл"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<item>"16 бита/семпъл"</item>
+		<item>"24 бита/семпъл"</item>
+		<item>"32 бита/семпъл"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<item>"Моно"</item>
+		<item>"Стерео"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Използване на избраното от системата (по подразбиране)"</item>
+		<item>"Моно"</item>
+		<item>"Стерео"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Оптимизирано за качество на звука (990kbps/909kbps)"</item>
+		<item>"Балансирано качество на звука и качество на връзката (660kbps/606kbps)"</item>
+		<item>"Оптимизирано за качество на връзката (330kbps/303kbps)"</item>
+		<item>"Най-добри усилия (адаптивна побитова честота)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Оптимизирано за качество на звука"</item>
+		<item>"Балансирано качество на звука и качество на връзката"</item>
+		<item>"Оптимизирано за качество на връзката"</item>
+		<item>"Най-добри усилия (адаптивна побитова честота)"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<string-array name="select_logd_size_titles">
+		<item>"Изключено"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Изключено"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Изключено"</item>
+		<item>"64К за буфер на регистър"</item>
+		<item>"256К за буфер на регистър"</item>
+		<item>"1М за буфер на регистър"</item>
+		<item>"4М за буфер на регистър"</item>
+		<item>"16M за буфер на регистър"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Изключено"</item>
+		<item>"Всички"</item>
+		<item>"Всички освен радио"</item>
+		<item>"Само kernel"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Изключено"</item>
+		<item>"Всички буфери за регистрационни файлове"</item>
+		<item>"Всички буфери за регистрационни файлове освен радио"</item>
+		<item>"Само kernel буфери за регистрационни файлове"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Анимацията е изключ."</item>
+		<item>"Мащаб на анимацията 0,5x"</item>
+		<item>"Мащаб на анимац. 1x"</item>
+		<item>"Мащаб на анимац. 1.5x"</item>
+		<item>"Мащаб на анимац. 2x"</item>
+		<item>"Мащаб на анимац. 5x"</item>
+		<item>"Мащаб на аним. 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Анимацията е изключена"</item>
+		<item>"Мащаб на анимацията 0,5x"</item>
+		<item>"Скала на анимацията 1x"</item>
+		<item>"Мащаб на анимац. 1.5x"</item>
+		<item>"Скала на анимацията 2x"</item>
+		<item>"Скала на анимацията 5x"</item>
+		<item>"Мащаб на анимац. 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Анимацията е изключена"</item>
+		<item>"Мащаб на анимацията 0,5x"</item>
+		<item>"Скала на анимацията 1x"</item>
+		<item>"Мащаб на анимац. 1.5x"</item>
+		<item>"Скала на анимацията 2x"</item>
+		<item>"Скала на анимацията 5x"</item>
+		<item>"Мащаб на анимац. 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Няма"</item>
+		<item>"480p"</item>
+		<item>"480p (secure)"</item>
+		<item>"720p"</item>
+		<item>"720p (безопасен)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (безопасен)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (безопасен)"</item>
+		<item>"4K (с високо качество)"</item>
+		<item>"4K (с високо качество, безопасен)"</item>
+		<item>"720p, 1080p (двоен екран)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Няма"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (Graphics)"</item>
+		<item>"Списък с обаждания glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Изключен"</item>
+		<item>"Равенство без правоъгълна област клип в синьо"</item>
+		<item>"Маркирайте
+  тестване с рисуване команди в зелено"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Изключен"</item>
+		<item>"На екрана като ленти"</item>
+		<item>"В <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"Изкл."</item>
+		<item>"Покажи превишава кредита райони"</item>
+		<item>"Показване на полета за Deuteranomaly"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (по подразбиране)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Стандартно ограничение"</item>
+		<item>"Няма процеси на заден план"</item>
+		<item>"Най-много 1 процес"</item>
+		<item>"Най-много 2 процеса"</item>
+		<item>"Най-много 3 процеса"</item>
+		<item>"Най-много 4 процеса"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles_new">
+		<item>"Само зареждане"</item>
+		<item>"МTP (протокол за прехвърляне на медийни файлове)"</item>
+		<item>"PTP (протокол за прехвърляне на снимки)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"По подразбиране"</item>
+		<item>"Дата"</item>
+		<item>"Повикване"</item>
+		<item>"съобщение"</item>
+		<item>"Начален екран"</item>
+		<item>"Служебен"</item>
+		<item>"Пътувания"</item>
+		<item>"Любов"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"Услуга 3G/4G"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Изключено"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Автом"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Автоматично 4G/3G/2G"</item>
+		<item>"Само 4G"</item>
+		<item>"Само 3G"</item>
+		<item>"Само 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (автоматично)"</item>
+		<item>"UMTS/GSM (автоматично)"</item>
+		<item>"Само LTE"</item>
+		<item>"UMTS само"</item>
+		<item>"Само GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Само WCDMA"</item>
+		<item>"Само GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (предпочитана)/3G/2G"</item>
+		<item>"3G(предпочитана)/2G"</item>
+		<item>"Само 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (автоматично)"</item>
+		<item>"3G/2G (aвтоматично)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (автоматично)"</item>
+		<item>"3G/2G(Авто)"</item>
+		<item>"3G само"</item>
+		<item>"Само 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM автоматично"</item>
+		<item>"Само WCDMA"</item>
+		<item>"WCDMA/GSM автоматично"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (автоматично)"</item>
+		<item>"3G/2G (автоматично)"</item>
+		<item>"Само 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Само GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE автоматично"</item>
+		<item>"Авт. GSM/WCDMA"</item>
+		<item>"Само GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM авто"</item>
+		<item>"UMTS/GSM автоматично"</item>
+		<item>"UMTS само"</item>
+		<item>"Само GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (автоматично)"</item>
+		<item>"3G/2G(Авто)"</item>
+		<item>"само 4G"</item>
+		<item>"Само 3G"</item>
+		<item>"Само 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE предпочитана)"</item>
+		<item>"WCDMA/2G (WCDMA предпочитана)"</item>
+		<item>"Само 3G"</item>
+		<item>"Само 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE предпочитана)"</item>
+		<item>"Само 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (препоръчително)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (автоматично свързване)"</item>
+		<item>"WCDMA/GSM (автоматично свързване)"</item>
+		<item>"Само WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Мидуей, о-в"</item>
+		<item>"Хавай"</item>
+		<item>"Аляскса"</item>
+		<item>"Тихоокеанско време"</item>
+		<item>"Тихуана"</item>
+		<item>"Аризона"</item>
+		<item>"Чихуахуа"</item>
+		<item>"Планинско време"</item>
+		<item>"Централна Америка"</item>
+		<item>"Централно време"</item>
+		<item>"Саскачеван"</item>
+		<item>"Източно време"</item>
+		<item>"Венецуела"</item>
+		<item>"Атл. време (Барбадос)"</item>
+		<item>"Атлант. време (Канада)"</item>
+		<item>"Манаус"</item>
+		<item>"Нюфаундленд"</item>
+		<item>"Среден Атлантик"</item>
+		<item>"Азори"</item>
+		<item>"Острови Капо Верде"</item>
+		<item>"Казабланка"</item>
+		<item>"Зап. Африканско време"</item>
+		<item>"Аман, Йордан"</item>
+		<item>"Истанбул"</item>
+		<item>"Бейрут, Лебанон"</item>
+		<item>"Техеран"</item>
+		<item>"Уралск"</item>
+		<item>"Екатерининбург"</item>
+		<item>"Калкута"</item>
+		<item>"Катманду"</item>
+		<item>"Янгон"</item>
+		<item>"Красноярск"</item>
+		<item>"Бангкок"</item>
+		<item>"Хонг Конг"</item>
+		<item>"Иркутск"</item>
+		<item>"Пърт"</item>
+		<item>"Осака"</item>
+		<item>"Якутск"</item>
+		<item>"Аделайд"</item>
+		<item>"Даруин"</item>
+		<item>"Брисбейн"</item>
+		<item>"Хобърт"</item>
+		<item>"Сидни"</item>
+		<item>"Владивисток"</item>
+		<item>"Магадан"</item>
+		<item>"Оукланд"</item>
+		<item>"Фиджи"</item>
+		<item>"Парагвай"</item>
+		<item>"Абу Даби"</item>
+		<item>"Абуджа"</item>
+		<item>"Акра"</item>
+		<item>"Адамстаун"</item>
+		<item>"Адис Абеба"</item>
+		<item>"Алжир"</item>
+		<item>"Алофи"</item>
+		<item>"Амстердам"</item>
+		<item>"Андора ла Веля"</item>
+		<item>"Анкара"</item>
+		<item>"Антананариво"</item>
+		<item>"Ашхабат"</item>
+		<item>"Асмара"</item>
+		<item>"Астана"</item>
+		<item>"Атина"</item>
+		<item>"Аваруа"</item>
+		<item>"Багдад"</item>
+		<item>"Баку"</item>
+		<item>"Бамако"</item>
+		<item>"Бандар Сери Бегаван"</item>
+		<item>"Загреб"</item>
+		<item>"Банги"</item>
+		<item>"Банджул"</item>
+		<item>"Бастер"</item>
+		<item>"Пекин"</item>
+		<item>"Белфаст"</item>
+		<item>"Белград"</item>
+		<item>"Белмопан"</item>
+		<item>"Берлин"</item>
+		<item>"Берн"</item>
+		<item>"Бишкек"</item>
+		<item>"Бисау"</item>
+		<item>"Богота"</item>
+		<item>"Бразилия"</item>
+		<item>"Братислава"</item>
+		<item>"Бразавил"</item>
+		<item>"Бриджтаун"</item>
+		<item>"Брюксел"</item>
+		<item>"Букурещ"</item>
+		<item>"Будапеща"</item>
+		<item>"Буенос айрес"</item>
+		<item>"Бужумбура"</item>
+		<item>"Кайро"</item>
+		<item>"Канбера"</item>
+		<item>"Кардиф"</item>
+		<item>"Кастрийс"</item>
+		<item>"Кайен"</item>
+		<item>"Шарлот Амали"</item>
+		<item>"Кишинев"</item>
+		<item>"Кокбърн Таун"</item>
+		<item>"Конакри"</item>
+		<item>"Копенхаген"</item>
+		<item>"Дакар"</item>
+		<item>"Дака"</item>
+		<item>"Дили"</item>
+		<item>"Джибути"</item>
+		<item>"Додома"</item>
+		<item>"Доха"</item>
+		<item>"Дъглас"</item>
+		<item>"Дубай"</item>
+		<item>"Дъблин"</item>
+		<item>"Душанбе"</item>
+		<item>"Единбург"</item>
+		<item>"Единбург на седемте морета"</item>
+		<item>"Флаинг Фиш Коув"</item>
+		<item>"Фрийтаун"</item>
+		<item>"Фунафути"</item>
+		<item>"Габороне"</item>
+		<item>"Джордж Таун (Кайманови о-ви)"</item>
+		<item>"Джорджтаун (о-в Възнесение)"</item>
+		<item>"Джорджтаун (Гвиана)"</item>
+		<item>"Гибралтар"</item>
+		<item>"Грютвикен"</item>
+		<item>"Гватемала"</item>
+		<item>"Густавия"</item>
+		<item>"Хагатна"</item>
+		<item>"Хамилтън"</item>
+		<item>"Ханга Роа"</item>
+		<item>"Ханой"</item>
+		<item>"Хараре"</item>
+		<item>"Хавана"</item>
+		<item>"Хелзинки"</item>
+		<item>"Хониара"</item>
+		<item>"Исламабад"</item>
+		<item>"Джакарта"</item>
+		<item>"Джеймстаун"</item>
+		<item>"Йерусалим"</item>
+		<item>"Джуба"</item>
+		<item>"Кабул"</item>
+		<item>"Кампала"</item>
+		<item>"Карачи"</item>
+		<item>"Апия"</item>
+		<item>"Хартум"</item>
+		<item>"Киев"</item>
+		<item>"Кигали"</item>
+		<item>"Кингстън (Ямайка)"</item>
+		<item>"Кингстън (Остр.Норфолк)"</item>
+		<item>"Кингстаун"</item>
+		<item>"Киншаса"</item>
+		<item>"Куала Лумпур"</item>
+		<item>"Кувейт"</item>
+		<item>"Либървил"</item>
+		<item>"Лилонгве"</item>
+		<item>"Лима"</item>
+		<item>"Лисабон"</item>
+		<item>"Любляна"</item>
+		<item>"Ломе"</item>
+		<item>"Лондон"</item>
+		<item>"Луанда"</item>
+		<item>"Лусака"</item>
+		<item>"Люксембург"</item>
+		<item>"Мадрид"</item>
+		<item>"Маджуро"</item>
+		<item>"Малабо"</item>
+		<item>"Мале"</item>
+		<item>"Манагуа"</item>
+		<item>"Манама"</item>
+		<item>"Манила"</item>
+		<item>"Мапуто"</item>
+		<item>"Мариго"</item>
+		<item>"Масеру"</item>
+		<item>"Мата-Уту"</item>
+		<item>"Мбабане"</item>
+		<item>"Мелекеок"</item>
+		<item>"Мексико Сити"</item>
+		<item>"Минск"</item>
+		<item>"Могадишу"</item>
+		<item>"Монако"</item>
+		<item>"Монровия"</item>
+		<item>"Монтевидео"</item>
+		<item>"Морони"</item>
+		<item>"Москва"</item>
+		<item>"Маскат"</item>
+		<item>"Найроби"</item>
+		<item>"Насау"</item>
+		<item>"Найпидо"</item>
+		<item>"Нджамена"</item>
+		<item>"Ню Делхи"</item>
+		<item>"Ниамей"</item>
+		<item>"Никозия"</item>
+		<item>"Нуакшот"</item>
+		<item>"Нумеа"</item>
+		<item>"Нукуалофа"</item>
+		<item>"Нуук"</item>
+		<item>"Оранестад"</item>
+		<item>"Осло"</item>
+		<item>"Отава"</item>
+		<item>"Уагадугу"</item>
+		<item>"Паго Паго"</item>
+		<item>"Паликир"</item>
+		<item>"Панама"</item>
+		<item>"Папеете"</item>
+		<item>"Парамарибо"</item>
+		<item>"Париж"</item>
+		<item>"Филипсбург"</item>
+		<item>"Пном Пен"</item>
+		<item>"Плимут"</item>
+		<item>"Подгорица"</item>
+		<item>"Порт Луи"</item>
+		<item>"Порт Морсби"</item>
+		<item>"Порт Вила"</item>
+		<item>"Порт о Пренс"</item>
+		<item>"Порт ъф Спейн"</item>
+		<item>"Порто Ново"</item>
+		<item>"Прага"</item>
+		<item>"Прая"</item>
+		<item>"Претория"</item>
+		<item>"Прищина"</item>
+		<item>"Пхенян"</item>
+		<item>"Кито"</item>
+		<item>"Рабат"</item>
+		<item>"Рейкявик"</item>
+		<item>"Рига"</item>
+		<item>"Рияд"</item>
+		<item>"Роуд Таун"</item>
+		<item>"Рим"</item>
+		<item>"Розо"</item>
+		<item>"Сайпан"</item>
+		<item>"Сан Хосе"</item>
+		<item>"Сан Хуан"</item>
+		<item>"Сан Марино"</item>
+		<item>"Сан Салвадор"</item>
+		<item>"Сана"</item>
+		<item>"Сантяго"</item>
+		<item>"Санто Доминго"</item>
+		<item>"Сао Томе"</item>
+		<item>"Сараево"</item>
+		<item>"Сеул"</item>
+		<item>"Сингапур"</item>
+		<item>"Скопие"</item>
+		<item>"София"</item>
+		<item>"Шри Джаяварданапура Коте"</item>
+		<item>"Сейнт Джордж"</item>
+		<item>"Сейнт Хелиър"</item>
+		<item>"Сейнт Джон"</item>
+		<item>"Сейнт Питър порт"</item>
+		<item>"Сен Пиер"</item>
+		<item>"Порт Стенли"</item>
+		<item>"Стокхолм"</item>
+		<item>"Сукре"</item>
+		<item>"Тайпей"</item>
+		<item>"Талин"</item>
+		<item>"Тарава"</item>
+		<item>"Ташкент"</item>
+		<item>"Тбилиси"</item>
+		<item>"Тхимпху"</item>
+		<item>"Тирана"</item>
+		<item>"Токио"</item>
+		<item>"Торсхавн"</item>
+		<item>"Триполи"</item>
+		<item>"Тунис"</item>
+		<item>"Улан Батор"</item>
+		<item>"Вадуц"</item>
+		<item>"Валета"</item>
+		<item>"Вали"</item>
+		<item>"Ватикан"</item>
+		<item>"Виктория"</item>
+		<item>"Виена"</item>
+		<item>"Виентян"</item>
+		<item>"Вилнюс"</item>
+		<item>"Варшава"</item>
+		<item>"Вашингтон"</item>
+		<item>"Уелингтън"</item>
+		<item>"Уест Айлънд"</item>
+		<item>"Вилемстад"</item>
+		<item>"Виндхук"</item>
+		<item>"Ямусукро"</item>
+		<item>"Яунде"</item>
+		<item>"Ярен"</item>
+		<item>"Ереван"</item>
+		<item>"Боливия"</item>
+		<item>"Новосибирск"</item>
+		<item>"Калининград"</item>
+		<item>"Асунсион"</item>
+		<item>"Ла Пас"</item>
+		<item>"Khabarovsk"</item>
+		<item>"Южносахалинск"</item>
+		<item>"Северо-Курилск"</item>
+		<item>"Петропавловск-Камчатски"</item>
+		<item>"Анадир"</item>
+		<item>"Самара"</item>
+		<item>"Мелбърн"</item>
+		<item>"Санкт Петербург"</item>
+		<item>"Волгоград"</item>
+		<item>"Астрахан"</item>
+		<item>"Ижевск"</item>
+		<item>"Уфа"</item>
+		<item>"Челябинск"</item>
+		<item>"Омск"</item>
+		<item>"Барнаул"</item>
+		<item>"Улан Уде"</item>
+		<item>"Чита"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Руска часова зона 1"</item>
+		<item>"Руска часова зона 2 (Москва)"</item>
+		<item>"Руска часова зона 3"</item>
+		<item>"Руска часова зона 4"</item>
+		<item>"Руска часова зона 5"</item>
+		<item>"Руска часова зона 6"</item>
+		<item>"Руска часова зона 7"</item>
+		<item>"Руска часова зона 8"</item>
+		<item>"Руска часова зона 9"</item>
+		<item>"Руска часова зона 10"</item>
+		<item>"Руска часова зона 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Хермосило"</item>
+		<item>"Охинага"</item>
+		<item>"Канкун"</item>
+		<item>"Мерида"</item>
+		<item>"Монтерей"</item>
+		<item>"Матаморос"</item>
+		<item>"Бая де Бандерас"</item>
+		<item>"Масатлан"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(неопределено)"</item>
+		<item>"Гнездо за SIM карта 1"</item>
+		<item>"Гнездо за SIM карта 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 потребител"</item>
+		<item>"2 потребителя"</item>
+		<item>"3 потребителя"</item>
+		<item>"4 потребителя"</item>
+		<item>"5 потребителя"</item>
+		<item>"6 потребителя"</item>
+		<item>"7 потребителя"</item>
+		<item>"8 потребителя"</item>
+		<item>"9-ма потребители"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Бутон"</item>
+		<item>"ПИН от съответното устройство"</item>
+	</string-array>
+</resources>

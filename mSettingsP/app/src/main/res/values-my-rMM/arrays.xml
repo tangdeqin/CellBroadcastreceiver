@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"អាមេរិក"</item>
+		<item>"អឺរ៉ុប"</item>
+		<item>"អាហ្វ្រិក"</item>
+		<item>"អាស៊ី"</item>
+		<item>"ၾသစေၾတးလ်"</item>
+		<item>"ប៉ាស៊ីភិច"</item>
+		<item>"ទាំងអស់"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"၁၅စကၠန္."</item>
+		<item>"၃၀စကၠန္."</item>
+		<item>"၁ မိနစ္"</item>
+		<item>"၂မိနစ္"</item>
+		<item>"၅ မိနစ္"</item>
+		<item>"၁၀မိနစ္"</item>
+		<item>"၃၀ မိနစ္"</item>
+		<item>"ဘယ်တော့မျှမမှတ်ပါနှင့်"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"ချက်ချင်း"</item>
+		<item>"၅ စက္ကန်"</item>
+		<item>"၁၅စကၠန္."</item>
+		<item>"၃၀စကၠန္."</item>
+		<item>"၁ မိနစ္"</item>
+		<item>"၂မိနစ္"</item>
+		<item>"၅ မိနစ္"</item>
+		<item>"၁၀မိနစ္"</item>
+		<item>"၃၀ မိနစ္"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"ေသးငယ္"</item>
+		<item>"ပံုမွန္"</item>
+		<item>"ၾကီးသည္"</item>
+		<item>"အလြန္ၾကီး"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"ការស្គែន\u2026"</item>
+		<item>"ការតភ្ជាប់\u2026"</item>
+		<item>"ការបញ្ជាក់ការពិត\u2026"</item>
+		<item>"កំពុងចាប់យកអាសយដ្ឋាន IP\u2026"</item>
+		<item>"បានតភ្ជាប់"</item>
+		<item>"បានព្យួរ"</item>
+		<item>"ផ្តាច់ការតភ្ជាប់\u2026"</item>
+		<item>"ត្រូវបានផ្តាច់ការតភ្ជាប់"</item>
+		<item>"មិនជោគជ័យ"</item>
+		<item>"បានរារាំង"</item>
+		<item>"បាត់បង់ការទទួលជាបណ្ដោះអាសន្ន ដោយសារការភ្ជាប់ខ្សោយ"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"ការស្គែន\u2026"</item>
+		<item>"កំពុងភ្ជាប់ជាមួយ <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+		<item>"កំពុងបញ្ជាក់ការពិតជាមួយ <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+		<item>"កំពុងទទួលអាសយដ្ឋាន IP ពី <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+		<item>"ត្រូវភ្ជាប់ជាមួយនឹង <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"ត្រូវបានព្យួរ"</item>
+		<item>"កំពុងផ្តាច់ការតភ្ជាប់ពី <xliff:g id="network_name">%1$s</xliff:g>\u2026"</item>
+		<item>"ត្រូវបានផ្តាច់ការតភ្ជាប់"</item>
+		<item>"មិនជោគជ័យ"</item>
+		<item>"បានរារាំង"</item>
+		<item>"ជៀសវាងការតភ្ជាប់ខ្សោយជាបណ្តោះអាសន្ន"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"ခလုတ်ကိုနှိပ်ပါ"</item>
+		<item>"PIN ពីអតិថិជន"</item>
+		<item>"ဤစက်မှ PIN"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"ချိတ်ဆက်ခဲ့သည်"</item>
+		<item>"ဖိတ်ခေါ်ခဲ့သည်"</item>
+		<item>"မအောင်မြင်ပါ"</item>
+		<item>"အားလပ္သည္"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Out-of-range"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"၂မိနစ္"</item>
+		<item>"၅ မိနစ္"</item>
+		<item>"၁ နာရီ"</item>
+		<item>"មិនដែលអស់ម៉ោង"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"ညံ့"</item>
+		<item>"ညံ့"</item>
+		<item>"သင့်"</item>
+		<item>"ကောင်း"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Excellent"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"အျမဲတမ္း"</item>
+		<item>"တပ္ဆင္ထားသည္အခ်ိန္သာ"</item>
+		<item>"មិនដែល"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"အျမဲတမ္း"</item>
+		<item>"တပ္ဆင္ထားသည္အခ်ိန္သာ"</item>
+		<item>"ဘယ်တော့မျှမမှတ်ပါနှင့်"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<!-- no translation found for data_usage_data_range -->
+	<skip />
+	<string-array name="usage_stats_display_order_types">
+		<item>"အသုံးပြုသည့်အချိန်"</item>
+		<item>"រាប់ការបញ្ចេញ"</item>
+		<item>"ឈ្មោះកម្មវិធី"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"မရိွ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<!-- no translation found for wifi_peap_phase2_entries_with_sim_auth -->
+	<skip />
+	<string-array name="wifi_phase2_entries">
+		<item>"မရိွ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"အတည်"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"မရိွ"</item>
+		<item>"ကိုယ်တိုင်လုပ်ဆောင်မှု"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Proxy Auto-Config"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"မရိွ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP သို့မဟုတ် CHAP"</item>
+	</string-array>
+	<!-- no translation found for apn_protocol_entries -->
+	<skip />
+	<string-array name="bearer_entries">
+		<item>"သတ္မွတ္မထားပါ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<!--inherit from sourcecode xml-->
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"គ្មាន"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"အတွင်းစက် သိမ်းဆည်းနေရာ"</item>
+		<item>"កាត SD ដែលអាចដកបាន"</item>
+		<item>"စနစ်ကို ဆုံးဖြတ်စေပါ"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"တည်နေရာ"</item>
+		<item>"ကိုယ်ပိုင်"</item>
+		<item>"စာပို.ၿခင္း"</item>
+		<item>"ကဏ္ဍများ"</item>
+		<item>"ပစ္စည်း"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"ទីតាំង បន្ទាប់បន្សំ"</item>
+		<item>"ទីតាំង ដ៏ល្អ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<!--inherit from sourcecode xml-->
+		<item>"vibrate"</item>
+		<item>"អាន ទំនាក់ទំនង"</item>
+		<item>"កែ​ទំនាក់ទំនង"</item>
+		<item>"ေခၚဆိုမႈစာရင္းဖတ္ရန္"</item>
+		<item>"កែ​កំណត់​ហេតុ​ហៅ"</item>
+		<item>"អាន ប្រតិទិន"</item>
+		<item>"កែ​ប្រតិទិន"</item>
+		<item>"ការស្កេន Wi-Fi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification"</item>
+		<item>"វិភាគ កោសិកា"</item>
+		<item>"ហៅ ទូរស័ព្ទ"</item>
+		<item>"អាន សារជាអក្សរ"</item>
+		<item>"សរសេរ SMS"</item>
+		<item>"ទទួលបាន សារ SMS"</item>
+		<item>"ទទួលបាន សារ SMS មានអាសន្ន"</item>
+		<item>"ទទួលបាន ជារូបភាពនិងសំឡេង"</item>
+		<item>"ទទួលបាន ការជំរុញ WAP"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"send SMS"</item>
+		<item>"អាន តុលាការ ICC សារជាអក្សរ"</item>
+		<item>"សរសេរ ICC SMS"</item>
+		<item>"កែប្រែការកំណត់"</item>
+		<item>"គូរ នៅលើកំពូល"</item>
+		<item>"ការចូលទៅកាន់ការជូនដំណឹង"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"camera"</item>
+		<item>"ថតអូឌីអូ"</item>
+		<item>"ចុចបើក សំឡេង"</item>
+		<item>"អាន ក្តារចុច"</item>
+		<item>"កែប្រែ ក្តារចុច"</item>
+		<item>"ការផ្លាស់ប្តូរ ប្រព័ន្ធ Wi-Fi"</item>
+		<item>"ការផ្លាស់ប្តូរ ប៊្លូធូស"</item>
+		<item>"ការផ្លាស់ប្តូរ ទិន្នន័យ"</item>
+		<item>"ផ្ញើ MMS"</item>
+		<item>"អាន ជារូបភាពនិងសំឡេង"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"media volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"alarm volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification volume"</item>
+		<item>"ဘလူးတု(သ်)အတိုးအကျယ်"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"keep awake"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor high power location"</item>
+		<item>"ការផ្លាស់ប្តូរ ប្រព័ន្ធ Wi-Fi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mute/unmute microphone"</item>
+		<item>"ផ្ញើ MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"body sensors"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read cell broadcasts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"accessibility volume"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"တည်နေရာ"</item>
+		<item>"တည်နေရာ"</item>
+		<item>"တည်နေရာ"</item>
+		<item>"တုန္ခါမႈ"</item>
+		<item>"អាន ទំនាក់ទំនង"</item>
+		<item>"កែ​ទំនាក់ទំនង"</item>
+		<item>"ေခၚဆိုမႈစာရင္းဖတ္ရန္"</item>
+		<item>"កែប្រែ កំណត់ហេតុនៃការ ហៅទូរស័ព្ទ"</item>
+		<item>"អាន ប្រតិទិន"</item>
+		<item>"កែ​ប្រតិទិន"</item>
+		<item>"တည်နေရာ"</item>
+		<item>"ប្រកាស ការជូនដំណឹង"</item>
+		<item>"တည်နေရာ"</item>
+		<item>"ហៅ ទូរស័ព្ទ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<item>"ទទួល SMS/MMS"</item>
+		<item>"ទទួល SMS/MMS"</item>
+		<item>"ទទួល SMS/MMS"</item>
+		<item>"ទទួល SMS/MMS"</item>
+		<item>"ផ្ញើ SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<item>"កែប្រែការកំណត់"</item>
+		<item>"គូរ នៅលើកំពូល"</item>
+		<item>"សេចក្តីជូនដំណឹងអំពីការចូលប្រើ"</item>
+		<item>"ကင်မရာ"</item>
+		<item>"အသံဖမ်းပါ"</item>
+		<item>"ចាក់ សំឡេង"</item>
+		<item>"អានក្តារចុច"</item>
+		<item>"កែប្រែ ក្តារចុច"</item>
+		<item>"ការផ្លាស់ប្តូរ ប្រព័ន្ធ Wi-Fi"</item>
+		<item>"ការផ្លាស់ប្តូរ ប៊្លូធូស"</item>
+		<item>"ការផ្លាស់ប្តូរ ទិន្នន័យ"</item>
+		<item>"ផ្ញើ MMS"</item>
+		<item>"លេងវីដេអូបន្ត"</item>
+		<item>"ကဏ္ဍများ"</item>
+		<item>"နှိုးစက်အတိုးအကျယ်"</item>
+		<item>"အချက်ပေးချက်"</item>
+		<item>"ဘလူးတု(သ်)အတိုးအကျယ်"</item>
+		<item>"ႏႈိးလိုက္ပါ"</item>
+		<item>"တည်နေရာ"</item>
+		<item>"တည်နေရာ"</item>
+		<item>"ការផ្លាស់ប្តូរ ប្រព័ន្ធ Wi-Fi"</item>
+		<item>"ការផ្លាស់ប្តូរ ប៊្លូធូស"</item>
+		<item>"ផ្ញើ MMS"</item>
+		<item>"ផ្ញើ MMS"</item>
+		<item>"អាន ជារូបភាពនិងសំឡេង"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Body sensors"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read cell broadcasts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accessibility volume"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"တို"</item>
+		<item>"အလယ္"</item>
+		<item>"ရွည္"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"សិតពីរោងចក្រ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sans-serif condensed"</item>
+		<item>"សឺរីហ្វ"</item>
+		<item>"សឺរីហ្វ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Serif monospace"</item>
+		<item>"ធម្មតា"</item>
+		<item>"សរសេរ​ជាប់​គ្នា"</item>
+		<item>"អក្សរ​ពុម្ព​ធំ​ល្អិត"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"តូច​ណាស់"</item>
+		<item>"តូច"</item>
+		<item>"ធម្មតា"</item>
+		<item>"ធំ"</item>
+		<item>"ធំ​ណាស់"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"សិតពីរោងចក្រ"</item>
+		<item>"ပုံအနားေရးအေၾကာင္း"</item>
+		<item>"គ្រោង"</item>
+		<item>"ទម្លាក់​ស្រមោល"</item>
+		<item>"ទម្លាក់​ស្រមោល"</item>
+		<item>"បង្កើន"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Use app defaults"</item>
+		<item>"ពណ៌ស​លើ​ពណ៌ខ្មៅ"</item>
+		<item>"ពណ៌ខ្មៅ​លើ​ពណ៌ស"</item>
+		<item>"ពណ៌លឿង​​លើ​​ពណ៌​ខ្មៅ"</item>
+		<item>"តាមចំណូលចិត្ត"</item>
+		<item>"តាមចំណូលចិត្ត"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"လက်မှတ်များနှင့် L2TP/IPSec VPN"</item>
+		<item>"ကြိုတင်ဝေမျှထားသော ကီးများ၊ Xauth မှန်ကန်ကြောင်းအတည်ပြုမှုတို့နှင့် IPSec VPN"</item>
+		<item>"လက်မှတ်များ၊ Xauth မှန်ကန်ကြောင်းအတည်ပြုမှုတို့နှင့် IPSec VPN"</item>
+		<item>"လက်မှတ်များ၊ နှစ်မျိုးစပ် မှန်ကန်ကြောင်းအတည်ပြုမှုတို့နှင့် IPSec VPN"</item>
+		<item>"IPSec VPN with certificates and hybrid authentication"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"ခ်ိတ္ဆက္မႈကိုျပတ္ေတာက္သည္"</item>
+		<item>"កំពុងចាប់ផ្តើម\u2026"</item>
+		<item>"ခ်ိတ္ဆက္ေနသည္ \u2026"</item>
+		<item>"ချိတ်ဆက်ခဲ့သည်"</item>
+		<item>"အခ်ိန္ေစ့ျပီ"</item>
+		<item>"မအောင်မြင်ပါ"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"မေးပါ"</item>
+		<item>"ဘယ်တော့မှ ခွင့်မပြုပါ"</item>
+		<item>"အမြဲတမ်းခွင့်ပြုပါ"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"ပံုမွန္"</item>
+		<item>"mm"</item>
+		<item>"အနိမ့်"</item>
+		<item>"បង្កើតសឺមីថ្មី"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"ធម្មតា"</item>
+		<item>"mm"</item>
+		<item>"ទាប"</item>
+		<item>"បង្កើតសឺមីថ្មី"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<!--inherit from sourcecode xml-->
+		<item>"Persistent"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Top activity"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Important (foreground)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Important (background)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Backup"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Heavy weight"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Service (running)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Service (restarting)"</item>
+		<item>"လက်ခံသူ"</item>
+		<item>"ផ្ទះ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Last activity"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (activity)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (activity client)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (empty)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<!--inherit from sourcecode xml-->
+		<item>"Teal"</item>
+		<item>"ខៀវ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Indigo"</item>
+		<item>"បាត់បង់ផ្លូវឧបករណ៍រណប"</item>
+		<item>"រូបភាព"</item>
+		<item>"ក្រហម"</item>
+	</string-array>
+	<!-- no translation found for tcl_color_picker -->
+	<skip />
+	<!-- no translation found for automatic_storage_management_days -->
+	<skip />
+	<string-array name="hdcp_checking_titles">
+		<item>"ဘယ္ေတာ့မွမစစ္ေဆးပါ"</item>
+		<item>"DRM အကြောင်းအရာအတွက်သာ စစ်ဆေးပါ"</item>
+		<item>"အမြဲတမ်း စစ်ဆေးပါ"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"HDCP စစ်ဆေးခြင်းကို ဘယ်တော့မျှ မသုံးပါနှင့်"</item>
+		<item>"HDCP စစ်ဆေးခြင်းကို DRM အကြောင်းအရာအတွက်သာ စစ်ဆေးပါ"</item>
+		<item>"HDCP စစ်ဆေးခြင်းကို အမြဲတမ်း စစ်ဆေးပါ"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_avrcp_versions -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_version_values -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_summaries -->
+	<skip />
+	<!-- no translation found for select_logpersist_titles -->
+	<skip />
+	<!-- no translation found for select_logpersist_summaries -->
+	<skip />
+	<string-array name="window_animation_scale_entries">
+		<item>"បិទការធ្វើចលនា"</item>
+		<item>"មាត្រដ្ឋានជីវចល"</item>
+		<item>"កម្រិតការធ្វើចលនា 1x"</item>
+		<item>"កម្រិតការធ្វើចលនា 1.5x"</item>
+		<item>"កម្រិតការធ្វើចលនា​ 2x"</item>
+		<item>"កម្រិតការធ្វើចលនា 5x"</item>
+		<item>"កម្រិតការធ្វើចលនា 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"បិទការធ្វើចលនា"</item>
+		<item>"មាត្រដ្ឋានជីវចល"</item>
+		<item>"កម្រិតការធ្វើចលនា 1x"</item>
+		<item>"កម្រិតការធ្វើចលនា 1.5x"</item>
+		<item>"កម្រិតការធ្វើចលនា 2x"</item>
+		<item>"កម្រិតការធ្វើចលនា 5x"</item>
+		<item>"កម្រិតការធ្វើចលនា 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"បិទការធ្វើចលនា"</item>
+		<item>"មាត្រដ្ឋានជីវចល"</item>
+		<item>"កម្រិតការធ្វើចលនា 1x"</item>
+		<item>"កម្រិតការធ្វើចលនា 1.5x"</item>
+		<item>"កម្រិតការធ្វើចលនា 2x"</item>
+		<item>"កម្រិតការធ្វើចលនា 5x"</item>
+		<item>"កម្រិតការធ្វើចលនា 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"ပုံအနားေရးအေၾကာင္း"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"480p"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"480p (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1080p"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1080p (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<!--inherit from sourcecode xml-->
+		<item>"4K (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"4K (upscaled)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"4K (upscaled, secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p, 1080p (dual screen)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"គ្មាន"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (ក្រាភិច)"</item>
+		<item>"ហៅលេខធំលើ glចេញជាកំហុស"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"ပိတ္ပါ"</item>
+		<item>"គូរ តំបន់គ្លីបដែលមិនមែនជាចតុកោណ ជាពណ៌ខៀវ"</item>
+		<item>"បន្លិច ប្រអប់បញ្ជាគំនូរសាកល្បង ពណ៌បៃតង"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"បិទ"</item>
+		<item>"នៅលើអេក្រង់ ធ្វើជា របារ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"In <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"បិទ"</item>
+		<item>"បង្ហាញ​តំបន់​​ដែល​លើស"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show areas for Deuteranomaly"</item>
+	</string-array>
+	<!-- no translation found for debug_hw_renderer_entries -->
+	<skip />
+	<string-array name="app_process_limit_entries">
+		<item>"ព្រំដែនជាបទដ្ឋាន"</item>
+		<item>"គ្មានការដំណើរការពីខាងក្រោយ"</item>
+		<item>"យ៉ាងច្រើន 1 ដំណើរការ"</item>
+		<item>"យ៉ាងច្រើន 2 ដមណើរការ"</item>
+		<item>"យ៉ាងច្រើន 3 ដំណើតការ"</item>
+		<item>"យ៉ាងច្រើន 4 ដំណើរការ"</item>
+	</string-array>
+	<!-- no translation found for usb_configuration_titles_new -->
+	<skip />
+	<!-- no translation found for icontype_picker -->
+	<skip />
+	<!-- no translation found for service_title -->
+	<skip />
+	<!-- no translation found for service_sim_choices -->
+	<skip />
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"ស្វ័យប្រវត្តិ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"របៀប បណ្តាញដែលពេញចិត្ត 4G/3G/2G ដោយស្វ័យប្រវត្តិ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Only 4G"</item>
+		<item>"តែ 3G ប៉ុណ្ណោះ"</item>
+		<item>"តែ 2G ប៉ុណ្ណោះ"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM (auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM (auto)"</item>
+		<item>"UMTS តែប៉ុណ្ណោះ"</item>
+		<item>"UMTS ប៉ុណ្ណោះ"</item>
+		<item>"ចូលចិត្តតែ GSM ទេ"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM"</item>
+		<item>"តែ WCDMA"</item>
+		<item>"ចូលចិត្តតែ GSM ទេ"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type4 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type6 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<!--inherit from sourcecode xml-->
+		<item>"4G/3G/2G (Auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"3G/2G (Auto)"</item>
+		<item>"តែ 3G ប៉ុណ្ណោះ"</item>
+		<item>"តែ2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"ស្វ័យប្រវត្តិ"</item>
+		<item>"តែ WCDMA"</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type9 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM"</item>
+		<item>"ចូលចិត្តតែ GSM ទេ"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<!--inherit from sourcecode xml-->
+		<item>"GSM/WCDMA/LTE auto"</item>
+		<item>"GSM/WCDMA ស្វ័យប្រវត្តិ"</item>
+		<item>"ចូលចិត្តតែ GSM ទេ"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM auto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM auto"</item>
+		<item>"UMTS ប៉ុណ្ណោះ"</item>
+		<item>"ចូលចិត្តតែ GSM ទេ"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type14 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM (LTE preferred)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/2G (WCDMA Preferred)"</item>
+		<item>"តែ 3G ប៉ុណ្ណោះ"</item>
+		<item>"តែ 2G ប៉ុណ្ណោះ"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS (LTE Preferred)"</item>
+		<item>"តែ 3G ប៉ុណ្ណោះ"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type16 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM (auto connect)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM (auto connect)"</item>
+		<item>"តែ WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"မာရွယ္ကြ်န္းမ်ား"</item>
+		<item>"ဟာဝိုင်အီ"</item>
+		<item>"အလာစကာ"</item>
+		<item>"ပစိဖတ် အချိန်"</item>
+		<item>"တီဟွမ်နာ"</item>
+		<item>"အာရီဇိုးနား"</item>
+		<item>"ချီဟွားဟွား"</item>
+		<item>"တောင် အချိန်"</item>
+		<item>"အမေရိက အလယ်ပိုင်း"</item>
+		<item>"အလယ်ပိုင်း အချိန်"</item>
+		<item>"စာစကတ်ချီဝမ်"</item>
+		<item>"အရှေ့ပိုင်း အချိန်"</item>
+		<item>"ဗင်နီဇွဲလား"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Atlantic Time (Barbados)"</item>
+		<item>"အတ္တလန်တိတ် အချိန် (ကနေဒါ)"</item>
+		<item>"မန်နောက်(စ်)"</item>
+		<item>"နယူးဖောင်းလန်း"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mid-Atlantic"</item>
+		<item>"အာဇိုးရပ်(စ်)"</item>
+		<item>"ကိတ်(ပ်)ဗာတီ ကျွန်းများ"</item>
+		<item>"ကာဆာဘလန်ကာ"</item>
+		<item>"အနောက် အာဖရိက အချိန်"</item>
+		<item>"အာမန်း၊ ဂျော်ဒန်"</item>
+		<item>"အစ္စတန္ဘူ"</item>
+		<item>"ဘေရွတ်၊ လက်ဘနွန်"</item>
+		<item>"တီဟီရန်"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ural\'sk"</item>
+		<item>"ရဲကာတာရင်ဘက်"</item>
+		<item>"ကို(လ်)ကာတာ"</item>
+		<item>"ခတ္တမန္ဒု"</item>
+		<item>"ရန်ကုန်"</item>
+		<item>"ကရပ်(စ်)နိုယာ့(စ်ခ်)"</item>
+		<item>"ဘန်ကောက်"</item>
+		<item>"ဟောင်ကောင်"</item>
+		<item>"အီယာကွတ်(စ်ခ်)"</item>
+		<item>"ပါ့(သ်)"</item>
+		<item>"အိုဆာကာ"</item>
+		<item>"ယာကွတ်(စ်ခ်)"</item>
+		<item>"အာဒလိတ်"</item>
+		<item>"ဒါဝင်"</item>
+		<item>"ဘရစ်(စ်)ဘိန်း"</item>
+		<item>"ဟိုဘာ့(တ်)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sydney"</item>
+		<item>"ဗလာဒီဗော့စတော့(ခ်)"</item>
+		<item>"မာဂါဒန်"</item>
+		<item>"အော့(ခ်)လန်"</item>
+		<item>"ဖိဂ်ိ"</item>
+		<item>"ပီရူး"</item>
+		<item>"အဘူဒါဘီ"</item>
+		<item>"အဘူဂ်"</item>
+		<item>"အက္ခရာ"</item>
+		<item>"အက္ဒမ္စေတာင္း"</item>
+		<item>"အက္ဒစ္ေအဘာဘာ"</item>
+		<item>"အယ္ဂ်ီးရားစ္"</item>
+		<item>"အယ္လိုဖီ"</item>
+		<item>"အမ္စတာဒမ္"</item>
+		<item>"အန္ဒိုရာလာဗြီလာ"</item>
+		<item>"အန္ကာရာ"</item>
+		<item>"အန္တာနန္နာရီဗို"</item>
+		<item>"အက္ဂဘတ္တ္"</item>
+		<item>"အာ့စ္မာရာ"</item>
+		<item>"အာစတန်နာ"</item>
+		<item>"ေအသင္စ္"</item>
+		<item>"အဗာရူယာ"</item>
+		<item>"ဘဂ္ဂဒက်"</item>
+		<item>"ဘာကူး"</item>
+		<item>"ဗမာကို"</item>
+		<item>"ဘန္ဒါဆီရိ ဘီဂါ၀န္"</item>
+		<item>"ဇာဂရက္"</item>
+		<item>"ဘန္ဂူရီ"</item>
+		<item>"ဘန္ဂ်ဴ"</item>
+		<item>"ဘာစတီယာရီ"</item>
+		<item>"ဘေဂျင်း"</item>
+		<item>"ဘယ္လ္ဖာ့စ္"</item>
+		<item>"ဘဲ(လ်)ဂရိတ်"</item>
+		<item>"ဘယ္လ္မိုဖန္"</item>
+		<item>"ဘာလင္"</item>
+		<item>"ဘန္း"</item>
+		<item>"ဘစ္ရွ္ခက္"</item>
+		<item>"ဘစ္စာအူ"</item>
+		<item>"ဘိုဂိုတာ"</item>
+		<item>"ဘရာစီးလီးယား"</item>
+		<item>"ဘရာတစ္လာဗာ"</item>
+		<item>"ဘရာဗာဗြီလီ"</item>
+		<item>"ဘရစ္ေတာင္း"</item>
+		<item>"ဘရပ်ဆဲ(လ်)"</item>
+		<item>"ဘူခ်ာရာစ္"</item>
+		<item>"ဘူဒါပက္စ္"</item>
+		<item>"ဘူနို(စ်)အေးရီး(စ်)"</item>
+		<item>"ဘူဇြန္ဘူရာ"</item>
+		<item>"ကိုင်ရို"</item>
+		<item>"ကင္ဘာရာ"</item>
+		<item>"ကာ့ဒစ္"</item>
+		<item>"ကတ္စဒရီးစ္"</item>
+		<item>"ကရီနီ"</item>
+		<item>"ခ်ာေလာ္တဲေအမာလီ"</item>
+		<item>"ခ်ီစင္နုူ"</item>
+		<item>"ကုတ္ဗန္းေတာင္း"</item>
+		<item>"ကြန္းနာကရီ"</item>
+		<item>"ကိုပင္ေဟဂင္"</item>
+		<item>"ဒါကာ"</item>
+		<item>"ဒက"</item>
+		<item>"ဒီလိ"</item>
+		<item>"ဒီဂ်ီဘိုတိ"</item>
+		<item>"ဒိုဒိုမ"</item>
+		<item>"ဒိုဟာ"</item>
+		<item>"ေဒါ့ဂလက္စ္"</item>
+		<item>"ဒူဘိုင်း"</item>
+		<item>"ဒူဘလင္"</item>
+		<item>"ဒူရွန္ဘဲ"</item>
+		<item>"အီဒင္ဘတ္"</item>
+		<item>"ပင္လယ္ခုနစ္စင္းရဲ႕အီဒင္ဘတ္"</item>
+		<item>"ဖလိုင္းရင္းဖစ္ရွ္ကုဖ္"</item>
+		<item>"ဖရီးေတာင္း"</item>
+		<item>"ဖူနာဖုတိ"</item>
+		<item>"ဂါဘာရုန္း"</item>
+		<item>"ေဂ်ာ့ရွ္ျမိဳ႕ (ေကးမန္းကြ်န္းမ်ား)"</item>
+		<item>"ေဂ်ာ့ရွ္ျမိဳ႕ (အစန္းရွန္းကြ်န္းမ်ား)"</item>
+		<item>"ေဂ်ာ့ရွ္ျမိဳ႕ (ဂူရန)"</item>
+		<item>"ဂီဘရာတာ"</item>
+		<item>"ဂရစ္တီကန္"</item>
+		<item>"ဂြာတီမာလာျမိဳ႕ေတာ္"</item>
+		<item>"ဂူစတာဗြီယာ"</item>
+		<item>"ဟဂတ္န"</item>
+		<item>"ဟာမင္တန္"</item>
+		<item>"ဟန္ဂရိုရာ"</item>
+		<item>"ဟႏိြဳင္း"</item>
+		<item>"ဟာရရီ"</item>
+		<item>"ဟဗန"</item>
+		<item>"ဟယ်(လ်)ဆင်းကီ"</item>
+		<item>"ဟိုနီရာရာ"</item>
+		<item>"အစ္စလမ္ဘက္"</item>
+		<item>"ဂ်ကာတာ"</item>
+		<item>"ဂ်မ္းစ္ေတာင္း"</item>
+		<item>"ယေရုရှလင်"</item>
+		<item>"က်ဴးဘား"</item>
+		<item>"ကာဘူး(လ်)"</item>
+		<item>"ကမ္ပလာ"</item>
+		<item>"ကရာခ်ီ"</item>
+		<item>"អាប"</item>
+		<item>"ခါတုရမ္"</item>
+		<item>"ကိ"</item>
+		<item>"ကိဂလိ"</item>
+		<item>"ကင္းစတန္း (ဂ်မိုင္ကာ)"</item>
+		<item>"ကင္းစတန္း (ေနာ္ေဖာ့ကြ်န္း)"</item>
+		<item>"ကင္းစေတာင္း"</item>
+		<item>"ကင္ရွစ"</item>
+		<item>"ကွာလာလမ်ပူ"</item>
+		<item>"ကူ၀ိတ္"</item>
+		<item>"လစ္ဘရီဘီလီ"</item>
+		<item>"ဆန္တီယာဂို"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lima"</item>
+		<item>"လစ္စ္ဘြန္း"</item>
+		<item>"အယ္လ္ဂြ်တ္ဂ်န"</item>
+		<item>"လုန္း"</item>
+		<item>"လန္ဒန္"</item>
+		<item>"လူယန္ဒါ"</item>
+		<item>"လူစကာ"</item>
+		<item>"လူဇင္ဘတ္"</item>
+		<item>"မက္ဒရစ္"</item>
+		<item>"မာဂ်ဴရို"</item>
+		<item>"မာလာဘို"</item>
+		<item>"အမျိုးသား"</item>
+		<item>"မနဂူအာ"</item>
+		<item>"မနာမာ"</item>
+		<item>"မနီလာ"</item>
+		<item>"မာပူတို"</item>
+		<item>"မာရီေဂါ့"</item>
+		<item>"မာဆဲရု"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mata-Utu"</item>
+		<item>"အမ္ဘာဘိန္း"</item>
+		<item>"မီလက္ေကာ့"</item>
+		<item>"မက္ကဆီကို စီးတီး"</item>
+		<item>"မင့်(စ်ခ်)"</item>
+		<item>"မိုဂါဒီရွဴး"</item>
+		<item>"မိုနာကို"</item>
+		<item>"မြန္ရိုဗီြးယား"</item>
+		<item>"မွန်တီဗီဒီယို"</item>
+		<item>"မိုရိုနိ"</item>
+		<item>"မော့စကို"</item>
+		<item>"ျမဴ႕စ္ကတ္"</item>
+		<item>"နာရိုဘီ"</item>
+		<item>"နာဆာရု"</item>
+		<item>"ေနျပည္ေတာ္"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"N\'Djamena"</item>
+		<item>"နယူးေဒလီ"</item>
+		<item>"နီယာမီ"</item>
+		<item>"နီေကာ့ဆီယာ"</item>
+		<item>"ႏူေရာက္ေခ်ာက္"</item>
+		<item>"နူမီယာ"</item>
+		<item>"နုကုေအလိုဖာ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nuuk"</item>
+		<item>"အိုရန္ဂ်က္စတက္"</item>
+		<item>"ေအာ္စလို"</item>
+		<item>"အိုတ၀ါ"</item>
+		<item>"အူဂဒူဂူ"</item>
+		<item>"ပဂိုပဂို"</item>
+		<item>"ပါလီကီယာ"</item>
+		<item>"ပနားမားျမိဳ႕ေတာ္"</item>
+		<item>"ပါပက္တီး"</item>
+		<item>"ပါရာမာရီဘို"</item>
+		<item>"ပဲရစ္"</item>
+		<item>"ဖိလစ္စ္ဘတ္"</item>
+		<item>"ဖႏြမ္းပင္"</item>
+		<item>"ပလိုင္းေမာက္"</item>
+		<item>"ဖိုဂိုရီကာ"</item>
+		<item>"လူး၀စ္ဆိပ္ကမ္းျမိဳ႕"</item>
+		<item>"မိုစဘီဆိပ္ကမ္းျမိဳ႕"</item>
+		<item>"့ဗြီလာဆိပ္ကမ္းျမိဳ႕"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port-au-Prince"</item>
+		<item>"စပိန္ဆိပ္ကမ္းျမိဳ႕"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Porto-Novo"</item>
+		<item>"ပါရာေဂြး"</item>
+		<item>"ပရာရာ"</item>
+		<item>"ပရီတိုရီးယား"</item>
+		<item>"ပရစ္စတီနာ"</item>
+		<item>"ျပံဳးေရာင္"</item>
+		<item>"ကြီတို"</item>
+		<item>"ရာဘတ္"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Reykjavik"</item>
+		<item>"ေရးဂ်ာဘစ္"</item>
+		<item>"ရီရ"</item>
+		<item>"ရုတ္ျမိဳ႕"</item>
+		<item>"ေရာမ"</item>
+		<item>"ရိုစီရာယူ"</item>
+		<item>"ဆိုင္းပန္"</item>
+		<item>"ဆန္ဂ်ိဳ႕"</item>
+		<item>"ဆန္ဂ်ဳရန္"</item>
+		<item>"ဆန္မာရီနို"</item>
+		<item>"ဆန္ဆာဗာဒါ"</item>
+		<item>"ဆာန"</item>
+		<item>"ဆန်တီရေးဂိုး"</item>
+		<item>"ဆန္တိုဒိုမင္ဂို"</item>
+		<item>"ေဆာင္းတိုမီ"</item>
+		<item>"ဆာရာယေဗို"</item>
+		<item>"ဆိုး(လ်)"</item>
+		<item>"စကၤာပူ"</item>
+		<item>"စကုတ္ဂ်ီ"</item>
+		<item>"ဆိုဖီယာ"</item>
+		<item>"သီရိဂ်ာရ၀ါဒီနပူရာ-ေကာ့တဲ႔"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. George\'s"</item>
+		<item>"စိန္႔ဟယ္လီယာ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. John\'s"</item>
+		<item>"စိန္႔ပီတာပို႔"</item>
+		<item>"စိန္႔ပီးယားရိ"</item>
+		<item>"စတန္လီ"</item>
+		<item>"စေတာ့ဟုမ္း"</item>
+		<item>"စူခရီ"</item>
+		<item>"တိုင်ပေ"</item>
+		<item>"ေတာလ္လင္း"</item>
+		<item>"တာရာ၀"</item>
+		<item>"တာ့ရွခန္႔"</item>
+		<item>"တီဘစ်လီစီ"</item>
+		<item>"တင္းဖူ"</item>
+		<item>"တီရန္န"</item>
+		<item>"တိုက်ိဳ"</item>
+		<item>"ေတာ္ရွဗန္"</item>
+		<item>"ထရိုင္ပိုလီ"</item>
+		<item>"တူးနစ္"</item>
+		<item>"အူလန္ဘာတာ"</item>
+		<item>"ဗာဒူ"</item>
+		<item>"ေဗာလက္တာ"</item>
+		<item>"သီဗယ္လီ"</item>
+		<item>"ဗက္တီကန္ျမိဳ႕ေတာ္"</item>
+		<item>"ဗစ္တိုးရီးယား"</item>
+		<item>"ဗီယက္နာ"</item>
+		<item>"ဗီယန္တီယာနီ"</item>
+		<item>"ဗီလ္နီယပ္"</item>
+		<item>"၀ါေဆာ္"</item>
+		<item>"၀ါရွင္တန္ဒီစီ"</item>
+		<item>"၀ယ္လင္တန္"</item>
+		<item>"အေနာက္ကြ်န္း"</item>
+		<item>"၀ီလန္စတက္"</item>
+		<item>"ဝင်းဒေါ့(ခ်)"</item>
+		<item>"ရာမူဆူးခရို႕"</item>
+		<item>"ယာအြန္းဒီ"</item>
+		<item>"ယာရန္"</item>
+		<item>"ရဲရဗန်"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bolivia"</item>
+		<item>"ႏိုဗိုဆစ္ဘာ့စ္ခ္"</item>
+		<item>"ကလင္နင္ဂရဒ္"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asuncion"</item>
+		<item>"ឡា ប៉ាស្ស La Paz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Khabarovsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Severo-Kurilsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Anadyr"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Samara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melbourne"</item>
+		<item>"សាំង ភីធឺបឺរ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Volgograd"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Astrakhan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Izhevsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ufa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chelyabinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Omsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Barnaul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan-Ude"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chita"</item>
+	</string-array>
+	<!-- no translation found for russian_timezonename -->
+	<skip />
+	<!-- no translation found for timezone_label_ATT -->
+	<skip />
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<!-- no translation found for sim_slot -->
+	<skip />
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"အသုံးပြုသူ 1 ဦး"</item>
+		<item>"အသုံးပြုသူ 2 ဦး"</item>
+		<item>"အသုံးပြုသူ 3 ဦး"</item>
+		<item>"အသုံးပြုသူ 4 ဦး"</item>
+		<item>"အသုံးပြုသူ 5 ဦး"</item>
+		<item>"အသုံးပြုသူ 6 ဦး"</item>
+		<item>"အသုံးပြုသူ 7 ဦး"</item>
+		<item>"အသုံးပြုသူ 8 ဦး"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"9 users"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"ခလုတ်ကိုနှိပ်ပါ"</item>
+		<item>"PIN ពីអតិថិជន"</item>
+	</string-array>
+</resources>

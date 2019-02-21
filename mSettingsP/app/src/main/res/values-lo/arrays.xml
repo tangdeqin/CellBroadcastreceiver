@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for timezone_filters -->
+	<skip />
+	<string-array name="screen_timeout_entries">
+		<item>"15 ວິນາທີ"</item>
+		<item>"30 ວິນາທີ"</item>
+		<item>"1 ນາທີ"</item>
+		<item>"2 ນາທີ"</item>
+		<item>"5 ນາທີ"</item>
+		<item>"5 ນາທີ"</item>
+		<item>"10 ນາທີ"</item>
+		<item>"ບໍ່ຕ້ອງ"</item>
+	</string-array>
+	<!-- no translation found for lock_after_timeout_entries -->
+	<skip />
+	<!-- no translation found for entries_font_size -->
+	<skip />
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"ກໍາລັງສະແກນ\u2026"</item>
+		<item>"ກໍາລັງເຊື່ອມຕໍ່\u2026"</item>
+		<item>"ກໍາລັງກວດສອບ\u2026"</item>
+		<item>"ໄດ້ຮັບທີ່ຢູ່ IP\u2026"</item>
+		<item>"ໄດ້ເຊື່ອມຕໍ່"</item>
+		<item>"ໄດ້ຢຸດຊົ່ວຄາວ"</item>
+		<item>"ໄດ້ຂາດການເຊື່ອມຕໍ່\u2026"</item>
+		<item>"ໄດ້ຂາດການເຊື່ອມຕໍ່"</item>
+		<item>"ບໍ່ສຳເລັດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Blocked"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Temporarily avoiding poor connection"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"ກໍາລັງສະແກນ\u2026"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connecting to <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Authenticating with <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Obtaining IP address from <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<item>"ໄດ້ເຊື່ອມຕໍ່ຫາ <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+		<item>"ໄດ້ຢຸດຊົ່ວຄາວ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnecting from <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<item>"ໄດ້ຂາດການເຊື່ອມຕໍ່"</item>
+		<item>"ລົ້ມເຫຼວ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Blocked"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Temporarily avoiding poor connection"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<!-- no translation found for wifi_p2p_wps_setup -->
+	<skip />
+	<string-array name="wifi_p2p_status">
+		<!--inherit from sourcecode xml-->
+		<item>"Connected"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Invited"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Unsuccessful"</item>
+		<item>"ຫວ່າງ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Out-of-range"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 ນາທີ"</item>
+		<item>"5 ເວລາ"</item>
+		<item>"1 ຊົ່ວໂມງ"</item>
+		<item>"ບໍ່ມີໝົດເວລາ"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"ຕໍ່າ"</item>
+		<item>"ຕໍ່າ"</item>
+		<item>"ປານກາງ"</item>
+		<item>"ຂ້ອນຂ້າງແຮງ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Excellent"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"ເວລາປິດໜ້າຈໍຈະພັກໜ້າຈໍ"</item>
+		<item>"ບໍ່ພັກໜ້າຈໍເວລາສາກແບດ"</item>
+		<item>"ບໍ່ເຄີຍ"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"ຕະຫຼອດເວລາ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Only when plugged in"</item>
+		<item>"ບໍ່ໄດ້ທັງໝົດ"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<!-- no translation found for data_usage_data_range -->
+	<skip />
+	<string-array name="usage_stats_display_order_types">
+		<item>"ເວລານໍາໃຊ້"</item>
+		<item>"ຈໍານວນເລີ່ມຕົ້ນ"</item>
+		<item>"ຊື່ແອັບຯ"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<!-- no translation found for wifi_peap_phase2_entries -->
+	<skip />
+	<!-- no translation found for wifi_peap_phase2_entries_with_sim_auth -->
+	<skip />
+	<string-array name="wifi_phase2_entries">
+		<item>"ບໍ່"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<!-- no translation found for wifi_ip_settings -->
+	<skip />
+	<string-array name="wifi_proxy_settings">
+		<item>"ບໍ່ມີ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manual"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Proxy Auto-Config"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"ບໍ່"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP ຫຼື CHAP"</item>
+	</string-array>
+	<!-- no translation found for apn_protocol_entries -->
+	<skip />
+	<!-- no translation found for bearer_entries -->
+	<skip />
+	<string-array name="mvno_type_entries">
+		<item>"ບໍ່ມີ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<string-array name="app_install_location_entries">
+		<item>"ອຸປະກອນຈັດເກັບຂໍ້ມູນພາຍໃນ"</item>
+		<item>"SD ຄາດ"</item>
+		<item>"ທີ່ກໍານົດໂດຍລະບົບ"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Personal"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Messaging"</item>
+		<item>"ມີເດຍ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Device"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<!--inherit from sourcecode xml-->
+		<item>"coarse location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fine location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<!--inherit from sourcecode xml-->
+		<item>"vibrate"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read contacts"</item>
+		<item>"ແກ້ໄຂລາຍຊື່ຜູ່ຕິດຕໍ່"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read call log"</item>
+		<item>"ແກ້ໄຂບັນທຶກການໂທ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Wi-Fi scan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"cell scan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"call phone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive emergency SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive WAP push"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"send SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read ICC SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write ICC SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify settings"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"draw on top"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"access notifications"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"camera"</item>
+		<item>"ອັດສຽງ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"play audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read clipboard"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify clipboard"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"media buttons"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"audio focus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"master volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"voice volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"ring volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"media volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"alarm volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bluetooth volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"keep awake"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor high power location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get usage stats"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mute/unmute microphone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"show toast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"body sensors"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read cell broadcasts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"accessibility volume"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vibrate"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read contacts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify contacts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read call log"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify call log"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Post notification"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Call phone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Send SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify settings"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Draw on top"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Access notifications"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Camera"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Record audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Play audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read clipboard"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify clipboard"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Media buttons"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Audio focus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Master volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Voice volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ring volume"</item>
+		<item>"ລະດັບສຽງ"</item>
+		<item>"ລະດັບສຽງປຸກ"</item>
+		<item>"ລະດັບສຽງແຈ້ງເຕືອນ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bluetooth volume"</item>
+		<item>"ເຮັດໃຫ້ເປີດຕະຫລອດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get usage stats"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mute/unmute microphone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show toast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Body sensors"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read cell broadcasts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accessibility volume"</item>
+	</string-array>
+	<!-- no translation found for long_press_timeout_selector_titles -->
+	<skip />
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"ຄ່າເລີ້ມຕົ້ນ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sans-serif condensed"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sans-serif monospace"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Serif"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Serif monospace"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Casual"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cursive"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Small capitals"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Very small"</item>
+		<item>"ນ້ອຍ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Normal"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Large"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Very large"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"ຄ່າເລີ້ມຕົ້ນ"</item>
+		<item>"ບໍ່"</item>
+		<item>"ເງົາ"</item>
+		<item>"ເງົາ"</item>
+		<item>"ເງົາ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Depressed"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Use app defaults"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"White on black"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Black on white"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yellow on black"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yellow on blue"</item>
+		<item>"ການກໍານົດເອງ"</item>
+	</string-array>
+	<!-- no translation found for vpn_types_long -->
+	<skip />
+	<!-- no translation found for vpn_states -->
+	<skip />
+	<string-array name="security_settings_premium_sms_values">
+		<item>"ຖາມ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Never allow"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Always allow"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"ປົກກະຕິ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moderate"</item>
+		<item>"ຕໍ່າ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Critical"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"ປົກກະຕິ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moderate"</item>
+		<item>"ຕໍ່າ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Critical"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<!--inherit from sourcecode xml-->
+		<item>"Persistent"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Top activity"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Important (foreground)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Important (background)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Backup"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Heavy weight"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Service (running)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Service (restarting)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receiver"</item>
+		<item>"ຄອບຄົວ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Last activity"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (activity)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (activity client)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cached (empty)"</item>
+	</string-array>
+	<!-- no translation found for color_picker -->
+	<skip />
+	<!-- no translation found for tcl_color_picker -->
+	<skip />
+	<!-- no translation found for automatic_storage_management_days -->
+	<skip />
+	<!-- no translation found for hdcp_checking_titles -->
+	<skip />
+	<!-- no translation found for hdcp_checking_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_versions -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_version_values -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_audio_active_device_summaries -->
+	<skip />
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_summaries -->
+	<skip />
+	<!-- no translation found for select_logpersist_titles -->
+	<skip />
+	<!-- no translation found for select_logpersist_summaries -->
+	<skip />
+	<!-- no translation found for window_animation_scale_entries -->
+	<skip />
+	<!-- no translation found for transition_animation_scale_entries -->
+	<skip />
+	<!-- no translation found for animator_duration_scale_entries -->
+	<skip />
+	<string-array name="overlay_display_devices_entries">
+		<item>"ບໍ່ມີ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"480p"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"480p (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1080p"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1080p (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<!--inherit from sourcecode xml-->
+		<item>"4K (secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"4K (upscaled)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"4K (upscaled, secure)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p, 1080p (dual screen)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"ບໍ່ມີ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Logcat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Systrace (Graphics)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Call stack on glGetError"</item>
+	</string-array>
+	<!-- no translation found for show_non_rect_clip_entries -->
+	<skip />
+	<!-- no translation found for track_frame_time_entries -->
+	<skip />
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"ປິດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show overdraw areas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show areas for Deuteranomaly"</item>
+	</string-array>
+	<!-- no translation found for debug_hw_renderer_entries -->
+	<skip />
+	<!-- no translation found for app_process_limit_entries -->
+	<skip />
+	<!-- no translation found for usb_configuration_titles_new -->
+	<skip />
+	<string-array name="icontype_picker">
+		<item>"ຄ່າເລີ້ມຕົ້ນ"</item>
+		<item>"ຂໍ້ມູນ"</item>
+		<item>"ໂທ"</item>
+		<item>"ຂໍ້ຄວາມ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Home"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Work"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Travel"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Love"</item>
+	</string-array>
+	<!-- no translation found for service_title -->
+	<skip />
+	<!-- no translation found for service_sim_choices -->
+	<skip />
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"ອັດຕະໂນມັດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_latam -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM (auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM (auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"LTE only"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS only"</item>
+		<item>"GSM，ບໍ່ຟັງຊັ້ນ EvDo "</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM"</item>
+		<item>"WCDMA ເທົ່ານັ້ນ"</item>
+		<item>"GSM，ບໍ່ຟັງຊັ້ນ EvDo "</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type4 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type6 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type7 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM auto"</item>
+		<item>"WCDMA ເທົ່ານັ້ນ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM auto"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type9 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM"</item>
+		<item>"GSM，ບໍ່ຟັງຊັ້ນ EvDo "</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<!--inherit from sourcecode xml-->
+		<item>"GSM/WCDMA/LTE auto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"GSM/WCDMA auto"</item>
+		<item>"GSM，ບໍ່ຟັງຊັ້ນ EvDo "</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM auto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM auto"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS only"</item>
+		<item>"GSM，ບໍ່ຟັງຊັ້ນ EvDo "</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type14 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type15_default -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_2006N -->
+	<skip />
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type16 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM (auto connect)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM (auto connect)"</item>
+		<item>"WCDMA ເທົ່ານັ້ນ"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<!--inherit from sourcecode xml-->
+		<item>"Midway Island"</item>
+		<item>"ຮາວາຍ"</item>
+		<item>"ອະລາສະກ້າ"</item>
+		<item>"ເວລາປະຊີຟິກ"</item>
+		<item>"Tijuana"</item>
+		<item>"ອາລີໂຊນ້າ"</item>
+		<item>"ຊີວາວາ"</item>
+		<item>"ເວລາເມົາເທນ"</item>
+		<item>"ອາດມລິກາກາງ"</item>
+		<item>"ເວລາກາງ"</item>
+		<item>"ຊັດສ໌ແຄດ"</item>
+		<item>"ເວລາພາກຕາເວັນອອກ"</item>
+		<item>"ເສເນຊູເອລ້າ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Atlantic Time (Barbados)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Atlantic Time (Canada)"</item>
+		<item>"ມາເນົາສ໌"</item>
+		<item>"ນິວຟັນແລນ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mid-Atlantic"</item>
+		<item>"ໃນ Azores"</item>
+		<item>"ໝູ່ເກາະເຄບເວີດ"</item>
+		<item>"ຄຣາດສ໌ບຣັງກາ"</item>
+		<item>"ເວລາອັດຟຣິກກາຕາເວັນຕົກ"</item>
+		<item>"ອໍາມານ，ຈໍແດນ"</item>
+		<item>"ເອເທັນ，ອິດສ໌ຕັນບຣູ"</item>
+		<item>"ເບລຸດ，ເລບານອນ"</item>
+		<item>"ເຕຫະລານ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ural\'sk"</item>
+		<item>"Yekaterinburg"</item>
+		<item>"ກັນກັດ"</item>
+		<item>"Kathmandu"</item>
+		<item>"ຢ່າງກຸ້ງ"</item>
+		<item>"Krasnoyarsk"</item>
+		<item>"ບາງກອກ"</item>
+		<item>"ຮົງກົງ"</item>
+		<item>"ອີຄຸດສ໌"</item>
+		<item>"ເພີດ"</item>
+		<item>"ໂຕກຽວ，ໂອຊາກ້າ"</item>
+		<item>"ຍາຄຸດສ໌"</item>
+		<item>"ອັນເດີລາຍ"</item>
+		<item>"ດາຣ໌ວິນ"</item>
+		<item>"ບຣິດສຸເບນ"</item>
+		<item>"ໂຮບາດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sydney"</item>
+		<item>"ວຣາ"</item>
+		<item>"ມາກາດານ"</item>
+		<item>"ໂອກແລນ"</item>
+		<item>"ຟິຈິ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paraguay"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Abu Dhabi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Abuja"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Adamstown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Addis Ababa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Algiers"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Alofi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Amsterdam"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Andorra la Vella"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ankara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Antananarivo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ashgabat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asmara"</item>
+		<item>"ອັກສ໌ຕານາ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Athens"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Avarua"</item>
+		<item>"ແບກແດດ"</item>
+		<item>"ບາກູ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bamako"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bandar Seri Begawan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Zagreb"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bangui"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Banjul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Basseterre"</item>
+		<item>"ປັກກິ່ງ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belfast"</item>
+		<item>"ນະຄອນເບຣເກຣດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belmopan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Berlin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bern"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bishkek"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bissau"</item>
+		<item>"ໂບໂດຕາ"</item>
+		<item>"ບຣາຊີນລຽນ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bratislava"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brazzaville"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bridgetown"</item>
+		<item>"ບຣັດສ໌ເຊວສ໌"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bucharest"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Budapest"</item>
+		<item>"ບົວໂນດສ໌ໄອເລດສ໌"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bujumbura"</item>
+		<item>"ໄຄໂລ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Canberra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cardiff"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Castries"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cayenne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Charlotte Amalie"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chisinau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cockburn Town"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Conakry"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Copenhagen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dakar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dhaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dili"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Djibouti"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dodoma"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Doha"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Douglas"</item>
+		<item>"ດູໄບ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dublin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dushanbe"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Edinburgh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Edinburgh of the Seven Seas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Flying Fish Cove"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Freetown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Funafuti"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gaborone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"George Town (Cayman Islands)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Georgetown (Ascension Island)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Georgetown (Guyana)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gibraltar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Grytviken"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Guatemala City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gustavia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hagatna"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hamilton"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hanga Roa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hanoi"</item>
+		<item>"ຮາລາເລ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Havana"</item>
+		<item>"ເຮຊີງຄ໌ກິ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Honiara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Islamabad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jakarta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jamestown"</item>
+		<item>"ເຢລູຊາເລັມ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Juba"</item>
+		<item>"ຄາບູ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kampala"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Karachi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Apia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Khartoum"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kiev"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kigali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingston (Jamaica)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingston (Norfolk Island)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingstown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kinshasa"</item>
+		<item>"ສີງກະໂປ"</item>
+		<item>"ຄູເວດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Libreville"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lilongwe"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lima"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lisbon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ljubljana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"London"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Luanda"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lusaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Luxembourg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Madrid"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Majuro"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Malabo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Male"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Managua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manama"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manila"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Maputo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Marigot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Maseru"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mata-Utu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mbabane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melekeok"</item>
+		<item>"ເມືອງແມັກຊີໂກ່"</item>
+		<item>"ມິນສ໌"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mogadishu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Monaco"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Monrovia"</item>
+		<item>"ມອນເຕວິເດ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moroni"</item>
+		<item>"ໂມດສ໌ກູ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Muscat"</item>
+		<item>"ໄນໂຣບີ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nassau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Naypyidaw"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"N\'Djamena"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"New Delhi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Niamey"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nicosia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nouakchott"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Noumea"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nuku alofa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nuuk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Oranjestad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Oslo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ottawa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ouagadougou"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pago Pago"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Palikir"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Panama City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Papeete"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paramaribo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paris"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Philipsburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Phnom Penh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Plymouth"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Podgorica"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Louis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Moresby"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Vila"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port-au-Prince"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port of Spain"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Porto-Novo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Prague"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Praia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pretoria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pristina"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pyongyang"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Quito"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Rabat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Reykjavik"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Riga"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Riyadh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Road Town"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Rome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Roseau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saipan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Jose"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Juan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Marino"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Salvador"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Santiago"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Santo Domingo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sao Tome"</item>
+		<item>"ຊາລາເຈໂວ"</item>
+		<item>"ໂຊຣ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Singapore"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Skopje"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sofia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. George\'s"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Helier"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. John\'s"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Peter Port"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Pierre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stanley"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stockholm"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sucre"</item>
+		<item>"ໄຕ້ຫວັນ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tallinn"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tarawa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tashkent"</item>
+		<item>"ທບີລີຊີ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Thimphu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tirana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tokyo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Torshavn"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tripoli"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tunis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan Bator"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vaduz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Valletta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"The Valley"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vatican City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Victoria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vienna"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vientiane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vilnius"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Warsaw"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Washington, D.C."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Wellington"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"West Island"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Willemstad"</item>
+		<item>"ວິນຮຸກ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yamoussoukro"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yaounde"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yaren"</item>
+		<item>"ເຍເລວານ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bolivia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Novosibirsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kaliningrad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asuncion"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"La Paz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Khabarovsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Severo-Kurilsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Anadyr"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Samara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melbourne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saint Petersburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Volgograd"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Astrakhan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Izhevsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ufa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chelyabinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Omsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Barnaul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan-Ude"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chita"</item>
+	</string-array>
+	<!-- no translation found for russian_timezonename -->
+	<skip />
+	<!-- no translation found for timezone_label_ATT -->
+	<skip />
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<!-- no translation found for sim_slot -->
+	<skip />
+	<!-- no translation found for wifi_ap_max_connection_entries -->
+	<skip />
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<!-- no translation found for wifi_ap_wps_mode_entries -->
+	<skip />
+</resources>
