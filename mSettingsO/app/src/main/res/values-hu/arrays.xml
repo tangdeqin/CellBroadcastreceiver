@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Európa"</item>
+		<item>"Afrika"</item>
+		<item>"Ázsia"</item>
+		<item>"Ausztrália"</item>
+		<item>"Csendes-óceán"</item>
+		<item>"Összes"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 másodperc"</item>
+		<item>"30 másodperc"</item>
+		<item>"1 perc"</item>
+		<item>"2 perc"</item>
+		<item>"5 perc"</item>
+		<item>"10 perc"</item>
+		<item>"30 perc"</item>
+		<item>"Soha"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"Soha"</item>
+		<item>"15 másodperc"</item>
+		<item>"30 másodperc"</item>
+		<item>"1 perc"</item>
+		<item>"2 perc"</item>
+		<item>"5 perc"</item>
+		<item>"10 perc"</item>
+		<item>"30 perc"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Azonnal"</item>
+		<item>"5 másodperc"</item>
+		<item>"15 másodperc"</item>
+		<item>"30 másodperc"</item>
+		<item>"1 perc"</item>
+		<item>"2 perc"</item>
+		<item>"5 perc"</item>
+		<item>"10 perc"</item>
+		<item>"30 perc"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Kicsi"</item>
+		<item>"Alapértelmezett"</item>
+		<item>"Nagy"</item>
+		<item>"Legnagyobb"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Keresés..."</item>
+		<item>"Csatlakozás..."</item>
+		<item>"Hitelesítés..."</item>
+		<item>"IP-cím kérése\u2026"</item>
+		<item>"Csatlakozva"</item>
+		<item>"Felfüggesztve"</item>
+		<item>"Lecsatlakozás..."</item>
+		<item>"Lecsatlakozva"</item>
+		<item>"Sikertelen"</item>
+		<item>"Letiltva"</item>
+		<item>"A rossz minőségű kapcsolatok átmeneti elkerülése"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Keresés…"</item>
+		<item>"Csatlakozás <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Hitelesítés<xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"IP-cím kérése<xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Csatlakozva<xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Felfüggesztve"</item>
+		<item>"Lecsatlakozva<xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Lecsatlakozva"</item>
+		<item>"Sikertelen"</item>
+		<item>"Letiltva"</item>
+		<item>"A rossz minőségű kapcsolatok átmeneti elkerülése"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Nyomógomb"</item>
+		<item>"Partnereszköztől kapott PIN"</item>
+		<item>"A készülék PIN kódja"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Kapcsolva"</item>
+		<item>"Meghívott"</item>
+		<item>"Sikertelen"</item>
+		<item>"Rendelkezésre álló"</item>
+		<item>"Tartományon kívül"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 perc"</item>
+		<item>"5 perc"</item>
+		<item>"1 óra"</item>
+		<item>"Soha ne legyen időtúllépés"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Gyenge"</item>
+		<item>"Gyenge"</item>
+		<item>"Megfelelő"</item>
+		<item>"Jó"</item>
+		<item>"Kiváló"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Mindig"</item>
+		<item>"Csak ha csatlakoztatva van"</item>
+		<item>"Soha"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Mindig"</item>
+		<item>"Csak ha csatlakoztatva van"</item>
+		<item>"Soha"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Utolsó 30 nap"</item>
+		<item>"Használati ciklus beállítása..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Használati idő"</item>
+		<item>"Legutóbbi használat ideje"</item>
+		<item>"Alkalmazás neve"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Egyik sem"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Nincs megadva"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Egyik sem"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statikus"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Nincs"</item>
+		<item>"Kézi"</item>
+		<item>"Proxy automatikus beállítása"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Egyik sem"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP vagy CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Nem meghatározott"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Semmi."</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Készülék belső tárhelye"</item>
+		<item>"Eltávolítható SD-kártya"</item>
+		<item>"A rendszer döntse el"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Hely"</item>
+		<item>"Személyes"</item>
+		<item>"Üzenetek"</item>
+		<item>"Médiafájl"</item>
+		<item>"Készülék"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"hozzávetőleges helymeghatározás"</item>
+		<item>"pontos helymeghatározás"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"rezgés"</item>
+		<item>"névjegyek olvasása"</item>
+		<item>"névjegyek módosítása"</item>
+		<item>"hívásnapló olvasása"</item>
+		<item>"hívásnapló módosítása"</item>
+		<item>"naptár olvasása"</item>
+		<item>"Naptár módosítása"</item>
+		<item>"wi-fi hálózat keresése"</item>
+		<item>"Értesítés"</item>
+		<item>"mobilhálózat keresése"</item>
+		<item>"telefonálás"</item>
+		<item>"SMS olvasása"</item>
+		<item>"SMS írása"</item>
+		<item>"SMS fogadás"</item>
+		<item>"vészhelyzeti SMS fogadása"</item>
+		<item>"MMS fogadás"</item>
+		<item>"WAP pushüzenetek fogadása"</item>
+		<item>"SMS küldése"</item>
+		<item>"ICC SMS olvasása"</item>
+		<item>"ICC SMS írása"</item>
+		<item>"beállítások módosítása"</item>
+		<item>"megjelenítés felül"</item>
+		<item>"hozzáférési értesítések"</item>
+		<item>"kamera"</item>
+		<item>"hangrögzítés"</item>
+		<item>"hangfájl lejátszása"</item>
+		<item>"vágólap olvasása"</item>
+		<item>"vágólap módosítása"</item>
+		<item>"médiagombok"</item>
+		<item>"automatikus fókuszálás"</item>
+		<item>"fő hangerő"</item>
+		<item>"hangerő"</item>
+		<item>"csengés hangereje"</item>
+		<item>"Médiafájl hangereje"</item>
+		<item>"Riasztás hangereje"</item>
+		<item>"Értesítés hangereje"</item>
+		<item>"Bluetooth hangerő"</item>
+		<item>"Ébren tartás"</item>
+		<item>"Hely monitorozása"</item>
+		<item>"Nagy teljesítményszintű hely monitorozása"</item>
+		<item>"Statisztikai adatok lekérése"</item>
+		<item>"Mikrofon némítása/némítás feloldása"</item>
+		<item>"üzenet mutatása"</item>
+		<item>"Projekt médiafájl"</item>
+		<item>"VPN aktiválása"</item>
+		<item>"háttérkép írása"</item>
+		<item>"segédlet a szerkezethez"</item>
+		<item>"Segéd képernyőkép"</item>
+		<item>"telefon állapotának olvasása"</item>
+		<item>"hangposta hozzáadása"</item>
+		<item>"sip használata"</item>
+		<item>"kimenő hívások feldolgozása"</item>
+		<item>"ujjlenyomat"</item>
+		<item>"életfunkció érzékelők"</item>
+		<item>"cellaüzenetek olvasása"</item>
+		<item>"álhelyszín"</item>
+		<item>"tároló olvasása"</item>
+		<item>"tároló írása"</item>
+		<item>"képernyő bekapcsolása"</item>
+		<item>"fiókok lekérése"</item>
+		<item>"futtatás a háttérben"</item>
+		<item>"kisegítő lehetőségek: hangerő"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Hely"</item>
+		<item>"Hely"</item>
+		<item>"Hely"</item>
+		<item>"Rezgés"</item>
+		<item>"Névjegyek olvasása"</item>
+		<item>"Névjegyek módosítása"</item>
+		<item>"hívásnapló olvasása"</item>
+		<item>"Hívásnapló módosítása"</item>
+		<item>"Naptár olvasása"</item>
+		<item>"Naptár módosítása"</item>
+		<item>"Hely"</item>
+		<item>"Értesítés küldése"</item>
+		<item>"Hely"</item>
+		<item>"Telefon hívása"</item>
+		<item>"SMS/MMS olvasása"</item>
+		<item>"SMS/MMS írása"</item>
+		<item>"SMS/MMS fogadása"</item>
+		<item>"SMS/MMS fogadása"</item>
+		<item>"SMS/MMS fogadása"</item>
+		<item>"SMS/MMS fogadása"</item>
+		<item>"SMS/MMS küldése"</item>
+		<item>"SMS/MMS olvasása"</item>
+		<item>"SMS/MMS írása"</item>
+		<item>"Beállítások módosítása"</item>
+		<item>"Rajz felül"</item>
+		<item>"Hozzáférési értesítések"</item>
+		<item>"Kamera"</item>
+		<item>"Audiofájl rögzítése"</item>
+		<item>"Hangfájl lejátszása"</item>
+		<item>"Vágólap olvasása"</item>
+		<item>"Vágólap módosítása"</item>
+		<item>"Médiagombok"</item>
+		<item>"Automatikus fókuszálás"</item>
+		<item>"Fő hangerő"</item>
+		<item>"Hangerő"</item>
+		<item>"Csengés hangereje"</item>
+		<item>"Médiafájl hangereje"</item>
+		<item>"Riasztás hangereje"</item>
+		<item>"Értesítés hangereje"</item>
+		<item>"Bluetooth hangerő"</item>
+		<item>"Ébren tartás"</item>
+		<item>"Hely"</item>
+		<item>"Hely"</item>
+		<item>"Statisztikai adatok lekérése"</item>
+		<item>"Mikrofon némítása/némítás feloldása"</item>
+		<item>"Üzenet mutatása"</item>
+		<item>"Projekt médiafájl"</item>
+		<item>"VPN aktiválása"</item>
+		<item>"Írás a háttérképre"</item>
+		<item>"Segédstruktúra"</item>
+		<item>"Segéd képernyőkép"</item>
+		<item>"Telefon állapotának olvasása"</item>
+		<item>"Hangposta hozzáadása"</item>
+		<item>"SIP használata"</item>
+		<item>"Kimenő hívások feldolgozása"</item>
+		<item>"Ujjlenyomat"</item>
+		<item>"Életfunkció érzékelők"</item>
+		<item>"Cellaüzenetek olvasása"</item>
+		<item>"Álhelyszín"</item>
+		<item>"Tároló olvasása"</item>
+		<item>"Tároló írása"</item>
+		<item>"Képernyő bekapcsolása"</item>
+		<item>"Fiókok lekérése"</item>
+		<item>"Futtatás a háttérben"</item>
+		<item>"Kisegítő lehetőségek: hangerő"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Rövid"</item>
+		<item>"Közepes"</item>
+		<item>"Hosszú"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Alapbeállítás"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sűrített Sans-serif"</item>
+		<item>"Fix szélességű sans-serif"</item>
+		<item>"Serif"</item>
+		<item>"Fix szélességű serif"</item>
+		<item>"Alkalmi"</item>
+		<item>"Kurzív"</item>
+		<item>"Kiskapitális"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Apró"</item>
+		<item>"Kicsi"</item>
+		<item>"Normál"</item>
+		<item>"Nagy"</item>
+		<item>"Nagyon nagy"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Alapbeállítás"</item>
+		<item>"Egyik sem"</item>
+		<item>"Körvonal"</item>
+		<item>"Árnyékolás"</item>
+		<item>"Emelt"</item>
+		<item>"Lenyomva"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Alkal. alapértelmezet beállítása"</item>
+		<item>"Fehér fekete háttérrel"</item>
+		<item>"Fekete fehér háttérrel"</item>
+		<item>"Sárga fekete háttérrel"</item>
+		<item>"Sárga kék háttérrel"</item>
+		<item>"Egyedi"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN megosztott kulcsokkal"</item>
+		<item>"L2TP/IPSec VPN-tanúsítványokkal"</item>
+		<item>"IPSec VPN előre megosztott kulcsokkal és Xauth azonosítás"</item>
+		<item>"IPSec VPN-tanúsítványokkal és Xauth azonosítás"</item>
+		<item>"IPSec VPN-tanúsítványokkal és hibrid azonosítás"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Szétkapcsolva"</item>
+		<item>"Inicializálás…"</item>
+		<item>"Csatlakozás…"</item>
+		<item>"Csatlakoztatva"</item>
+		<item>"Időtúllépés"</item>
+		<item>"Sikertelen"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Kérdés"</item>
+		<item>"Soha ne engedélyezze"</item>
+		<item>"Mindig engedélyezze"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Normál"</item>
+		<item>"Mérsékelt"</item>
+		<item>"Alacsony"</item>
+		<item>"Kritikus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normál"</item>
+		<item>"Mérsékelt"</item>
+		<item>"Alacsony"</item>
+		<item>"Kritikus"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Állandó"</item>
+		<item>"Legfelső tevékenység"</item>
+		<item>"Fontos (előtér)"</item>
+		<item>"Fontos (háttér)"</item>
+		<item>"Biztonsági mentés"</item>
+		<item>"Nehéz súly"</item>
+		<item>"Szolgáltatás (fut)"</item>
+		<item>"Szolgáltatás (újraindul)"</item>
+		<item>"Címzett"</item>
+		<item>"Otthoni"</item>
+		<item>"Utolsó tevékenység"</item>
+		<item>"Gyorsítótárazott (tevékenység)"</item>
+		<item>"Gyorsítótárazott (tevékenység kliens)"</item>
+		<item>"Gyorsítótárazott (üres)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"zöldeskék"</item>
+		<item>"Kék"</item>
+		<item>"Indigo"</item>
+		<item>"Lila"</item>
+		<item>"Rózsaszín"</item>
+		<item>"Piros"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"zöldeskék"</item>
+		<item>"Kék"</item>
+		<item>"Indigo"</item>
+		<item>"Lila"</item>
+		<item>"Rózsaszín"</item>
+		<item>"Piros"</item>
+		<item>"Narancssárga"</item>
+		<item>"Sötétzöld"</item>
+		<item>"Zöld"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Több mint 30 napos"</item>
+		<item>"Több mint 60 napos"</item>
+		<item>"Több mint 90 napos"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Ellenőrzés soha"</item>
+		<item>"Csak DRM-tartalom ellenőrzése"</item>
+		<item>"Ellenőrzés mindig"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Soha ne használjon HDCP ellenőrzést"</item>
+		<item>"Csak DRM-tartalomhoz használjon HDCP ellenőrzést"</item>
+		<item>"Mindig használjon HDCP ellenőrzést"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (alapbeállítás)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audió"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audió"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Opcionális kodekek engedélyezése"</item>
+		<item>"Opcionális kodekek letiltása"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audió"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audió"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Opcionális kodekek engedélyezése"</item>
+		<item>"Opcionális kodekek letiltása"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<item>"16 bit/minta"</item>
+		<item>"24 bit/minta"</item>
+		<item>"32 bit/minta"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<item>"16 bit/minta"</item>
+		<item>"24 bit/minta"</item>
+		<item>"32 bit/minta"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<item>"Monokr."</item>
+		<item>"Sztereó"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Használja a rendszer által kiválasztott opciót (alapbeállítás)"</item>
+		<item>"Monokr."</item>
+		<item>"Sztereó"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Hangminőségre optimalizálva (990 Kbps/909 Kbps)"</item>
+		<item>"Kiegyensúlyozott hang- és kapcsolatminőség (660 Kbps/606 Kbps)"</item>
+		<item>"Kapcsolatminőségre optimalizálva (330 Kbps/303 Kbps)"</item>
+		<item>"Leghatékonyabb (adaptív sávszélesség)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Hangminőségre optimalizálva"</item>
+		<item>"Kiegyensúlyozott hang- és kapcsolatminőség"</item>
+		<item>"Kapcsolatminőségre optimalizálva"</item>
+		<item>"Leghatékonyabb (adaptív sávszélesség)"</item>
+	</string-array>
+	<string-array name="select_logd_size_titles">
+		<item>"Ki"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Ki"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Ki"</item>
+		<item>"64 K naplópufferenként"</item>
+		<item>"256 K naplópufferenként"</item>
+		<item>"1 MB naplópufferenként"</item>
+		<item>"4 MB naplópufferenként"</item>
+		<item>"16 MB naplópufferenként"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Kikapcsolva"</item>
+		<item>"Összes"</item>
+		<item>"Az összes, a rádió kivételével"</item>
+		<item>"Kizárólag kernel"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Kikapcsolva"</item>
+		<item>"Az összes naplópuffer"</item>
+		<item>"Az összes naplópuffer, a rádió naplópufferek kivételével"</item>
+		<item>"Kizárólag kernel naplópuffer"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animáció ki"</item>
+		<item>"Animáció mérete: 0,5x"</item>
+		<item>"Animáció mérete: 1x"</item>
+		<item>"Animáció mérete: 1,5x"</item>
+		<item>"Animáció mérete: 2x"</item>
+		<item>"Animáció mérete: 5x"</item>
+		<item>"Animáció mérete: 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animáció ki"</item>
+		<item>"Animáció mérete: 0,5x"</item>
+		<item>"Animáció mérete: 1x"</item>
+		<item>"Animáció mérete: 1,5x"</item>
+		<item>"Animáció mérete: 2x"</item>
+		<item>"Animáció mérete: 5x"</item>
+		<item>"Animáció mérete: 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animáció ki"</item>
+		<item>"Animáció mérete: 0,5x"</item>
+		<item>"Animáció mérete: 1x"</item>
+		<item>"Animáció mérete: 1,5x"</item>
+		<item>"Animáció mérete: 2x"</item>
+		<item>"Animáció mérete: 5x"</item>
+		<item>"Animáció mérete: 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Semmilyen"</item>
+		<item>"480p"</item>
+		<item>"480p (biztonságos)"</item>
+		<item>"720p"</item>
+		<item>"720p (biztonságos)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (biztonságos)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (biztonságos)"</item>
+		<item>"4K (javított)"</item>
+		<item>"4K (javított, biztonságos)"</item>
+		<item>"720p, 1080p (duál képernyő)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Semmilyen"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (Grafikus elemek)"</item>
+		<item>"glGetError hívásverem"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Kikapcsolva"</item>
+		<item>"Nem négyszögletes vágási terület megrajzolása kékkel"</item>
+		<item>"Tesztelt rajzolási parancsok kiemelése zölddel"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Kikapcsolva"</item>
+		<item>"A képernyőn sávok formájában"</item>
+		<item>"A következőben: <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"KI"</item>
+		<item>"Átfedett területek mutatása"</item>
+		<item>"Deuteranomália területek mutatása"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (alapbeállítás)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Normál korlátozás"</item>
+		<item>"Nincsenek háttérfolyamatok"</item>
+		<item>"Legfeljebb 1 folyamat"</item>
+		<item>"Legfeljebb 2 folyamat"</item>
+		<item>"Legfeljebb 3 folyamat"</item>
+		<item>"Legfeljebb 4 folyamat"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"Csak töltés"</item>
+		<item>"MTP (Média átviteli protokoll)"</item>
+		<item>"PTP (Képátviteli protokoll)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<item>"Hangforrás"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Alapbeállítás"</item>
+		<item>"Adat"</item>
+		<item>"Hívás"</item>
+		<item>"üzenet"</item>
+		<item>"Kezdőképernyő"</item>
+		<item>"Munkahelyi"</item>
+		<item>"Utazás"</item>
+		<item>"Szerelem"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G szolgáltatás"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Kikapcsolva"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Auto."</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automatikus 4G/3G/2G"</item>
+		<item>"Csak 4G"</item>
+		<item>"Csak 3G"</item>
+		<item>"Csak 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (automatikus)"</item>
+		<item>"UMTS/GSM (auto)"</item>
+		<item>"Csak LTE"</item>
+		<item>"Csak GSM"</item>
+		<item>"Csak GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Csak WCDMA"</item>
+		<item>"Csak GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (preferálva)/3G/2G"</item>
+		<item>"3G (preferálva)/2G"</item>
+		<item>"Csak 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automatikus)"</item>
+		<item>"3G/2G (automatikus)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (automatikus)"</item>
+		<item>"3G/2G (automatikus)"</item>
+		<item>"Csak 3G"</item>
+		<item>"Csak 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM (automatikus)"</item>
+		<item>"Csak WCDMA"</item>
+		<item>"WCDMA/GSM (automatikus)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (automatikus)"</item>
+		<item>"3G/2G (automatikus)"</item>
+		<item>"Csak 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Csak GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE auto."</item>
+		<item>"GSM/WCDMA automatikus"</item>
+		<item>"Csak GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM (automatikus)"</item>
+		<item>"UMTS/GSM (automatikus)"</item>
+		<item>"Csak GSM"</item>
+		<item>"Csak GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (automatikus)"</item>
+		<item>"3G/2G (automatikus)"</item>
+		<item>"Csak 4G"</item>
+		<item>"Csak 3G"</item>
+		<item>"Csak 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE előnyben részesített)"</item>
+		<item>"WCDMA/2G (WCDMA előnyben részesített)"</item>
+		<item>"Csak 3G"</item>
+		<item>"Csak 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE előnyben részesített)"</item>
+		<item>"Csak 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (javasolt)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (automatikus csatlakozás)"</item>
+		<item>"WCDMA/GSM (automatikus csatlakozás)"</item>
+		<item>"Csak WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"„Midway-szigetek”"</item>
+		<item>"„Hawaii”"</item>
+		<item>"„Alaszka”"</item>
+		<item>"„Csendes-óceáni időzóna”"</item>
+		<item>"„Tijuana”"</item>
+		<item>"„Arizona”"</item>
+		<item>"„Chihuahua”"</item>
+		<item>"„Hegyi időzóna”"</item>
+		<item>"„Közép-Amerika”"</item>
+		<item>"„Központi időzóna”"</item>
+		<item>"„Saskatchewan”"</item>
+		<item>"„Keleti időzóna”"</item>
+		<item>"„Venezuela”"</item>
+		<item>"Atlanti-óceáni idő (Barbados)"</item>
+		<item>"Atlanti-óceáni idő (Kanada)"</item>
+		<item>"„Manaus”"</item>
+		<item>"„Újfundland”"</item>
+		<item>"Közép-atlanti időzóna"</item>
+		<item>"„Azori-szigetek”"</item>
+		<item>"„Zöld-foki-szigetek”"</item>
+		<item>"„Casablanca”"</item>
+		<item>"„Nyugat-afrikai időzóna”"</item>
+		<item>"„Amman, Jordánia”"</item>
+		<item>"Isztambul"</item>
+		<item>"„Bejrút, Libanon”"</item>
+		<item>"„Teherán”"</item>
+		<item>"Ural"</item>
+		<item>"„Jekatyerinburg”"</item>
+		<item>"„Kalkutta”"</item>
+		<item>"„Katmandu”"</item>
+		<item>"„Yangon”"</item>
+		<item>"„Krasznojarszk”"</item>
+		<item>"„Bangkok”"</item>
+		<item>"„Hongkong”"</item>
+		<item>"„Irkutszk”"</item>
+		<item>"„Perth”"</item>
+		<item>"Oszaka"</item>
+		<item>"„Jakutszk”"</item>
+		<item>"„Adelaide”"</item>
+		<item>"„Darwin”"</item>
+		<item>"„Brisbane”"</item>
+		<item>"„Hobart”"</item>
+		<item>"Sydney"</item>
+		<item>"„Vlagyivosztok”"</item>
+		<item>"„Magadan”"</item>
+		<item>"„Auckland”"</item>
+		<item>"„Fidzsi-szigetek”"</item>
+		<item>"Paraguay"</item>
+		<item>"Abu-Dzabi"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addisz-Abeba"</item>
+		<item>"Algír"</item>
+		<item>"Alofi"</item>
+		<item>"Amszterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Asgabat"</item>
+		<item>"Aszmara"</item>
+		<item>"„Asztana”"</item>
+		<item>"Athén"</item>
+		<item>"Avarua"</item>
+		<item>"„Bagdad”"</item>
+		<item>"„Baku”"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zágráb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"„Peking”"</item>
+		<item>"Belfast"</item>
+		<item>"„Belgrád”"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Bern"</item>
+		<item>"Biskek"</item>
+		<item>"Bissau"</item>
+		<item>"„Bogotá”"</item>
+		<item>"„Brazíliaváros”"</item>
+		<item>"Pozsony"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"„Brüsszel”"</item>
+		<item>"Bukarest"</item>
+		<item>"Budapest"</item>
+		<item>"„Buenos Aires”"</item>
+		<item>"Bujumbura"</item>
+		<item>"„Kairó”"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Kisinyov"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Koppenhága"</item>
+		<item>"Dakar"</item>
+		<item>"Dakka"</item>
+		<item>"Dili"</item>
+		<item>"Dzsibuti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"„Dubaj”"</item>
+		<item>"Dublin"</item>
+		<item>"Dusanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Kajmán-szigetek)"</item>
+		<item>"Georgetown (Ascension-sziget)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltár"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemalaváros"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"„Harare”"</item>
+		<item>"Havanna"</item>
+		<item>"„Helsinki”"</item>
+		<item>"Honiara"</item>
+		<item>"Iszlámábád"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"„Jeruzsálem”"</item>
+		<item>"Juba"</item>
+		<item>"„Kabul”"</item>
+		<item>"Kampala"</item>
+		<item>"Karacsi"</item>
+		<item>"Apia"</item>
+		<item>"Kartúm"</item>
+		<item>"Kijev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaica)"</item>
+		<item>"Kingston (Norfolk-sziget)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"„Kuala Lumpur”"</item>
+		<item>"„Kuvait”"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lisszabon"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lomé"</item>
+		<item>"London"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxembourg"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Malé"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"„Mexikóváros”"</item>
+		<item>"„Minszk”"</item>
+		<item>"Mogadishu"</item>
+		<item>"Monaco"</item>
+		<item>"Monrovia"</item>
+		<item>"„Montevideo”"</item>
+		<item>"Moroni"</item>
+		<item>"„Moszkva”"</item>
+		<item>"Maszkat"</item>
+		<item>"„Nairobi”"</item>
+		<item>"Nassau"</item>
+		<item>"Nepjida"</item>
+		<item>"N\'Djamena"</item>
+		<item>"Újdelhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nicosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Nouméa"</item>
+		<item>"Nuku\'alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panamaváros"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Párizs"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnompen"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Prága"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Prishtina"</item>
+		<item>"Phenjan"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavík"</item>
+		<item>"Riga"</item>
+		<item>"Rijád"</item>
+		<item>"Road Town"</item>
+		<item>"Róma"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Szanaa"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"„Szarajevó”"</item>
+		<item>"„Szöul”"</item>
+		<item>"Szingapúr"</item>
+		<item>"Szkopje"</item>
+		<item>"Szófia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"„Tajpej”"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Taskent"</item>
+		<item>"„Tbiliszi”"</item>
+		<item>"Timpu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokió"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunisz"</item>
+		<item>"Ulánbátor"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatikán"</item>
+		<item>"Victoria"</item>
+		<item>"Bécs"</item>
+		<item>"Vientián"</item>
+		<item>"Vilnius"</item>
+		<item>"Varsó"</item>
+		<item>"Washington"</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"„Windhoek”"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaoundé"</item>
+		<item>"Yaren"</item>
+		<item>"„Jereván”"</item>
+		<item>"Bolívia"</item>
+		<item>"Novoszibirszk"</item>
+		<item>"Kalinyingrád"</item>
+		<item>"Asunción"</item>
+		<item>"La Paz"</item>
+		<item>"Habarovszk"</item>
+		<item>"Juzsno-Szahalinszk"</item>
+		<item>"Szevero-Kurilszk"</item>
+		<item>"Petropavlovszk-Kamcsatszkij"</item>
+		<item>"Anadir"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"Szentpétervár"</item>
+		<item>"Volgográd"</item>
+		<item>"Asztrahán"</item>
+		<item>"Izsevszk"</item>
+		<item>"Ufa"</item>
+		<item>"Cseljabinszk"</item>
+		<item>"Omszk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Csita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Orosz időzóna 1"</item>
+		<item>"Orosz időzóna 2 (Moszkva)"</item>
+		<item>"Orosz időzóna 3"</item>
+		<item>"Orosz időzóna 4"</item>
+		<item>"Orosz időzóna 5"</item>
+		<item>"Orosz időzóna 6"</item>
+		<item>"Orosz időzóna 7"</item>
+		<item>"Orosz időzóna 8"</item>
+		<item>"Orosz időzóna 9"</item>
+		<item>"Orosz időzóna 10"</item>
+		<item>"Orosz időzóna 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancún"</item>
+		<item>"Mérida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Banderas-öböl"</item>
+		<item>"Mazatlán"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Nem meghatározott)"</item>
+		<item>"1. SIM-kártya-foglalat"</item>
+		<item>"2. SIM-kártya-foglalat"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 felhasználó"</item>
+		<item>"2 felhasználó"</item>
+		<item>"3 felhasználó"</item>
+		<item>"4 felhasználó"</item>
+		<item>"5 felhasználó"</item>
+		<item>"6 felhasználó"</item>
+		<item>"7 felhasználó"</item>
+		<item>"8 felhasználó"</item>
+		<item>"9 felhasználó"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Nyomógomb"</item>
+		<item>"Ügyfél által megadott PIN"</item>
+	</string-array>
+</resources>

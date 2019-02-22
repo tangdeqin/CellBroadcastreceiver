@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Begin added by jinlong.lu for XR6618444 on 18-7-31-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:key="key_fingerprints_sensor_fragment"
+    android:title="@string/fingerprints_sensor_fragment" >
+    <!--Begin modified by jinlong.lu for XRP23382 on 18-8-31 -->
+    <PreferenceCategory
+        android:key="key_fingerprint_functions_title"
+        android:title="@string/fingerprint_sensor_function_title"
+        android:persistent="false">
+    <!--End modified by jinlong.lu for XRP23382 on 18-8-31 -->
+        <Preference
+            android:key="key_manage_fingerprints"
+            android:title="@string/fingerprint_manage_category_title"
+            android:persistent="false">
+        </Preference>
+    </PreferenceCategory>
+    <!--Begin modified by jinlong.lu for XRP23382 on 18-8-31 -->
+    <PreferenceCategory
+        android:key="key_fingerprints_on_touch"
+        android:title="@string/fingerprints_on_touch_title"
+        android:persistent="false">
+    <!--End modified by jinlong.lu for XRP23382 on 18-8-31 -->
+
+        <SwitchPreference
+            android:key="clear_notification"
+            android:title="@string/fingerprints_clear_all_notifiction_title"
+            android:defaultValue="false"
+            android:summary="@string/fingerprints_clear_all_notifiction_summary"/>
+        <SwitchPreference
+            android:key="take_photo_key"
+            android:title="@string/fingerprints_take_phtot_title"
+            android:defaultValue="false"
+            android:summary="@string/fingerprints_take_photo_summary"/>
+        <SwitchPreference
+            android:key="backto_home_screen_key"
+            android:title="@string/fingerprints_back_home_title"
+            android:defaultValue="false"
+            android:summary="@string/fingerprints_back_home_summary"/>
+
+        <SwitchPreference
+            android:key="pick_up_call"
+            android:title="@string/fingerprints_pick_up_call_title"
+            android:defaultValue="false"
+            android:summary="@string/fingerprints_pick_up_call_title_summary"/>
+        <SwitchPreference
+            android:key="switch_normal_mode"
+            android:title="@string/fingerprints_switch_normal_title"
+            android:defaultValue="false"
+            android:summary="@string/fingerprints_switch_normal_summary"/>
+    </PreferenceCategory>
+
+    <!--Begin modified by jinlong.lu for XRP23382 on 18-8-31 -->
+    <PreferenceCategory
+        android:key="key_fingerprints_on_slide"
+        android:title="@string/fingerprints_on_slide"
+        android:persistent="false">
+        <SwitchPreference
+            android:key="show_notification_key"
+            android:title="@string/fingerprints_show_notification_title"
+            android:defaultValue="false"
+            android:summary="@string/fingerprint_sensor_show_notification_summary"/>
+
+    </PreferenceCategory>
+    <!--End modified by jinlong.lu for XRP23382 on 18-8-31 -->
+</PreferenceScreen>
+<!--End added by jinlong.lu for XR6618444 on 18-7-31-->

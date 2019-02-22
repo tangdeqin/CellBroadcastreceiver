@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"آمریکا"</item>
+		<item>"اروپا"</item>
+		<item>"آفریقا"</item>
+		<item>"آسیا"</item>
+		<item>"استراليا"</item>
+		<item>"اقیانوسیه"</item>
+		<item>"همه"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 ثانيه"</item>
+		<item>"30 ثانيه"</item>
+		<item>"1 دقيقه"</item>
+		<item>"2 دقيقه"</item>
+		<item>"5 دقيقه"</item>
+		<item>"10 دقيقه"</item>
+		<item>"30 دقيقه"</item>
+		<item>"هرگز"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"هیچوقت"</item>
+		<item>"15 ثانیه"</item>
+		<item>"30 ثانیه"</item>
+		<item>"1 دقیقه"</item>
+		<item>"2 دقیقه"</item>
+		<item>"5 دقیقه"</item>
+		<item>"10 دقیقه"</item>
+		<item>"30 دقیقه"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"فوری"</item>
+		<item>"5 ثانیه"</item>
+		<item>"15 ثانیه"</item>
+		<item>"30 ثانیه"</item>
+		<item>"1 دقیقه"</item>
+		<item>"2 دقیقه"</item>
+		<item>"5 دقیقه"</item>
+		<item>"10 دقیقه"</item>
+		<item>"30 دقیقه"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"کوچک"</item>
+		<item>"پیش‌فرض"</item>
+		<item>"بزرگ"</item>
+		<item>"بزرگترین"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"در حال اسکن کردن..."</item>
+		<item>"در حال اتصال..."</item>
+		<item>"در حال تأييد اعتبار..."</item>
+		<item>"دريافت آدرس IP…"</item>
+		<item>"متصل شد"</item>
+		<item>"معوق"</item>
+		<item>"در حال قطع شدن..."</item>
+		<item>"قطع شد"</item>
+		<item>"ناموفق"</item>
+		<item>"مسدود شد"</item>
+		<item>"جلوگیری موقت از اتصال ضعیف"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"در حال اسکن کردن..."</item>
+		<item>"در حال اتصال به <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"تأييد اعتبار با <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"دريافت آدرس IP از <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"متصل به <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"معوق"</item>
+		<item>"قطع اتصال از<xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"قطع شد"</item>
+		<item>"ناموفق"</item>
+		<item>"مسدود شد"</item>
+		<item>"جلوگیری موقت از اتصال ضعیف"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"فشار دکمه"</item>
+		<item>"پین از دستگاه مرتبط شده"</item>
+		<item>"پین از این دستگاه"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"متصل"</item>
+		<item>"دعوت شده"</item>
+		<item>"ناموفق"</item>
+		<item>"در دسترس"</item>
+		<item>"خارج از محدوده"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 دقيقه"</item>
+		<item>"5 دقیقه"</item>
+		<item>"1 ساعت"</item>
+		<item>"بدون مهلت زمانی"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"ضعيف"</item>
+		<item>"ضعيف"</item>
+		<item>"خوب"</item>
+		<item>"متوسط"</item>
+		<item>"عالي"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"همیشه"</item>
+		<item>"تنها زمانی که وصل است"</item>
+		<item>"هرگز"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"همیشه"</item>
+		<item>"تنها زمانی که وصل است"</item>
+		<item>"هرگز"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"30 روز آخر"</item>
+		<item>"تنظیم چرخه استفاده..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"زمان مصرف"</item>
+		<item>"تعداد راه اندازي"</item>
+		<item>"نام برنامه"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"هيچ كدام"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"هيچكدام"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"هيچ كدام"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"آمار"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"هیچکدام"</item>
+		<item>"دستی"</item>
+		<item>"پیکربندی خودکار پراکسی"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"هيچ كدام"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP يا CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"مشخص نشده"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"هیچکدام"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"ذخيره سازي دستگاه داخلي"</item>
+		<item>"کارت SD جدا شدنی"</item>
+		<item>"اجازه دهيد سيستم تصميم بگيرد"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"مکان"</item>
+		<item>"شخصی"</item>
+		<item>"پیام ها"</item>
+		<item>"رسانه"</item>
+		<item>"دستگاه"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"مکان نامشخص"</item>
+		<item>"مکان مناسب"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"لرزش"</item>
+		<item>"خواندن مخاطبین"</item>
+		<item>"تغيير مخاطبين"</item>
+		<item>"خواندن دفترچه ثبت تماس"</item>
+		<item>"تغییر آمار تماس"</item>
+		<item>"خواندن تقویم"</item>
+		<item>"تغيير تقويم"</item>
+		<item>"اسکن wi-fi"</item>
+		<item>"اعلان"</item>
+		<item>"اسکن تلفن همراه"</item>
+		<item>"تماس تلفنی"</item>
+		<item>"خواندن SMS"</item>
+		<item>"نوشتن SMS"</item>
+		<item>"دریافت SMS"</item>
+		<item>"دریافت SMS اضطراری"</item>
+		<item>"دریافت MMS"</item>
+		<item>"دریافت ارسال داده WAP"</item>
+		<item>"ارسال پیامک"</item>
+		<item>"خواندن ICC SMS"</item>
+		<item>"نوشتن ICC SMS"</item>
+		<item>"تغییر تنظیمات"</item>
+		<item>"در بالا طراحی کنید"</item>
+		<item>"دسترسی به اعلان ها"</item>
+		<item>"دوربین"</item>
+		<item>"ضبط صدا"</item>
+		<item>"پخش صوتی"</item>
+		<item>"خواندن کلیپ بورد"</item>
+		<item>"اصلاح بریده‌دان"</item>
+		<item>"دکمه های رسانه"</item>
+		<item>"فوکوس صدا"</item>
+		<item>"صدای اصلی"</item>
+		<item>"میزان صدا"</item>
+		<item>"صدای زنگ"</item>
+		<item>"نوشتن ICC SMS"</item>
+		<item>"میزان صدای هشدار"</item>
+		<item>"میزان صدای اعلان"</item>
+		<item>"میزان صدای Bluetooth"</item>
+		<item>"بيدار نگه داشتن"</item>
+		<item>"بازبینی مکان"</item>
+		<item>"بازبینی مکان دارای قدرت بالا"</item>
+		<item>"تغییر Wi-Fi"</item>
+		<item>"بیصدا/صدادار کردن ميکروفن"</item>
+		<item>"نمایش توضیحات مختصر"</item>
+		<item>"رسانه پخش"</item>
+		<item>"فعال کردن VPN"</item>
+		<item>"نوشتن کاغذدیواری"</item>
+		<item>"دستیار ساختار"</item>
+		<item>"دستیار تصویر گرفته شده از صفحه"</item>
+		<item>"خواندن وضعیت تلفن"</item>
+		<item>"افزودن پست صوتی"</item>
+		<item>"استفاده از sip"</item>
+		<item>"پردازش تماس خروجی"</item>
+		<item>"اثرانگشت"</item>
+		<item>"حسگرهای بدن"</item>
+		<item>"خواندن پخش های سلولی"</item>
+		<item>"مکان ساختگی"</item>
+		<item>"حافظه خواندنی"</item>
+		<item>"حافظه نوشتنی"</item>
+		<item>"روشن کردن صفحه"</item>
+		<item>"دریافت حساب ها"</item>
+		<item>"اجرا در پس زمینه"</item>
+		<item>"میزان قابلیت دسترسی"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"مکان"</item>
+		<item>"مکان"</item>
+		<item>"مکان"</item>
+		<item>"لرزش"</item>
+		<item>"خواندن مخاطبین"</item>
+		<item>"تغيير مخاطبين"</item>
+		<item>"خواندن دفترچه ثبت تماس"</item>
+		<item>"تغییر آمار تماس"</item>
+		<item>"خواندن تقویم"</item>
+		<item>"تغيير تقويم"</item>
+		<item>"مکان"</item>
+		<item>"ارسال اعلان"</item>
+		<item>"مکان"</item>
+		<item>"تماس تلفنی"</item>
+		<item>"خواندن SMS/MMS"</item>
+		<item>"ارسال SMS/MMS"</item>
+		<item>"دريافت SMS/MMS"</item>
+		<item>"دريافت SMS/MMS"</item>
+		<item>"دريافت SMS/MMS"</item>
+		<item>"دريافت SMS/MMS"</item>
+		<item>"ارسال SMS/MMS"</item>
+		<item>"خواندن SMS/MMS"</item>
+		<item>"نوشتن SMS"</item>
+		<item>"تغییر تنظیمات"</item>
+		<item>"کشیدن به بالا"</item>
+		<item>"دسترسی به اعلان ها"</item>
+		<item>"دوربین"</item>
+		<item>"ضبط صدا"</item>
+		<item>"پخش صدا"</item>
+		<item>"خواندن از کلیپ بورد"</item>
+		<item>"اصلاح کردن کلیپ بورد"</item>
+		<item>"دکمه های رسانه"</item>
+		<item>"فوکوس صدا"</item>
+		<item>"صدای اصلی"</item>
+		<item>"میزان صدا"</item>
+		<item>"صدای زنگ"</item>
+		<item>"نوشتن MMS"</item>
+		<item>"میزان صدای هشدار"</item>
+		<item>"میزان صدای اعلان"</item>
+		<item>"میزان صدای Bluetooth"</item>
+		<item>"بيدار نگه داشتن"</item>
+		<item>"موقعیت مکانی"</item>
+		<item>"موقعیت مکانی"</item>
+		<item>"تغییر Wi-Fi"</item>
+		<item>"بیصدا/صدادار کردن ميکروفن"</item>
+		<item>"نمایش توضیحات مختصر"</item>
+		<item>"رسانه پخش"</item>
+		<item>"فعال کردن VPN"</item>
+		<item>"نوشتن تصویر زمینه"</item>
+		<item>"کمک ساختار"</item>
+		<item>"دستیار تصویر گرفته شده از صفحه"</item>
+		<item>"خواندن وضعیت تلفن"</item>
+		<item>"افزودن پست صوتی"</item>
+		<item>"استفاده از sip"</item>
+		<item>"پردازش تماس خروجی"</item>
+		<item>"اثر انگشت"</item>
+		<item>"حسگرهای بدن"</item>
+		<item>"خواندن پخش های سلولی"</item>
+		<item>"مکان ساختگی"</item>
+		<item>"حافظه خواندنی"</item>
+		<item>"حافظه نوشتنی"</item>
+		<item>"روشن کردن صفحه"</item>
+		<item>"دریافت حساب ها"</item>
+		<item>"اجرا در پس زمینه"</item>
+		<item>"میزان قابلیت دسترسی"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"کوتاه"</item>
+		<item>"متوسط"</item>
+		<item>"طولانی"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"پيش فرض"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif فشرده"</item>
+		<item>"Serif"</item>
+		<item>"Serif"</item>
+		<item>"Serif monospace"</item>
+		<item>"اتفاقی"</item>
+		<item>"پیوسته"</item>
+		<item>"حروف بزرگ کوچک"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"بسیار کوچک"</item>
+		<item>"کوچک"</item>
+		<item>"عادی"</item>
+		<item>"بزرگ"</item>
+		<item>"بسیار بزرگ"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"پيش فرض"</item>
+		<item>"هيچ كدام"</item>
+		<item>"طرح کلی"</item>
+		<item>"سایه‌دار"</item>
+		<item>"بالا آمده"</item>
+		<item>"توخالی"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"استفاده از پیش فرض های برنامه"</item>
+		<item>"سفید روی سیاه"</item>
+		<item>"سیاه روی سفید"</item>
+		<item>"زرد روی سیاه"</item>
+		<item>"زرد روی آبی"</item>
+		<item>"سفارشي"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN با کلیدهای از قبل به اشتراک گذاشته شده"</item>
+		<item>"L2TP/IPSec VPN با گواهی"</item>
+		<item>"IPSec VPN با کلیدهای از قبل به اشتراک گذاشته شده و تأیید اعتبار Xauth"</item>
+		<item>"IPSec VPN با گواهی و تأیید اعتبار Xauth"</item>
+		<item>"IPSec VPN دارای گواهی و تأیید اعتبار دوگانه"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"قطع شد"</item>
+		<item>"مقداردهی اولیه…"</item>
+		<item>"در حال اتصال\u2026"</item>
+		<item>"متصل شد"</item>
+		<item>"پایان مهلت زمانی"</item>
+		<item>"ناموفق"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"پرسیدن"</item>
+		<item>"هرگز مجاز نيست"</item>
+		<item>"هميشه مجاز است"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"عادی"</item>
+		<item>"متوسط"</item>
+		<item>"کم"</item>
+		<item>"مهم"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"عادی"</item>
+		<item>"متوسط"</item>
+		<item>"کم"</item>
+		<item>"مهم"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"مداوم"</item>
+		<item>"فعالیت برتر"</item>
+		<item>"مهم (پیش زمینه)"</item>
+		<item>"مهم (پس زمینه)"</item>
+		<item>"پشتیبان"</item>
+		<item>"وزن سنگین"</item>
+		<item>"سرویس (در حال اجرا)"</item>
+		<item>"سرویس (در حال راه اندازی مجدد)"</item>
+		<item>"گيرنده"</item>
+		<item>"خانه"</item>
+		<item>"آخرین فعالیت"</item>
+		<item>"قرار گرفته در حافظه پنهان (فعالیت)"</item>
+		<item>"قرار گرفته در حافظه پنهان (فعالیت مشتری)"</item>
+		<item>"قرار گرفته در حافظه پنهان (خالی)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Teal"</item>
+		<item>"آبي"</item>
+		<item>"Indigo"</item>
+		<item>"ارغوانی"</item>
+		<item>"صورتی"</item>
+		<item>"قرمز"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Teal"</item>
+		<item>"آبي"</item>
+		<item>"Indigo"</item>
+		<item>"ارغوانی"</item>
+		<item>"صورتی"</item>
+		<item>"قرمز"</item>
+		<item>"نارنجي"</item>
+		<item>"سبز تیره"</item>
+		<item>"سبز"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"بیش از 30 روز قبل"</item>
+		<item>"بیش از 60 روز قبل"</item>
+		<item>"بیش از 90 روز قبل"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"هرگز بررسی نشود"</item>
+		<item>"فقط بررسی محتوای DRM"</item>
+		<item>"همیشه بررسی شود"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"هرگز از بررسی HDCP استفاده نشود"</item>
+		<item>"استفاده از بررسی HDCP فقط برای محتوای DRM"</item>
+		<item>"همیشه از بررسی HDCP استفاده شود"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (پیش فرض)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> صوتی"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> صوتی"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"فعال کردن کدک های اختیاری"</item>
+		<item>"غیرفعال کردن کدک های اختیاری"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> صوتی"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> صوتی"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"فعال کردن کدک های اختیاری"</item>
+		<item>"غیرفعال کردن کدک های اختیاری"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<item>"44.1 کیلوهرتز"</item>
+		<item>"48.0 کیلوهرتز"</item>
+		<item>"88.2 کیلوهرتز"</item>
+		<item>"96.0 کیلوهرتز"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<item>"44.1 کیلوهرتز"</item>
+		<item>"48.0 کیلوهرتز"</item>
+		<item>"88.2 کیلوهرتز"</item>
+		<item>"96.0 کیلوهرتز"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<item>"16 بیت/نمونه"</item>
+		<item>"24 بیت/نمونه"</item>
+		<item>"32 بیت/نمونه"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<item>"16 بیت/نمونه"</item>
+		<item>"24 بیت/نمونه"</item>
+		<item>"32 بیت/نمونه"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<item>"مونو"</item>
+		<item>"استريو"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"استفاده از انتخاب سیستم (پیش فرض)"</item>
+		<item>"مونو"</item>
+		<item>"استريو"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"بهینه شده برای کیفیت صدا (990 کیلوبیت در ثانیه/909 کیلوبیت در ثانیه)"</item>
+		<item>"کیفیت اتصال و صدای متعادل شده (660 کیلوبیت در ثانیه/606 کیلوبیت در ثانیه)"</item>
+		<item>"بهینه شده برای کیفیت اتصال ((330 کیلوبیت در ثانیه/303 کیلوبیت در ثانیه))"</item>
+		<item>"بهترین تلاش (نرخ بیت تطبیقی)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"بهینه شده برای کیفیت صدا"</item>
+		<item>"کیفیت اتصال و صدای متعادل شده"</item>
+		<item>"بهینه شده برای کیفیت اتصال"</item>
+		<item>"بهترین تلاش (نرخ بیت تطبیقی)"</item>
+	</string-array>
+	<string-array name="select_logd_size_titles">
+		<item>"خاموش"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"خاموش"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"خاموش"</item>
+		<item>"64K برای هر بافر آمار"</item>
+		<item>"256K برای هر بافر آمار"</item>
+		<item>"1M برای هر بافر آمار"</item>
+		<item>"4M برای هر بافر آمار"</item>
+		<item>"16M برای هر بافر آمار"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"خاموش"</item>
+		<item>"همه"</item>
+		<item>"همه ولی رادیو"</item>
+		<item>"فقط kernel"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"خاموش"</item>
+		<item>"همه بافرهای آمار"</item>
+		<item>"همه ولی بافرهای آمار رادیو"</item>
+		<item>"فقط بافر آمار kernel"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"انیمیشن خاموش"</item>
+		<item>"مقیاس انیمیشن 0.5x"</item>
+		<item>"مقیاس انیمیشن 1x"</item>
+		<item>"مقیاس انیمیشن 1.5x"</item>
+		<item>"مقیاس انیمیشن 2x"</item>
+		<item>"مقیاس انیمیشن 5x"</item>
+		<item>"مقیاس انیمیشن 10X"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"انیمیشن خاموش"</item>
+		<item>"مقیاس انیمیشن 0.5x"</item>
+		<item>"مقیاس انیمیشن 1x"</item>
+		<item>"مقیاس انیمیشن 1.5x"</item>
+		<item>"مقیاس انیمیشن 2x"</item>
+		<item>"مقیاس انیمیشن 5x"</item>
+		<item>"مقیاس انیمیشن 10X"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"انیمیشن خاموش"</item>
+		<item>"مقیاس انیمیشن 0.5x"</item>
+		<item>"مقیاس انیمیشن 1x"</item>
+		<item>"مقیاس انیمیشن 1.5x"</item>
+		<item>"مقیاس انیمیشن 2x"</item>
+		<item>"مقیاس انیمیشن 5x"</item>
+		<item>"مقیاس انیمیشن 10X"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"هیچکدام"</item>
+		<item>"‎480p‎"</item>
+		<item>"‎480p‎ (ایمن)"</item>
+		<item>"‎720p‎"</item>
+		<item>"‎720p‎ (ایمن)"</item>
+		<item>"‎1080p‎"</item>
+		<item>"‎1080p‎ (ایمن)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"‎4K‎ (ایمن)"</item>
+		<item>"‎4K‎ (برتر)"</item>
+		<item>"‎4K‎ (برتر، ایمن)"</item>
+		<item>"‎720p‎، ‎1080p‎ (صفحه دوتایی)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"هیچکدام"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (گرافيک ها)"</item>
+		<item>"پشته تماس در glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"خاموش"</item>
+		<item>"کشیدن ناحیه کلیپ غیرمستطیلی به رنگ آبی"</item>
+		<item>"برجسته کردن فرمان های ترسیم تست شده به رنگ سبز"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"خاموش"</item>
+		<item>"بر روی صفحه بصورت نوارها"</item>
+		<item>"در <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"خاموش"</item>
+		<item>"نمایش نواحی مورد استفاده زیاد"</item>
+		<item>"نمایش نواحی برای کوررنگی-سبزدشواربيني"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (پیش فرض)"</item>
+		<item>"OpenGL (‏Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"حد استاندارد"</item>
+		<item>"بدون پردازش در پس‌زمینه"</item>
+		<item>"حداکثر 1 پردازش"</item>
+		<item>"حداکثر 2 پردازش"</item>
+		<item>"حداکثر 3 پردازش"</item>
+		<item>"حداکثر 4 پردازش"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"فقط شارژ"</item>
+		<item>"MTP (پروتکل انتقال رسانه)"</item>
+		<item>"PTP (پروتکل انتقال تصویر)"</item>
+		<item>"RNDIS (اترنت با USB)"</item>
+		<item>"منبع صوتی"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"پيش فرض"</item>
+		<item>"داده"</item>
+		<item>"تماس"</item>
+		<item>"پیام"</item>
+		<item>"صفحه اصلی"</item>
+		<item>"کار"</item>
+		<item>"سفر"</item>
+		<item>"عشق"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"سرويس ‎3G/4G‎"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"خاموش"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"خودکار"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"حالت شبکه ترجیحی: 4G/3G/2G خودکار"</item>
+		<item>"فقط 4G"</item>
+		<item>"فقط 3G"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (خودکار)"</item>
+		<item>"UMTS/GSM (خودکار)"</item>
+		<item>"فقط LTE"</item>
+		<item>"فقط GSM"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"فقط 3G "</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (ترجيحي)/3G/2G"</item>
+		<item>"3G (ترجيحي)/2G"</item>
+		<item>"فقط 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (خودکار)"</item>
+		<item>"‎3G/2G‎‎‎ (خودكار)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"‎4G/3G/2G‎‎‎‎ (خودکار)"</item>
+		<item>"‎3G/2G‎‎ (خودکار)"</item>
+		<item>"فقط 3G"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM خودکار"</item>
+		<item>"فقط 3G "</item>
+		<item>"WCDMA/GSM خودکار"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"‎4G/3G/2G‎ (خودکار)"</item>
+		<item>"‎3G/2G‎ (خودکار)"</item>
+		<item>"فقط 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE خودکار"</item>
+		<item>"GSM/WCDMA خودکار"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM خودکار"</item>
+		<item>"UMTS/GSM خودکار"</item>
+		<item>"فقط GSM"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"‎4G/3G/2G‎‎‎‎ (خودکار)"</item>
+		<item>"‎3G/2G‎‎ (خودکار)"</item>
+		<item>"فقط ‎4G‎"</item>
+		<item>"فقط 3G"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"‎LTE) LTE/UMTS/GSM‎ ترجیح داده شد)"</item>
+		<item>"‎ WCDMA) WCDMA/2G‎ترجیح داده شد)"</item>
+		<item>"فقط 3G"</item>
+		<item>"فقط 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"‎LTE) LTE/UMTS‎ ترجیح داده شد)"</item>
+		<item>"فقط 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (توصیه شده)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (اتصال خودکار)"</item>
+		<item>"WCDMA/GSM (اتصال خودکار)"</item>
+		<item>"فقط 3G "</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"جزیره میدوی"</item>
+		<item>"هاوايي"</item>
+		<item>"آلاسكا"</item>
+		<item>"زمان اقيانوس آرام"</item>
+		<item>"تيجوانا"</item>
+		<item>"آريزونا"</item>
+		<item>"شيهواهوا"</item>
+		<item>"زمان كوهستان"</item>
+		<item>"آمريكاي مركزي"</item>
+		<item>"زمان مركزي"</item>
+		<item>"ساسكچوآن"</item>
+		<item>"زمان شرقي"</item>
+		<item>"ونزوئلا"</item>
+		<item>"زمان اقیانوس اطلس (باربادوس)"</item>
+		<item>"زمان آتلانتيک (کانادا)"</item>
+		<item>"مانائوس"</item>
+		<item>"نيوفاندلند"</item>
+		<item>"آتلانتيك ميانه"</item>
+		<item>"آزورس"</item>
+		<item>"جزاير كيپ ورد"</item>
+		<item>"كازابلانكا"</item>
+		<item>"زمان آفريقاي غربي"</item>
+		<item>"عمان، اردن"</item>
+		<item>"استانبول"</item>
+		<item>"بيروت، لبنان"</item>
+		<item>"تهران"</item>
+		<item>"اورالسک"</item>
+		<item>"يكاترينبورگ"</item>
+		<item>"كلكته"</item>
+		<item>"كاتماندو"</item>
+		<item>"يانگون"</item>
+		<item>"كراسنويارسك"</item>
+		<item>"بانكوك"</item>
+		<item>"هنگ كنگ"</item>
+		<item>"ايركوتسك"</item>
+		<item>"پرت"</item>
+		<item>"اوزاکا"</item>
+		<item>"ياكوتسك"</item>
+		<item>"آدلايد"</item>
+		<item>"داروين"</item>
+		<item>"بريسبن"</item>
+		<item>"هوبارت"</item>
+		<item>"سيدني"</item>
+		<item>"ولادي وستوك"</item>
+		<item>"ماگادان"</item>
+		<item>"اوكلند"</item>
+		<item>"فيجي"</item>
+		<item>"پاراگوئه"</item>
+		<item>"ابوظبي"</item>
+		<item>"آبوجا"</item>
+		<item>"آکرا"</item>
+		<item>"آدامزتون"</item>
+		<item>"آديس آبابا"</item>
+		<item>"الجزايز"</item>
+		<item>"آلوفي"</item>
+		<item>"آمستردام"</item>
+		<item>"آندورالاولا"</item>
+		<item>"آنکارا"</item>
+		<item>"آنتاناناریوو"</item>
+		<item>"عشق آباد"</item>
+		<item>"آسمارا"</item>
+		<item>"آستانه"</item>
+		<item>"آتن"</item>
+		<item>"آواروا"</item>
+		<item>"بغداد"</item>
+		<item>"باكو"</item>
+		<item>"باماکو"</item>
+		<item>"بندر سري بگاوان"</item>
+		<item>"زاگرب"</item>
+		<item>"بانگويي"</item>
+		<item>"بانيول"</item>
+		<item>"باسستر"</item>
+		<item>"پكن"</item>
+		<item>"بلفاست"</item>
+		<item>"بلگراد"</item>
+		<item>"بلموپان"</item>
+		<item>"برلين"</item>
+		<item>"برن"</item>
+		<item>"بيشکک"</item>
+		<item>"بيسائو"</item>
+		<item>"بوگوتا"</item>
+		<item>"برزيل"</item>
+		<item>"براتيسلاوا"</item>
+		<item>"برازاويل"</item>
+		<item>"بريج تون"</item>
+		<item>"بروکسل"</item>
+		<item>"بخارست"</item>
+		<item>"بوداپست"</item>
+		<item>"بوينس آيرس"</item>
+		<item>"بوجومبورا"</item>
+		<item>"قاهره"</item>
+		<item>"کانبرا"</item>
+		<item>"کارديف"</item>
+		<item>"کاستريس"</item>
+		<item>"کاين"</item>
+		<item>"شارلوت آمالي"</item>
+		<item>"کيشي نف"</item>
+		<item>"کوکبرن تون"</item>
+		<item>"کوناکري"</item>
+		<item>"کپنهاگ"</item>
+		<item>"داکار"</item>
+		<item>"داکا"</item>
+		<item>"ديلي"</item>
+		<item>"ديجيبوتي"</item>
+		<item>"دودوما"</item>
+		<item>"دوها"</item>
+		<item>"داگلاس"</item>
+		<item>"دوبي"</item>
+		<item>"دوبلين"</item>
+		<item>"دوشنبه"</item>
+		<item>"ادينبرگ"</item>
+		<item>"ادينبرگ هفت دريا"</item>
+		<item>"خليج ماهي پرنده"</item>
+		<item>"فري تون"</item>
+		<item>"فونافوتي"</item>
+		<item>"گابرون"</item>
+		<item>"جورج تون (جزاير کيمن)"</item>
+		<item>"جورج تون (جزيره آسونسيون)"</item>
+		<item>"جورج تون (گويانا)"</item>
+		<item>"گيبرالتار"</item>
+		<item>"گريتويکن"</item>
+		<item>"شهر گواتمالا"</item>
+		<item>"گوستاويا"</item>
+		<item>"هاگاتنا"</item>
+		<item>"هميلتون"</item>
+		<item>"هانگا روا"</item>
+		<item>"هانوي"</item>
+		<item>"هراره"</item>
+		<item>"هاوانا"</item>
+		<item>"هلسينكي"</item>
+		<item>"هونيارا"</item>
+		<item>"اسلام آباد"</item>
+		<item>"جاکارتا"</item>
+		<item>"جيمزتون"</item>
+		<item>"اورشليم"</item>
+		<item>"جوبا"</item>
+		<item>"كابل"</item>
+		<item>"کامپالا"</item>
+		<item>"کراچي"</item>
+		<item>"آپيا"</item>
+		<item>"خارطوم"</item>
+		<item>"کيف"</item>
+		<item>"کيجالي"</item>
+		<item>"کينگ استون (جامائيکا)"</item>
+		<item>"کينگ استون (جزيره نورفولک)"</item>
+		<item>"کينگ استون"</item>
+		<item>"کينشاسا"</item>
+		<item>"كوالالامپور"</item>
+		<item>"كويت"</item>
+		<item>"ليبرويل"</item>
+		<item>"ليلونگوي"</item>
+		<item>"ليما"</item>
+		<item>"ليسبون"</item>
+		<item>"ليوبليانا"</item>
+		<item>"لومه"</item>
+		<item>"لندن"</item>
+		<item>"لواندا"</item>
+		<item>"لوزاکا"</item>
+		<item>"لوگزامبورگ"</item>
+		<item>"مادريد"</item>
+		<item>"ماجرو"</item>
+		<item>"مالابو"</item>
+		<item>"ماله"</item>
+		<item>"ماناگوا"</item>
+		<item>"ماناما"</item>
+		<item>"مانيلا"</item>
+		<item>"ماپوتو"</item>
+		<item>"ماريگوت"</item>
+		<item>"ماسرو"</item>
+		<item>"ماتا-اوتو"</item>
+		<item>"مبابانه"</item>
+		<item>"ملي کيوک"</item>
+		<item>"مكزيكوسيتي"</item>
+		<item>"مينسك"</item>
+		<item>"مگاديشو"</item>
+		<item>"موناکو"</item>
+		<item>"مونروويا"</item>
+		<item>"مونته ويديو"</item>
+		<item>"موروني"</item>
+		<item>"مسكو"</item>
+		<item>"موسکات"</item>
+		<item>"نايروبي"</item>
+		<item>"ناسائو"</item>
+		<item>"نايپيداو"</item>
+		<item>"آنجامنا"</item>
+		<item>"دهلي نو"</item>
+		<item>"نيامي"</item>
+		<item>"نيکوزيا"</item>
+		<item>"نواکشوت"</item>
+		<item>"نومئا"</item>
+		<item>"نوکوآلوفا"</item>
+		<item>"Nuuk"</item>
+		<item>"اورانجستاد"</item>
+		<item>"اسلو"</item>
+		<item>"اوتاوا"</item>
+		<item>"آواگودوگو"</item>
+		<item>"پاگو پاگو"</item>
+		<item>"پاليکير"</item>
+		<item>"پاناماسيتي"</item>
+		<item>"پاپيت"</item>
+		<item>"پاراماريبو"</item>
+		<item>"پاريس"</item>
+		<item>"فيليپسبرگ"</item>
+		<item>"فونوم فن"</item>
+		<item>"پلي موت"</item>
+		<item>"پادگوريکا"</item>
+		<item>"بندر لوئيس"</item>
+		<item>"بندر مورس بي"</item>
+		<item>"بندر ويلا"</item>
+		<item>"پورتو پرنس"</item>
+		<item>"بندر اسپانيا"</item>
+		<item>"پورتو نوو"</item>
+		<item>"پاراگوئه"</item>
+		<item>"پرايا"</item>
+		<item>"پرتوريا"</item>
+		<item>"پريستينا"</item>
+		<item>"پيونگ يانگ"</item>
+		<item>"کيوتو"</item>
+		<item>"رباط"</item>
+		<item>"ریکیاویک"</item>
+		<item>"ريگا"</item>
+		<item>"رياض"</item>
+		<item>"رود تون"</item>
+		<item>"رم"</item>
+		<item>"روزوا"</item>
+		<item>"سايپن"</item>
+		<item>"سن جوز"</item>
+		<item>"سن جوان"</item>
+		<item>"سان مارينو"</item>
+		<item>"سان سالوادور"</item>
+		<item>"صنعا"</item>
+		<item>"سانتياگو"</item>
+		<item>"سانتو دومينگو"</item>
+		<item>"سائو توم"</item>
+		<item>"سارايوو"</item>
+		<item>"سئول"</item>
+		<item>"سنگاپور"</item>
+		<item>"اسکوپيه"</item>
+		<item>"صوفيه"</item>
+		<item>"سری جایاواردنپورا کوته"</item>
+		<item>"سنت جورج"</item>
+		<item>"سنت هلير"</item>
+		<item>"سنت جونز"</item>
+		<item>"بندر سنت پيتر"</item>
+		<item>"سنت پير"</item>
+		<item>"استنلي"</item>
+		<item>"استکهلم"</item>
+		<item>"سوکر"</item>
+		<item>"تايپه"</item>
+		<item>"تالين"</item>
+		<item>"تاراوا"</item>
+		<item>"تاشکند"</item>
+		<item>"تفليسي"</item>
+		<item>"تيمفو"</item>
+		<item>"تيرانا"</item>
+		<item>"توکيو"</item>
+		<item>"تورشاون"</item>
+		<item>"تريپولي"</item>
+		<item>"تونس"</item>
+		<item>"اولان باتور"</item>
+		<item>"وادوتس"</item>
+		<item>"والتا"</item>
+		<item>"د ولي"</item>
+		<item>"شهر واتيکان"</item>
+		<item>"ويکتوريا"</item>
+		<item>"وين"</item>
+		<item>"وينتيان"</item>
+		<item>"ويلنيوس"</item>
+		<item>"ورشو"</item>
+		<item>"واشنگتن دي سي"</item>
+		<item>"ولينگتون"</item>
+		<item>"وست ايسلند"</item>
+		<item>"ويلمستاد"</item>
+		<item>"ويندهوك"</item>
+		<item>"ياموسوکرو"</item>
+		<item>"يائونده"</item>
+		<item>"يارن"</item>
+		<item>"ايروان"</item>
+		<item>"بوليوي"</item>
+		<item>"نووسیبرسک"</item>
+		<item>"کالينينگراد"</item>
+		<item>"آسونسيون"</item>
+		<item>"لاپاز"</item>
+		<item>"Khabarovsk"</item>
+		<item>"یوژنو- ساخالینسک"</item>
+		<item>"سورو-کوریلسک"</item>
+		<item>"پتروپاولوسک – کامچاتسکی"</item>
+		<item>"آنادير"</item>
+		<item>"Samara"</item>
+		<item>"ملبورن"</item>
+		<item>"سنت پطرزبورگ"</item>
+		<item>"ولگوگراد"</item>
+		<item>"آستاراخان"</item>
+		<item>"ایزوسک"</item>
+		<item>"اوفا"</item>
+		<item>"چلیابینسک"</item>
+		<item>"اومسک"</item>
+		<item>"بارنوال"</item>
+		<item>"اولان اوده"</item>
+		<item>"چیتا"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"منطقه زمانی روسی 1"</item>
+		<item>"منطقه زمانی روسی 2 (مسکو)"</item>
+		<item>"منطقه زمانی روسی 3"</item>
+		<item>"منطقه زمانی روسی 4"</item>
+		<item>"منطقه زمانی روسی 5"</item>
+		<item>"منطقه زمانی روسی 6"</item>
+		<item>"منطقه زمانی روسی 7"</item>
+		<item>"منطقه زمانی روسی 8"</item>
+		<item>"منطقه زمانی روسی 9"</item>
+		<item>"منطقه زمانی روسی 10"</item>
+		<item>"منطقه زمانی روسی 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"هرموسیلو"</item>
+		<item>"اوجیناگا"</item>
+		<item>"کانکون"</item>
+		<item>"مریدا"</item>
+		<item>"مونتري"</item>
+		<item>"متمرس"</item>
+		<item>"خلیج باندراس"</item>
+		<item>"مازاتلن"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(مشخص نشده)"</item>
+		<item>"شکاف سيم 1"</item>
+		<item>"شکاف سيم 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 کاربر"</item>
+		<item>"2 کاربر"</item>
+		<item>"3 کاربر"</item>
+		<item>"4 کاربر"</item>
+		<item>"5 کاربر"</item>
+		<item>"6 کاربر"</item>
+		<item>"7 کاربر"</item>
+		<item>"8 کاربر"</item>
+		<item>"9 کاربر"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"فشار دکمه"</item>
+		<item>"پین از دستگاه مرتبط شده"</item>
+	</string-array>
+</resources>

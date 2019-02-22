@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Eropa"</item>
+		<item>"Afrika"</item>
+		<item>"Asia"</item>
+		<item>"Australia"</item>
+		<item>"Pasifik"</item>
+		<item>"Semua"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 detik"</item>
+		<item>"30 detik"</item>
+		<item>"1 menit"</item>
+		<item>"2 menit"</item>
+		<item>"5 menit"</item>
+		<item>"10 menit"</item>
+		<item>"30 menit"</item>
+		<item>"Tidak pernah"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"Tidak pernah"</item>
+		<item>"15 detik"</item>
+		<item>"30 detik"</item>
+		<item>"1 menit"</item>
+		<item>"2 menit"</item>
+		<item>"5 menit"</item>
+		<item>"10 menit"</item>
+		<item>"30 menit"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Segera"</item>
+		<item>"5 detik"</item>
+		<item>"15 detik"</item>
+		<item>"30 detik"</item>
+		<item>"1 menit"</item>
+		<item>"2 menit"</item>
+		<item>"5 menit"</item>
+		<item>"10 menit"</item>
+		<item>"30 menit"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Kecil"</item>
+		<item>"Asali"</item>
+		<item>"Besar"</item>
+		<item>"Terbesar"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Memindai..."</item>
+		<item>"Menyambungkan..."</item>
+		<item>"Mengotentikasi..."</item>
+		<item>"Mendapatkan alamat IP…"</item>
+		<item>"Tersambung"</item>
+		<item>"Ditangguhkan"</item>
+		<item>"Memutuskan…"</item>
+		<item>"Terputus"</item>
+		<item>"Tidak berhasil"</item>
+		<item>"Diblokir"</item>
+		<item>"Sementara mengindari sambungan buruk"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Memindai..."</item>
+		<item>"Menyambung ke <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Mengotentikasi ke <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Mendapatkan alamat IP dari <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Tersambung ke <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Ditangguhkan"</item>
+		<item>"Mmtskn smbngn dr <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Terputus"</item>
+		<item>"Tidak berhasil"</item>
+		<item>"Diblokir"</item>
+		<item>"Sementara menghindari sambungan buruk"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Tekan tombol"</item>
+		<item>"PIN dari perangkat rekan"</item>
+		<item>"PIN dari perangkat ini"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Tersambung"</item>
+		<item>"Diundang"</item>
+		<item>"Tidak berhasil"</item>
+		<item>"Tersedia"</item>
+		<item>"Di luar jangkauan"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 menit"</item>
+		<item>"5 menit"</item>
+		<item>"1 jam"</item>
+		<item>"Tanpa waktu tunggu"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Jelek"</item>
+		<item>"Jelek"</item>
+		<item>"Wajar"</item>
+		<item>"Baik"</item>
+		<item>"Sangat Baik"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Selalu"</item>
+		<item>"Hanya ketika diisi daya"</item>
+		<item>"Tidak pernah"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Selalu"</item>
+		<item>"Hanya ktika trhubung ke sumber daya"</item>
+		<item>"Tidak pernah"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Kegiatan terakhir"</item>
+		<item>"Siklus penggunaan data..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Waktu Penggunaan"</item>
+		<item>"Luncurkan Penghitungan"</item>
+		<item>"Nama apl"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Tidak ada"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Tidak ada"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Tidak ada"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statik"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Tidak ada"</item>
+		<item>"Manual"</item>
+		<item>"Konfigurasi Proksi Otomatis"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Tidak ada"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP atau CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Tidak ditentukan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Tidak ada"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Pnyimpann prngkat intrnl"</item>
+		<item>"Kartu SD yang dapat dilepas"</item>
+		<item>"Biarkn sstm yg mmutskn"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Lokasi"</item>
+		<item>"PRIBADI"</item>
+		<item>"Pesan"</item>
+		<item>"Media"</item>
+		<item>"Perangkat"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"perkiraan lokasi"</item>
+		<item>"lokasi tepat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"Vevay"</item>
+		<item>"baca kontak"</item>
+		<item>"Ubah kontak"</item>
+		<item>"membaca log panggilan"</item>
+		<item>"Ubah catatan panggilan"</item>
+		<item>"baca kalender"</item>
+		<item>"Tulis/Hapus kalender"</item>
+		<item>"Pemindaian Wi-Fi"</item>
+		<item>"Pemberitahuan"</item>
+		<item>"pemindaian ponsel"</item>
+		<item>"panggilan telepon"</item>
+		<item>"baca SMS"</item>
+		<item>"Tulis SMS"</item>
+		<item>"terima SMS"</item>
+		<item>"terima SMS darurat"</item>
+		<item>"terima MMS"</item>
+		<item>"terima push WAP"</item>
+		<item>"Mengirim SMS"</item>
+		<item>"baca ICC SMS"</item>
+		<item>"Tulis/Hapus ICC SMS"</item>
+		<item>"ubah pengaturan"</item>
+		<item>"tarik ke atas"</item>
+		<item>"akses pemberitahuan"</item>
+		<item>"Kamera"</item>
+		<item>"Rekam audio"</item>
+		<item>"putar audio"</item>
+		<item>"baca clipboard"</item>
+		<item>"ubah clipboard"</item>
+		<item>"tombol media"</item>
+		<item>"fokus audio"</item>
+		<item>"volume master"</item>
+		<item>"volume suara"</item>
+		<item>"volume dering"</item>
+		<item>"Volume media"</item>
+		<item>"Volume alarm"</item>
+		<item>"Volume Pemberitahuan"</item>
+		<item>"Volume bluetooth"</item>
+		<item>"Tetap terjaga"</item>
+		<item>"Pantau lokasi"</item>
+		<item>"Pantau lokasi daya tinggi"</item>
+		<item>"Pengubahan Wi-Fi"</item>
+		<item>"Bisukan/bunyikan mikrofon"</item>
+		<item>"tampilkan toast"</item>
+		<item>"Media proyek"</item>
+		<item>"Aktifkan PIN"</item>
+		<item>"tulis wallpaper"</item>
+		<item>"struktur asisten"</item>
+		<item>"asisten screenshot"</item>
+		<item>"baca status ponsel"</item>
+		<item>"tambahkan kotak pesan"</item>
+		<item>"gunakan sip"</item>
+		<item>"proses panggilan keluar"</item>
+		<item>"sidik jari"</item>
+		<item>"sensor tubuh"</item>
+		<item>"Baca pesan siaran seluler"</item>
+		<item>"lokasi palsu"</item>
+		<item>"baca memori"</item>
+		<item>"tulis memori"</item>
+		<item>"hidupkan layar"</item>
+		<item>"dapatkan akun"</item>
+		<item>"berjalan di latar belakang"</item>
+		<item>"volume aksesibilitas"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Lokasi"</item>
+		<item>"Lokasi"</item>
+		<item>"Lokasi"</item>
+		<item>"Getar"</item>
+		<item>"Baca kontak"</item>
+		<item>"Tulis/Hapus kontak"</item>
+		<item>"membaca log panggilan"</item>
+		<item>"Ubah catatan panggilan"</item>
+		<item>"Baca kalender"</item>
+		<item>"Ubah kalender"</item>
+		<item>"Lokasi"</item>
+		<item>"Pemberitahuan posting"</item>
+		<item>"Lokasi"</item>
+		<item>"Panggilan telepon"</item>
+		<item>"Baca SMS/MMS"</item>
+		<item>"Tulis SMS/MMS"</item>
+		<item>"Terima SMS/MMS"</item>
+		<item>"Terima SMS/MMS"</item>
+		<item>"Terima SMS/MMS"</item>
+		<item>"Terima SMS/MMS"</item>
+		<item>"Kirim SMS/MMS"</item>
+		<item>"Baca SMS/MMS"</item>
+		<item>"Tulis SMS/MMS"</item>
+		<item>"Ubah pengaturan"</item>
+		<item>"Gambar di atas"</item>
+		<item>"Akses pemberitahuan"</item>
+		<item>"Kamera"</item>
+		<item>"Rekam audio"</item>
+		<item>"Putar audio"</item>
+		<item>"Baca clipboard"</item>
+		<item>"Ubah clipboard"</item>
+		<item>"Tombol media"</item>
+		<item>"Audio fokus"</item>
+		<item>"Volume master"</item>
+		<item>"Volume suara"</item>
+		<item>"Volume dering"</item>
+		<item>"Volume media"</item>
+		<item>"Volume alarm"</item>
+		<item>"Volume Pemberitahuan"</item>
+		<item>"Volume bluetooth"</item>
+		<item>"Tetap terjaga"</item>
+		<item>"Lokasi"</item>
+		<item>"Lokasi"</item>
+		<item>"Pengubahan Wi-Fi"</item>
+		<item>"Bisukan/bunyikan mikrofon"</item>
+		<item>"tampilkan toast"</item>
+		<item>"Media proyek"</item>
+		<item>"Aktifkan PIN"</item>
+		<item>"Tulis wallpaper"</item>
+		<item>"Struktur asisten"</item>
+		<item>"Screenshot asisten"</item>
+		<item>"Baca status ponsel"</item>
+		<item>"Tambah surat suara"</item>
+		<item>"Gunakan sip"</item>
+		<item>"Proses panggilan keluar"</item>
+		<item>"Sidik jari"</item>
+		<item>"Sensor tubuh"</item>
+		<item>"Baca pesan siaran seluler"</item>
+		<item>"Lokasi palsu"</item>
+		<item>"Baca memori"</item>
+		<item>"Tulis memori"</item>
+		<item>"Hidupkan layar"</item>
+		<item>"Dapatkan akun"</item>
+		<item>"Berjalan di latar belakang"</item>
+		<item>"Volume aksesibilitas"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Singkat"</item>
+		<item>"Sedang"</item>
+		<item>"Lama"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Asali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif Dipadatkan"</item>
+		<item>"Serif"</item>
+		<item>"Serif"</item>
+		<item>"Serif monospace"</item>
+		<item>"Santai"</item>
+		<item>"Bersambung"</item>
+		<item>"Huruf kecil"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Sangat kecil"</item>
+		<item>"Kecil"</item>
+		<item>"Normal"</item>
+		<item>"Besar"</item>
+		<item>"Sangat besar"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Asali"</item>
+		<item>"Tidak ada"</item>
+		<item>"Garis Bentuk"</item>
+		<item>"Bayangan jatuh"</item>
+		<item>"Ditinggikan"</item>
+		<item>"Dipendekkan"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Menggunakan default aplikasi"</item>
+		<item>"Putih di atas hitam"</item>
+		<item>"Hitam di atas putih"</item>
+		<item>"Kuning di atas hitam"</item>
+		<item>"Kuning di atas biru"</item>
+		<item>"Kustom"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN dengan kunci pra-bagi"</item>
+		<item>"L2TP/IPSec VPN dengan sertifikat"</item>
+		<item>"IPSec VPN dengan kunci pra-bagi dan autentikasi Xauth"</item>
+		<item>"IPSec VPN dengan sertifikat dan autentikasi Xauth"</item>
+		<item>"IPSec VPN dengan sertifikat dan autentikasi hibrida"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Terputus"</item>
+		<item>"Inisialisasi…"</item>
+		<item>"Menyambungkan\u2026"</item>
+		<item>"Tersambung"</item>
+		<item>"Waktu tunggu"</item>
+		<item>"Tidak berhasil"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Tanya"</item>
+		<item>"Jangan pernah izinkan"</item>
+		<item>"Selalu izinkan"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Normal"</item>
+		<item>"Sedang"</item>
+		<item>"Rendah"</item>
+		<item>"Genting"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normal"</item>
+		<item>"Sedang"</item>
+		<item>"Rendah"</item>
+		<item>"Genting"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Tetap"</item>
+		<item>"Kegiatan utama"</item>
+		<item>"Penting (latar depan)"</item>
+		<item>"Penting (latar belakang)"</item>
+		<item>"Cadangkan"</item>
+		<item>"Berat"</item>
+		<item>"Layanan (berjalan)"</item>
+		<item>"Layanan (memulai ulang)"</item>
+		<item>"Kepada"</item>
+		<item>"Rumah"</item>
+		<item>"Kegiatan terakhir"</item>
+		<item>"Cache (kegiatan)"</item>
+		<item>"Cache (kegiatan klien)"</item>
+		<item>"Cache (kosong)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Toska"</item>
+		<item>"Biru"</item>
+		<item>"Indigo"</item>
+		<item>"Ungu"</item>
+		<item>"Pink"</item>
+		<item>"Merah"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Toska"</item>
+		<item>"Biru"</item>
+		<item>"Indigo"</item>
+		<item>"Ungu"</item>
+		<item>"Pink"</item>
+		<item>"Merah"</item>
+		<item>"Jingga"</item>
+		<item>"Hijau tua"</item>
+		<item>"Hijau"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Lebih dari 30 hari"</item>
+		<item>"Lebih dari 60 hari"</item>
+		<item>"Lebih dari 90 hari"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Jangan periksa"</item>
+		<item>"Periksa hanya konten DRM"</item>
+		<item>"Selalu periksa"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Jangan sekali-kali gunakan pemeriksaan HDCP"</item>
+		<item>"Gunakan pemeriksaan HDCP untuk konten DRM saja"</item>
+		<item>"Selalu gunakan pemeriksaan HDCP"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1,4 (Default)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Aktifkan Kodek Opsional"</item>
+		<item>"Matikan Kodek Opsional"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Aktifkan Kodek Opsional"</item>
+		<item>"Matikan Kodek Opsional"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<item>"16 bit/sampel"</item>
+		<item>"24 bit/sampel"</item>
+		<item>"32 bit/sampel"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<item>"16 bit/sampel"</item>
+		<item>"24 bit/sampel"</item>
+		<item>"32 bit/sampel"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Gunakan Pilihan Sistem (Default)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Dioptimalkan untuk Kualitas Audio (990kbps/909kbps)"</item>
+		<item>"Kualitas Audio dan Sambungan Seimbang (660kbps/606kbps)"</item>
+		<item>"Dioptimalkan untuk Kualitas Sambungan (330kbps/303kbps)"</item>
+		<item>"Upaya terbaik (Nilai Bit Adaptif)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Dioptimalkan untuk Kualitas Audio"</item>
+		<item>"Kualitas Audio dan Sambungan Seimbang"</item>
+		<item>"Dioptimalkan untuk Kualitas Audio"</item>
+		<item>"Upaya terbaik (Nilai Bit Adaptif)"</item>
+	</string-array>
+	<string-array name="select_logd_size_titles">
+		<item>"Nonaktif"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Nonaktif"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Nonaktif"</item>
+		<item>"64 ribu per buffer log"</item>
+		<item>"256 ribu per buffer log"</item>
+		<item>"1 juta per buffer log"</item>
+		<item>"4 juta per buffer log"</item>
+		<item>"16 juta per buffer log"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Mati"</item>
+		<item>"Semua"</item>
+		<item>"Semua kecuali radio"</item>
+		<item>"Hanya kernel"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Mati"</item>
+		<item>"Semua penyangga log"</item>
+		<item>"Semua kecuali penyangga log radio"</item>
+		<item>"Hanya penyangga log kernel"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animasi mati"</item>
+		<item>"Skala animasi 0,5x"</item>
+		<item>"Skala animasi 1x"</item>
+		<item>"Skala animasi 1,5x"</item>
+		<item>"Skala animasi 2x"</item>
+		<item>"Skala animasi 5x"</item>
+		<item>"Skala animasi 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animasi mati"</item>
+		<item>"Skala animasi 0,5x"</item>
+		<item>"Skala animasi 1x"</item>
+		<item>"Skala animasi 1,5x"</item>
+		<item>"Skala animasi 2x"</item>
+		<item>"Skala animasi 5x"</item>
+		<item>"Skala animasi 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animasi mati"</item>
+		<item>"Skala animasi 0,5x"</item>
+		<item>"Skala animasi 1x"</item>
+		<item>"Skala animasi 1,5x"</item>
+		<item>"Skala animasi 2x"</item>
+		<item>"Skala animasi 5x"</item>
+		<item>"Skala animasi 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Tidak ada"</item>
+		<item>"480p"</item>
+		<item>"480p (aman)"</item>
+		<item>"720p"</item>
+		<item>"720p (aman)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (aman)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (aman)"</item>
+		<item>"4K (skala ditingkatkan)"</item>
+		<item>"4K (skala ditingkatkan, aman)"</item>
+		<item>"720p, 1080p (layar ganda)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Tidak ada"</item>
+		<item>"Ukuran buffer pencatat"</item>
+		<item>"Systrace (Grafis)"</item>
+		<item>"Panggil tumpukan di glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Mati"</item>
+		<item>"Tarik wilayah klip non-persegi ke wilayah berwarna biru"</item>
+		<item>"Sorot perintah gambar yang diuji dalam warna hijau"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Mati"</item>
+		<item>"Di layar berbentuk batang"</item>
+		<item>"Dalam <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"MATI"</item>
+		<item>"Tampilkan wilayah yang berlebih"</item>
+		<item>"Tampilkan wilayah untuk penderita buta warna"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (Default)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Batas standar"</item>
+		<item>"Tanpa proses latar belakang"</item>
+		<item>"Maksimal 1 proses"</item>
+		<item>"Maksimal 2 proses"</item>
+		<item>"Maksimal 3 proses"</item>
+		<item>"Maksimal 4 proses"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"Pengisian daya saja"</item>
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<item>"RNDIS (Ethernet USB)"</item>
+		<item>"Sumber audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Asali"</item>
+		<item>"Data"</item>
+		<item>"Panggil"</item>
+		<item>"pesan"</item>
+		<item>"Layar utama"</item>
+		<item>"Kantor"</item>
+		<item>"Jalan-jalan"</item>
+		<item>"Cinta"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"Layanan 3G/4G"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Mati"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Otomatis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"4G/3G/2G Otomatis"</item>
+		<item>"4G saja"</item>
+		<item>"3G saja"</item>
+		<item>"2G saja"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (otomatis)"</item>
+		<item>"UMTS/GSM (otomatis)"</item>
+		<item>"LTE saja"</item>
+		<item>"UMTS saja"</item>
+		<item>"CDMA tanpa EvDo"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"EvDo saja"</item>
+		<item>"CDMA tanpa EvDo"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (lebih dipilih)/3G/2G"</item>
+		<item>"3G (lebih dipilih)/2G"</item>
+		<item>"3G saja"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (Otomatis)"</item>
+		<item>"3G/2G (Otomatis)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (Otomatis)"</item>
+		<item>"3G/2G (Otomatis)"</item>
+		<item>"3G saja"</item>
+		<item>"2G saja"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM otomatis"</item>
+		<item>"EvDo saja"</item>
+		<item>"WCDMA/GSM otomatis"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G(otomatis)"</item>
+		<item>"3G/2G(otomatis)"</item>
+		<item>"3G saja"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"CDMA tanpa EvDo"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE otomatis "</item>
+		<item>"GSM/WCDMA otomatis"</item>
+		<item>"CDMA tanpa EvDo"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM otomatis"</item>
+		<item>"UMTS/GSM otomatis"</item>
+		<item>"UMTS saja"</item>
+		<item>"CDMA tanpa EvDo"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (Otomatis)"</item>
+		<item>"3G/2G (Otomatis)"</item>
+		<item>"4G saja"</item>
+		<item>"3G saja"</item>
+		<item>"2G saja"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE Diutamakan)"</item>
+		<item>"WCDMA/2G (Utamakan WCDMA)"</item>
+		<item>"3G saja"</item>
+		<item>"2G saja"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE Diutamakan)"</item>
+		<item>"3G saja"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (dianjurkan)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (sambungkan otomatis)"</item>
+		<item>"WCDMA/GSM (sambungkan otomatis)"</item>
+		<item>"EvDo saja"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Pulau Midway"</item>
+		<item>"Hawaii"</item>
+		<item>"Alaska"</item>
+		<item>"Waktu Pasifik"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Waktu Gunung"</item>
+		<item>"Amerika Tengah"</item>
+		<item>"Waktu Tengah"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Waktu Timur"</item>
+		<item>"Venezuela"</item>
+		<item>"Waktu Atlantik"</item>
+		<item>"Waktu Atlantik (Kanada)"</item>
+		<item>"Manaus"</item>
+		<item>"Newfoundland"</item>
+		<item>"Atlantik Tengah"</item>
+		<item>"Azores"</item>
+		<item>"Kepulauan Cape Verde"</item>
+		<item>"Casablanca"</item>
+		<item>"Waktu Afrika Barat"</item>
+		<item>"Amman, Yordania"</item>
+		<item>"Istanbul"</item>
+		<item>"Beirut, Lebanon"</item>
+		<item>"Teheran"</item>
+		<item>"Sampai tanggal"</item>
+		<item>"Yekaterinburg"</item>
+		<item>"Kalkuta"</item>
+		<item>"Kathmandu"</item>
+		<item>"Yangon"</item>
+		<item>"Krasnoyarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"Irkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Yakutsk"</item>
+		<item>"Adelaide"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sydney"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fiji"</item>
+		<item>"Paraguay"</item>
+		<item>"Abu Dhabi"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Ababa"</item>
+		<item>"Algiers"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Ashgabat"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Athens"</item>
+		<item>"Avarua"</item>
+		<item>"Baghdad"</item>
+		<item>"Baku"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagreb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Beijing"</item>
+		<item>"Belfast"</item>
+		<item>"Belgrade"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Bern"</item>
+		<item>"Bishkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogota"</item>
+		<item>"Brasilia"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brussels"</item>
+		<item>"Bucharest"</item>
+		<item>"Budapest"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Kairo"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chisinau"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Copenhagen"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Djibouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubai"</item>
+		<item>"Dublin"</item>
+		<item>"Dushanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Cayman Islands)"</item>
+		<item>"Georgetown (Ascension Island)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala City"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havana"</item>
+		<item>"Helsinki"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabad"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Yerusalem"</item>
+		<item>"Juba"</item>
+		<item>"Kabul"</item>
+		<item>"Kampala"</item>
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<item>"Khartoum"</item>
+		<item>"Kiev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaica)"</item>
+		<item>"Kingston (Norfolk Island)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuwait"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lisbon"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lome"</item>
+		<item>"London"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxembourg"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Mexico City"</item>
+		<item>"Minsk"</item>
+		<item>"Mogadishu"</item>
+		<item>"Monaco"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskow"</item>
+		<item>"Muscat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"New Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nicosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama City"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paris"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Prague"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Pristina"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavik"</item>
+		<item>"Riga"</item>
+		<item>"Riyadh"</item>
+		<item>"Road Town"</item>
+		<item>"Rome"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajevo"</item>
+		<item>"Seoul"</item>
+		<item>"Singapore"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"Saint George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"Saint John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Taipei"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Tashkent"</item>
+		<item>"Tbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokyo"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunis"</item>
+		<item>"Ulan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatican City"</item>
+		<item>"Victoria"</item>
+		<item>"Vienna"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnius"</item>
+		<item>"Warsaw"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"Yerevan"</item>
+		<item>"Bolivia"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asunción"</item>
+		<item>"La Paz"</item>
+		<item>"Khabarovsk"</item>
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Martinique"</item>
+		<item>"St. Petersburg"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrakhan"</item>
+		<item>"Izhevsk"</item>
+		<item>"Ufa"</item>
+		<item>"Chelyabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Chita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Zona Waktu Rusia 1"</item>
+		<item>"Zona Waktu Rusia 2 (Moskow)"</item>
+		<item>"Zona Waktu Rusia 3"</item>
+		<item>"Zona Waktu Rusia 4"</item>
+		<item>"Zona Waktu Rusia 5"</item>
+		<item>"Zona Waktu Rusia 6"</item>
+		<item>"Zona Waktu Rusia 7"</item>
+		<item>"Zona Waktu Rusia 8"</item>
+		<item>"Zona Waktu Rusia 9"</item>
+		<item>"Zona Waktu Rusia 10"</item>
+		<item>"Zona Waktu Rusia 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancun"</item>
+		<item>"Merida"</item>
+		<item>"Milwaukee"</item>
+		<item>"Matamoros"</item>
+		<item>"Banderas Bay"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Tidak ditentukan)"</item>
+		<item>"Sim slot 1"</item>
+		<item>"Sim slot 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 pengguna"</item>
+		<item>"2 pengguna"</item>
+		<item>"3 pengguna"</item>
+		<item>"4 pengguna"</item>
+		<item>"5 pengguna"</item>
+		<item>"6 pengguna"</item>
+		<item>"7 pengguna"</item>
+		<item>"8 pengguna"</item>
+		<item>"9 pengguna"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Tekan tombol"</item>
+		<item>"PIN dari perangkat rekan"</item>
+	</string-array>
+</resources>

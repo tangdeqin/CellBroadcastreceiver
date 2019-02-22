@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Ameerika"</item>
+		<item>"Euroopa"</item>
+		<item>"Aafrika"</item>
+		<item>"Aasia"</item>
+		<item>"Austraalia"</item>
+		<item>"Vaikne ookean"</item>
+		<item>"Kõik"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekundit"</item>
+		<item>"30 sekundit"</item>
+		<item>"1 minut"</item>
+		<item>"2 minutit"</item>
+		<item>"5 minutit"</item>
+		<item>"10 minutit"</item>
+		<item>"30 minutit"</item>
+		<item>"Mitte kunagi"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"Mitte kunagi"</item>
+		<item>"15 sekundit"</item>
+		<item>"30 sekundit"</item>
+		<item>"1 minut"</item>
+		<item>"2 minutit"</item>
+		<item>"5 minutit"</item>
+		<item>"10 minutit"</item>
+		<item>"30 minutit"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Kohe"</item>
+		<item>"5 sekundit"</item>
+		<item>"15 sekundit"</item>
+		<item>"30 sekundit"</item>
+		<item>"1 minut"</item>
+		<item>"2 minutit"</item>
+		<item>"5 minutit"</item>
+		<item>"10 minutit"</item>
+		<item>"30 minutit"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Väike"</item>
+		<item>"Vaikimisi"</item>
+		<item>"Suur"</item>
+		<item>"Suurim"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Skannimine…"</item>
+		<item>"Ühendan..."</item>
+		<item>"Autentimine…"</item>
+		<item>"IP-aadressi hankimine…"</item>
+		<item>"Ühendatud"</item>
+		<item>"Peatatud"</item>
+		<item>"Ühenduse katkestamine ..."</item>
+		<item>"Ühendus katkestatud"</item>
+		<item>"Ebaõnnestus"</item>
+		<item>"Blokeeritud"</item>
+		<item>"Kehva ühenduse ajutine vältimine"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Skannimine…"</item>
+		<item>"Ühendamine vooga <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Autentimine võrguga <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"IP-aadressi hankimine võrgust <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Ühendatud võrguga <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+		<item>"Peatatud"</item>
+		<item>"Ühenduse katkestamine võrguga <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Ühendus katkestatud"</item>
+		<item>"Ebaõnnestus"</item>
+		<item>"Blokeeritud"</item>
+		<item>"Kehva ühenduse ajutine vältimine"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Vajutusnupp"</item>
+		<item>"PIN-kood partnerseadmest"</item>
+		<item>"PIN sellest seadmest"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Ühendatud"</item>
+		<item>"Kutsutud"</item>
+		<item>"Ebaõnnestus"</item>
+		<item>"Saadaval"</item>
+		<item>"Vahemikust väljas"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minutit"</item>
+		<item>"5 minutit"</item>
+		<item>"1 tund"</item>
+		<item>"Kunagi ei võta aega maha"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Kehv"</item>
+		<item>"Kehv"</item>
+		<item>"Rahuldav"</item>
+		<item>"Hea"</item>
+		<item>"Suurepärane"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Alati"</item>
+		<item>"Ainult siis, kui on ühendatud"</item>
+		<item>"Mitte kunagi"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Alati"</item>
+		<item>"Ainult siis, kui on ühendatud"</item>
+		<item>"Mitte kunagi"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Viimased 30 päeva"</item>
+		<item>"Määra kasutamistsükkel..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Kasutusaeg"</item>
+		<item>"Käivita loendus"</item>
+		<item>"Rakenduse nimi"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Puudub"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Puudub"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Puudub"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Staatiline"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Puudub"</item>
+		<item>"Käsitsi"</item>
+		<item>"Puhvers. autom. seadistus"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Puudub"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP või CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Määramata"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1 × RTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Puudub"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Seadme sisemälu"</item>
+		<item>"Eemaldatav SD-kaart"</item>
+		<item>"Lase süsteemil otsustada"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Asukoht"</item>
+		<item>"Isiklik"</item>
+		<item>"Sõnumid"</item>
+		<item>"Muusika ja videod"</item>
+		<item>"SEADE"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"üldine asukoht"</item>
+		<item>"täpne asukoht"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"vibratsioon"</item>
+		<item>"kontaktide lugemine"</item>
+		<item>"kontaktide muutmine"</item>
+		<item>"kõnelogi lugemine"</item>
+		<item>"kõnelogi muutmine"</item>
+		<item>"kalendri lugemine"</item>
+		<item>"kalendri muutmine"</item>
+		<item>"WiFi otsimine"</item>
+		<item>"märguanne"</item>
+		<item>"mobiili skannimine"</item>
+		<item>"Helistamine telefonile"</item>
+		<item>"SMS-i lugemine"</item>
+		<item>"SMS-i/MMS-i kirjutamine"</item>
+		<item>"SMS-i vastuvõtmine"</item>
+		<item>"hädaolukorra SMS-i vastuvõtmine"</item>
+		<item>"MMS-i vastuvõtmine"</item>
+		<item>"WAP-edastuse vastuvõtmine"</item>
+		<item>"SMS-i saatmine"</item>
+		<item>"ICC SMS-i lugemine"</item>
+		<item>"ICC SMS-i kirjutamine"</item>
+		<item>"seadete muutmine"</item>
+		<item>"peale joonistamine"</item>
+		<item>"juurdepääsumärguanded"</item>
+		<item>"kaamera"</item>
+		<item>"heli salvestamine"</item>
+		<item>"heli esitamine"</item>
+		<item>"lõikelaua lugemine"</item>
+		<item>"Lõikelaua muutmine"</item>
+		<item>"meedianupud"</item>
+		<item>"helifookus"</item>
+		<item>"põhihelitugevus"</item>
+		<item>"hääle helitugevus"</item>
+		<item>"helina helitugevus"</item>
+		<item>"meedia helitugevus"</item>
+		<item>"äratuse helitugevus"</item>
+		<item>"märguande helitugevus"</item>
+		<item>"Bluetoothi maht"</item>
+		<item>"hoia ärkvel"</item>
+		<item>"monitori asukoht"</item>
+		<item>"suure võimsusega asukoha jälgimine"</item>
+		<item>"kasutusstatistika hankimine"</item>
+		<item>"mikrofoni vaigistamine või vaigistuse tühistamine"</item>
+		<item>"näita röstrit"</item>
+		<item>"VPN-i aktiveerimine"</item>
+		<item>"VPN-i aktiveerimine"</item>
+		<item>"Taustapildi kirjutamine"</item>
+		<item>"Abistruktuur"</item>
+		<item>"Abikuvatõmmis"</item>
+		<item>"loe telefoni olekut"</item>
+		<item>"lisa kõneposti"</item>
+		<item>"kasuta sip-i"</item>
+		<item>"töötle väljuvat kõnet"</item>
+		<item>"sõrmejälg"</item>
+		<item>"kehaandurid"</item>
+		<item>"Loe mobiilsidesõnumeid"</item>
+		<item>"vale asukoht"</item>
+		<item>"loe mälust"</item>
+		<item>"kirjuta mällu"</item>
+		<item>"lülita ekraan sisse"</item>
+		<item>"võta kontod"</item>
+		<item>"tööta taustal"</item>
+		<item>"juurdepääsetavuse helitugevus"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Asukoht"</item>
+		<item>"Asukoht"</item>
+		<item>"Asukoht"</item>
+		<item>"Vibratsioon"</item>
+		<item>"Kontaktide lugemine"</item>
+		<item>"Kontaktide muutmine"</item>
+		<item>"Kõnelogi lugemine"</item>
+		<item>"Kõnelogi muutmine"</item>
+		<item>"Kalendri lugemine"</item>
+		<item>"Kalendri muutmine"</item>
+		<item>"Asukoht"</item>
+		<item>"Märguande postitamine"</item>
+		<item>"Asukoht"</item>
+		<item>"Helistamine telefonile"</item>
+		<item>"Lugege tekstisõnumeid (SMS või MMS)"</item>
+		<item>"Kirjutage tekstisõnum (SMS või MMS)"</item>
+		<item>"Tekstisõnumi (SMS või MMS) vastuvõtmine"</item>
+		<item>"Tekstisõnumi (SMS või MMS) vastuvõtmine"</item>
+		<item>"Tekstisõnumi (SMS või MMS) vastuvõtmine"</item>
+		<item>"Tekstisõnumi (SMS või MMS) vastuvõtmine"</item>
+		<item>"Tekstisõnumi (SMS või MMS) vastuvõtmine"</item>
+		<item>"Lugege tekstisõnumeid (SMS või MMS)"</item>
+		<item>"Kirjutage tekstisõnum (SMS või MMS)"</item>
+		<item>"Seadistuse muutmine"</item>
+		<item>"Peale avamine"</item>
+		<item>"Juurdepääsumärguanded"</item>
+		<item>"Kaamera"</item>
+		<item>"Heli salvestamine"</item>
+		<item>"Heli esitamine"</item>
+		<item>"Lõikepuhvri lugemine"</item>
+		<item>"lõikelaua muutmine"</item>
+		<item>"Meedianupud"</item>
+		<item>"Helifookus"</item>
+		<item>"Põhihelitugevus"</item>
+		<item>"Hääle helitugevus"</item>
+		<item>"Helina helitugevus"</item>
+		<item>"Muusika ja videote helitugevus"</item>
+		<item>"Alarmi helitugevus"</item>
+		<item>"Teatise helitugevus"</item>
+		<item>"Bluetoothi maht"</item>
+		<item>"Hoia ärkvel"</item>
+		<item>"Asukoht"</item>
+		<item>"Asukoht"</item>
+		<item>"kasutusstatistika hankimine"</item>
+		<item>"Mikrofoni vaigistamine või vaigistuse tühistamine"</item>
+		<item>"Näita röstrit"</item>
+		<item>"VPN-i aktiveerimine"</item>
+		<item>"VPN-i aktiveerimine"</item>
+		<item>"Taustapildi kirjutamine"</item>
+		<item>"Abistruktuur"</item>
+		<item>"Abikuvatõmmis"</item>
+		<item>"Loe telefoni olekut"</item>
+		<item>"Lisa kõnepost"</item>
+		<item>"Kasuta sip-i"</item>
+		<item>"Töötle väljuvat kõnet"</item>
+		<item>"Sõrmejäljehaldur"</item>
+		<item>"Kehaandurid"</item>
+		<item>"Loe mobiilsidesõnumeid"</item>
+		<item>"Vale asukoht"</item>
+		<item>"Loe mälust"</item>
+		<item>"Kirjuta mällu"</item>
+		<item>"Lülita ekraan sisse"</item>
+		<item>"Võta kontod"</item>
+		<item>"Tööta taustal"</item>
+		<item>"Juurdepääsetavuse helitugevus"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Lühike"</item>
+		<item>"Keskmine"</item>
+		<item>"Pikk"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Vaikimisi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif, tihendatud"</item>
+		<item>"Seriifideta püsisamm"</item>
+		<item>"Ühelaiused tähed"</item>
+		<item>"Seriifidega püsisammkiri"</item>
+		<item>"Lihtne"</item>
+		<item>"Kapiteelkiri"</item>
+		<item>"Kursiiv"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Väga väike"</item>
+		<item>"Väike"</item>
+		<item>"Tavaline"</item>
+		<item>"Suur"</item>
+		<item>"Väga suur"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Puudub"</item>
+		<item>"Puudub"</item>
+		<item>"Langev vari"</item>
+		<item>"Langev vari"</item>
+		<item>"Tõstetud"</item>
+		<item>"Lohkus"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Kasuta vaikeseadistust"</item>
+		<item>"Valge mustal"</item>
+		<item>"Must valgel"</item>
+		<item>"Kollane mustal"</item>
+		<item>"Kollane sinisel"</item>
+		<item>"Kohandatud"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN eeljagatud võtmetega"</item>
+		<item>"L2TP/IPSec VPN sertifikaatidega"</item>
+		<item>"IPSec VPN eeljagatud võtmete ja Xauth-i autentimisega"</item>
+		<item>"IPSec VPN sertifikaatide ja Xauth-i autentimisega"</item>
+		<item>"IPSec VPN sertifikaatide ja hübriidautentimisega"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Ühendus on katkestatud"</item>
+		<item>"Alustamine…"</item>
+		<item>"Ühendamine\u2026"</item>
+		<item>"Ühendatud"</item>
+		<item>"Ajalõpp"</item>
+		<item>"Ebaõnnestus"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Küsimine"</item>
+		<item>"Ära luba kunagi"</item>
+		<item>"Luba alati"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Tavaline"</item>
+		<item>"Mõõdukas"</item>
+		<item>"Madal"</item>
+		<item>"Kriitiline"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Tavaline"</item>
+		<item>"Mõõdukas"</item>
+		<item>"Madal"</item>
+		<item>"Kriitiline"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Püsiv"</item>
+		<item>"Sagedasim tegevus"</item>
+		<item>"Oluline (esiplaanil)"</item>
+		<item>"Oluline (taustal)"</item>
+		<item>"Varundus"</item>
+		<item>"Mahukas"</item>
+		<item>"Teenus (töötamine)"</item>
+		<item>"Teenus (taaskäivitamine)"</item>
+		<item>"Saaja"</item>
+		<item>"Kodu"</item>
+		<item>"Viimane tegevus"</item>
+		<item>"Vahemälus (tegevus)"</item>
+		<item>"Vahemälus (tegevuse klient)"</item>
+		<item>"Vahemälus (tühi)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Sinakasroheline"</item>
+		<item>"Sinine"</item>
+		<item>"Indigo"</item>
+		<item>"Lilla"</item>
+		<item>"Roosa"</item>
+		<item>"Punane"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Sinakasroheline"</item>
+		<item>"Sinine"</item>
+		<item>"Indigo"</item>
+		<item>"Lilla"</item>
+		<item>"Roosa"</item>
+		<item>"Punane"</item>
+		<item>"Oranž"</item>
+		<item>"Tumeroheline"</item>
+		<item>"Roheline"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Vanemad kui 30 päeva"</item>
+		<item>"Vanemad kui 60 päeva"</item>
+		<item>"Vanemad kui 90 päeva"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Ära kunagi kontrolli"</item>
+		<item>"Kontrolli ainult DRM-sisu"</item>
+		<item>"Pidev kontrollimine"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Ära kunagi kasuta HDCP-kontrollimist"</item>
+		<item>"Kasuta HDCP-kontrolli ainult DRM-sisu korral"</item>
+		<item>"Kasuta alati HDCP-kontrollimist"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (vaikimisi)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Luba valikulisi kodekeid"</item>
+		<item>"Keela valikulised kodekid"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Luba valikulisi kodekeid"</item>
+		<item>"Keela valikulised kodekid"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<item>"16 bitti/näidis"</item>
+		<item>"24 bitti/näidis"</item>
+		<item>"32 bitti/näidis"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<item>"16 bitti/näidis"</item>
+		<item>"24 bitti/näidis"</item>
+		<item>"32 bitti/näidis"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Kasuta süsteemivalikut (vaikimisi)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Optimeeritud audiokvaliteedi jaoks (990 kbps / 909 kbps)"</item>
+		<item>"Tasakaalustatud heli ja ühenduse kvaliteet (660 kbps / 606 kbps)"</item>
+		<item>"Optimeeritud ühenduse kvaliteedi jaoks (330 kbps / 303 kbps)"</item>
+		<item>"Parim saavutus (adaptiivne bittide arv)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Optimeeritud audiokvaliteedi jaoks"</item>
+		<item>"Tasakaalustatud heli ja ühenduse kvaliteet"</item>
+		<item>"Optimeeritud ühenduse kvaliteedi jaoks"</item>
+		<item>"Parim saavutus (adaptiivne bittide arv)"</item>
+	</string-array>
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<string-array name="select_logd_size_summaries">
+		<!--inherit from sourcecode xml-->
+		<item>"Off"</item>
+		<item>"64K logipuhvri kohta"</item>
+		<item>"256K logipuhvri kohta"</item>
+		<item>"1M logipuhvri kohta"</item>
+		<item>"4M logipuhvri kohta"</item>
+		<item>"16M logipuhvri kohta"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Väljas"</item>
+		<item>"Kõik"</item>
+		<item>"Kõik, v.a raadio"</item>
+		<item>"Ainult kernel"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Väljas"</item>
+		<item>"Kõik logipuhvrid"</item>
+		<item>"Kõik, v.a raadio logipuhvrid"</item>
+		<item>"Ainult kerneli logi puhver"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animatsioon väljas"</item>
+		<item>"0,5-kordne animatsiooni skaala"</item>
+		<item>"Animatsiooni skaala 1 kord"</item>
+		<item>"Animatsiooni skaala 1,5 korda"</item>
+		<item>"Animatsiooni skaala 2 korda"</item>
+		<item>"Animatsiooni skaala 5 korda"</item>
+		<item>"Animatsiooni skaala 10 korda"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animatsioon väljas"</item>
+		<item>"0,5-kordne animatsiooni skaala"</item>
+		<item>"Animatsiooni skaala 1 kord"</item>
+		<item>"Animatsiooni skaala 1,5 korda"</item>
+		<item>"Animatsiooni skaala 2 korda"</item>
+		<item>"Animatsiooni skaala 5 korda"</item>
+		<item>"Animatsiooni skaala 10 korda"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animatsioon väljas"</item>
+		<item>"0,5-kordne animatsiooni skaala"</item>
+		<item>"1-kordne animatsiooni skaala"</item>
+		<item>"1,5-kordne animatsiooni skaala"</item>
+		<item>"2-kordne animatsiooni skaala"</item>
+		<item>"5-kordne animatsiooni skaala"</item>
+		<item>"10-kordne animatsiooni skaala"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Puudub"</item>
+		<item>"480p"</item>
+		<item>"480p (turvaline)"</item>
+		<item>"720p"</item>
+		<item>"720p (turvaline)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (turvaline)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (turvaline)"</item>
+		<item>"4K (laiendatud)"</item>
+		<item>"4K (laiendatud, turvaline)"</item>
+		<item>"720p, 1080p (topeltekraan)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Puudub"</item>
+		<item>"Logija puhvri suurused"</item>
+		<item>"Systrace (graafika)"</item>
+		<item>"Helistamise virn glGetErrori kohta"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Väljas"</item>
+		<item>"Näita mittetäisnurkset osa siniselt"</item>
+		<item>"Muuda testitud käsud roheliseks"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Väljas"</item>
+		<item>"Ekraanil ribadena"</item>
+		<item>"Asukoht: <xliff:g id="as_typed_command">Adb-kestas dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"Väljas"</item>
+		<item>"Kuva kattuvad alad"</item>
+		<item>"Näita värvipimeduse alasid"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (vaikimisi)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standardpiir"</item>
+		<item>"Taustaprotsessideta"</item>
+		<item>"Maksimaalselt 1 protsess"</item>
+		<item>"Maksimaalselt 2 protsessi"</item>
+		<item>"Maksimaalselt 3 protsessi"</item>
+		<item>"Maksimaalselt 4 protsessi"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"Ainult laadimine"</item>
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<item>"Heliallikas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Vaikimisi"</item>
+		<item>"Andmed"</item>
+		<item>"Helista"</item>
+		<item>"Sõnum"</item>
+		<item>"Kodu"</item>
+		<item>"Töö"</item>
+		<item>"Reisimine"</item>
+		<item>"Armastus"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G-teenus"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Väljas"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Autom."</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automaatne 4G/3G/2G"</item>
+		<item>"Ainult 4G"</item>
+		<item>"ainult 3G"</item>
+		<item>"ainult 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (automaatne)"</item>
+		<item>"UMTS/GSM (automaatne)"</item>
+		<item>"Ainult LTE"</item>
+		<item>"Ainult UMTS"</item>
+		<item>"Ainult GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Ainult WCDMA"</item>
+		<item>"Ainult GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (soovitatavalt)/3G/2G"</item>
+		<item>"3G (soovitatavalt)/2G"</item>
+		<item>"Ainult 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automaatne)"</item>
+		<item>"3G/2G (automaatne)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (automaatne)"</item>
+		<item>"3G/2G (automaatne)"</item>
+		<item>"Ainult 3G"</item>
+		<item>"ainult 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"Automaatne LTE/WCDMA/GSM"</item>
+		<item>"Ainult WCDMA"</item>
+		<item>"Automaatne WCDMA/GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (automaatne)"</item>
+		<item>"3G/2G (automaatne)"</item>
+		<item>"Ainult 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Ainult GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"Automaatne GSM/WCDMA/LTE"</item>
+		<item>"Automaatne GSM/WCDMA"</item>
+		<item>"Ainult GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"Automaatne LTE/UMTS/GSM"</item>
+		<item>"Automaatne UMTS/GSM"</item>
+		<item>"Ainult UMTS"</item>
+		<item>"Ainult GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (automaatne)"</item>
+		<item>"3G/2G (automaatne)"</item>
+		<item>"Ainult 4G"</item>
+		<item>"Ainult 3G"</item>
+		<item>"Ainult 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (eelistatud on LTE)"</item>
+		<item>"WCDMA/2G (eelistatud on WCDMA)"</item>
+		<item>"ainult 3G"</item>
+		<item>"ainult 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS/GSM (eelistatud on LTE)"</item>
+		<item>"ainult 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (soovitatav)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (automaatne ühendamine)"</item>
+		<item>"WCDMA/GSM (automaatne ühendamine)"</item>
+		<item>"Ainult WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Midway saared"</item>
+		<item>"Hawaii"</item>
+		<item>"Alaska"</item>
+		<item>"Vaikse ookeani aeg"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Kaljumäestiku aeg"</item>
+		<item>"Kesk-Ameerika"</item>
+		<item>"Kesk-Ameerika aeg"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Ida-Ameerika aeg"</item>
+		<item>"Venezuela"</item>
+		<item>"Atlandi aeg (Barb.)"</item>
+		<item>"Atlandi aeg (Kanada)"</item>
+		<item>"Manaus"</item>
+		<item>"Newfoundland"</item>
+		<item>"Kesk-Atlandi"</item>
+		<item>"Assoorid"</item>
+		<item>"Roheneemesaared"</item>
+		<item>"Casablanca"</item>
+		<item>"Lääne-Aafrika aeg"</item>
+		<item>"Amman, Jordaania"</item>
+		<item>"Istanbul"</item>
+		<item>"Beirut, Liibanon"</item>
+		<item>"Teheran"</item>
+		<item>"Uralsk"</item>
+		<item>"Jekaterinburg"</item>
+		<item>"Kolkata"</item>
+		<item>"Katmandu"</item>
+		<item>"Yangon"</item>
+		<item>"Krasnojarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hongkong"</item>
+		<item>"Irkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Jakutsk"</item>
+		<item>"Adelaide"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sydney"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fidži"</item>
+		<item>"Paraguay"</item>
+		<item>"Abu Dhabi"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Abeba"</item>
+		<item>"Alžiir"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Aşgabat"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Ateena"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdad"</item>
+		<item>"Bakuu"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagreb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Peking"</item>
+		<item>"Belfast"</item>
+		<item>"Belgrad"</item>
+		<item>"Belmopan"</item>
+		<item>"Berliin"</item>
+		<item>"Bern"</item>
+		<item>"Biškek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogota"</item>
+		<item>"Brasiilia"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brüssel"</item>
+		<item>"Bukarest"</item>
+		<item>"Budapest"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Kairo"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chişinău"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Kopenhaagen"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Djibouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubai"</item>
+		<item>"Dublin"</item>
+		<item>"Dušanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Kaimanisaared)"</item>
+		<item>"Georgetown (Ascension)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagåtña"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havanna"</item>
+		<item>"Helsingi"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabad"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Jeruusalemm"</item>
+		<item>"Juba"</item>
+		<item>"Kabul"</item>
+		<item>"Kampala"</item>
+		<item>"Karāchi"</item>
+		<item>"Apia"</item>
+		<item>"Hartum"</item>
+		<item>"Kiiev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaica)"</item>
+		<item>"Kingston (Norfolk)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuveit"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lissabon"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lome"</item>
+		<item>"London"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxembourg"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Mees"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Matâ’utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Mexico"</item>
+		<item>"Minsk"</item>
+		<item>"Muqdisho"</item>
+		<item>"Monaco"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskva"</item>
+		<item>"Masqaţ"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"New Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nikosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Nouméa"</item>
+		<item>"Nuku‘alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panamá"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Pariis"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Praha"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Pristina"</item>
+		<item>"Pyongyang"</item>
+		<item>"Sulge"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavík"</item>
+		<item>"Riia"</item>
+		<item>"Riyadh"</item>
+		<item>"Road Town"</item>
+		<item>"Rooma"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajevo"</item>
+		<item>"Söul"</item>
+		<item>"Singapur"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Taipei"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Taškent"</item>
+		<item>"Thbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokyo"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunis"</item>
+		<item>"Ulaanbaatar"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatikan"</item>
+		<item>"Victoria"</item>
+		<item>"Viin"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnius"</item>
+		<item>"Varssavi"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"Jerevan"</item>
+		<item>"Boliivia"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asuncion"</item>
+		<item>"La Paz"</item>
+		<item>"Habarovsk"</item>
+		<item>"Južno-Sahhalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamtšatski"</item>
+		<item>"Anadõr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"Peterburi"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrahan"</item>
+		<item>"Iževsk"</item>
+		<item>"Ufa"</item>
+		<item>"Tšeljabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Tšitaa"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Venemaa ajavöönd 1"</item>
+		<item>"Venemaa ajavöönd 2 (Moskva)"</item>
+		<item>"Venemaa ajavöönd 3"</item>
+		<item>"Venemaa ajavöönd 4"</item>
+		<item>"Venemaa ajavöönd 5"</item>
+		<item>"Venemaa ajavöönd 6"</item>
+		<item>"Venemaa ajavöönd 7"</item>
+		<item>"Venemaa ajavöönd 8"</item>
+		<item>"Venemaa ajavöönd 9"</item>
+		<item>"Venemaa ajavöönd 10"</item>
+		<item>"Venemaa ajavöönd 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancun"</item>
+		<item>"Merida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Bahía de Banderas"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Määramata)"</item>
+		<item>"SIM-pesa 1"</item>
+		<item>"SIM-pesa 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 kasutaja"</item>
+		<item>"2 kasutajat"</item>
+		<item>"3 kasutajat"</item>
+		<item>"4 kasutajat"</item>
+		<item>"5 kasutajat"</item>
+		<item>"6 kasutajat"</item>
+		<item>"7 kasutajat"</item>
+		<item>"8 kasutajat"</item>
+		<item>"9 kasutajat"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Vajutusnupp"</item>
+		<item>"PIN-kood partnerseadmest"</item>
+	</string-array>
+</resources>

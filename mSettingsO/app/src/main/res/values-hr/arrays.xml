@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Europa"</item>
+		<item>"Afrika"</item>
+		<item>"Azija"</item>
+		<item>"Australija"</item>
+		<item>"Pacifički"</item>
+		<item>"Sve"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekundi"</item>
+		<item>"30 sekundi"</item>
+		<item>"1 minuta"</item>
+		<item>"2 minute"</item>
+		<item>"5 minuta"</item>
+		<item>"10 minuta"</item>
+		<item>"30 minuta"</item>
+		<item>"Nikada"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"Nikada"</item>
+		<item>"15 sekundi"</item>
+		<item>"30 sekundi"</item>
+		<item>"1 minuta"</item>
+		<item>"2 minute"</item>
+		<item>"5 minuta"</item>
+		<item>"10 minuta"</item>
+		<item>"30 minuta"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Odmah"</item>
+		<item>"5 sekunda"</item>
+		<item>"15 sekunda"</item>
+		<item>"30 sekunda"</item>
+		<item>"1 min"</item>
+		<item>"2 minute"</item>
+		<item>"5 minuta"</item>
+		<item>"10 minuta"</item>
+		<item>"30 minuta"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Malen"</item>
+		<item>"Zadano"</item>
+		<item>"Veliko"</item>
+		<item>"Najveće"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Pregledavanje..."</item>
+		<item>"Spajanje..."</item>
+		<item>"Autentifikacija..."</item>
+		<item>"Dohvat IP adrese\u2026"</item>
+		<item>"Spojeno"</item>
+		<item>"Odgođeno"</item>
+		<item>"Odspajanje..."</item>
+		<item>"Odspojeno"</item>
+		<item>"Neuspješno"</item>
+		<item>"Blokirano"</item>
+		<item>"Privremeno izbjegavanje loše veze"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Pregledavanje…"</item>
+		<item>"Spajanje na <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Autentifikacija s <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Dohvat IP adrese od <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Spojeno na <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Odgođeno"</item>
+		<item>"Odspajanje s <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Odspojeno"</item>
+		<item>"Neuspješno"</item>
+		<item>"Blokirano"</item>
+		<item>"Privremeno izbjegavanje loše veze"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Push tipka"</item>
+		<item>"PIN s paralelnog uređaja"</item>
+		<item>"PIN s ovog uređaja"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Povezano"</item>
+		<item>"Pozvan"</item>
+		<item>"Neuspješno"</item>
+		<item>"Dostupno"</item>
+		<item>"Izvan dometa"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minute"</item>
+		<item>"5 minuta"</item>
+		<item>"1 sat"</item>
+		<item>"Nikada privremeni prekid"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Loše"</item>
+		<item>"Loše"</item>
+		<item>"Umjereno"</item>
+		<item>"Dobro"</item>
+		<item>"Odlična"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Uvijek"</item>
+		<item>"Samo kad je uključeno"</item>
+		<item>"Nikada"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Uvijek"</item>
+		<item>"Samo kad je uključeno"</item>
+		<item>"Nikad"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Zadnjih 30 dana"</item>
+		<item>"Postavi ciklus uporabe..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Vrijeme korištenja"</item>
+		<item>"Zadnje korišteno"</item>
+		<item>"Naziv aplikacije"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Ništa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Prazno"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Ništa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statično"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Ništa"</item>
+		<item>"Ručno"</item>
+		<item>"Proxy autom. postavljanje"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Ništa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP ili CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Neodređeno"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Ništa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Ugrađena pohrana uređaja"</item>
+		<item>"Prijenosna SD kartica"</item>
+		<item>"Neka sustav odluči"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Lokacija"</item>
+		<item>"OSOBNO"</item>
+		<item>"Poruke"</item>
+		<item>"Multimedija"</item>
+		<item>"UREĐAJ"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"ovirna lokacija"</item>
+		<item>"precizna lokacija"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"vibracija"</item>
+		<item>"čitanje kontakata"</item>
+		<item>"izmjena kontakata"</item>
+		<item>"čitanje popisa poziva"</item>
+		<item>"izmjena zapisnika poziva"</item>
+		<item>"čitaj kalendar"</item>
+		<item>"izmjena kalendara"</item>
+		<item>"wi-fi pretraga"</item>
+		<item>"obavijest"</item>
+		<item>"pretraga ćelije"</item>
+		<item>"poziv"</item>
+		<item>"čitaj SMS"</item>
+		<item>"pisanje SMS-a"</item>
+		<item>"primi SMS"</item>
+		<item>"primanje hitnih SMS odašiljanja"</item>
+		<item>"primi MMS"</item>
+		<item>"primanje WAP push"</item>
+		<item>"slanje SMS-a"</item>
+		<item>"čitanje ICC SMS"</item>
+		<item>"pisanje ICC SMS-a"</item>
+		<item>"uredi postavke"</item>
+		<item>"prikaz na vrhu"</item>
+		<item>"obavijesti pristupa"</item>
+		<item>"fotoaparat"</item>
+		<item>"snimanje zvuka"</item>
+		<item>"reproduciraj zvuk"</item>
+		<item>"čitaj međuspremnik"</item>
+		<item>"uredi međuspremnik"</item>
+		<item>"multimedijske tipke"</item>
+		<item>"fokus zvuka"</item>
+		<item>"glasnoća"</item>
+		<item>"glasnoća tijekom poziva"</item>
+		<item>"glasnoća zvona"</item>
+		<item>"glasnoća medija"</item>
+		<item>"glasnoća alarma"</item>
+		<item>"glasnoća obavijesti"</item>
+		<item>"Glasnoća Bluetootha"</item>
+		<item>"zadrži u aktivnom stanju"</item>
+		<item>"praćenje lokacije"</item>
+		<item>"praćenje lokacije s visokom potrošnjom energije"</item>
+		<item>"dohvat informacija uporabe"</item>
+		<item>"isključivanje/uključivanje mikrofona"</item>
+		<item>"prikaži skočne obavijesti"</item>
+		<item>"projiciranje medija"</item>
+		<item>"aktiviraj VPN"</item>
+		<item>"pozadinska slika za pisanje"</item>
+		<item>"pomoćna struktura"</item>
+		<item>"pomoćna snimka zaslona"</item>
+		<item>"čitaj stanje telefona"</item>
+		<item>"dodaj govornu poštu"</item>
+		<item>"koristi sip"</item>
+		<item>"obradi odlazni poziv"</item>
+		<item>"otisak prsta"</item>
+		<item>"senzori tijela"</item>
+		<item>"čitaj mrežne poruke"</item>
+		<item>"lažna lokacija"</item>
+		<item>"čitaj pohranu"</item>
+		<item>"piši u pohranu"</item>
+		<item>"uključi zaslon"</item>
+		<item>"dohvati račune"</item>
+		<item>"rad u pozadini"</item>
+		<item>"glasnoća dostupnosti"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Lokacija"</item>
+		<item>"Lokacija"</item>
+		<item>"Lokacija"</item>
+		<item>"vibracija"</item>
+		<item>"Čitaj kontakata"</item>
+		<item>"izmjena kontakata"</item>
+		<item>"čitanje popisa poziva"</item>
+		<item>"Uredi popis poziva"</item>
+		<item>"Čitaj kalendar"</item>
+		<item>"izmjena kalendara"</item>
+		<item>"Lokacija"</item>
+		<item>"Objava obavijesti"</item>
+		<item>"Lokacija"</item>
+		<item>"Poziv"</item>
+		<item>"Čitanje SMS/MMS poruka"</item>
+		<item>"Pisanje SMS/MMS poruka"</item>
+		<item>"Primanje SMS-a/MMS-a"</item>
+		<item>"Primanje SMS-a/MMS-a"</item>
+		<item>"Primanje SMS-a/MMS-a"</item>
+		<item>"Primanje SMS-a/MMS-a"</item>
+		<item>"Slanje SMS-a/MMS-a"</item>
+		<item>"Čitanje SMS/MMS poruka"</item>
+		<item>"Pisanje SMS/MMS poruka"</item>
+		<item>"uredi postavke"</item>
+		<item>"prikaz na vrhu"</item>
+		<item>"obavijesti pristupa"</item>
+		<item>"fotoaparat"</item>
+		<item>"Snimanje zvučnog zapisa"</item>
+		<item>"reproduciraj zvuk"</item>
+		<item>"čitaj međuspremnik"</item>
+		<item>"Uredi međuspremnik"</item>
+		<item>"Multimedijske tipke"</item>
+		<item>"Fokus zvuka"</item>
+		<item>"Glasnoća"</item>
+		<item>"Glasnoća tijekom poziva"</item>
+		<item>"Glasnoća zvona"</item>
+		<item>"Glasnoća multimedije"</item>
+		<item>"Glasnoća alarma"</item>
+		<item>"Glasnoća obavijesti"</item>
+		<item>"Glasnoća Bluetootha"</item>
+		<item>"Drži budnim"</item>
+		<item>"Lokacija"</item>
+		<item>"Lokacija"</item>
+		<item>"dohvat informacija uporabe"</item>
+		<item>"Uključi/isključi mikrofon"</item>
+		<item>"Prikaži skočne obavijesti"</item>
+		<item>"aktiviraj VPN"</item>
+		<item>"VPN aktivacija"</item>
+		<item>"Pisanje pozadine"</item>
+		<item>"Struktura uslužne aplikacije"</item>
+		<item>"Snimka zaslona uslužne aplikacije"</item>
+		<item>"Čitaj stanje telefona"</item>
+		<item>"Dodaj glasovnu poštu"</item>
+		<item>"Koristi sip"</item>
+		<item>"Obradi odlazni poziv"</item>
+		<item>"Otisak prsta"</item>
+		<item>"Biometrijski senzori"</item>
+		<item>"Čitaj mrežne poruke"</item>
+		<item>"Lažna lokacija"</item>
+		<item>"Čitaj pohranu"</item>
+		<item>"Piši u pohranu"</item>
+		<item>"Uključi zaslon"</item>
+		<item>"Dohvati račune"</item>
+		<item>"Rad u pozadini"</item>
+		<item>"Glasnoća dostupnosti"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Kratko"</item>
+		<item>"Srednje"</item>
+		<item>"Dugo"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Zadano"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif skupljeni"</item>
+		<item>"Sans-serif monospace"</item>
+		<item>"Serif"</item>
+		<item>"Serif monospace"</item>
+		<item>"Neformalno"</item>
+		<item>"Kurziv"</item>
+		<item>"Mala slova"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Vrlo sitno"</item>
+		<item>"Malo"</item>
+		<item>"Normalno"</item>
+		<item>"Veliko"</item>
+		<item>"Vrlo veliko"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Zadano"</item>
+		<item>"Ništa"</item>
+		<item>"Obrub"</item>
+		<item>"Povišeni"</item>
+		<item>"Sniženo"</item>
+		<item>"Sniženo"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Koristi zadane vrijednosti aplikacije"</item>
+		<item>"Bijelo na crnom"</item>
+		<item>"Crno na bijelom"</item>
+		<item>"Žuto na crnom"</item>
+		<item>"Žuto na plavom"</item>
+		<item>"Prilagođeno"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN s unaprijed dijeljenim ključevima"</item>
+		<item>"L2TP/IPSec VPN s certifikatima"</item>
+		<item>"IPSec VPN s unaprijed dijeljenim ključevima i Xauth autentifikacijom"</item>
+		<item>"IPSec VPN s certifikatima i Xauth autentifikacijom"</item>
+		<item>"IPSec VPN s certifikatima i hibridnom autentifikacijom"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Nije povezano"</item>
+		<item>"Pokretanje…"</item>
+		<item>"Spajanje\u2026"</item>
+		<item>"Povezano"</item>
+		<item>"Privremeni prekid"</item>
+		<item>"Neuspješno"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Pitaj"</item>
+		<item>"Nikada nemoj dozvoliti"</item>
+		<item>"Uvijek dozvoli"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Normalno"</item>
+		<item>"Umjereno"</item>
+		<item>"Nisko"</item>
+		<item>"Kritično"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normalno"</item>
+		<item>"Umjereno"</item>
+		<item>"Nisko"</item>
+		<item>"Kritično"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Dosljedno"</item>
+		<item>"Glavna aktivnost"</item>
+		<item>"Važno (prednja strana)"</item>
+		<item>"Važno (pozadina)"</item>
+		<item>"Pričuvna kopija"</item>
+		<item>"Teška kategorija"</item>
+		<item>"Usluga (u tijeku)"</item>
+		<item>"Usluga (ponovno pokretanje)"</item>
+		<item>"Primatelj"</item>
+		<item>"Kuća"</item>
+		<item>"Zadnja aktivnost"</item>
+		<item>"Međuspremnik (aktivnost)"</item>
+		<item>"Međuspremnik (klijent aktivnosti)"</item>
+		<item>"Međuspremnik (prazno)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Tirkizna"</item>
+		<item>"Plava"</item>
+		<item>"Indigo"</item>
+		<item>"Ljubičasta"</item>
+		<item>"Roza"</item>
+		<item>"Crvena"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Tirkizna"</item>
+		<item>"Plava"</item>
+		<item>"Indigo"</item>
+		<item>"Ljubičasta"</item>
+		<item>"Roza"</item>
+		<item>"Crvena"</item>
+		<item>"Narančasta"</item>
+		<item>"Tamno zeleno"</item>
+		<item>"Zelena"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Starije od 30 dana"</item>
+		<item>"Starije od 60 dana"</item>
+		<item>"Starije od 90 dana"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Nikad ne provjeravaj"</item>
+		<item>"Provjeri samo DRM sadržaj"</item>
+		<item>"Uvijek provjeri"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Nikad ne upotrebljavaj HDCP provjeru"</item>
+		<item>"Upotrebljavaj HDCP provjeru samo za DRM sadržaj"</item>
+		<item>"Uvijek upotrebljavaj HDCP provjeru"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (zadano)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> zvuk"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> zvuk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Omogućavanje proizvoljnih kodeka"</item>
+		<item>"Onemogućavanje proizvoljnih kodeka"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> zvuk"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> zvuk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Omogućavanje proizvoljnih kodeka"</item>
+		<item>"Onemogućavanje proizvoljnih kodeka"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<item>"16 bita/uzorak"</item>
+		<item>"24 bita/uzorak"</item>
+		<item>"32 bita/uzorak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<item>"16 bita/uzorak"</item>
+		<item>"24 bita/uzorak"</item>
+		<item>"32 bita/uzorak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Koristi odabir sustava (zadano)"</item>
+		<item>"Mono"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Optimizirano za kakvoću zvuka (990kbps/909kbps)"</item>
+		<item>"Uravnotežena kakvoća zvuka i veze (660kbps/606kbps)"</item>
+		<item>"Optimizirano za kakvoću zvuka (330kbps/303kbps)"</item>
+		<item>"Najbolje moguće (prilagodiva razina bitova)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Optimizirano za kakvoću zvuka"</item>
+		<item>"Uravnotežena kakvoća zvuka i veze"</item>
+		<item>"Optimizirano za kakvoću veze"</item>
+		<item>"Najbolje moguće (prilagodiva razina bitova)"</item>
+	</string-array>
+	<string-array name="select_logd_size_titles">
+		<item>"Isključeno"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Isključeno"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Isključeno"</item>
+		<item>"64K po log bufferu"</item>
+		<item>"256K po log bufferu"</item>
+		<item>"1M po log bufferu"</item>
+		<item>"4M po log bufferu"</item>
+		<item>"16M po log bufferu"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Isk."</item>
+		<item>"Sve"</item>
+		<item>"Sve osim radija"</item>
+		<item>"Samo kernel"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Isk."</item>
+		<item>"Svi međuspremnici zapisa"</item>
+		<item>"Sve osim međuspremnika zapisa radija"</item>
+		<item>"Samo međuspremnik zapisa kernela"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animacija isključena"</item>
+		<item>"Animacija razmjera 0,5 x"</item>
+		<item>"Animacija razmjera 1x"</item>
+		<item>"Animacija razmjera 1,5 x"</item>
+		<item>"Animacija razmjera 2x"</item>
+		<item>"Animacija razmjera 5x"</item>
+		<item>"Animacija razmjera 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animacija isključena"</item>
+		<item>"Animacija razmjera 0,5 x"</item>
+		<item>"Animacija razmjera 1x"</item>
+		<item>"Animacija razmjera 1,5 x"</item>
+		<item>"Animacija razmjera 2x"</item>
+		<item>"Animacija razmjera 5x"</item>
+		<item>"Animacija razmjera 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animacija isključena"</item>
+		<item>"Animacija razmjera 0,5 x"</item>
+		<item>"Animacija razmjera 1x"</item>
+		<item>"Animacija razmjera 1,5 x"</item>
+		<item>"Animacija razmjera 2x"</item>
+		<item>"Animacija razmjera 5x"</item>
+		<item>"Animacija razmjera 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Prazno"</item>
+		<item>"480p"</item>
+		<item>"480 p (sigurno)"</item>
+		<item>"720p"</item>
+		<item>"720 p (sigurno)"</item>
+		<item>"1080p"</item>
+		<item>"1080 p (sigurno)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (sigurno)"</item>
+		<item>"4K (poboljšano)"</item>
+		<item>"4K (poboljšano, sigurno)"</item>
+		<item>"720p, 1080p (dvostruki zaslon)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Ništa"</item>
+		<item>"Logcat"</item>
+		<item>"Sustav (grafika)"</item>
+		<item>"Grupa poziva na glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Isključeno"</item>
+		<item>"Iscrtaj ne-pravokutne clip regije plavom bojom"</item>
+		<item>"Naglasi testirane komande zelenom bojom"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Isključeno"</item>
+		<item>"Na zaslonu kao stupci"</item>
+		<item>"U <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"ISKLJUČI"</item>
+		<item>"Prikaži prekoračena područja"</item>
+		<item>"Prikaz područja za Deuteranomaliju"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (zadano)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standardna granica"</item>
+		<item>"Nema pozadinskih procesa"</item>
+		<item>"Najviše 1 proces"</item>
+		<item>"Najviše 2 procesa"</item>
+		<item>"Najviše 3 procesa"</item>
+		<item>"Najviše 4 procesa"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"Samo punjenje"</item>
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<item>"RNDIS (USB Ethernet)"</item>
+		<item>"Izvor zvuka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Zadano"</item>
+		<item>"Podaci"</item>
+		<item>"Zovi"</item>
+		<item>"poruka"</item>
+		<item>"Početni zaslon"</item>
+		<item>"Posao"</item>
+		<item>"Putovanja"</item>
+		<item>"Ljubav"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G usluga"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Isk."</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Auto."</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automatski 4G/3G/2G"</item>
+		<item>"Samo 4G"</item>
+		<item>"Samo 3G"</item>
+		<item>"Samo 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (automatski)"</item>
+		<item>"UMTS/GSM (auto)"</item>
+		<item>"Samo LTE"</item>
+		<item>"Samo GSM"</item>
+		<item>"Samo GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Samo WCDMA"</item>
+		<item>"Samo GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (preferirano)/3G/2G"</item>
+		<item>"3G (preferirano)/2G"</item>
+		<item>"Samo 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automatski)"</item>
+		<item>"3G/2G (automatski)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (automatski)"</item>
+		<item>"3G/2G (autom.)"</item>
+		<item>"Samo 3G"</item>
+		<item>"Samo 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM (autom.)"</item>
+		<item>"Samo WCDMA"</item>
+		<item>"WCDMA/GSM autom."</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (automatski)"</item>
+		<item>"3G/2G (automatski)"</item>
+		<item>"Samo 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Samo GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE autom."</item>
+		<item>"GSM/WCDMA autom."</item>
+		<item>"Samo GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM (autom.)"</item>
+		<item>"UMTS/GSM (autom.)"</item>
+		<item>"Samo GSM"</item>
+		<item>"Samo GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (automatski)"</item>
+		<item>"3G/2G (autom.)"</item>
+		<item>"samo 4G"</item>
+		<item>"Samo 3G"</item>
+		<item>"Samo 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE preferirano)"</item>
+		<item>"WCDMA/2G (WCDMA preferirano)"</item>
+		<item>"Samo 3G"</item>
+		<item>"Samo 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE preferirano)"</item>
+		<item>"Samo 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (preporučeno)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (autom. spajanje)"</item>
+		<item>"WCDMA/GSM (autom. spajanje)"</item>
+		<item>"Samo WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Otok Midway"</item>
+		<item>"Hawaii"</item>
+		<item>"Aljaska"</item>
+		<item>"Pacifičko vrijeme"</item>
+		<item>"Tijuana"</item>
+		<item>"Arizona"</item>
+		<item>"Chihuahua"</item>
+		<item>"Planinsko Vrijeme"</item>
+		<item>"Centralna Amerika"</item>
+		<item>"Centralno vrijeme"</item>
+		<item>"Saskatchewan"</item>
+		<item>"Istočno vrijeme"</item>
+		<item>"Venezuela"</item>
+		<item>"Atlantsko vrijeme (Barbados)"</item>
+		<item>"Atlantic Time (Canada)"</item>
+		<item>"Manaus"</item>
+		<item>"Newfoundland"</item>
+		<item>"Srednji Atlantik"</item>
+		<item>"Azuri"</item>
+		<item>"Cape Verde otoci"</item>
+		<item>"Casablanca"</item>
+		<item>"Zap. Afričko vrijeme"</item>
+		<item>"Amman, Jordan"</item>
+		<item>"Istanbul"</item>
+		<item>"Bejrut, Libanon"</item>
+		<item>"Teheran"</item>
+		<item>"Uralsk"</item>
+		<item>"Yekaterinburg"</item>
+		<item>"Kolkata"</item>
+		<item>"Kathmandu"</item>
+		<item>"Yangon"</item>
+		<item>"Krasnoyarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"Irkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Yakutsk"</item>
+		<item>"Adelaide"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"Sydney"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fiji"</item>
+		<item>"Paragvaj"</item>
+		<item>"Abu Dhabi"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Ababa"</item>
+		<item>"Algiers"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Ashgabat"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Athens"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdad"</item>
+		<item>"Baku"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagreb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Peking"</item>
+		<item>"Belfast"</item>
+		<item>"Beograd"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Bern"</item>
+		<item>"Bishkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogota"</item>
+		<item>"Brasilia"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brisel"</item>
+		<item>"Bucharest"</item>
+		<item>"Budapest"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Kairo"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chisinau"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Copenhagen"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Djibouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubai"</item>
+		<item>"Dublin"</item>
+		<item>"Dushanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Cayman Islands)"</item>
+		<item>"Georgetown (Ascension Island)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala City"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havana"</item>
+		<item>"Helsinki"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabad"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Jeruzalem"</item>
+		<item>"Juba"</item>
+		<item>"Kabul"</item>
+		<item>"Kampala"</item>
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<item>"Khartoum"</item>
+		<item>"Kiev"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaica)"</item>
+		<item>"Kingston (Norfolk Island)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuvajt"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lisbon"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lome"</item>
+		<item>"London"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxembourg"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Mexico City"</item>
+		<item>"Minsk"</item>
+		<item>"Mogadishu"</item>
+		<item>"Monaco"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskva"</item>
+		<item>"Muscat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"New Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nicosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama City"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paris"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Prague"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Pristina"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavik"</item>
+		<item>"Riga"</item>
+		<item>"Riyadh"</item>
+		<item>"Road Town"</item>
+		<item>"Rome"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajevo"</item>
+		<item>"Seoul"</item>
+		<item>"Singapore"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Taipei"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Tashkent"</item>
+		<item>"Tbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokyo"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunis"</item>
+		<item>"Ulan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatican City"</item>
+		<item>"Victoria"</item>
+		<item>"Vienna"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnius"</item>
+		<item>"Warsaw"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"Yerevan"</item>
+		<item>"Bolivija"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asunción"</item>
+		<item>"La Paz"</item>
+		<item>"Habarovsk"</item>
+		<item>"Južno-Sahalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamčatski"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"St. Petersburg"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrahan"</item>
+		<item>"Iževsk"</item>
+		<item>"Ufa"</item>
+		<item>"Čeljabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Čita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Ruska Vremenska zona 1"</item>
+		<item>"Ruska Vremenska zona 2 (Moskva)"</item>
+		<item>"Ruska Vremenska zona 3"</item>
+		<item>"Ruska Vremenska zona 4"</item>
+		<item>"Ruska Vremenska zona 5"</item>
+		<item>"Ruska Vremenska zona 6"</item>
+		<item>"Ruska Vremenska zona 7"</item>
+		<item>"Ruska Vremenska zona 8"</item>
+		<item>"Ruska Vremenska zona 9"</item>
+		<item>"Ruska Vremenska zona 10"</item>
+		<item>"Ruska Vremenska zona 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancun"</item>
+		<item>"Mérida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Bahía de Banderas"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Neodređeno)"</item>
+		<item>"SIM utor 1"</item>
+		<item>"SIM utor 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 korisnik"</item>
+		<item>"2 korisnika"</item>
+		<item>"3 korisnika"</item>
+		<item>"4 korisnika"</item>
+		<item>"5 korisnika"</item>
+		<item>"6 korisnika"</item>
+		<item>"7 korisnika"</item>
+		<item>"8 korisnika"</item>
+		<item>"9 korisnika"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Push tipka"</item>
+		<item>"PIN s paralelnog uređaja"</item>
+	</string-array>
+</resources>

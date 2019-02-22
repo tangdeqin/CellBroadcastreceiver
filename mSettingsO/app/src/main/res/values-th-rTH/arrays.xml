@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"อเมริกา"</item>
+		<item>"ยุโรป"</item>
+		<item>"แอฟริกา"</item>
+		<item>"เอเชีย"</item>
+		<item>"ออสเตรเลีย"</item>
+		<item>"แปซิฟิก"</item>
+		<item>"ทั้งหมด"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 วินาที"</item>
+		<item>"30 วินาที"</item>
+		<item>"1 นาที"</item>
+		<item>"2 นาที"</item>
+		<item>"5 นาที"</item>
+		<item>"10 นาที"</item>
+		<item>"30 นาที"</item>
+		<item>"ไม่เคย"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"ไม่เคย"</item>
+		<item>"15 วินาที"</item>
+		<item>"30 วินาที"</item>
+		<item>"1 นาที"</item>
+		<item>"2 นาที"</item>
+		<item>"5 นาที"</item>
+		<item>"10 นาที"</item>
+		<item>"30 นาที"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"ทันที"</item>
+		<item>"5 วินาที"</item>
+		<item>"15 วินาที"</item>
+		<item>"30 วินาที"</item>
+		<item>"1 นาที"</item>
+		<item>"2 นาที"</item>
+		<item>"5 นาที"</item>
+		<item>"10 นาที"</item>
+		<item>"30 นาที"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"เล็ก"</item>
+		<item>"ค่าเริ่มต้น"</item>
+		<item>"ใหญ่"</item>
+		<item>"ใหญ่ที่สุด"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"กำลังสแกน..."</item>
+		<item>"กำลังเชื่อมต่อ..."</item>
+		<item>"กำลังรับรองความถูกต้อง..."</item>
+		<item>"กำลังรับที่อยู่ IP…"</item>
+		<item>"เชื่อมต่อแล้ว"</item>
+		<item>"ที่ถูกระงับ"</item>
+		<item>"กำลังตัดการเชื่อมต่อ..."</item>
+		<item>"ปลดการเชื่อมต่อแล้ว"</item>
+		<item>"ไม่สำเร็จ"</item>
+		<item>"ถูกบล็อก"</item>
+		<item>"หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"กำลังสแกน..."</item>
+		<item>"กำลังเชื่อมต่อกับ <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"กำลังตรวจสอบสิทธิ์กับ <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"กำลังรับที่อยู่ IP จาก <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"เชื่อมต่อกับ <xliff:g id="network_name">%1$s</xliff:g> แล้ว"</item>
+		<item>"ที่ถูกระงับ"</item>
+		<item>"กำลังตัดการเชื่อมต่อจาก <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"ปลดการเชื่อมต่อแล้ว"</item>
+		<item>"ไม่สำเร็จ"</item>
+		<item>"ถูกบล็อก"</item>
+		<item>"หลีกเลี่ยงการเชื่อมต่อกับสัญญาณที่ไม่แรงพอชั่วคราว"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"ปุ่มกด"</item>
+		<item>"เลือกPIN จากอุปกรณ์รองรับ"</item>
+		<item>"PIN จากอุปกรณ์นี้"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"เชื่อมต่อแล้ว"</item>
+		<item>"เชิญแล้ว"</item>
+		<item>"ไม่สำเร็จ"</item>
+		<item>"พร้อมใช้งาน"</item>
+		<item>"อยู่นอกระยะสัญญาณ"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 นาที"</item>
+		<item>"5 นาที"</item>
+		<item>"1 ชั่วโมง"</item>
+		<item>"ไม่มีระยะหมดเวลา"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"แย่"</item>
+		<item>"แย่"</item>
+		<item>"พอใช้"</item>
+		<item>"ดี"</item>
+		<item>"ยอดเยี่ยม"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"ทุกครั้ง"</item>
+		<item>"เมื่อเสียบปลั๊กเท่านั้น"</item>
+		<item>"ห้ามทุกครั้ง"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"ทุกครั้ง"</item>
+		<item>"เมื่อเสียบปลั๊กเท่านั้น"</item>
+		<item>"ไม่เคย"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"กิจกรรมล่าสุด"</item>
+		<item>"ตั้งรอบการใช้..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"เวลาใช้งาน"</item>
+		<item>"เปิดตัวนับ"</item>
+		<item>"ชื่อแอปพลิเคชัน"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"ไม่มี"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"ไม่มี"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"ไม่มี"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"คงที่"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"ไม่มี"</item>
+		<item>"ด้วยตนเอง"</item>
+		<item>"ตั้งค่าพร็อกซี่อัตโนมัติ"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"ไม่มี"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP หรือ CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"ไม่ระบุ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"ไม่มี"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"พื้นที่จัดเก็บภายในอุปกรณ์"</item>
+		<item>"การ์ด SD แบบนำออกได้"</item>
+		<item>"ปล่อยให้ระบบตัดสินใจ"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"ตำแหน่ง"</item>
+		<item>"ส่วนบุคคล"</item>
+		<item>"การส่ง
+ข้อความ"</item>
+		<item>"สื่อ"</item>
+		<item>"อุปกรณ์"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"ตำแหน่งคร่าวๆ"</item>
+		<item>"ตำแหน่งละเอียด"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"สั่น"</item>
+		<item>"อ่านผู้ติดต่อ"</item>
+		<item>"แก้ไขรายชื่อผู้ติดต่อ"</item>
+		<item>"อ่านประวัติการโทร"</item>
+		<item>"แก้ไขประวัติการโทร"</item>
+		<item>"อ่านปฏิทิน"</item>
+		<item>"แก้ไขปฏิทิน"</item>
+		<item>"สแกน Wi-Fi"</item>
+		<item>"การแจ้งเตือน"</item>
+		<item>"สแกนเซลล์"</item>
+		<item>"โทรเข้าโทรศัพท์"</item>
+		<item>"อ่าน SMS"</item>
+		<item>"เขียน SMS"</item>
+		<item>"รับ SMS"</item>
+		<item>"รับ SMS ฉุกเฉิน"</item>
+		<item>"รับ MMS"</item>
+		<item>"รับพุช WAP"</item>
+		<item>"ส่ง SMS"</item>
+		<item>"อ่าน ICC SMS"</item>
+		<item>"เขียน ICC SMS"</item>
+		<item>"แก้ไขการตั้งค่า"</item>
+		<item>"วาดด้านบน"</item>
+		<item>"เข้าถึงการแจ้งเตือน"</item>
+		<item>"กล้องถ่ายรูป"</item>
+		<item>"บันทึกเสียง"</item>
+		<item>"เล่นเสียง"</item>
+		<item>"อ่านคลิปบอร์ด"</item>
+		<item>"แก้ไขคลิปบอร์ด"</item>
+		<item>"ปุ่มสื่อ"</item>
+		<item>"โฟกัสเสียง"</item>
+		<item>"ระดับเสียงหลัก"</item>
+		<item>"ระดับเสียงพูด"</item>
+		<item>"ระดับเสียงเรียกเข้า"</item>
+		<item>"ระดับเสียงสื่อ"</item>
+		<item>"ระดับเสียงปลุก"</item>
+		<item>"ระดับเสียงการแจ้งเตือน"</item>
+		<item>"ระดับเสียงบลูทูธ"</item>
+		<item>"รักษาไว้ให้ทำงาน"</item>
+		<item>"ติดตามตำแหน่ง"</item>
+		<item>"ติดตามตำแหน่งกำลังสูง"</item>
+		<item>"การเปลี่ยน Wi-Fi"</item>
+		<item>"ปิด/เปิดเสียงไมโครโฟน"</item>
+		<item>"แสดงข้อความป็อปอัพ"</item>
+		<item>"ฉายสื่อ"</item>
+		<item>"เปิด VPN"</item>
+		<item>"เขียนวอลเปเปอร์"</item>
+		<item>"โครงสร้างการช่วยเหลือ"</item>
+		<item>"ภาพถ่ายหน้าจอการช่วยเหลือ"</item>
+		<item>"อ่านสถานะของโทรศัพท์"</item>
+		<item>"เพิ่มข้อความเสียง"</item>
+		<item>"ใช้ SIP"</item>
+		<item>"ดำเนินการโทรออก"</item>
+		<item>"ลายนิ้วมือ"</item>
+		<item>"เซ็นเซอร์ข้อมูลร่างกาย"</item>
+		<item>"อ่านการแบ่งปันข้อมูลมือถือ"</item>
+		<item>"จำลองตำแหน่ง"</item>
+		<item>"ที่เก็บข้อมูลการอ่าน"</item>
+		<item>"ที่เก็บข้อมูลการเขียน"</item>
+		<item>"เปิดหน้าจอ"</item>
+		<item>"สมัครบัญชี"</item>
+		<item>"ทำงานในพื้นหลัง"</item>
+		<item>"ระดับการเข้าใช้งาน"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"ตำแหน่ง"</item>
+		<item>"ตำแหน่ง"</item>
+		<item>"ตำแหน่ง"</item>
+		<item>"สั่น"</item>
+		<item>"อ่านผู้ติดต่อ"</item>
+		<item>"แก้ไขรายชื่อติดต่อ"</item>
+		<item>"อ่านประวัติการโทร"</item>
+		<item>"แก้ไขประวัติการโทร"</item>
+		<item>"อ่านปฏิทิน"</item>
+		<item>"แก้ไขปฏิทิน"</item>
+		<item>"ตำแหน่ง"</item>
+		<item>"โพสต์การแจ้งเตือน"</item>
+		<item>"ตำแหน่ง"</item>
+		<item>"โทรเข้าโทรศัพท์"</item>
+		<item>"อ่าน SMS/MMS"</item>
+		<item>"เขียน SMS/MMS"</item>
+		<item>"รับ SMS/MMS"</item>
+		<item>"รับ SMS/MMS"</item>
+		<item>"รับ SMS/MMS"</item>
+		<item>"รับ SMS/MMS"</item>
+		<item>"ส่ง SMS/MMS"</item>
+		<item>"อ่าน SMS/MMS"</item>
+		<item>"เขียน SMS/MMS"</item>
+		<item>"แก้ไขการตั้งค่า"</item>
+		<item>"วาดด้านบน"</item>
+		<item>"เข้าถึงการแจ้งเตือน"</item>
+		<item>"กล้องถ่ายรูป"</item>
+		<item>"บันทึกเสียง"</item>
+		<item>"เล่นเสียง"</item>
+		<item>"อ่านคลิปบอร์ด"</item>
+		<item>"แก้ไขคลิปบอร์ด"</item>
+		<item>"ปุ่มสื่อ"</item>
+		<item>"โฟกัสเสียง"</item>
+		<item>"ระดับเสียงหลัก"</item>
+		<item>"ระดับเสียงพูด"</item>
+		<item>"ระดับเสียงเรียกเข้า"</item>
+		<item>"ระดับเสียงสื่อ"</item>
+		<item>"ระดับเสียงปลุก"</item>
+		<item>"ระดับเสียงการแจ้งเตือน"</item>
+		<item>"ระดับเสียงบลูทูธ"</item>
+		<item>"รักษาไว้ให้ทำงาน"</item>
+		<item>"สถานที่"</item>
+		<item>"สถานที่"</item>
+		<item>"การเปลี่ยน Wi-Fi"</item>
+		<item>"ปิด/เปิดเสียงไมโครโฟน"</item>
+		<item>"แสดงข้อความป็อปอัพ"</item>
+		<item>"ฉายสื่อ"</item>
+		<item>"เปิด VPN"</item>
+		<item>"เขียนวอลเปเปอร์"</item>
+		<item>"โครงสร้างการช่วยเหลือ"</item>
+		<item>"ภาพถ่ายหน้าจอการช่วยเหลือ"</item>
+		<item>"อ่านสถานะของโทรศัพท์"</item>
+		<item>"เพิ่มข้อความเสียง"</item>
+		<item>"ใช้ SIP"</item>
+		<item>"ดำเนินการโทรออก"</item>
+		<item>"ลายนิ้วมือ"</item>
+		<item>"เซ็นเซอร์ข้อมูลร่างกาย"</item>
+		<item>"อ่านการแบ่งปันข้อมูลมือถือ"</item>
+		<item>"จำลองตำแหน่ง"</item>
+		<item>"ที่เก็บข้อมูลการอ่าน"</item>
+		<item>"ที่เก็บข้อมูลการเขียน"</item>
+		<item>"เปิดหน้าจอ"</item>
+		<item>"สมัครบัญชี"</item>
+		<item>"ทำงานในพื้นหลัง"</item>
+		<item>"ระดับการเข้าใช้งาน"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"สั้น"</item>
+		<item>"ปานกลาง"</item>
+		<item>"ยาว"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"ค่าเริ่มต้น"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Sans-serif แบบชิด"</item>
+		<item>"Serif"</item>
+		<item>"Serif"</item>
+		<item>"Serif Monospace"</item>
+		<item>"ไม่เป็นทางการ"</item>
+		<item>"ต่อเนื่อง"</item>
+		<item>"เมืองหลวงขนาดเล็ก"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"เล็กมาก"</item>
+		<item>"เล็ก"</item>
+		<item>"ปกติ"</item>
+		<item>"ใหญ่"</item>
+		<item>"ใหญ่มาก"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"ค่าเริ่มต้น"</item>
+		<item>"ไม่มี"</item>
+		<item>"เค้าร่าง"</item>
+		<item>"เงาตกกระทบ"</item>
+		<item>"ยกขึ้น"</item>
+		<item>"กดลง"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"ใช้ค่าเริ่มต้นของแอป"</item>
+		<item>"ขาวบนดำ"</item>
+		<item>"ดำบนขาว"</item>
+		<item>"เหลืองบนดำ"</item>
+		<item>"เหลืองบนน้ำเงิน"</item>
+		<item>"กำหนดเอง"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN พร้อมด้วยคีย์ที่แบ่งปันไว้ล่วงหน้า"</item>
+		<item>"L2TP/IPSec VPN พร้อมด้วยใบรับรอง"</item>
+		<item>"IPSec VPN พร้อมด้วยคีย์ที่แบ่งปันไว้ล่วงหน้าและการตรวจสอบสิทธิ์ Xauth"</item>
+		<item>"IPSec VPN พร้อมด้วยใบรับรองและการตรวจสอบสิทธิ์ Xauth"</item>
+		<item>"IPSec VPN พร้อมด้วยใบรับรองและการตรวจสอบสิทธิ์แบบผสม"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"ปลดการเชื่อมต่อแล้ว"</item>
+		<item>"กำลังเริ่ม…"</item>
+		<item>"กำลังเชื่อมต่อ\u2026"</item>
+		<item>"เชื่อมต่อแล้ว"</item>
+		<item>"ระยะหมดเวลา"</item>
+		<item>"ไม่สำเร็จ"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"ถาม"</item>
+		<item>"ไม่อนุญาตเลย"</item>
+		<item>"อนุญาตเสมอ"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"ปกติ"</item>
+		<item>"ปานกลาง"</item>
+		<item>"ต่ำ"</item>
+		<item>"รุนแรง"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"ปกติ"</item>
+		<item>"ปานกลาง"</item>
+		<item>"ต่ำ"</item>
+		<item>"รุนแรง"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"คงทน"</item>
+		<item>"กิจกรรมสูงสุด"</item>
+		<item>"สำคัญ (เบื้องหน้า)"</item>
+		<item>"สำคัญ (เบื้องหลัง)"</item>
+		<item>"สำรองข้อมูล"</item>
+		<item>"น้ำหนักมาก"</item>
+		<item>"บริการ (กำลังทำงาน)"</item>
+		<item>"บริการ (กำลังรีสตาร์ท)"</item>
+		<item>"ผู้รับ"</item>
+		<item>"บ้าน"</item>
+		<item>"กิจกรรมล่าสุด"</item>
+		<item>"ที่แคช (กิจกรรม)"</item>
+		<item>"ที่แคช (ไคลเอ็นต์กิจกรรม)"</item>
+		<item>"ที่แคช (ว่าง)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"การตั้งค่าการแบ่งปันสัญญาณอินเทอร์เน็ตไม่มีให้สำหรับผู้ใช้นี้"</item>
+		<item>"น้ำเงิน"</item>
+		<item>"Indigo"</item>
+		<item>"สีม่วง"</item>
+		<item>"สีชมพู"</item>
+		<item>"แดง"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"การตั้งค่าการแบ่งปันสัญญาณอินเทอร์เน็ตไม่มีให้สำหรับผู้ใช้นี้"</item>
+		<item>"น้ำเงิน"</item>
+		<item>"Indigo"</item>
+		<item>"สีม่วง"</item>
+		<item>"สีชมพู"</item>
+		<item>"แดง"</item>
+		<item>"ส้ม"</item>
+		<item>"เขียวเข้ม"</item>
+		<item>"เขียว"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"มากกว่า 30 วัน"</item>
+		<item>"มากกว่า 60 วัน"</item>
+		<item>"มากกว่า 90 วัน"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"ไม่ต้องตรวจสอบ"</item>
+		<item>"ตรวจสอบเนื้อหา DRM เท่านั้น"</item>
+		<item>"ตรวจสอบทุกครั้ง"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"ห้ามใช้การตรวจสอบ HDCP"</item>
+		<item>"ใช้การตรวจสอบ HDCP สำหรับเนื้อหา DRM เท่านั้น"</item>
+		<item>"ใช้การตรวจสอบ HDCP เสมอ"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (ค่าเริ่มต้น)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"เสียง <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>"</item>
+		<item>"เสียงคุณภาพ HD <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"เปิดใช้งานโคเดกเพิ่มเติม"</item>
+		<item>"ปิดใช้งานโคเดกเพิ่มเติม"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"เสียง <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g>"</item>
+		<item>"เสียงคุณภาพ HD <xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"เปิดใช้งานโคเดกเพิ่มเติม"</item>
+		<item>"ปิดใช้งานโคเดกเพิ่มเติม"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<item>"44.1 kHz"</item>
+		<item>"48.0 kHz"</item>
+		<item>"88.2 kHz"</item>
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<item>"16 บิต/ตัวอย่าง"</item>
+		<item>"24 บิต/ตัวอย่าง"</item>
+		<item>"32 บิต/ตัวอย่าง"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<item>"16 บิต/ตัวอย่าง"</item>
+		<item>"24 บิต/ตัวอย่าง"</item>
+		<item>"32 บิต/ตัวอย่าง"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<item>"โมโน"</item>
+		<item>"สเตอริโอ"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"ใช้การเลือกของระบบ (ค่าเริ่มต้น)"</item>
+		<item>"โมโน"</item>
+		<item>"สเตอริโอ"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"ปรับคุณภาพเสียงให้เหมาะสมแล้ว (990kbps/909kbps)"</item>
+		<item>"คงคุณภาพเสียงและการเชื่อมต่อให้สมดุลกัน (660kbps/606kbps)"</item>
+		<item>"ปรับคุณภาพการเชื่อมต่อให้เหมาะสมแล้ว (330kbps/303kbps)"</item>
+		<item>"เต็มประสิทธิภาพ (อัตราบิตที่ปรับได้)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"ปรับคุณภาพเสียงให้เหมาะสมแล้ว"</item>
+		<item>"คงคุณภาพเสียงและการเชื่อมต่อให้สมดุลกัน"</item>
+		<item>"ปรับคุณภาพการเชื่อมต่อให้เหมาะสมแล้ว"</item>
+		<item>"เต็มประสิทธิภาพ (อัตราบิตที่ปรับได้)"</item>
+	</string-array>
+	<string-array name="select_logd_size_titles">
+		<item>"ปิด"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"ปิด"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"ปิด"</item>
+		<item>"64K ต่อเล็อกบัฟเฟอร์"</item>
+		<item>"256K ต่อเล็อกบัฟเฟอร์"</item>
+		<item>"1M ต่อเล็อกบัฟเฟอร์"</item>
+		<item>"4M ต่อเล็อกบัฟเฟอร์"</item>
+		<item>"16M ต่อเล็อกบัฟเฟอร์"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"ปิด"</item>
+		<item>"ทั้งหมด"</item>
+		<item>"ทั้งหมดยกเว้นวิทยุ"</item>
+		<item>"เฉพาะเคอร์เนล"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"ปิด"</item>
+		<item>"บัฟเฟอร์การบันทึกทั้งหมด"</item>
+		<item>"ทั้งหมดยกเว้นบัฟเฟอร์การบันทึกวิทยุทั้งหมด"</item>
+		<item>"เฉพาะบัฟเฟอร์การบันทึกเคอร์เนล"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"ปิดภาพเคลื่อนไหว"</item>
+		<item>"ภาพเคลื่อนไหวขนาด .5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 1 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 1.5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 2 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 10 เท่า"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"ปิดภาพเคลื่อนไหว"</item>
+		<item>"ภาพเคลื่อนไหวขนาด .5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 1 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 1.5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 2 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 10 เท่า"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"ปิดภาพเคลื่อนไหว"</item>
+		<item>"ภาพเคลื่อนไหวขนาด .5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 1 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 1.5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 2 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 5 เท่า"</item>
+		<item>"ภาพเคลื่อนไหวขนาด 10 เท่า"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"ไม่มี"</item>
+		<item>"480p"</item>
+		<item>"480p (ปลอดภัย)"</item>
+		<item>"720p"</item>
+		<item>"720p (ปลอดภัย)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (ปลอดภัย)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (ปลอดภัย)"</item>
+		<item>"4K (เพิ่มสเกล)"</item>
+		<item>"4K (เพิ่มสเกล ปลอดภัย)"</item>
+		<item>"720p, 1080p (หน้าจอคู่)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"ไม่มี"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (กราฟิก)"</item>
+		<item>"ชุดรายการเรียกใน glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"ปิด"</item>
+		<item>"วาดพื้นที่คลิปที่ไม่ใช่สี่เหลี่ยมผืนผ้าด้วยสีน้ำเงิน"</item>
+		<item>"เน้นคำสั่งวาดภาพที่ทดสอบแล้วด้วยสีเขียว"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"ปิด"</item>
+		<item>"บนหน้าจอในรูปแบบแถบ"</item>
+		<item>"ใน <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"ปิด"</item>
+		<item>"แสดงบริเวณที่มีโอเวอร์ดรอว์"</item>
+		<item>"แสดงพื้นที่สำหรับคนตาบอดสีเขียว"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (ค่าเริ่มต้น)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"ขีดจำกัดมาตรฐาน"</item>
+		<item>"ไม่มีกระบวนการพื้นหลัง"</item>
+		<item>"มากที่สุด 1 กระบวนการ"</item>
+		<item>"มากที่สุด 2 กระบวนการ"</item>
+		<item>"มากที่สุด 3 กระบวนการ"</item>
+		<item>"มากที่สุด 4 กระบวนการ"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"การชาร์จเท่านั้น"</item>
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<item>"RNDIS (อีเธอร์เน็ต USB)"</item>
+		<item>"แหล่งที่มาเสียง"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"ค่าเริ่มต้น"</item>
+		<item>"ข้อมูล"</item>
+		<item>"โทร"</item>
+		<item>"ข้อความ"</item>
+		<item>"หน้าจอหลัก"</item>
+		<item>"ที่ทำงาน"</item>
+		<item>"ท่องเที่ยว"</item>
+		<item>"ความรัก"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"บริการ 3G/4G"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"ปิด"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"อัตโนมัติ"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"อัตโนมัติ 4G/3G/2G"</item>
+		<item>"4G เท่านั้น"</item>
+		<item>"3G เท่านั้น"</item>
+		<item>"2G เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (อัตโนมัติ)"</item>
+		<item>"UMTS/GSM (อัตโนมัติ)"</item>
+		<item>"เฉพาะ LTE"</item>
+		<item>"เฉพาะ UMTS"</item>
+		<item>"GSM เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"WCDMA เท่านั้น"</item>
+		<item>"GSM เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (ถูกเลือก)/3G/2G"</item>
+		<item>"3G (ถูกเลือก)/2G"</item>
+		<item>"3G เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (อัตโนมัติ)"</item>
+		<item>"3G/2G (อัตโนมัติ)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G (อัตโนมัติ)"</item>
+		<item>"3G/2G (อัตโนมัติ)"</item>
+		<item>"3G เท่านั้น"</item>
+		<item>"2G เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM อัตโนมัติ"</item>
+		<item>"WCDMA เท่านั้น"</item>
+		<item>"WCDMA/GSM อัตโนมัติ"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G (อัตโนมัติ)"</item>
+		<item>"3G/2G (อัตโนมัติ)"</item>
+		<item>"3G เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"GSM เท่านั้น"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE อัตโนมัติ "</item>
+		<item>"GSM/WCDMA อัตโนมัติ"</item>
+		<item>"GSM เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM อัตโนมัติ"</item>
+		<item>"UMTS/GSM อัตโนมัติ"</item>
+		<item>"เฉพาะ UMTS"</item>
+		<item>"GSM เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G (อัตโนมัติ)"</item>
+		<item>"3G/2G (อัตโนมัติ)"</item>
+		<item>"4G เท่านั้น"</item>
+		<item>"3G เท่านั้น"</item>
+		<item>"2G เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (เน้น LTE)"</item>
+		<item>"WCDMA / 2G (WCDMA ที่ต้องการ)"</item>
+		<item>"3G เท่านั้น"</item>
+		<item>"2G เท่านั้น"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (ควรใช้ LTE)"</item>
+		<item>"3G เท่านั้น"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (แนะนำ)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (เชื่อมต่ออัตโนมัติ)"</item>
+		<item>"WCDMA/GSM (เชื่อมต่ออัตโนมัติ)"</item>
+		<item>"WCDMA เท่านั้น"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"เกาะมิดเวย์"</item>
+		<item>"ฮาวาย"</item>
+		<item>"อะแลสกา"</item>
+		<item>"เวลาแปซิฟิก"</item>
+		<item>"ตีฮัวนา"</item>
+		<item>"แอริโซนา"</item>
+		<item>"ชิวาวา"</item>
+		<item>"เวลาแถบภูเขา"</item>
+		<item>"อเมริกากลาง"</item>
+		<item>"เวลากลาง"</item>
+		<item>"ซัสแคตเชวัน"</item>
+		<item>"เวลาตะวันออก"</item>
+		<item>"เวเนซุเอลา"</item>
+		<item>"แอตแลนติก (บาร์เบโดส)"</item>
+		<item>"เวลาแอตแลนติก (แคนาดา)"</item>
+		<item>"มาเนาส์"</item>
+		<item>"นิวฟันด์แลนด์"</item>
+		<item>"แอตแลนติกกลาง"</item>
+		<item>"อะโซร์ส"</item>
+		<item>"หมู่เกาะเคปเวิร์ด"</item>
+		<item>"คาซาบลังกา"</item>
+		<item>"เวลาแอฟริกาตะวันตก"</item>
+		<item>"อัมมาน, จอร์แดน"</item>
+		<item>"อีสเทนบูล"</item>
+		<item>"เบรุต, เลบานอน"</item>
+		<item>"เดหะราน"</item>
+		<item>"อูราล"</item>
+		<item>"เยคาเตรินบุร์ก"</item>
+		<item>"โกลกาตา"</item>
+		<item>"กาฐมาณฑุ"</item>
+		<item>"ย่างกุ้ง"</item>
+		<item>"ครัสโนยาสค์"</item>
+		<item>"กรุงเทพ"</item>
+		<item>"ฮ่องกง"</item>
+		<item>"อีร์คุตสค์"</item>
+		<item>"เพิร์ธ"</item>
+		<item>"โอซากา"</item>
+		<item>"ยาคุตสค์"</item>
+		<item>"แอดิเลด"</item>
+		<item>"ดาร์วิน"</item>
+		<item>"บริสเบน"</item>
+		<item>"โฮบาร์ต"</item>
+		<item>"ซิดนีย์"</item>
+		<item>"วลาดีวอสตอค"</item>
+		<item>"มากาดัน"</item>
+		<item>"ออคแลนด์"</item>
+		<item>"ฟิจิ"</item>
+		<item>"ปารากวัย"</item>
+		<item>"อาบูดาบี"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Ababa"</item>
+		<item>"Algiers"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Ashgabat"</item>
+		<item>"Asmara"</item>
+		<item>"แอสตานา"</item>
+		<item>"เอเธนส์"</item>
+		<item>"Avarua"</item>
+		<item>"แบกแดด"</item>
+		<item>"บากู"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagreb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"ปักกิ่ง"</item>
+		<item>"Belfast"</item>
+		<item>"เบลเกรด"</item>
+		<item>"Belmopan"</item>
+		<item>"เบอลิน"</item>
+		<item>"เบิร์น"</item>
+		<item>"Bishkek"</item>
+		<item>"Bissau"</item>
+		<item>"โบโกตา"</item>
+		<item>"บราซิเลีย"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"บรัสเซลส์"</item>
+		<item>"Bucharest"</item>
+		<item>"Budapest"</item>
+		<item>"บัวโนสไอเรส"</item>
+		<item>"Bujumbura"</item>
+		<item>"ไคโร"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chisinau"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Copenhagen"</item>
+		<item>"ดาการ์"</item>
+		<item>"ดาการ์"</item>
+		<item>"ดิลี"</item>
+		<item>"Djibouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"ดูไบ"</item>
+		<item>"ดับลิน"</item>
+		<item>"Dushanbe"</item>
+		<item>"เอดินเบิร์ก"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Cayman Islands)"</item>
+		<item>"Georgetown (Ascension Island)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala City"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"ฮานอย"</item>
+		<item>"ฮาราเร"</item>
+		<item>"ฮาวานา"</item>
+		<item>"เฮลซิงกิ"</item>
+		<item>"โฮเนียรา"</item>
+		<item>"อิสรามาบัด"</item>
+		<item>"จาการ์ตา"</item>
+		<item>"Jamestown"</item>
+		<item>"เยรูซาเลม"</item>
+		<item>"Juba"</item>
+		<item>"คาบูล"</item>
+		<item>"Kampala"</item>
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<item>"Khartoum"</item>
+		<item>"เคียฟ"</item>
+		<item>"Kigali"</item>
+		<item>"Kingston (Jamaica)"</item>
+		<item>"Kingston (Norfolk Island)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"กัวลาลัมเปอร์"</item>
+		<item>"คูเวต"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"ลิมา"</item>
+		<item>"Lisbon"</item>
+		<item>"Ljubljana"</item>
+		<item>"โลม"</item>
+		<item>"ลอนดอน"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxembourg"</item>
+		<item>"มาดริด"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"มาลี"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"มะนิลา"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"เม็กซิโก"</item>
+		<item>"มินสก์"</item>
+		<item>"Mogadishu"</item>
+		<item>"โมนาโค"</item>
+		<item>"Monrovia"</item>
+		<item>"มอนเตวิเดโอ"</item>
+		<item>"Moroni"</item>
+		<item>"มอสโก"</item>
+		<item>"Muscat"</item>
+		<item>"ไนโรบี"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"นิวเดลี"</item>
+		<item>"Niamey"</item>
+		<item>"Nicosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"นุค"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"ปานามา"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"ปารีส"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"พอร์ตอูปรินซ์"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Prague"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Pristina"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"เรคยาวิก"</item>
+		<item>"Riga"</item>
+		<item>"Riyadh"</item>
+		<item>"Road Town"</item>
+		<item>"โรม"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"ซาราเจโว"</item>
+		<item>"โซล"</item>
+		<item>"สิงคโปร์"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"สต๊อคโฮม"</item>
+		<item>"Sucre"</item>
+		<item>"ไทเป"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Tashkent"</item>
+		<item>"ทบิลีซี"</item>
+		<item>"ทิมภู"</item>
+		<item>"Tirana"</item>
+		<item>"โตเกียว"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunis"</item>
+		<item>"Ulan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatican City"</item>
+		<item>"Victoria"</item>
+		<item>"เวียนนา"</item>
+		<item>"เวียนเถียน"</item>
+		<item>"Vilnius"</item>
+		<item>"วอซอร์"</item>
+		<item>"วอชิงตัน ดีซี"</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"วินด์ฮุก"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"เยเรวาน"</item>
+		<item>"โบลิเวีย"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"อาซุนซีออน"</item>
+		<item>"ลาปาซ"</item>
+		<item>"Khabarovsk"</item>
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<item>"อะนาดีร์"</item>
+		<item>"ซามาร่า"</item>
+		<item>"เมลเบิร์น"</item>
+		<item>"เซนต์ปีเตอร์สเบิร์ก"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrakhan"</item>
+		<item>"Izhevsk"</item>
+		<item>"Ufa"</item>
+		<item>"Chelyabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Chita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"เวลารัสเซียโซน 1"</item>
+		<item>"เวลารัสเซียโซน 2 (มอสโก)"</item>
+		<item>"เวลารัสเซียโซน 3"</item>
+		<item>"เวลารัสเซียโซน 4"</item>
+		<item>"เวลารัสเซียโซน 5"</item>
+		<item>"เวลารัสเซียโซน 6"</item>
+		<item>"เวลารัสเซียโซน 7"</item>
+		<item>"เวลารัสเซียโซน 8"</item>
+		<item>"เวลารัสเซียโซน 9"</item>
+		<item>"เวลารัสเซียโซน 10"</item>
+		<item>"เวลารัสเซียโซน 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"เฮอร์โมซิลโล"</item>
+		<item>"โอจินากา"</item>
+		<item>"กังกุน"</item>
+		<item>"เมริดา"</item>
+		<item>"มอนเตร์เรย์"</item>
+		<item>"มาตาโมรอส"</item>
+		<item>"บันเดอราส เบย์"</item>
+		<item>"มาซาตลัน"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(ไม่ระบุ)"</item>
+		<item>"ช่องใส่ซิม 1"</item>
+		<item>"ช่องใส่ซิม 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"ผู้ใช้เชื่อมต่อ 1 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 2 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 3 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 4 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 5 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 6 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 7 คน"</item>
+		<item>"ผู้ใช้เชื่อมต่อ 8 คน"</item>
+		<item>"ผู้ใช้ 9 ราย"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"ปุ่มกด"</item>
+		<item>"เลือกPIN จากอุปกรณ์รองรับ"</item>
+	</string-array>
+</resources>

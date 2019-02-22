@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for timezone_filters -->
+	<skip />
+	<!-- no translation found for screen_timeout_entries -->
+	<skip />
+	<!-- no translation found for dream_timeout_entries -->
+	<skip />
+	<!-- no translation found for lock_after_timeout_entries -->
+	<skip />
+	<!-- no translation found for entries_font_size -->
+	<skip />
+	<!-- no translation found for wifi_status -->
+	<skip />
+	<!-- no translation found for wifi_status_with_ssid -->
+	<skip />
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<!-- no translation found for wifi_p2p_wps_setup -->
+	<skip />
+	<!-- no translation found for wifi_p2p_status -->
+	<skip />
+	<!-- no translation found for bluetooth_visibility_timeout_entries -->
+	<skip />
+	<!-- no translation found for wifi_signal -->
+	<skip />
+	<!-- no translation found for wifi_sleep_policy_entries -->
+	<skip />
+	<!-- no translation found for wifi_sleep_policy_entries_wifi_only -->
+	<skip />
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"पिछले 30 दिन"</item>
+		<item>"उपयोग चक्र सेट करें..."</item>
+	</string-array>
+	<!-- no translation found for usage_stats_display_order_types -->
+	<skip />
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<!-- no translation found for wifi_peap_phase2_entries -->
+	<skip />
+	<!-- no translation found for wifi_peap_phase2_entries_with_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_phase2_entries -->
+	<skip />
+	<!-- no translation found for wifi_ip_settings -->
+	<skip />
+	<!-- no translation found for wifi_proxy_settings -->
+	<skip />
+	<!-- no translation found for apn_auth_entries -->
+	<skip />
+	<!-- no translation found for apn_protocol_entries -->
+	<skip />
+	<string-array name="bearer_entries">
+		<item>"अनिर्दिष्ट"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries -->
+	<skip />
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<!-- no translation found for app_install_location_entries -->
+	<skip />
+	<!-- no translation found for app_ops_categories -->
+	<skip />
+	<string-array name="app_ops_summaries">
+		<item>"अस्पष्ट स्थान"</item>
+		<item>"सटीक स्थान"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"कंपन"</item>
+		<item>"संपर्क पढ़ें"</item>
+		<item>"संपर्कों को बदलें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read call log"</item>
+		<item>"कॉल लॉग बदलें"</item>
+		<item>"कैलेंडर पढ़ें"</item>
+		<item>"कैलेंडर बदलें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Wi-Fi scan"</item>
+		<item>"नोटिफिकेशन"</item>
+		<item>"सेल स्कैन"</item>
+		<item>"फ़ोन पर कॉल करें"</item>
+		<item>"SMS पढ़ें"</item>
+		<item>"SMS लिखें"</item>
+		<item>"SMS प्राप्त करें"</item>
+		<item>"आपातकालीन SMS प्राप्त करें"</item>
+		<item>"MMS प्राप्त करें"</item>
+		<item>"WAP पुश प्राप्त करें"</item>
+		<item>"SMS भेजें"</item>
+		<item>"ICC SMS पढ़ें"</item>
+		<item>"ICC SMS लिखें"</item>
+		<item>"सेटिंग बदलें"</item>
+		<item>"ऊपर बनाएं"</item>
+		<item>"नोटिफिकेशन को एक्सेस करें"</item>
+		<item>"कैमरा"</item>
+		<item>"ऑडियो रिकॉर्ड करें"</item>
+		<item>"ऑडियो चलाएं"</item>
+		<item>"क्लिपबोर्ड पढ़ें"</item>
+		<item>"क्लिपबोर्ड बदलें"</item>
+		<item>"मीडिया बटन"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"audio focus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"master volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"voice volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"ring volume"</item>
+		<item>"मीडिया वॉल्‍यूम"</item>
+		<item>"अलार्म आवाज़"</item>
+		<item>"नोटिफिकेशन वॉल्‍यूम"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bluetooth volume"</item>
+		<item>"सचेत रखें"</item>
+		<item>"मॉनिटर का स्थान"</item>
+		<item>"उच्च पावर वाले स्थान की निगरानी करें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get usage stats"</item>
+		<item>"माइक्रोफ़ोन म्यूट/अनम्यूट करें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"show toast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist structure"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist screenshot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fingerprint"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"body sensors"</item>
+		<item>"सेल प्रसारण पढ़ें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"accessibility volume"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vibrate"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read contacts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify contacts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read call log"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify call log"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Post notification"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Call phone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receive SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Send SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write SMS/MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify settings"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Draw on top"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Access notifications"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Camera"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Record audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Play audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read clipboard"</item>
+		<item>"क्लिपबोर्ड बदलें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Media buttons"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Audio focus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Master volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Voice volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ring volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Media volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Alarm volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Notification volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bluetooth volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Keep awake"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get usage stats"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mute/unmute microphone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show toast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Project media"</item>
+		<item>"वॉलपेपर पर लिखें"</item>
+		<item>"सहायक संरचना"</item>
+		<item>"सहायक स्क्रीनशॉट"</item>
+		<item>"सहायक स्क्रीनशॉट"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read phone state"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Add voicemail"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Use sip"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Process outgoing call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fingerprint"</item>
+		<item>"शरीर संवेदक"</item>
+		<item>"सेल प्रसारण पढ़ें"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mock location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Write storage"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Turn on screen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Get accounts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Run in background"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accessibility volume"</item>
+	</string-array>
+	<!-- no translation found for long_press_timeout_selector_titles -->
+	<skip />
+	<!-- no translation found for captioning_typeface_selector_titles -->
+	<skip />
+	<!-- no translation found for captioning_font_size_selector_titles -->
+	<skip />
+	<string-array name="captioning_edge_type_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Default"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"None"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Outline"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Drop shadow"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Raised"</item>
+		<item>"संक्षिप्त"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<!-- no translation found for captioning_preset_selector_titles -->
+	<skip />
+	<!-- no translation found for vpn_types_long -->
+	<skip />
+	<!-- no translation found for vpn_states -->
+	<skip />
+	<!-- no translation found for security_settings_premium_sms_values -->
+	<skip />
+	<!-- no translation found for ram_states -->
+	<skip />
+	<!-- no translation found for proc_stats_memory_states -->
+	<skip />
+	<!-- no translation found for proc_stats_process_states -->
+	<skip />
+	<!-- no translation found for color_picker -->
+	<skip />
+	<!-- no translation found for tcl_color_picker -->
+	<skip />
+	<!-- no translation found for automatic_storage_management_days -->
+	<skip />
+	<!-- no translation found for hdcp_checking_titles -->
+	<skip />
+	<!-- no translation found for hdcp_checking_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_versions -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_version_values -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_sample_rate_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_bits_per_sample_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_channel_mode_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_summaries -->
+	<skip />
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_summaries -->
+	<skip />
+	<!-- no translation found for select_logpersist_titles -->
+	<skip />
+	<!-- no translation found for select_logpersist_summaries -->
+	<skip />
+	<string-array name="window_animation_scale_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Animation off"</item>
+		<item>"एनिमेशन स्‍केल .5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1.5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 2x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Animation off"</item>
+		<item>"एनिमेशन स्‍केल .5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1.5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 2x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Animation off"</item>
+		<item>"एनिमेशन स्‍केल .5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1.5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 2x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 10x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"None"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"480p"</item>
+		<item>"480p (सुरक्षित)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"720p"</item>
+		<item>"720p (सुरक्षित)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"1080p"</item>
+		<item>"1080p (सुरक्षित)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (सुरक्षित)"</item>
+		<item>"4K (बेहतर)"</item>
+		<item>"4K (बेहतर, सुरक्षित)"</item>
+		<item>"720p, 1080p (ड्यूअल स्‍क्रीन)"</item>
+	</string-array>
+	<!-- no translation found for enable_opengl_traces_entries -->
+	<skip />
+	<!-- no translation found for show_non_rect_clip_entries -->
+	<skip />
+	<!-- no translation found for track_frame_time_entries -->
+	<skip />
+	<!-- no translation found for debug_hw_overdraw_entries -->
+	<skip />
+	<!-- no translation found for debug_hw_renderer_entries -->
+	<skip />
+	<!-- no translation found for app_process_limit_entries -->
+	<skip />
+	<string-array name="usb_configuration_titles">
+		<item>"केवल चार्ज कर रहा है"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"MTP (Media Transfer Protocol)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"PTP (Picture Transfer Protocol)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"RNDIS (USB Ethernet)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Audio Source"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<!--inherit from sourcecode xml-->
+		<item>"Default"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Data"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Call"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Message"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Home"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Work"</item>
+		<item>"यात्रा"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Love"</item>
+	</string-array>
+	<!-- no translation found for service_title -->
+	<skip />
+	<!-- no translation found for service_sim_choices -->
+	<skip />
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_default -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<!--inherit from sourcecode xml-->
+		<item>"Automatic 4G/3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Only 4G"</item>
+		<item>"केवल 3G"</item>
+		<item>"केवल 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM (auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"UMTS/GSM (auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"LTE only"</item>
+		<item>"केवल UMTS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"GSM only"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type3 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type4 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type6 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type7 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM ऑटो"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA only"</item>
+		<item>"WCDMA/GSM ऑटो"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type9 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type10 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type12 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM ऑटो"</item>
+		<item>"UMTS/GSM ऑटो"</item>
+		<item>"केवल UMTS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"GSM only"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<!--inherit from sourcecode xml-->
+		<item>"4G/3G/2G (Auto)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"3G/2G (Auto)"</item>
+		<item>"केवल 4G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"3G only"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"2G only"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS/GSM (LTE preferred)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/2G (WCDMA Preferred)"</item>
+		<item>"केवल 3G"</item>
+		<item>"केवल 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/UMTS (LTE Preferred)"</item>
+		<item>"केवल 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type16 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type18 -->
+	<skip />
+	<string-array name="timezone_label_new">
+		<item>"मिडवे आईलैंड"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hawaii"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Alaska"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pacific Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tijuana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Arizona"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chihuahua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mountain Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Central America"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Central Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saskatchewan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Eastern Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Venezuela"</item>
+		<item>"अटलांटिक समय (बारबाडोस)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Atlantic Time (Canada)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manaus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Newfoundland"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mid-Atlantic"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Azores"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cape Verde Islands"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Casablanca"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"W. Africa Time"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Amman, Jordan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Istanbul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Beirut, Lebanon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tehran"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ural\'sk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yekaterinburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kolkata"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kathmandu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yangon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Krasnoyarsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bangkok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hong Kong"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Irkutsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Perth"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Osaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yakutsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Adelaide"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Darwin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brisbane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hobart"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sydney"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vladivostok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Magadan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Auckland"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fiji"</item>
+		<item>"पराग्‍वे"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Abu Dhabi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Abuja"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Accra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Adamstown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Addis Ababa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Algiers"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Alofi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Amsterdam"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Andorra la Vella"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ankara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Antananarivo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ashgabat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asmara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Astana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Athens"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Avarua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Baghdad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Baku"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bamako"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bandar Seri Begawan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Zagreb"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bangui"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Banjul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Basseterre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Beijing"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belfast"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belgrade"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Belmopan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Berlin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bern"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bishkek"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bissau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bogota"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brasilia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bratislava"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brazzaville"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bridgetown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Brussels"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bucharest"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Budapest"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Buenos Aires"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bujumbura"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cairo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Canberra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cardiff"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Castries"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cayenne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Charlotte Amalie"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chisinau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cockburn Town"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Conakry"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Copenhagen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dakar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dhaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dili"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Djibouti"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dodoma"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Doha"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Douglas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dubai"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dublin"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Dushanbe"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Edinburgh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Edinburgh of the Seven Seas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Flying Fish Cove"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Freetown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Funafuti"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gaborone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"George Town (Cayman Islands)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Georgetown (Ascension Island)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Georgetown (Guyana)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gibraltar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Grytviken"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Guatemala City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Gustavia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hagatna"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hamilton"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hanga Roa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Hanoi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Harare"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Havana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Helsinki"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Honiara"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Islamabad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jakarta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jamestown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Jerusalem"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Juba"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kabul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kampala"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Karachi"</item>
+		<item>"आपिया"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Khartoum"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kiev"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kigali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingston (Jamaica)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingston (Norfolk Island)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kingstown"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kinshasa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kuala Lumpur"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kuwait"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Libreville"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lilongwe"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lima"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lisbon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ljubljana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"London"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Luanda"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Lusaka"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Luxembourg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Madrid"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Majuro"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Malabo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Male"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Managua"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manama"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manila"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Maputo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Marigot"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Maseru"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mata-Utu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mbabane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melekeok"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mexico City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Minsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mogadishu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Monaco"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Monrovia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Montevideo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moroni"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Moscow"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Muscat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nairobi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nassau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Naypyidaw"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"N\'Djamena"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"New Delhi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Niamey"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nicosia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nouakchott"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Noumea"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Nuku alofa"</item>
+		<item>"नूक"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Oranjestad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Oslo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ottawa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ouagadougou"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pago Pago"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Palikir"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Panama City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Papeete"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paramaribo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Paris"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Philipsburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Phnom Penh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Plymouth"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Podgorica"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Louis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Moresby"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port Vila"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port-au-Prince"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Port of Spain"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Porto-Novo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Prague"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Praia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pretoria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pristina"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Pyongyang"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Quito"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Rabat"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Reykjavik"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Riga"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Riyadh"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Road Town"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Rome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Roseau"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saipan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Jose"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Juan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Marino"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"San Salvador"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Santiago"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Santo Domingo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sao Tome"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sarajevo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Seoul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Singapore"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Skopje"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sofia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. George\'s"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Helier"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. John\'s"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Peter Port"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"St. Pierre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stanley"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stockholm"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Sucre"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Taipei"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tallinn"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tarawa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tashkent"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tbilisi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Thimphu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tirana"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tokyo"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Torshavn"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tripoli"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Tunis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan Bator"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vaduz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Valletta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"The Valley"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vatican City"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Victoria"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vienna"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vientiane"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vilnius"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Warsaw"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Washington, D.C."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Wellington"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"West Island"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Willemstad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Windhoek"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yamoussoukro"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yaounde"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yaren"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yerevan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Bolivia"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Novosibirsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Kaliningrad"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Asuncion"</item>
+		<item>"ला पाज़"</item>
+		<item>"खाबारोव्‍स्‍क"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Yuzhno-Sakhalinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Severo-Kurilsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Petropavlovsk-Kamchatsky"</item>
+		<item>"अनादिर"</item>
+		<item>"समारा"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Melbourne"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Saint Petersburg"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Volgograd"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Astrakhan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Izhevsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ufa"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chelyabinsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Omsk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Barnaul"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Ulan-Ude"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Chita"</item>
+	</string-array>
+	<!-- no translation found for russian_timezonename -->
+	<skip />
+	<!-- no translation found for timezone_label_ATT -->
+	<skip />
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<!-- no translation found for sim_slot -->
+	<skip />
+	<!-- no translation found for wifi_ap_max_connection_entries -->
+	<skip />
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<!-- no translation found for wifi_ap_wps_mode_entries -->
+	<skip />
+</resources>

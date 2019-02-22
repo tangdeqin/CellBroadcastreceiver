@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for timezone_filters -->
+	<skip />
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekúndur"</item>
+		<item>"30 sekúndur"</item>
+		<item>"1 mínúta"</item>
+		<item>"2 mínútur"</item>
+		<item>"5 mínútur"</item>
+		<item>"10 mínútur"</item>
+		<item>"30 mínútur"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Never"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Never"</item>
+		<item>"15 sekúndur"</item>
+		<item>"30 sekúndur"</item>
+		<item>"1 mínúta"</item>
+		<item>"2 mínútur"</item>
+		<item>"5 mínútur"</item>
+		<item>"10 mínútur"</item>
+		<item>"30 mínútur"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Immediately"</item>
+		<item>"5 sekúndur"</item>
+		<item>"15 sekúndur"</item>
+		<item>"30 sekúndur"</item>
+		<item>"1 mínúta"</item>
+		<item>"2 mínútur"</item>
+		<item>"5 mínútur"</item>
+		<item>"10 mínútur"</item>
+		<item>"30 mínútur"</item>
+	</string-array>
+	<!-- no translation found for entries_font_size -->
+	<skip />
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<!--inherit from sourcecode xml-->
+		<item>"Scanning..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connecting..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Authenticating\u2026"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Obtaining IP address..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connected"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Suspended"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnecting..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnected"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Unsuccessful"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Blocked"</item>
+		<item>"Forðast lélega tengingu tímabundið"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<!--inherit from sourcecode xml-->
+		<item>"Scanning..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Connecting to <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Authenticating with <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Obtaining IP address from <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<item>"Tengt við <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Suspended"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnecting from <xliff:g id="network_name">%1$s</xliff:g>..."</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Disconnected"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Unsuccessful"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Blocked"</item>
+		<item>"Forðast lélega tengingu tímabundið"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Hnappur"</item>
+		<item>"PIN-númer úr tengdu tæki"</item>
+		<item>"PIN frá þessu tæki"</item>
+	</string-array>
+	<!-- no translation found for wifi_p2p_status -->
+	<skip />
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 mínútur"</item>
+		<item>"5 mínútur"</item>
+		<item>"1 klukkustund"</item>
+		<item>"Renna aldrei út á tíma"</item>
+	</string-array>
+	<!-- no translation found for wifi_signal -->
+	<skip />
+	<!-- no translation found for wifi_sleep_policy_entries -->
+	<skip />
+	<!-- no translation found for wifi_sleep_policy_entries_wifi_only -->
+	<skip />
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Síðustu 30 dagar"</item>
+		<item>"Velja notkunartímabil..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Notkunartími"</item>
+		<item>"Síðast notað"</item>
+		<item>"Heiti forrits"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<!-- no translation found for wifi_peap_phase2_entries -->
+	<skip />
+	<!-- no translation found for wifi_peap_phase2_entries_with_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_phase2_entries -->
+	<skip />
+	<!-- no translation found for wifi_ip_settings -->
+	<skip />
+	<string-array name="wifi_proxy_settings">
+		<!--inherit from sourcecode xml-->
+		<item>"None"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Manual"</item>
+		<item>"Sjálfstilling proxy-þjóns"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"None"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP eða CHAP"</item>
+	</string-array>
+	<!-- no translation found for apn_protocol_entries -->
+	<skip />
+	<!-- no translation found for bearer_entries -->
+	<skip />
+	<!-- no translation found for mvno_type_entries -->
+	<skip />
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Innbyggð geymsla tækis"</item>
+		<item>"Laust SD-kort"</item>
+		<item>"Leyfa kerfinu að ráða"</item>
+	</string-array>
+	<!-- no translation found for app_ops_categories -->
+	<skip />
+	<string-array name="app_ops_summaries">
+		<!--inherit from sourcecode xml-->
+		<item>"coarse location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fine location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<!--inherit from sourcecode xml-->
+		<item>"vibrate"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read contacts"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify contacts"</item>
+		<item>"lesa símtalaskrá"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify call log"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read calendar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify calendar"</item>
+		<item>"wi-fi leit"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"cell scan"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"call phone"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive emergency SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive MMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"receive WAP push"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"send SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read ICC SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write ICC SMS"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify settings"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"draw on top"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"access notifications"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"camera"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"record audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"play audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read clipboard"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"modify clipboard"</item>
+		<item>"margmiðlunarhnappar"</item>
+		<item>"fókus hljóðs"</item>
+		<item>"meginhljóðstyrkur"</item>
+		<item>"hljóðstyrkur raddar"</item>
+		<item>"hljóðstyrkur hringingar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"media volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"alarm volume"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"notification volume"</item>
+		<item>"Hljóðstyrkur Bluetooth"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"keep awake"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"monitor high power location"</item>
+		<item>"fá talnagögn um notkun"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"mute/unmute microphone"</item>
+		<item>"sýna tilkynningu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"project media"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"activate VPN"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"write wallpaper"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"assist structure"</item>
+		<item>"aðstoða við skjámynd"</item>
+		<item>"lesa stöðu síma"</item>
+		<item>"bæta við talhólfi"</item>
+		<item>"nota SIP"</item>
+		<item>"vinna úr hringdu símtali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"fingerprint"</item>
+		<item>"líkamsskynjarar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"read cell broadcasts"</item>
+		<item>"gervistaðsetning"</item>
+		<item>"lesa geymslu"</item>
+		<item>"skrifa í geymslu"</item>
+		<item>"kveikja á skjánum"</item>
+		<item>"fá reikninga"</item>
+		<item>"keyra í bakgrunni"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"accessibility volume"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Vibrate"</item>
+		<item>"Lesa tengiliði"</item>
+		<item>"Breyta tengiliðum"</item>
+		<item>"Lesa símtalaskrá"</item>
+		<item>"Breyta símtalaskrá"</item>
+		<item>"Lesa dagatal"</item>
+		<item>"Breyta dagatali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<item>"Færslutilkynning"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<item>"Hringja í síma"</item>
+		<item>"Lesa SMS/MMS"</item>
+		<item>"Skrifa SMS/MMS"</item>
+		<item>"Taka á móti SMS/MMS"</item>
+		<item>"Taka á móti SMS/MMS"</item>
+		<item>"Taka á móti SMS/MMS"</item>
+		<item>"Taka á móti SMS/MMS"</item>
+		<item>"Senda SMS/MMS"</item>
+		<item>"Lesa SMS/MMS"</item>
+		<item>"Skrifa SMS/MMS"</item>
+		<item>"Breyta stillingum"</item>
+		<item>"Teikna yfir"</item>
+		<item>"Opna tilkynningar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Camera"</item>
+		<item>"Taka upp hljóð"</item>
+		<item>"Spila hljóð"</item>
+		<item>"Lesa klippiborð"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Modify clipboard"</item>
+		<item>"Margmiðlunarhnappar"</item>
+		<item>"Fókus hljóðs"</item>
+		<item>"Meginhljóðstyrkur"</item>
+		<item>"Hljóðstyrkur raddar"</item>
+		<item>"Hljóðstyrkur hringingar"</item>
+		<item>"Hljóðstyrkur efnisspilunar"</item>
+		<item>"Hljóðstyrkur vekjara"</item>
+		<item>"Hljóðstyrkur tilkynninga"</item>
+		<item>"Hljóðstyrkur Bluetooth"</item>
+		<item>"Halda vakandi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Location"</item>
+		<item>"Fá talnagögn um notkun"</item>
+		<item>"Kveikja/slökkva á hljóðnema"</item>
+		<item>"Sýna tilkynningu"</item>
+		<item>"Margmiðlunarefni verkefnis"</item>
+		<item>"Virkja VPN"</item>
+		<item>"Skrifa veggfóður"</item>
+		<item>"Aðstoða við uppbyggingu"</item>
+		<item>"Aðstoða við skjámynd"</item>
+		<item>"Lesa stöðu síma"</item>
+		<item>"Bæta við talhólfi"</item>
+		<item>"Nota SIP"</item>
+		<item>"Vinna úr hringdu símtali"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Fingerprint"</item>
+		<item>"Líkamsskynjarar"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Read cell broadcasts"</item>
+		<item>"Gervistaðsetning"</item>
+		<item>"Lesa geymslu"</item>
+		<item>"Skrifa í geymslu"</item>
+		<item>"Kveikja á skjánum"</item>
+		<item>"Fá reikninga"</item>
+		<item>"Keyra í bakgrunni"</item>
+		<item>"Hljóðstyrkur aðgengis"</item>
+	</string-array>
+	<!-- no translation found for long_press_timeout_selector_titles -->
+	<skip />
+	<string-array name="captioning_typeface_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Default"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Þjappað sans-serif"</item>
+		<item>"Sans-serif jafnbreitt"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Serif"</item>
+		<item>"Serif jafnbreitt"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Casual"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Cursive"</item>
+		<item>"Litlir hástafir"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Mjög lítið"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Small"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Normal"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Large"</item>
+		<item>"Mjög stórt"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Default"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"None"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Outline"</item>
+		<item>"Skuggi"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Raised"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Depressed"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Nota sjálfgildi forrits"</item>
+		<item>"Hvítt á svörtu"</item>
+		<item>"Svart á hvítu"</item>
+		<item>"Gult á svörtu"</item>
+		<item>"Gult á bláu"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Custom"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>"L2TP/IPSec VPN with pre-shared keys"</item>
+		<item>"L2TP/IPSec VPN með vottorðum"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"IPSec VPN with pre-shared keys and Xauth authentication"</item>
+		<item>"IPSec VPN með vottorðum og Xauth-staðfestingu"</item>
+		<item>"IPSec VPN með vottorðum og blandaðri staðfestingu"</item>
+	</string-array>
+	<!-- no translation found for vpn_states -->
+	<skip />
+	<string-array name="security_settings_premium_sms_values">
+		<!--inherit from sourcecode xml-->
+		<item>"Ask"</item>
+		<item>"Leyfa aldrei"</item>
+		<item>"Leyfa alltaf"</item>
+	</string-array>
+	<!-- no translation found for ram_states -->
+	<skip />
+	<!-- no translation found for proc_stats_memory_states -->
+	<skip />
+	<string-array name="proc_stats_process_states">
+		<!--inherit from sourcecode xml-->
+		<item>"Persistent"</item>
+		<item>"Mesta virkni"</item>
+		<item>"Mikilvægt (forgrunnur)"</item>
+		<item>"Mikilvægt (bakgrunnur)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Backup"</item>
+		<item>"Þung vinnsla"</item>
+		<item>"Þjónusta (í gangi)"</item>
+		<item>"Þjónusta (endurræsist)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Receiver"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Home"</item>
+		<item>"Síðasta virkni"</item>
+		<item>"Í skyndiminni (virkni)"</item>
+		<item>"Í skyndiminni (virknibiðlari)"</item>
+		<item>"Í skyndiminni (autt)"</item>
+	</string-array>
+	<!-- no translation found for color_picker -->
+	<skip />
+	<!-- no translation found for tcl_color_picker -->
+	<skip />
+	<string-array name="automatic_storage_management_days">
+		<item>"Eldri en 30 daga"</item>
+		<item>"Eldri en 60 daga"</item>
+		<item>"Eldri en 90 daga"</item>
+	</string-array>
+	<!-- no translation found for hdcp_checking_titles -->
+	<skip />
+	<!-- no translation found for hdcp_checking_summaries -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_versions -->
+	<skip />
+	<!-- no translation found for bluetooth_avrcp_version_values -->
+	<skip />
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<!--inherit from sourcecode xml-->
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Gera valfrjálsa kóðara virka"</item>
+		<item>"Gera valfrjálsa kóðara óvirka"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<!--inherit from sourcecode xml-->
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Gera valfrjálsa kóðara virka"</item>
+		<item>"Gera valfrjálsa kóðara óvirka"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"44.1 kHz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"48.0 kHz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"88.2 kHz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"44.1 kHz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"48.0 kHz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"88.2 kHz"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"96.0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<item>"16 bitar/úrtak"</item>
+		<item>"24 bitar/úrtak"</item>
+		<item>"32 bitar/úrtak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<item>"16 bitar/úrtak"</item>
+		<item>"24 bitar/úrtak"</item>
+		<item>"32 bitar/úrtak"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mono"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Nota val kerfisins (sjálfgefið)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Mono"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Stereo"</item>
+	</string-array>
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_titles -->
+	<skip />
+	<!-- no translation found for bluetooth_a2dp_codec_ldac_playback_quality_summaries -->
+	<skip />
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_summaries -->
+	<skip />
+	<string-array name="select_logpersist_titles">
+		<!--inherit from sourcecode xml-->
+		<item>"Off"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"All"</item>
+		<item>"Allt n. útvarp"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"kernel only"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<!--inherit from sourcecode xml-->
+		<item>"Off"</item>
+		<item>"Allt biðminni"</item>
+		<item>"Allt nema útvarpsbiðminni"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"kernel log buffer only"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Animation off"</item>
+		<item>"Lengd hreyfiáhrifa 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1.5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 2x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Animation off"</item>
+		<item>"Lengd hreyfiáhrifa 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1.5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 2x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Animation off"</item>
+		<item>"Lengd hreyfiáhrifa 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 1.5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 2x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 5x"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Animation scale 10x"</item>
+	</string-array>
+	<!-- no translation found for overlay_display_devices_entries -->
+	<skip />
+	<!-- no translation found for enable_opengl_traces_entries -->
+	<skip />
+	<!-- no translation found for show_non_rect_clip_entries -->
+	<skip />
+	<!-- no translation found for track_frame_time_entries -->
+	<skip />
+	<string-array name="debug_hw_overdraw_entries">
+		<!--inherit from sourcecode xml-->
+		<item>"Off"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"Show overdraw areas"</item>
+		<item>"Sýna svæði fyrir litblinda"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (sjálfgefið)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<!-- no translation found for app_process_limit_entries -->
+	<skip />
+	<!-- no translation found for usb_configuration_titles -->
+	<skip />
+	<!-- no translation found for icontype_picker -->
+	<skip />
+	<!-- no translation found for service_title -->
+	<skip />
+	<!-- no translation found for service_sim_choices -->
+	<skip />
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_default -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_latam -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_russian -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type3 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type4 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type6 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type7 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type8 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type9 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type10 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type12 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_russian1 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type14 -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type15_default -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_2006N -->
+	<skip />
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<!-- no translation found for preferred_network_mode_choices_custom_type16 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<!--inherit from sourcecode xml-->
+		<item>"LTE/WCDMA/GSM (auto connect)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"WCDMA/GSM (auto connect)"</item>
+		<item>"WCDMA eingöngu"</item>
+	</string-array>
+	<!-- no translation found for timezone_label_new -->
+	<skip />
+	<!-- no translation found for russian_timezonename -->
+	<skip />
+	<!-- no translation found for timezone_label_ATT -->
+	<skip />
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<!-- no translation found for sim_slot -->
+	<skip />
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 notandi"</item>
+		<item>"2 notendur"</item>
+		<item>"3 notendur"</item>
+		<item>"4 notendur"</item>
+		<item>"5 notendur"</item>
+		<item>"6 notendur"</item>
+		<item>"7 notendur"</item>
+		<item>"8 notendur"</item>
+		<item>"9 notendur"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Hnappur"</item>
+		<item>"PIN-númer frá þjóni"</item>
+	</string-array>
+</resources>

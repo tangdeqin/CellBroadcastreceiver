@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Europa"</item>
+		<item>"Afrika"</item>
+		<item>"Asia"</item>
+		<item>"Australia"</item>
+		<item>"Stillehavet"</item>
+		<item>"Alle"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sekunder"</item>
+		<item>"30 sekunder"</item>
+		<item>"1 minutt"</item>
+		<item>"2 minutter"</item>
+		<item>"5 minutter"</item>
+		<item>"10 minutter"</item>
+		<item>"30 minutter"</item>
+		<item>"Aldri"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"Aldri"</item>
+		<item>"15 sekunder"</item>
+		<item>"30 sekunder"</item>
+		<item>"1 minutt"</item>
+		<item>"2 minutter"</item>
+		<item>"5 minutter"</item>
+		<item>"10 minutter"</item>
+		<item>"30 minutter"</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Umiddelbart"</item>
+		<item>"5 sekunder"</item>
+		<item>"15 sekunder"</item>
+		<item>"30 sekunder"</item>
+		<item>"1 minutt"</item>
+		<item>"2 minutter"</item>
+		<item>"5 minutter"</item>
+		<item>"10 minutter"</item>
+		<item>"30 minutter"</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Liten"</item>
+		<item>"Standard"</item>
+		<item>"Stor"</item>
+		<item>"Størst"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Søker ..."</item>
+		<item>"Kobler til..."</item>
+		<item>"Godkjenner ..."</item>
+		<item>"Henter IP-adresse \u2026"</item>
+		<item>"Tilkoblet"</item>
+		<item>"Stanset midlertidig"</item>
+		<item>"Kobler fra..."</item>
+		<item>"Koblet fra"</item>
+		<item>"Mislykket"</item>
+		<item>"Blokkert"</item>
+		<item>"Unngår dårlig forbindelse midlertidig"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Søker …"</item>
+		<item>"Kobler til <xliff:g id="network_name">%1$s</xliff:g> …"</item>
+		<item>"Godkjenner med <xliff:g id="network_name">%1$s</xliff:g> …"</item>
+		<item>"Henter IP-adresse fra <xliff:g id="network_name">%1$s</xliff:g> …"</item>
+		<item>"Koblet til <xliff:g id="network_name">%1$s</xliff:g>"</item>
+		<item>"Stanset midlertidig"</item>
+		<item>"Kobler fra <xliff:g id="network_name">%1$s</xliff:g> …"</item>
+		<item>"Koblet fra"</item>
+		<item>"Mislykket"</item>
+		<item>"Blokkert"</item>
+		<item>"Unngår dårlig forbindelse midlertidig"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Knapp"</item>
+		<item>"PIN-kode fra motpart"</item>
+		<item>"PIN fra denne enh."</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Tilkoblet"</item>
+		<item>"Invitert"</item>
+		<item>"Mislykket"</item>
+		<item>"Tilgjengelig"</item>
+		<item>"Utenfor rekkevidde"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 minutter"</item>
+		<item>"5 minutter"</item>
+		<item>"1 time"</item>
+		<item>"Aldri tidsavbrudd"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Dårlig"</item>
+		<item>"Dårlig"</item>
+		<item>"OK"</item>
+		<item>"God"</item>
+		<item>"Utmerket"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Alltid"</item>
+		<item>"Kun når tilkoblet"</item>
+		<item>"Aldri"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Alltid"</item>
+		<item>"Bare når tilkoblet strøm"</item>
+		<item>"Aldri"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Siste 30 dager"</item>
+		<item>"Angi bruksyklus..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Brukstid"</item>
+		<item>"Sist brukt"</item>
+		<item>"Navn på app"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Ingen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Ingen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Ingen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statisk"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Ingen"</item>
+		<item>"Manuelt"</item>
+		<item>"Automatisk konfigurasjon av proxy"</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Ingen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP eller CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Uspesifisert"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Ingen"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Intern enhetslagring"</item>
+		<item>"Flyttbart SD-kort"</item>
+		<item>"La systemet avgjøre"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Adresse"</item>
+		<item>"PERSONLIG"</item>
+		<item>"Meldinger"</item>
+		<item>"Medier"</item>
+		<item>"Enhet"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"anslått posisjon"</item>
+		<item>"nøyaktig posisjon"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"Vibrer"</item>
+		<item>"les kontakter"</item>
+		<item>"Skriv/slett kontakter"</item>
+		<item>"les anropslogg"</item>
+		<item>"Skriv/slett anropslogg"</item>
+		<item>"les kalender"</item>
+		<item>"Skriv/slett kalender"</item>
+		<item>"wi-fi-søk"</item>
+		<item>"Varslingsvolum"</item>
+		<item>"mobiltelefonsøk"</item>
+		<item>"ring til telefon"</item>
+		<item>"les SMS"</item>
+		<item>"Skriv/slett SMS"</item>
+		<item>"motta SMS"</item>
+		<item>"motta nød-SMS"</item>
+		<item>"motta MMS"</item>
+		<item>"motta WAP-push"</item>
+		<item>"Send SMS"</item>
+		<item>"les ICC SMS"</item>
+		<item>"Skriv/slett ICC SMS"</item>
+		<item>"endre innstillinger"</item>
+		<item>"tegn øverst"</item>
+		<item>"varseltilgang"</item>
+		<item>"Kamera"</item>
+		<item>"ta opp lyd"</item>
+		<item>"spill av lyd"</item>
+		<item>"les utklippstavle"</item>
+		<item>"endre utklippstavle"</item>
+		<item>"Endret Wi-Fi"</item>
+		<item>"lydfokus"</item>
+		<item>"hovedvolum"</item>
+		<item>"talevolum"</item>
+		<item>"Ringevolum"</item>
+		<item>"Medievolum"</item>
+		<item>"Alarmvolum"</item>
+		<item>"Varslingsvolum"</item>
+		<item>"Bluetooth-volum"</item>
+		<item>"Behold våken"</item>
+		<item>"Overvåk plassering"</item>
+		<item>"Overvåk strømkrevende posisjon"</item>
+		<item>"Endret Wi-Fi"</item>
+		<item>"Demp / slå på lyd for mikrofon"</item>
+		<item>"vis toast"</item>
+		<item>"aktivér VPN"</item>
+		<item>"aktiver VPN"</item>
+		<item>"Skriv bakgrunnsbilde"</item>
+		<item>"Hjelp struktur"</item>
+		<item>"Hjelp bakgrunnsbilde"</item>
+		<item>"les telefontilstand"</item>
+		<item>"legge til talepost"</item>
+		<item>"bruk SIP"</item>
+		<item>"Prosesser utgående samtale"</item>
+		<item>"fingeravtrykk"</item>
+		<item>"kroppssensorer"</item>
+		<item>"les kringkastede meldinger"</item>
+		<item>"simuler posisjon"</item>
+		<item>"les lagring"</item>
+		<item>"skriv lagring"</item>
+		<item>"slå på skjerm"</item>
+		<item>"skaff kontoer"</item>
+		<item>"kjør i bakgrunnen"</item>
+		<item>"tilgjengelighetsvolum"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Adresse"</item>
+		<item>"Adresse"</item>
+		<item>"Adresse"</item>
+		<item>"Vibrer"</item>
+		<item>"les kontakter"</item>
+		<item>"Endre kontakter"</item>
+		<item>"les anropslogg"</item>
+		<item>"Endre anropslogg"</item>
+		<item>"les kalender"</item>
+		<item>"Endre kalender"</item>
+		<item>"Adresse"</item>
+		<item>"Send varsel"</item>
+		<item>"Adresse"</item>
+		<item>"ring til telefon"</item>
+		<item>"Les SMS"</item>
+		<item>"Skriv SMS/MMS"</item>
+		<item>"motta SMS"</item>
+		<item>"motta SMS"</item>
+		<item>"motta MMS"</item>
+		<item>"motta SMS"</item>
+		<item>"Send SMS"</item>
+		<item>"Les SMS"</item>
+		<item>"Skriv SMS/MMS"</item>
+		<item>"Endre innstillinger"</item>
+		<item>"Tegn øverst"</item>
+		<item>"Tilgang til varsler"</item>
+		<item>"Kamera"</item>
+		<item>"Ta opp lyd"</item>
+		<item>"Spill av lyd"</item>
+		<item>"Les utklippstavle"</item>
+		<item>"Endre utklippstavle"</item>
+		<item>"Media-knapper"</item>
+		<item>"Audiofokus"</item>
+		<item>"Mastervolum"</item>
+		<item>"Stemmevolum"</item>
+		<item>"Ringevolum"</item>
+		<item>"Medievolum"</item>
+		<item>"Alarmvolum"</item>
+		<item>"Varslingsvolum"</item>
+		<item>"Bluetooth-volum"</item>
+		<item>"Behold våken"</item>
+		<item>"Sted"</item>
+		<item>"Sted"</item>
+		<item>"Hent bruksstatus"</item>
+		<item>"Demp / slå på lyd for mikrofon"</item>
+		<item>"Vis toast"</item>
+		<item>"Prosjektmedier"</item>
+		<item>"Aktiver VPN"</item>
+		<item>"Skriv bakgrunnsbilde"</item>
+		<item>"Hjelp struktur"</item>
+		<item>"Hjelp bakgrunnsbilde"</item>
+		<item>"Les telefontilstand"</item>
+		<item>"Legg til talepost"</item>
+		<item>"Bruk SIP"</item>
+		<item>"Prosesser utgående samtale"</item>
+		<item>"Fingeravtrykk"</item>
+		<item>"Kroppssensorer"</item>
+		<item>"Les kringkastede meldinger"</item>
+		<item>"Simuler posisjon"</item>
+		<item>"Les lagring"</item>
+		<item>"Skriv lagring"</item>
+		<item>"Slå på skjerm"</item>
+		<item>"Skaff kontoer"</item>
+		<item>"Kjør i bakgrunnen"</item>
+		<item>"Tilgjengelighetsvolum"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Kort"</item>
+		<item>"Middels"</item>
+		<item>"Lang"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Standard"</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Komprimert sans-serif"</item>
+		<item>"Sans-serif monospace"</item>
+		<item>"Serif"</item>
+		<item>"Serif monospace"</item>
+		<item>"Uformell"</item>
+		<item>"Kursiv"</item>
+		<item>"Kapitéler"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Svært liten"</item>
+		<item>"Liten"</item>
+		<item>"Normal"</item>
+		<item>"Stor"</item>
+		<item>"Svært stor"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Standard"</item>
+		<item>"Ingen"</item>
+		<item>"Skygger"</item>
+		<item>"Skygger"</item>
+		<item>"Opphøyd"</item>
+		<item>"Nedsenket"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Bruk standardinnstillinger for app"</item>
+		<item>"Hvitt på svart"</item>
+		<item>"Svart på hvitt"</item>
+		<item>"Gult på svart"</item>
+		<item>"Egendefinert"</item>
+		<item>"Egendefinert…"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP/IPSec VPN med forhåndsdelte nøkler"</item>
+		<item>"L2TP/IPSec VPN med sertifikater"</item>
+		<item>"IPSec VPN med forhåndsdelte nøkler og Xauth-godkjenning"</item>
+		<item>"IPSec VPN med sertifikater og Xauth-godkjenning"</item>
+		<item>"IPSec VPN med sertifikater og hybridgodkjenning"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Frakoblet"</item>
+		<item>"Initialiserer…"</item>
+		<item>"Kobler til\u2026"</item>
+		<item>"Tilkoblet"</item>
+		<item>"Tidsavbrudd"</item>
+		<item>"Mislyktes"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Spør"</item>
+		<item>"Aldri tillatt"</item>
+		<item>"Alltid tillatt"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Vanlig"</item>
+		<item>"Moderat"</item>
+		<item>"Lav"</item>
+		<item>"Kritisk"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Normal"</item>
+		<item>"Moderat"</item>
+		<item>"Lav"</item>
+		<item>"Kritisk"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Vedvarende"</item>
+		<item>"Viktigste aktivitet"</item>
+		<item>"Viktig (forgrunnen)"</item>
+		<item>"Viktig (bakgrunnen)"</item>
+		<item>"Sikk.kop"</item>
+		<item>"Stor belastning"</item>
+		<item>"Tjeneste (kjører)"</item>
+		<item>"Tjeneste (startes opp på nytt)"</item>
+		<item>"Mottaker"</item>
+		<item>"Hjemme"</item>
+		<item>"Siste aktivitet"</item>
+		<item>"Bufret (aktivitet)"</item>
+		<item>"Bufret (klient for aktivitet)"</item>
+		<item>"Bufret (tom)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"Blågrønt"</item>
+		<item>"Blå"</item>
+		<item>"Indigo"</item>
+		<item>"Lilla"</item>
+		<item>"Rosa"</item>
+		<item>"Rød"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"Blågrønt"</item>
+		<item>"Blå"</item>
+		<item>"Indigo"</item>
+		<item>"Lilla"</item>
+		<item>"Rosa"</item>
+		<item>"Rød"</item>
+		<item>"Oransje"</item>
+		<item>"Mørkegrønn"</item>
+		<item>"Grønn"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Over 30 dager gammelt"</item>
+		<item>"Over 60 dager gammelt"</item>
+		<item>"Over 90 dager gammelt"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Aldri kontroller"</item>
+		<item>"Se kun etter DRM-innhold"</item>
+		<item>"Kontroller alltid"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Bruk aldri HDCP-kontroll"</item>
+		<item>"Bruk HDCP-kontroll kun for DRM-innhold"</item>
+		<item>"Bruk alltid HDCP-kontroll"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (standard)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Bruk systemvalg (standard)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Aktiver alternative kodeker"</item>
+		<item>"Deaktiver alternative kodeker"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Bruk systemvalg (standard)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™</xliff:g> audio"</item>
+		<item>"<xliff:g id="qualcomm">Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™ HD</xliff:g> audio"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Aktiver alternative kodeker"</item>
+		<item>"Deaktiver alternative kodeker"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Bruk systemvalg (standard)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Bruk systemvalg (standard)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Bruk systemvalg (standard)"</item>
+		<item>"16 biter/prøve"</item>
+		<item>"24 biter/prøve"</item>
+		<item>"32 biter/prøve"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Bruk systemvalg (standard)"</item>
+		<item>"16 biter/prøve"</item>
+		<item>"24 biter/prøve"</item>
+		<item>"32 biter/prøve"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Bruk systemvalg (standard)"</item>
+		<item>"Monokrom"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Bruk systemvalg (standard)"</item>
+		<item>"Monokrom"</item>
+		<item>"Stereo"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Optimalisert for lydkvalitet (990 kbps / 909 kbps)"</item>
+		<item>"Balansert lyd- og tilkoblingskvalitet (660 kbps / 606 kbps)"</item>
+		<item>"Optimalisert for tilkoblingskvalitet (330 kbps / 303 kbps)"</item>
+		<item>"Beste forsøk (dynamisk bithastighet)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Optimalisert for lydkvalitet"</item>
+		<item>"Balansert lyd- og tilkoblingskvalitet"</item>
+		<item>"Optimalisert for tilkoblingskvalitet"</item>
+		<item>"Beste forsøk (dynamisk bithastighet)"</item>
+	</string-array>
+	<string-array name="select_logd_size_titles">
+		<item>"Av"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+		<!--inherit from sourcecode xml-->
+		<item>4M</item>
+		<!--inherit from sourcecode xml-->
+		<item>16M</item>
+	</string-array>
+	<string-array name="select_logd_size_lowram_titles">
+		<item>"Av"</item>
+		<!--inherit from sourcecode xml-->
+		<item>64K</item>
+		<!--inherit from sourcecode xml-->
+		<item>256K</item>
+		<!--inherit from sourcecode xml-->
+		<item>1M</item>
+	</string-array>
+	<string-array name="select_logd_size_summaries">
+		<item>"Av"</item>
+		<item>"64K pr loggbuffer"</item>
+		<item>"256K pr loggbuffer"</item>
+		<item>"1M pr loggbuffer"</item>
+		<item>"4M pr loggbuffer"</item>
+		<item>"16M pr loggbuffer"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Av"</item>
+		<item>"Alle"</item>
+		<item>"Alt utenom radio"</item>
+		<item>"Kun kjerne"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Av"</item>
+		<item>"Alle loggbuffere"</item>
+		<item>"Alt utenom radiologgbuffere"</item>
+		<item>"Kun kjerneloggbuffer"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animasjon av"</item>
+		<item>"Animasjonsskala 0,5x"</item>
+		<item>"Animasjonsskala 1 x"</item>
+		<item>"Animasjonsskala 1,5 x"</item>
+		<item>"Animasjonsskala 2 x"</item>
+		<item>"Animasjonsskala 5 x"</item>
+		<item>"Animasjonsskala 10 x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animasjon av"</item>
+		<item>"Animasjonsskala 0,5x"</item>
+		<item>"Animasjonsskala 1 x"</item>
+		<item>"Animasjonsskala 1,5 x"</item>
+		<item>"Animasjonsskala 2 x"</item>
+		<item>"Animasjonsskala 5 x"</item>
+		<item>"Animasjonsskala 10 x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animasjon av"</item>
+		<item>"Animasjonsskala 0,5x"</item>
+		<item>"Animasjonsskala 1 x"</item>
+		<item>"Animasjonsskala 1,5 x"</item>
+		<item>"Animasjonsskala 2 x"</item>
+		<item>"Animasjonsskala 5 x"</item>
+		<item>"Animasjonsskala 10 x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Ingen"</item>
+		<item>"480p"</item>
+		<item>"480 p (sikker)"</item>
+		<item>"720p"</item>
+		<item>"720p (sikker)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (sikker)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (sikker)"</item>
+		<item>"4K (oppskalert)"</item>
+		<item>"4K (oppskalert, sikker)"</item>
+		<item>"720p, 1080p (dobbelskjerm)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Ingen"</item>
+		<item>"Logcat"</item>
+		<item>"Systrace (Graphics)"</item>
+		<item>"Anropsstakk på glGetError"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Av"</item>
+		<item>"Merk område for ikke-rektangulær klipping blått"</item>
+		<item>"Uthev testede tegnekommandoer med grønt"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Av"</item>
+		<item>"På skjermen som stolper"</item>
+		<item>"I <xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"Av"</item>
+		<item>"Vis overdraw-områder"</item>
+		<item>"Vis områder for defteranomali"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"OpenGL (standard)"</item>
+		<item>"OpenGL (Skia)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standardgrense"</item>
+		<item>"Ingen bakgrunnsprosesser"</item>
+		<item>"Maksimalt én prosess"</item>
+		<item>"Maksimalt to prosesser"</item>
+		<item>"Maksimalt tre prosesser"</item>
+		<item>"Maksimalt fire prosesser"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"Kun lading"</item>
+		<item>"MTP (Mediaoverføringsprotokoll)"</item>
+		<item>"PTP (Bildeoverføringsprotokoll)"</item>
+		<item>"RNDIS (USB-ethernet)"</item>
+		<item>"Lydkilde"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Standard"</item>
+		<item>"Data"</item>
+		<item>"Ring"</item>
+		<item>"Melding"</item>
+		<item>"Startskjerm"</item>
+		<item>"Arbeid"</item>
+		<item>"Reiser"</item>
+		<item>"Kjærlighet"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G/4G-tjeneste"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Av"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Autofokus"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automatisk 4G/3G/2G"</item>
+		<item>"Bare 4G"</item>
+		<item>"Bare 3G"</item>
+		<item>"Bare 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE/UMTS/GSM (auto)"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Kun LTE"</item>
+		<item>"Bare GSM"</item>
+		<item>"Kun GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE/WCDMA/GSM"</item>
+		<item>"WCDMA/GSM"</item>
+		<item>"Kun WCDMA"</item>
+		<item>"Kun GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (foretrukket)/3G/2G"</item>
+		<item>"3G (foretrukket)/2G"</item>
+		<item>"Bare 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE/3G/2G (automatisk)"</item>
+		<item>"3G/2G (automatisk)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G/3G/2G(auto)"</item>
+		<item>"3G/2G (auto)"</item>
+		<item>"Bare 3G"</item>
+		<item>"Kun 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"LTE/WCDMA/GSM auto"</item>
+		<item>"Kun WCDMA"</item>
+		<item>"WCDMA/GSM auto"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G/3G/2G(auto)"</item>
+		<item>"3G/2G(auto)"</item>
+		<item>"Bare 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE/UMTS/GSM"</item>
+		<item>"UMTS/GSM"</item>
+		<item>"Kun GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM/WCDMA/LTE auto"</item>
+		<item>"GSM / WCDMA automatisk"</item>
+		<item>"Kun GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"LTE/UMTS/GSM auto"</item>
+		<item>"UMTS/GSM auto"</item>
+		<item>"Bare GSM"</item>
+		<item>"Kun GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G/3G/2G(auto)"</item>
+		<item>"3G/2G (auto)"</item>
+		<item>"bare 4G"</item>
+		<item>"Bare 3G"</item>
+		<item>"Bare 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE/UMTS/GSM (LTE foretrukket)"</item>
+		<item>"WCDMA/2G (WCDMA foretrukket)"</item>
+		<item>"Bare 3G"</item>
+		<item>"Bare 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE/UMTS (LTE foretrukket)"</item>
+		<item>"Bare 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (anbefales)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE/WCDMA/GSM (koble til automatisk)"</item>
+		<item>"WCDMA/GSM (koble til automatisk)"</item>
+		<item>"Kun WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Midwayøyene"</item>
+		<item>"Honolulu"</item>
+		<item>"Alaska"</item>
+		<item>"PST (Los Angeles)"</item>
+		<item>"PST (Tijuana)"</item>
+		<item>"MST (Phoenix)"</item>
+		<item>"Chihuahua"</item>
+		<item>"MST (Denver)"</item>
+		<item>"Sentral-Amerika"</item>
+		<item>"Normaltid (Chicago)"</item>
+		<item>"Normaltid (Regina)"</item>
+		<item>"New York"</item>
+		<item>"Caracas"</item>
+		<item>"AT (Barbados)"</item>
+		<item>"Atlanterhavstid (Canada)"</item>
+		<item>"Amazonas-tid (Manaus)"</item>
+		<item>"St. John\'s"</item>
+		<item>"Sør-Georgia"</item>
+		<item>"Azorene"</item>
+		<item>"Kapp Verde"</item>
+		<item>"Casablanca"</item>
+		<item>"Vest-Afrika"</item>
+		<item>"Amman, Jordan"</item>
+		<item>"Istanbul"</item>
+		<item>"Beirut, Libanon"</item>
+		<item>"Teheran"</item>
+		<item>"Uralsk"</item>
+		<item>"Jekaterinburg"</item>
+		<item>"Kolkata"</item>
+		<item>"Katmandu"</item>
+		<item>"Yangon"</item>
+		<item>"Krasnojarsk"</item>
+		<item>"Bangkok"</item>
+		<item>"Hong Kong"</item>
+		<item>"Irkutsk"</item>
+		<item>"Perth"</item>
+		<item>"Osaka"</item>
+		<item>"Jakutsk"</item>
+		<item>"Adelaide"</item>
+		<item>"Darwin"</item>
+		<item>"Brisbane"</item>
+		<item>"Hobart"</item>
+		<item>"østaustralsk tid (Sydney)"</item>
+		<item>"Vladivostok"</item>
+		<item>"Magadan"</item>
+		<item>"Auckland"</item>
+		<item>"Fiji"</item>
+		<item>"Paraguay"</item>
+		<item>"Abu Dhabi"</item>
+		<item>"Abuja"</item>
+		<item>"Accra"</item>
+		<item>"Adamstown"</item>
+		<item>"Addis Ababa"</item>
+		<item>"Algiers"</item>
+		<item>"Alofi"</item>
+		<item>"Amsterdam"</item>
+		<item>"Andorra la Vella"</item>
+		<item>"Ankara"</item>
+		<item>"Antananarivo"</item>
+		<item>"Ashgabat"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Athens"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdad"</item>
+		<item>"Baku"</item>
+		<item>"Bamako"</item>
+		<item>"Bandar Seri Begawan"</item>
+		<item>"Zagreb"</item>
+		<item>"Bangui"</item>
+		<item>"Banjul"</item>
+		<item>"Basseterre"</item>
+		<item>"Beijing"</item>
+		<item>"Belfast"</item>
+		<item>"Beograd"</item>
+		<item>"Belmopan"</item>
+		<item>"Berlin"</item>
+		<item>"Bern"</item>
+		<item>"Bishkek"</item>
+		<item>"Bissau"</item>
+		<item>"Bogotá"</item>
+		<item>"Brasilia-tid (Araguiana)"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazzaville"</item>
+		<item>"Bridgetown"</item>
+		<item>"Brussel"</item>
+		<item>"Bucharest"</item>
+		<item>"Budapest"</item>
+		<item>"Buenos Aires"</item>
+		<item>"Bujumbura"</item>
+		<item>"Kairo"</item>
+		<item>"Canberra"</item>
+		<item>"Cardiff"</item>
+		<item>"Castries"</item>
+		<item>"Cayenne"</item>
+		<item>"Charlotte Amalie"</item>
+		<item>"Chisinau"</item>
+		<item>"Cockburn Town"</item>
+		<item>"Conakry"</item>
+		<item>"Copenhagen"</item>
+		<item>"Dakar"</item>
+		<item>"Dhaka"</item>
+		<item>"Dili"</item>
+		<item>"Dijbouti"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Douglas"</item>
+		<item>"Dubai"</item>
+		<item>"Dublin"</item>
+		<item>"Dushanbe"</item>
+		<item>"Edinburgh"</item>
+		<item>"Edinburgh of the Seven Seas"</item>
+		<item>"Flying Fish Cove"</item>
+		<item>"Freetown"</item>
+		<item>"Funafuti"</item>
+		<item>"Gaborone"</item>
+		<item>"George Town (Cayman Islands)"</item>
+		<item>"Georgetown (Ascension Island)"</item>
+		<item>"Georgetown (Guyana)"</item>
+		<item>"Gibraltar"</item>
+		<item>"Grytviken"</item>
+		<item>"Guatemala City"</item>
+		<item>"Gustavia"</item>
+		<item>"Hagatna"</item>
+		<item>"Hamilton"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanoi"</item>
+		<item>"Harare"</item>
+		<item>"Havana"</item>
+		<item>"Helsinki"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabad"</item>
+		<item>"Jakarta"</item>
+		<item>"Jamestown"</item>
+		<item>"Jerusalem"</item>
+		<item>"Juba"</item>
+		<item>"Kabul"</item>
+		<item>"Kampala"</item>
+		<item>"Karachi"</item>
+		<item>"Apia"</item>
+		<item>"Khartoum"</item>
+		<item>"Kiev"</item>
+		<item>"Kiev"</item>
+		<item>"Kingston (Jamaica)"</item>
+		<item>"Kingston (Norfolk Island)"</item>
+		<item>"Kingstown"</item>
+		<item>"Kinshasa"</item>
+		<item>"Kuala Lumpur"</item>
+		<item>"Kuwait"</item>
+		<item>"Libreville"</item>
+		<item>"Lilongwe"</item>
+		<item>"Lima"</item>
+		<item>"Lisbon"</item>
+		<item>"Ljubljana"</item>
+		<item>"Lome"</item>
+		<item>"London"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Luxembourg"</item>
+		<item>"Madrid"</item>
+		<item>"Majuro"</item>
+		<item>"Malabo"</item>
+		<item>"Male"</item>
+		<item>"Managua"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputo"</item>
+		<item>"Marigot"</item>
+		<item>"Maseru"</item>
+		<item>"Mata-Utu"</item>
+		<item>"Mbabane"</item>
+		<item>"Melekeok"</item>
+		<item>"Normaltid (Mexico by)"</item>
+		<item>"Minsk"</item>
+		<item>"Mogadishu"</item>
+		<item>"Monaco"</item>
+		<item>"Monrovia"</item>
+		<item>"Montevideo"</item>
+		<item>"Moroni"</item>
+		<item>"Moskva"</item>
+		<item>"Muscat"</item>
+		<item>"Nairobi"</item>
+		<item>"Nassau"</item>
+		<item>"Naypyidaw"</item>
+		<item>"N\'Djamena"</item>
+		<item>"New Delhi"</item>
+		<item>"Niamey"</item>
+		<item>"Nicosia"</item>
+		<item>"Nouakchott"</item>
+		<item>"Noumea"</item>
+		<item>"Nuku alofa"</item>
+		<item>"Nuuk"</item>
+		<item>"Oranjestad"</item>
+		<item>"Oslo"</item>
+		<item>"Ottawa"</item>
+		<item>"Ouagadougou"</item>
+		<item>"Pago Pago"</item>
+		<item>"Palikir"</item>
+		<item>"Panama City"</item>
+		<item>"Papeete"</item>
+		<item>"Paramaribo"</item>
+		<item>"Paris"</item>
+		<item>"Philipsburg"</item>
+		<item>"Phnom Penh"</item>
+		<item>"Plymouth"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Louis"</item>
+		<item>"Port Moresby"</item>
+		<item>"Port Vila"</item>
+		<item>"Port-au-Prince"</item>
+		<item>"Port of Spain"</item>
+		<item>"Porto-Novo"</item>
+		<item>"Prague"</item>
+		<item>"Praia"</item>
+		<item>"Pretoria"</item>
+		<item>"Pristina"</item>
+		<item>"Pyongyang"</item>
+		<item>"Quito"</item>
+		<item>"Rabat"</item>
+		<item>"Reykjavik"</item>
+		<item>"Riga"</item>
+		<item>"Riyadh"</item>
+		<item>"Road Town"</item>
+		<item>"Rome"</item>
+		<item>"Roseau"</item>
+		<item>"Saipan"</item>
+		<item>"San Jose"</item>
+		<item>"San Juan"</item>
+		<item>"San Marino"</item>
+		<item>"San Salvador"</item>
+		<item>"Sana"</item>
+		<item>"Santiago"</item>
+		<item>"Santo Domingo"</item>
+		<item>"Sao Tome"</item>
+		<item>"Sarajevo"</item>
+		<item>"Seoul"</item>
+		<item>"Singapore"</item>
+		<item>"Skopje"</item>
+		<item>"Sofia"</item>
+		<item>"Sri Jayawardenapura-Kotte"</item>
+		<item>"St. George\'s"</item>
+		<item>"St. Helier"</item>
+		<item>"St. John\'s"</item>
+		<item>"St. Peter Port"</item>
+		<item>"St. Pierre"</item>
+		<item>"Stanley"</item>
+		<item>"Stockholm"</item>
+		<item>"Sucre"</item>
+		<item>"Taipei"</item>
+		<item>"Tallinn"</item>
+		<item>"Tarawa"</item>
+		<item>"Tashkent"</item>
+		<item>"Tbilisi"</item>
+		<item>"Thimphu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokyo"</item>
+		<item>"Torshavn"</item>
+		<item>"Tripoli"</item>
+		<item>"Tunis"</item>
+		<item>"Ulan Bator"</item>
+		<item>"Vaduz"</item>
+		<item>"Valletta"</item>
+		<item>"The Valley"</item>
+		<item>"Vatican City"</item>
+		<item>"Victoria"</item>
+		<item>"Vienna"</item>
+		<item>"Vientiane"</item>
+		<item>"Vilnius"</item>
+		<item>"Warsaw"</item>
+		<item>"Washington, D.C."</item>
+		<item>"Wellington"</item>
+		<item>"West Island"</item>
+		<item>"Willemstad"</item>
+		<item>"Windhoek"</item>
+		<item>"Yamoussoukro"</item>
+		<item>"Yaounde"</item>
+		<item>"Yaren"</item>
+		<item>"Jerevan"</item>
+		<item>"Bolivia"</item>
+		<item>"Novosibirsk"</item>
+		<item>"Kaliningrad"</item>
+		<item>"Asunción"</item>
+		<item>"La Paz"</item>
+		<item>"Khabarovsk"</item>
+		<item>"Juzjno-Sakhalinsk"</item>
+		<item>"Severo-Kurilsk"</item>
+		<item>"Petropavlovsk-Kamtsjatskij"</item>
+		<item>"Anadyr"</item>
+		<item>"Samara"</item>
+		<item>"Melbourne"</item>
+		<item>"St. Petersburg"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrakhan"</item>
+		<item>"Izjevsk"</item>
+		<item>"Ufa"</item>
+		<item>"Tsjeljabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Chita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"Russisk tidssone 1"</item>
+		<item>"Russisk tidssone 2 (Moskva)"</item>
+		<item>"Russisk tidssone 3"</item>
+		<item>"Russisk tidssone 4"</item>
+		<item>"Russisk tidssone 5"</item>
+		<item>"Russisk tidssone 6"</item>
+		<item>"Russisk tidssone 7"</item>
+		<item>"Russisk tidssone 8"</item>
+		<item>"Russisk tidssone 9"</item>
+		<item>"Russisk tidssone 10"</item>
+		<item>"Russisk tidssone 11"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosillo"</item>
+		<item>"Ojinaga"</item>
+		<item>"Cancun"</item>
+		<item>"Merida"</item>
+		<item>"Monterrey"</item>
+		<item>"Matamoros"</item>
+		<item>"Banderas Bay"</item>
+		<item>"Mazatlan"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Uspesifisert)"</item>
+		<item>"SIM-spor 1"</item>
+		<item>"SIM-spor 2"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 bruker"</item>
+		<item>"2 brukere"</item>
+		<item>"3 brukere"</item>
+		<item>"4 brukere"</item>
+		<item>"5 brukere"</item>
+		<item>"6 brukere"</item>
+		<item>"7 brukere"</item>
+		<item>"8 brukere"</item>
+		<item>"9 brukere"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Knapp"</item>
+		<item>"PIN-kode fra motpart"</item>
+	</string-array>
+</resources>

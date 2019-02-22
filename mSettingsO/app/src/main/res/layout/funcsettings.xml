@@ -1,0 +1,105 @@
+<!-- task811570 shortcuts settings -->
+<!--Modified by yongjun.zou for new ergo task 6619992 on 20180817-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/func_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/funcsettings_titletext"
+                android:paddingStart="16dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@color/letter_tile_default_color"
+                android:text="@string/func_Shortcutsinscreen_title"
+                android:textSize="17sp"/>
+
+            <tct.func.view.DragSortListView
+                xmlns:dslv="http://schemas.android.com/apk/res/com.android.settings"
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:choiceMode="multipleChoice"
+                android:dividerHeight="1px"
+                dslv:click_remove_id="@id/click_remove"
+                dslv:collapsed_height="1px"
+                dslv:drag_enabled="true"
+                dslv:drag_handle_id="@id/dragicon"
+                dslv:drag_scroll_start="0.33"
+                dslv:drag_start_mode="onDown"
+                dslv:float_alpha="0.6"
+                dslv:remove_enabled="true"
+                dslv:remove_mode="clickRemove"
+                dslv:slide_shuffle_speed="0.3" />
+
+            <TextView
+                android:id="@+id/zeroshowingtv"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:paddingStart="16dp"
+                android:gravity="center_vertical"
+                android:text="@string/func_noitem_exist"
+                android:textColor="@color/subscribe_item_text_color"
+                android:textSize="14sp"
+                android:visibility="gone" />
+            <!-- add by Zhiyong.song on 20018/11/23 begin -->
+            <TextView
+                style="@style/funcsettings_titletext"
+                android:paddingStart="16dp"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="@color/letter_tile_default_color"
+                android:text="@string/func_AlternativeShortcuts_title"
+                android:textSize="17sp" />
+            <!-- add by Zhiyong.song on 20018/11/23 end -->
+            <tct.func.view.AlternativeShortcutslistView
+                android:id="@+id/alternativeShortcutslistview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#00000000"
+                android:drawSelectorOnTop="false"
+                android:fastScrollEnabled="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="12dp"
+                android:gravity="center_vertical"
+                android:background="@color/letter_tile_default_color"/>
+            <TextView
+                android:id="@+id/addAppshortcutstv"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginStart="16dp"
+                android:gravity="center_vertical"
+                android:text="@string/func_customization_title"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/func_illustrationtv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/func_illustration"
+        android:textColor="@color/subscribe_item_text_color"
+        android:textSize="16.0sp" />
+
+</LinearLayout>

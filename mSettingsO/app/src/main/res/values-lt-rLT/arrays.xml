@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string-array name="timezone_filters">
+		<item>"Amerika"</item>
+		<item>"Europa"</item>
+		<item>"Afrika"</item>
+		<item>"Azija"</item>
+		<item>"Australija"</item>
+		<item>"Ramiojo vandenyno"</item>
+		<item>"Visi"</item>
+	</string-array>
+	<string-array name="screen_timeout_entries">
+		<item>"15 sek."</item>
+		<item>"30 sek."</item>
+		<item>"1 min."</item>
+		<item>"2 min."</item>
+		<item>"5 min."</item>
+		<item>"10 min."</item>
+		<item>"30 min."</item>
+		<item>"Niekada"</item>
+	</string-array>
+	<string-array name="dream_timeout_entries">
+		<item>"Niekada"</item>
+		<item>"15 sek."</item>
+		<item>"30 sek."</item>
+		<item>"1 min."</item>
+		<item>"2 min."</item>
+		<item>"5 min."</item>
+		<item>"10 min."</item>
+		<item>"30 min."</item>
+	</string-array>
+	<string-array name="lock_after_timeout_entries">
+		<item>"Nedelsiant"</item>
+		<item>"5 sek."</item>
+		<item>"15 sek."</item>
+		<item>"30 sek."</item>
+		<item>"1 min."</item>
+		<item>"2 min."</item>
+		<item>"5 min."</item>
+		<item>"10 min."</item>
+		<item>"30 min."</item>
+	</string-array>
+	<string-array name="entries_font_size">
+		<item>"Mažas"</item>
+		<item>"Numatytasis"</item>
+		<item>"Didelis"</item>
+		<item>"Didžiausias"</item>
+	</string-array>
+	<string-array name="wifi_status">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Nuskaitoma…"</item>
+		<item>"Jungiama..."</item>
+		<item>"Nustatoma tapatybė…"</item>
+		<item>"Gaunamas IP adresas…"</item>
+		<item>"Prisijungta"</item>
+		<item>"Pristabdyta"</item>
+		<item>"Atjungiama..."</item>
+		<item>"Atsijungęs (-usi)"</item>
+		<item>"Nesėkminga"</item>
+		<item>"Užblokuota"</item>
+		<item>"Laikinai vengiama prasto ryšio"</item>
+	</string-array>
+	<string-array name="wifi_status_with_ssid">
+		<!--inherit from sourcecode xml-->
+		<item><item/></item>
+		<item>"Nuskaitoma…"</item>
+		<item>"Prisijungiama prie <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Nustatoma tapatybė naudojant <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Gaunamas IP adresas iš <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Prijungta prie <xliff:g id="NETWORK_NAME">%1$s</xliff:g>"</item>
+		<item>"Pristabdyta"</item>
+		<item>"Atjungiama nuo <xliff:g id="network_name">%1$s</xliff:g>…"</item>
+		<item>"Atsijungęs (-usi)"</item>
+		<item>"Nesėkminga"</item>
+		<item>"Užblokuota"</item>
+		<item>"Laikinai vengiama prasto ryšio"</item>
+	</string-array>
+	<!-- no translation found for wifi_security -->
+	<skip />
+	<!-- no translation found for wifi_security_no_eap -->
+	<skip />
+	<!-- no translation found for wifi_ap_security -->
+	<skip />
+	<!-- no translation found for wifi_eap_method -->
+	<skip />
+	<!-- no translation found for eap_method_without_sim_auth -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_full -->
+	<skip />
+	<!-- no translation found for wifi_ap_band_config_2G_only -->
+	<skip />
+	<string-array name="wifi_p2p_wps_setup">
+		<item>"Mygtuko paspaudimas"</item>
+		<item>"PIN kodas iš susieto įrenginio"</item>
+		<item>"PIN kodas iš susieto įrenginio"</item>
+	</string-array>
+	<string-array name="wifi_p2p_status">
+		<item>"Prisijungta"</item>
+		<item>"Pakviestas"</item>
+		<item>"Nepavyko"</item>
+		<item>"Pasiekiama"</item>
+		<item>"Nepasiekiama"</item>
+	</string-array>
+	<string-array name="bluetooth_visibility_timeout_entries">
+		<item>"2 min."</item>
+		<item>"5 min."</item>
+		<item>"1 val."</item>
+		<item>"Nėra skirtojo laiko pabaigos"</item>
+	</string-array>
+	<string-array name="wifi_signal">
+		<item>"Prastas"</item>
+		<item>"Prastas"</item>
+		<item>"Neblogas"</item>
+		<item>"Gera"</item>
+		<item>"Puikus"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries">
+		<item>"Visada"</item>
+		<item>"Tik kai įjungtas į lizdą"</item>
+		<item>"Niekada"</item>
+	</string-array>
+	<string-array name="wifi_sleep_policy_entries_wifi_only">
+		<item>"Visada"</item>
+		<item>"Tik kai įjungtas į lizdą"</item>
+		<item>"Niekada"</item>
+	</string-array>
+	<!-- no translation found for wifi_sleep_policy_values -->
+	<skip />
+	<string-array name="data_usage_data_range">
+		<item>"Paskutines 30 d."</item>
+		<item>"Nustatyti naudojimo ciklą..."</item>
+	</string-array>
+	<string-array name="usage_stats_display_order_types">
+		<item>"Naudojimo laikas"</item>
+		<item>"Paleisti skaičiavimą"</item>
+		<item>"Programos pavadinimas"</item>
+	</string-array>
+	<!-- no translation found for wifi_eap_entries -->
+	<skip />
+	<string-array name="wifi_peap_phase2_entries">
+		<item>"Nėra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_peap_phase2_entries_with_sim_auth">
+		<item>"Nėra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+		<!--inherit from sourcecode xml-->
+		<item>SIM</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA</item>
+		<!--inherit from sourcecode xml-->
+		<item>AKA\'</item>
+	</string-array>
+	<string-array name="wifi_phase2_entries">
+		<item>"Nėra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>MSCHAPV2</item>
+		<!--inherit from sourcecode xml-->
+		<item>GTC</item>
+	</string-array>
+	<string-array name="wifi_ip_settings">
+		<!--inherit from sourcecode xml-->
+		<item>DHCP</item>
+		<item>"Statinis"</item>
+	</string-array>
+	<string-array name="wifi_proxy_settings">
+		<item>"Nėra"</item>
+		<item>"Rankiniu būdu"</item>
+		<item>"Aut. tarp. serv. konfig."</item>
+	</string-array>
+	<string-array name="apn_auth_entries">
+		<item>"Nėra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>PAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>CHAP</item>
+		<item>"PAP arba CHAP"</item>
+	</string-array>
+	<string-array name="apn_protocol_entries">
+		<item>"IPv4"</item>
+		<item>"IPv6"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IPv4/IPv6</item>
+	</string-array>
+	<string-array name="bearer_entries">
+		<item>"Nenurodyta"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPAP</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSUPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>HSDPA</item>
+		<!--inherit from sourcecode xml-->
+		<item>UMTS</item>
+		<!--inherit from sourcecode xml-->
+		<item>EDGE</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPRS</item>
+		<item>"eHRPD"</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_B</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_A</item>
+		<!--inherit from sourcecode xml-->
+		<item>EVDO_0</item>
+		<item>"1xRTT"</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95B</item>
+		<!--inherit from sourcecode xml-->
+		<item>IS95A</item>
+	</string-array>
+	<string-array name="mvno_type_entries">
+		<item>"Nėra"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SPN</item>
+		<!--inherit from sourcecode xml-->
+		<item>IMSI</item>
+		<!--inherit from sourcecode xml-->
+		<item>GID</item>
+	</string-array>
+	<!-- no translation found for mvno_type_entries_ext -->
+	<skip />
+	<string-array name="app_install_location_entries">
+		<item>"Vidinė įrenginio saugykla"</item>
+		<item>"SD kortelė"</item>
+		<item>"Leisti nuspręsti sistemai"</item>
+	</string-array>
+	<string-array name="app_ops_categories">
+		<item>"Vieta"</item>
+		<item>"ASMENIŠKA"</item>
+		<item>"Pranešimai"</item>
+		<item>"Medija"</item>
+		<item>"ĮRENGINYS"</item>
+	</string-array>
+	<string-array name="app_ops_summaries">
+		<item>"apytikslė vietovė"</item>
+		<item>"tiksli vietovė"</item>
+		<!--inherit from sourcecode xml-->
+		<item>GPS</item>
+		<item>"vibruoti"</item>
+		<item>"skaityti kontaktus"</item>
+		<item>"Modifikuoti adresatus"</item>
+		<item>"skaityti skambučių žurnalą"</item>
+		<item>"Modifikuoti skambučių žurnalą"</item>
+		<item>"skaityti kalendorių"</item>
+		<item>"keisti kalendorių"</item>
+		<item>"„Wi-Fi“ nuskaitymas"</item>
+		<item>"pranešimas"</item>
+		<item>"mobiliųjų telefonų žvalgymas"</item>
+		<item>"skambinti į telefoną"</item>
+		<item>"skaityti SMS"</item>
+		<item>"rašyti SMS"</item>
+		<item>"gauti SMS"</item>
+		<item>"gauti nepaprastosios padėties SMS"</item>
+		<item>"gauti MMS"</item>
+		<item>"gauti „WAP Push“ pranešimus"</item>
+		<item>"siųsti SMS"</item>
+		<item>"skaityti ICC SMS"</item>
+		<item>"rašyti ICC SMS"</item>
+		<item>"keisti nustatymus"</item>
+		<item>"piešti viršuje"</item>
+		<item>"pasiekti pranešimus"</item>
+		<item>"Fotoaparatas"</item>
+		<item>"įrašyti garsą"</item>
+		<item>"leisti garso įrašą"</item>
+		<item>"skaityti iškarpinę"</item>
+		<item>"keisti iškarpinę"</item>
+		<item>"medijos mygtukai"</item>
+		<item>"garso sutelkimas"</item>
+		<item>"bendras garsumas"</item>
+		<item>"balso garsumas"</item>
+		<item>"skambučio garsumas"</item>
+		<item>"Medijos garsumas"</item>
+		<item>"Signalo garsumas"</item>
+		<item>"Pranešimo apimtis"</item>
+		<item>"„Bluetooth“ garsumas"</item>
+		<item>"neužmigdyti"</item>
+		<item>"stebėti vietovę"</item>
+		<item>"stebėti didelė galia vietovė"</item>
+		<item>"sužinoti naudojimo būseną"</item>
+		<item>"nutildyti / įjungti mikrofono garsą"</item>
+		<item>"rodyti laik. langą"</item>
+		<item>"suaktyvinti VPN"</item>
+		<item>"suaktyvinti VPN"</item>
+		<item>"Įrašyti foną"</item>
+		<item>"Pagalbos struktūra"</item>
+		<item>"Pagalbos momentinė nuotrauka"</item>
+		<item>"skaityti telefono būseną"</item>
+		<item>"pridėti balso pašto pranešimų"</item>
+		<item>"Naudoti SIP"</item>
+		<item>"Tarpt. išein. skambutis"</item>
+		<item>"piršto atspaudas"</item>
+		<item>"kūno jutikliai"</item>
+		<item>"Skaityti korinio transliavimo pranešimus"</item>
+		<item>"kopijuoti vietą"</item>
+		<item>"skaityti talpyklą"</item>
+		<item>"rašyti į talpyklą"</item>
+		<item>"įjungti ekraną"</item>
+		<item>"gauti paskyras"</item>
+		<item>"veikti fone"</item>
+		<item>"pasiekiamumo garsumas"</item>
+	</string-array>
+	<string-array name="app_ops_labels">
+		<item>"Vieta"</item>
+		<item>"Vieta"</item>
+		<item>"Vieta"</item>
+		<item>"Vibruoti"</item>
+		<item>"Skaityti adresatus"</item>
+		<item>"Modifikuoti adresatus"</item>
+		<item>"skaityti skambučių žurnalą"</item>
+		<item>"Modifikuoti skambučių žurnalą"</item>
+		<item>"skaityti kalendorių"</item>
+		<item>"Modifikuoti kalendorių"</item>
+		<item>"Vieta"</item>
+		<item>"Paskelbti pranešimą"</item>
+		<item>"Vieta"</item>
+		<item>"skambinti telefonu"</item>
+		<item>"Skaityti SMS/MMS žinutę"</item>
+		<item>"Rašyti SMS/MMS žinutę"</item>
+		<item>"Gauti SMS/MMS žinutę"</item>
+		<item>"Gauti SMS/MMS žinutę"</item>
+		<item>"Gauti SMS/MMS žinutę"</item>
+		<item>"Gauti SMS/MMS žinutę"</item>
+		<item>"Siųsti SMS/MMS žinutę"</item>
+		<item>"Skaityti SMS/MMS žinutę"</item>
+		<item>"Rašyti SMS/MMS žinutę"</item>
+		<item>"Modifikuoti nustatymus"</item>
+		<item>"Piešti ant viršaus"</item>
+		<item>"Pasiekti pranešimus"</item>
+		<item>"Fotoaparatas"</item>
+		<item>"įrašyti garsą"</item>
+		<item>"Leisti garsą"</item>
+		<item>"Skaityti mainų sritį"</item>
+		<item>"keisti iškarpinę"</item>
+		<item>"Medijos mygtukai"</item>
+		<item>"Garso sutelkimas"</item>
+		<item>"Bendras garsumas"</item>
+		<item>"Balso garsumas"</item>
+		<item>"Skambučio garsumas"</item>
+		<item>"Medijos garsumas"</item>
+		<item>"Signalo garsumas"</item>
+		<item>"Pranešimo apimtis"</item>
+		<item>"„Bluetooth“ garsumas"</item>
+		<item>"Neužmigdyti"</item>
+		<item>"Vieta"</item>
+		<item>"Vieta"</item>
+		<item>"sužinoti naudojimo būseną"</item>
+		<item>"Nutildykite/pagarsinkite mikrofoną"</item>
+		<item>"Rodyti laik. langą"</item>
+		<item>"projektuoti mediją"</item>
+		<item>"suaktyvinti VPN"</item>
+		<item>"Įrašyti foną"</item>
+		<item>"Pagalbos struktūra"</item>
+		<item>"Pagalbos momentinė nuotrauka"</item>
+		<item>"Skaityti telefono būseną"</item>
+		<item>"Pridėti balso pašto pranešimų"</item>
+		<item>"Naudoti SIP"</item>
+		<item>"Tarpt. išein. skambutis"</item>
+		<item>"Piršto antspaudas"</item>
+		<item>"Kūno jutikliai"</item>
+		<item>"Skaityti korinio transliavimo pranešimus"</item>
+		<item>"Kopijuoti vietą"</item>
+		<item>"Skaityti talpyklą"</item>
+		<item>"Rašyti į talpyklą"</item>
+		<item>"Įjungti ekraną"</item>
+		<item>"Gauti paskyras"</item>
+		<item>"Veikti fone"</item>
+		<item>"Pasiekiamumo garsumas"</item>
+	</string-array>
+	<string-array name="long_press_timeout_selector_titles">
+		<item>"Trumpas"</item>
+		<item>"Vidutinis"</item>
+		<item>"Ilgas"</item>
+	</string-array>
+	<string-array name="captioning_typeface_selector_titles">
+		<item>"Numat."</item>
+		<!--inherit from sourcecode xml-->
+		<item>Sans-serif</item>
+		<item>"Be užraitų, glaustas"</item>
+		<item>"„Sans-serif monospace“"</item>
+		<item>"Su užraitais"</item>
+		<item>"Su užraitais, lygiaplotis"</item>
+		<item>"Paprastas"</item>
+		<item>"Rankraštinis"</item>
+		<item>"Sumažintos didžiosios raidės"</item>
+	</string-array>
+	<string-array name="captioning_font_size_selector_titles">
+		<item>"Labai mažas"</item>
+		<item>"Mažas"</item>
+		<item>"Vidutinis"</item>
+		<item>"Didelis"</item>
+		<item>"Labai didelis"</item>
+	</string-array>
+	<string-array name="captioning_edge_type_selector_titles">
+		<item>"Nėra"</item>
+		<item>"Nėra"</item>
+		<item>"Kontūrai"</item>
+		<item>"Krintantis šešėlis"</item>
+		<item>"Iškilęs"</item>
+		<item>"Įdubęs"</item>
+	</string-array>
+	<!-- no translation found for captioning_opacity_selector_titles -->
+	<skip />
+	<string-array name="captioning_preset_selector_titles">
+		<item>"Naudoti progr. numatytuosius nust."</item>
+		<item>"Balta juodame fone"</item>
+		<item>"Juoda baltame fone"</item>
+		<item>"Geltona juodame fone"</item>
+		<item>"Geltona mėlyname fone"</item>
+		<item>"Priskirtas"</item>
+	</string-array>
+	<string-array name="vpn_types_long">
+		<!--inherit from sourcecode xml-->
+		<item>PPTP VPN</item>
+		<item>"L2TP / „IPSec“ VPN su iš anksto bendrinamais raktais"</item>
+		<item>"L2TP / „IPSec“ VPN su sertifikatais"</item>
+		<item>"„IPSec“ VPN su iš anksto bendrinamais raktais ir „Xauth“ autentifikavimu"</item>
+		<item>"„IPSec“ VPN su sertifikatais ir „Xauth“ autentifikavimu"</item>
+		<item>"„IPSec“ VPN su sertifikatu ir hibridiniu autentifikavimu"</item>
+	</string-array>
+	<string-array name="vpn_states">
+		<item>"Atsijungęs (-usi)"</item>
+		<item>"Pradedama…"</item>
+		<item>"Prisijungiama…"</item>
+		<item>"Prijungta"</item>
+		<item>"Skirtasis laikas"</item>
+		<item>"Nesėkminga"</item>
+	</string-array>
+	<string-array name="security_settings_premium_sms_values">
+		<item>"Paklausti"</item>
+		<item>"Niekada neleisti"</item>
+		<item>"Visada leisti"</item>
+	</string-array>
+	<string-array name="ram_states">
+		<item>"Įprastas"</item>
+		<item>"Vidutinė"</item>
+		<item>"Maža"</item>
+		<item>"Kritinis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>\?</item>
+	</string-array>
+	<string-array name="proc_stats_memory_states">
+		<item>"Įprastas"</item>
+		<item>"Vidutinė"</item>
+		<item>"Žemas"</item>
+		<item>"Kritinis"</item>
+	</string-array>
+	<string-array name="proc_stats_process_states">
+		<item>"Nuolatinė"</item>
+		<item>"Populiariausia veikla"</item>
+		<item>"Svarbu (priekinis planas)"</item>
+		<item>"Svarbu (antrasis planas)"</item>
+		<item>"Atsarginė kopija"</item>
+		<item>"Sunkus"</item>
+		<item>"Paslauga (veikia)"</item>
+		<item>"Paslauga (paleidžiama iš naujo)"</item>
+		<item>"Gavėjas"</item>
+		<item>"Pagrindinis"</item>
+		<item>"Pastaroji veikla"</item>
+		<item>"Išsaugota talpykloje (veikla)"</item>
+		<item>"Išsaugota talpykloje (veiklos kliento programa)"</item>
+		<item>"Išsaugota talpykloje (tuščia)"</item>
+	</string-array>
+	<string-array name="color_picker">
+		<item>"„Teal“"</item>
+		<item>"Mėlyna"</item>
+		<item>"„Indigo“"</item>
+		<item>"Violetinė"</item>
+		<item>"Rausva"</item>
+		<item>"Raudona"</item>
+	</string-array>
+	<string-array name="tcl_color_picker">
+		<item>"„Teal“"</item>
+		<item>"Mėlynas"</item>
+		<item>"„Indigo“"</item>
+		<item>"Violetinė"</item>
+		<item>"Rausva"</item>
+		<item>"Raudona"</item>
+		<item>"Oranžinė"</item>
+		<item>"Tamsiai žalia"</item>
+		<item>"Žalia"</item>
+	</string-array>
+	<string-array name="automatic_storage_management_days">
+		<item>"Daugiau nei 30 dienų senumo"</item>
+		<item>"Daugiau nei 60 dienų senumo"</item>
+		<item>"Daugiau nei 90 dienų senumo"</item>
+	</string-array>
+	<string-array name="hdcp_checking_titles">
+		<item>"Niekada netikrinti"</item>
+		<item>"Tikrinti tik DRM turinį"</item>
+		<item>"Visada tikrinti"</item>
+	</string-array>
+	<string-array name="hdcp_checking_summaries">
+		<item>"Niekada nenaudoti HDCP tikrinimo"</item>
+		<item>"Taikyti HDCP tikrinimą tik DRM turiniui"</item>
+		<item>"Visada naudoti HDCP tikrinimą"</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_versions">
+		<item>"AVRCP 1.4 (numatyt.)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.3</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.5</item>
+		<!--inherit from sourcecode xml-->
+		<item>AVRCP 1.6</item>
+	</string-array>
+	<string-array name="bluetooth_avrcp_version_values">
+		<item>"avrcp14"</item>
+		<item>"avrcp13"</item>
+		<item>"avrcp15"</item>
+		<item>"avrcp16"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_titles">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">„Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™“</xliff:g> garso įrašas"</item>
+		<item>"<xliff:g id="qualcomm">„Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™“ HD</xliff:g> garso įrašas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Įjungti pasirinktinus kodekus"</item>
+		<item>"Išjungti pasirinktinus kodekus"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_summaries">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>SBC</item>
+		<!--inherit from sourcecode xml-->
+		<item>AAC</item>
+		<item>"<xliff:g id="qualcomm">„Qualcomm®</xliff:g> <xliff:g id="aptx">aptX™“</xliff:g> garso įrašas"</item>
+		<item>"<xliff:g id="qualcomm">„Qualcomm®</xliff:g> <xliff:g id="aptx_hd">aptX™“ HD</xliff:g> garso įrašas"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LDAC</item>
+		<item>"Įjungti pasirinktinus kodekus"</item>
+		<item>"Išjungti pasirinktinus kodekus"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<item>"44,1 kHz"</item>
+		<item>"48,0 kHz"</item>
+		<item>"88,2 kHz"</item>
+		<item>"96,0 kHz"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<item>"16 bitų per sek."</item>
+		<item>"24 bitai per sek."</item>
+		<item>"32 bitai per sek."</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<item>"16 bitų per sek."</item>
+		<item>"24 bitai per sek."</item>
+		<item>"32 bitai per sek."</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<item>"Vieno kan."</item>
+		<item>"Erdvinis"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+		<item>"Naudoti sistemos numatytą (numatyt.)"</item>
+		<item>"Vieno kan."</item>
+		<item>"Erdvinis"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+		<item>"Optimizuota garso įrašo kokybė (990 kbps / 909 kbps)"</item>
+		<item>"Subalansuota garso įrašo ir ryšio kokybė (660 kbps / 606 kbps)"</item>
+		<item>"Optimizuota ryšio kokybė (330 kbps / 303 kbps)"</item>
+		<item>"Geriausios pastangos (pritaikoma sparta bitais)"</item>
+	</string-array>
+	<string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+		<item>"Optimizuota garso įrašo kokybė"</item>
+		<item>"Subalansuota garso įrašo ir ryšio kokybė"</item>
+		<item>"Optimizuota ryšio kokybė"</item>
+		<item>"Geriausios pastangos (pritaikoma sparta bitais)"</item>
+	</string-array>
+	<!-- no translation found for select_logd_size_titles -->
+	<skip />
+	<!-- no translation found for select_logd_size_lowram_titles -->
+	<skip />
+	<string-array name="select_logd_size_summaries">
+		<!--inherit from sourcecode xml-->
+		<item>"Off"</item>
+		<item>"64K vienam žurnalo buferiui"</item>
+		<item>"256 KB vienam žurnalo buferiui"</item>
+		<item>"1 MB vienam žurnalo buferiui"</item>
+		<item>"4 MB vienam žurnalo buferiui"</item>
+		<item>"16 MB vienam žurnalo buferiui"</item>
+	</string-array>
+	<string-array name="select_logpersist_titles">
+		<item>"Išjungta"</item>
+		<item>"Visi"</item>
+		<item>"Viskas, išskyrus radiją"</item>
+		<item>"Tik branduolys"</item>
+	</string-array>
+	<string-array name="select_logpersist_summaries">
+		<item>"Išjungta"</item>
+		<item>"Visi žurnalų slopintuvai"</item>
+		<item>"Visi, išskyrus radijo žurnalų slopintuvus"</item>
+		<item>"Tik branduolio žurnalo slopintuvas"</item>
+	</string-array>
+	<string-array name="window_animation_scale_entries">
+		<item>"Animacija išjungta"</item>
+		<item>"Animacijos mastelis 0,5x"</item>
+		<item>"Animacijos mastelis 1x"</item>
+		<item>"Animacijos mastelis 1,5x"</item>
+		<item>"Animacijos mastelis 2x"</item>
+		<item>"Animacijos mastelis 5x"</item>
+		<item>"Animac. mastelis 10x"</item>
+	</string-array>
+	<string-array name="transition_animation_scale_entries">
+		<item>"Animacija išjungta"</item>
+		<item>"Animacijos mastelis 0,5x"</item>
+		<item>"Animacijos mastelis 1x"</item>
+		<item>"Animacijos mastelis 1,5x"</item>
+		<item>"Animacijos mastelis 2x"</item>
+		<item>"Animacijos mastelis 5x"</item>
+		<item>"Animacijos mastelis 10x"</item>
+	</string-array>
+	<string-array name="animator_duration_scale_entries">
+		<item>"Animacija išjungta"</item>
+		<item>"Animacijos mastelis 0,5x"</item>
+		<item>"Animacijos mastelis 1 x"</item>
+		<item>"Animacijos mastelis 1,5 x"</item>
+		<item>"Animacijos mastelis 2 x"</item>
+		<item>"Animacijos mastelis 5 x"</item>
+		<item>"Animacijos mastelis 10 x"</item>
+	</string-array>
+	<string-array name="overlay_display_devices_entries">
+		<item>"Nėra"</item>
+		<item>"480p"</item>
+		<item>"480p (saugu)"</item>
+		<item>"720p"</item>
+		<item>"720p (saugu)"</item>
+		<item>"1080p"</item>
+		<item>"1080p (saugu)"</item>
+		<!--inherit from sourcecode xml-->
+		<item>4K</item>
+		<item>"4K (saugu)"</item>
+		<item>"4K (aukštesnis negu vid. lygis)"</item>
+		<item>"4K (aukštesnis negu vid. lygis, saugu)"</item>
+		<item>"720p, 1080p (dvejopas ekrano rodinys)"</item>
+	</string-array>
+	<string-array name="enable_opengl_traces_entries">
+		<item>"Nėra"</item>
+		<item>"Registruotuvo biuferio dydžiai"</item>
+		<item>"„Systrace“ (grafika)"</item>
+		<item>"Kreipinių dėklas „glGetError“"</item>
+	</string-array>
+	<string-array name="show_non_rect_clip_entries">
+		<item>"Išj."</item>
+		<item>"Piešti nestačiakampę iliustracijų sritį mėlyna spalva"</item>
+		<item>"Paryškinti išbandytas piešimo komandas žalia spalva"</item>
+	</string-array>
+	<string-array name="track_frame_time_entries">
+		<item>"Išj."</item>
+		<item>"Ekrane kaip juostos"</item>
+		<item>"<xliff:g id="as_typed_command">adb shell dumpsys gfxinfo</xliff:g>"</item>
+	</string-array>
+	<string-array name="debug_hw_overdraw_entries">
+		<item>"Išj."</item>
+		<item>"Rodyti piešimo ant viršaus sritis"</item>
+		<item>"Rodyti deuteranomalijos sritis"</item>
+	</string-array>
+	<string-array name="debug_hw_renderer_entries">
+		<item>"„OpenGL“ (numatyt.)"</item>
+		<item>"„OpenGL“ („Skia“)"</item>
+	</string-array>
+	<string-array name="app_process_limit_entries">
+		<item>"Standartinis apribojimas"</item>
+		<item>"Jokių procesų foniniame režime"</item>
+		<item>"Daugiausiai 1 procesas"</item>
+		<item>"Daugiausiai 2 procesai"</item>
+		<item>"Daugiausiai 3 procesai"</item>
+		<item>"Daugiausiai 4 procesai"</item>
+	</string-array>
+	<string-array name="usb_configuration_titles">
+		<item>"Tik įkrovimo režimas"</item>
+		<item>"MTP („Media Transfer Protocol“)"</item>
+		<item>"PTP („Picture Transfer Protocol“)"</item>
+		<item>"RNDIS (USB eternetas)"</item>
+		<item>"Garso šaltinis"</item>
+		<!--inherit from sourcecode xml-->
+		<item>MIDI</item>
+	</string-array>
+	<string-array name="icontype_picker">
+		<item>"Numat."</item>
+		<item>"Duomenys"</item>
+		<item>"Sk."</item>
+		<item>"Pranešimas"</item>
+		<item>"Pagrindinis"</item>
+		<item>"Darbo"</item>
+		<item>"Kelionės"</item>
+		<item>"Meilė"</item>
+	</string-array>
+	<!---->
+	<string name="service_title">"3G / 4G paslauga"</string>
+	<string-array name="service_sim_choices">
+		<!--inherit from sourcecode xml-->
+		<item>"SIM1"</item>
+		<!--inherit from sourcecode xml-->
+		<item>"SIM2"</item>
+		<item>"Išjungta"</item>
+	</string-array>
+	<!-- no translation found for enabled_networks_4g_choices -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_default">
+		<item>"Automatiškai"</item>
+		<!--inherit from sourcecode xml-->
+		<item>LTE</item>
+		<item>"WCDMA"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_latam">
+		<item>"Automatinis 4G / 3G / 2G"</item>
+		<item>"tik 4G"</item>
+		<item>"Tik 3G"</item>
+		<item>"Tik 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian">
+		<item>"LTE / UMTS / GSM (automatinis)"</item>
+		<item>"UMTS / GSM (automatinis)"</item>
+		<item>"Tik LTE"</item>
+		<item>"Tik UMTS"</item>
+		<item>"Tik GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type3">
+		<item>"LTE / WCDMA / GSM"</item>
+		<item>"WCDMA / GSM"</item>
+		<item>"Tik WCDMA"</item>
+		<item>"Tik GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type4">
+		<item>"4G (pageidautina) / 3G / 2G"</item>
+		<item>"3G (pageidautina) / 2G"</item>
+		<item>"Tik 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type6">
+		<item>"LTE / 3G / 2G (autom. ryšys)"</item>
+		<item>"3G / 2G (autom. ryšys)"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type7">
+		<item>"4G / 3G / 2G (automatinis)"</item>
+		<item>"3G / 2G (automatinis)"</item>
+		<item>"Tik 3G"</item>
+		<item>"Tik 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type8">
+		<item>"Automatinis LTE / WCDMA / GSM"</item>
+		<item>"Tik WCDMA"</item>
+		<item>"Automatinis WCDMA / GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type9">
+		<item>"4G / 3G / 2G (automatinis)"</item>
+		<item>"3G / 2G (automatinis)"</item>
+		<item>"Tik 3G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type10">
+		<item>"LTE / UMTS / GSM"</item>
+		<item>"UMTS / GSM"</item>
+		<item>"Tik GSM"</item>
+	</string-array>
+	<!-- no translation found for preferred_network_mode_choices_custom_type11 -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type12">
+		<item>"GSM / WCDMA / LTE autom."</item>
+		<item>"GSM / WCDMA automatinis"</item>
+		<item>"Tik GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_russian1">
+		<item>"Automatinis LTE / UMTS / GSM"</item>
+		<item>"Automatinis UMTS / GSM"</item>
+		<item>"Tik UMTS"</item>
+		<item>"Tik GSM"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type14">
+		<item>"4G / 3G / 2G (automatinis)"</item>
+		<item>"3G / 2G (automatinis)"</item>
+		<item>"tik 4G"</item>
+		<item>"Tik 3G"</item>
+		<item>"Tik 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type15_default">
+		<item>"LTE / UMTS / GSM (LTE pageidaujamas)"</item>
+		<item>"WCDMA/2G (WCDMA pageidaujamas)"</item>
+		<item>"Tik 3G"</item>
+		<item>"Tik 2G"</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_2006N">
+		<item>"LTE / UMTS (LTE pageidaujamas)"</item>
+		<item>"Tik 3G"</item>
+	</string-array>
+	<!-- no translation found for networks_2G_only -->
+	<skip />
+	<string-array name="preferred_network_mode_choices_custom_type16">
+		<item>"4G/3G/2G (rekomenduojama)"</item>
+		<item>"3G/2G"</item>
+		<!--inherit from sourcecode xml-->
+		<item>2G</item>
+	</string-array>
+	<string-array name="preferred_network_mode_choices_custom_type18">
+		<item>"LTE / WCDMA / GSM (automatinis prisijungimas)"</item>
+		<item>"WCDMA / GSM (automatinis prisijungimas)"</item>
+		<item>"Tik WCDMA"</item>
+	</string-array>
+	<string-array name="timezone_label_new">
+		<item>"Midvėjaus atolas"</item>
+		<item>"Havajai"</item>
+		<item>"Aliaska"</item>
+		<item>"Ramiojo vandenyno laikas"</item>
+		<item>"Tichuana"</item>
+		<item>"Arizona"</item>
+		<item>"Čihuahua"</item>
+		<item>"Kalnų laikas"</item>
+		<item>"Centrinė Amerika"</item>
+		<item>"Centrinis laikas"</item>
+		<item>"Saskačevanas"</item>
+		<item>"Rytų laikas"</item>
+		<item>"Venesuela"</item>
+		<item>"Atlanto laikas"</item>
+		<item>"Atl. v. l. (Kanada)"</item>
+		<item>"Manausas"</item>
+		<item>"Niufaundlendas"</item>
+		<item>"Vidurio Atlanto"</item>
+		<item>"Azorai"</item>
+		<item>"Žaliojo Kyšulio Salos"</item>
+		<item>"Kasablanka"</item>
+		<item>"Vakarų Afrikos laikas"</item>
+		<item>"Amanas, Jordanija"</item>
+		<item>"Stambulas"</item>
+		<item>"Beirutas, Libanas"</item>
+		<item>"Teheranas"</item>
+		<item>"Uralskis"</item>
+		<item>"Jekaterinburgas"</item>
+		<item>"Kolkata"</item>
+		<item>"Katmandu"</item>
+		<item>"Jangonas"</item>
+		<item>"Krasnojarskas"</item>
+		<item>"Bankokas"</item>
+		<item>"Honkongas"</item>
+		<item>"Irkutskas"</item>
+		<item>"Pertas"</item>
+		<item>"Osaka"</item>
+		<item>"Jakutskas"</item>
+		<item>"Adelaidė"</item>
+		<item>"Darvinas"</item>
+		<item>"Brisbanas"</item>
+		<item>"Hobartas"</item>
+		<item>"Sidnėjus"</item>
+		<item>"Vladivostokas"</item>
+		<item>"Magadanas"</item>
+		<item>"Oklandas"</item>
+		<item>"Fidžis"</item>
+		<item>"Paragvajus"</item>
+		<item>"Abu Dabis"</item>
+		<item>"Abudža"</item>
+		<item>"Akra"</item>
+		<item>"Adamstaunas"</item>
+		<item>"Adis Abeba"</item>
+		<item>"Alžyras"</item>
+		<item>"Alofis"</item>
+		<item>"Amsterdamas"</item>
+		<item>"Andora"</item>
+		<item>"Ankara"</item>
+		<item>"Antananaryvas"</item>
+		<item>"Ašchabadas"</item>
+		<item>"Asmara"</item>
+		<item>"Astana"</item>
+		<item>"Atėnai"</item>
+		<item>"Avarua"</item>
+		<item>"Bagdadas"</item>
+		<item>"Baku"</item>
+		<item>"Bamakas"</item>
+		<item>"Bandar Seri Begavanas"</item>
+		<item>"Zagrebas"</item>
+		<item>"Bangis"</item>
+		<item>"Bandžulis"</item>
+		<item>"Basteras"</item>
+		<item>"Pekinas"</item>
+		<item>"Belfastas"</item>
+		<item>"Belgradas"</item>
+		<item>"Belmopanas"</item>
+		<item>"Berlynas"</item>
+		<item>"Bernas"</item>
+		<item>"Biškekas"</item>
+		<item>"Bisau"</item>
+		<item>"Bogota"</item>
+		<item>"Brazilija"</item>
+		<item>"Bratislava"</item>
+		<item>"Brazavilis"</item>
+		<item>"Bridžtaunas"</item>
+		<item>"Briuselis"</item>
+		<item>"Bukareštas"</item>
+		<item>"Budapeštas"</item>
+		<item>"Buenos Airės"</item>
+		<item>"Bužumbūra"</item>
+		<item>"Kairas"</item>
+		<item>"Kanbera"</item>
+		<item>"Kardifas"</item>
+		<item>"Kastris"</item>
+		<item>"Kajena"</item>
+		<item>"Šarlotė Amalija"</item>
+		<item>"Kišiniovas"</item>
+		<item>"Kokbern Taunas"</item>
+		<item>"Konakris"</item>
+		<item>"Kopenhaga"</item>
+		<item>"Dakaras"</item>
+		<item>"Daka"</item>
+		<item>"Dilis"</item>
+		<item>"Džibutis"</item>
+		<item>"Dodoma"</item>
+		<item>"Doha"</item>
+		<item>"Daglas"</item>
+		<item>"Dubajus"</item>
+		<item>"Dublinas"</item>
+		<item>"Dušanbė"</item>
+		<item>"Edinburgas"</item>
+		<item>"Edinburgas (Tristanas da Kunja)"</item>
+		<item>"Flaing Fiš Kouvas"</item>
+		<item>"Fritaunas"</item>
+		<item>"Funafutis"</item>
+		<item>"Gaboronas"</item>
+		<item>"Džordžtaunas (Kaimanų salos)"</item>
+		<item>"Džordžtaunas (Dangun Žengimo sala)"</item>
+		<item>"Džordžtaunas (Gajana)"</item>
+		<item>"Gibraltaras"</item>
+		<item>"Griutvikenas"</item>
+		<item>"Gvatemala"</item>
+		<item>"Gustavija"</item>
+		<item>"Aganija"</item>
+		<item>"Hamiltonas"</item>
+		<item>"Hanga Roa"</item>
+		<item>"Hanojus"</item>
+		<item>"Hararė"</item>
+		<item>"Havana"</item>
+		<item>"Helsinkis"</item>
+		<item>"Honiara"</item>
+		<item>"Islamabadas"</item>
+		<item>"Džakarta"</item>
+		<item>"Džeimstaunas"</item>
+		<item>"Jeruzalė"</item>
+		<item>"Džuba"</item>
+		<item>"Kabulas"</item>
+		<item>"Kampala"</item>
+		<item>"Karačis"</item>
+		<item>"Apija"</item>
+		<item>"Chartumas"</item>
+		<item>"Kijevas"</item>
+		<item>"Kigalis"</item>
+		<item>"Kingstonas (Jamaika)"</item>
+		<item>"Kingstonas (Norfolko Sala)"</item>
+		<item>"Kingstaunas"</item>
+		<item>"Kinšasa"</item>
+		<item>"Kvala Lumpūras"</item>
+		<item>"Kuveitas"</item>
+		<item>"Librevilis"</item>
+		<item>"Lilongvė"</item>
+		<item>"Lima"</item>
+		<item>"Lisabona"</item>
+		<item>"Liubliana"</item>
+		<item>"Lomė"</item>
+		<item>"Londonas"</item>
+		<item>"Luanda"</item>
+		<item>"Lusaka"</item>
+		<item>"Liuksemburgas"</item>
+		<item>"Madridas"</item>
+		<item>"Madžūras"</item>
+		<item>"Malabas"</item>
+		<item>"Vyras"</item>
+		<item>"Managva"</item>
+		<item>"Manama"</item>
+		<item>"Manila"</item>
+		<item>"Maputas"</item>
+		<item>"Marigo"</item>
+		<item>"Maseru"</item>
+		<item>"Mata Utu"</item>
+		<item>"Mbabanė"</item>
+		<item>"Melekeokas"</item>
+		<item>"Meksikas"</item>
+		<item>"Minskas"</item>
+		<item>"Mogadišas"</item>
+		<item>"Monakas"</item>
+		<item>"Monrovija"</item>
+		<item>"Montevidėjas"</item>
+		<item>"Moronis"</item>
+		<item>"Maskva"</item>
+		<item>"Maskatas"</item>
+		<item>"Nairobis"</item>
+		<item>"Nasau"</item>
+		<item>"Neipidas"</item>
+		<item>"Ndžamena"</item>
+		<item>"Naujasis Delis"</item>
+		<item>"Niamėjus"</item>
+		<item>"Nikosija"</item>
+		<item>"Nuakšotas"</item>
+		<item>"Numėja"</item>
+		<item>"Nukualofa"</item>
+		<item>"Nuukas"</item>
+		<item>"Oranjestadas"</item>
+		<item>"Oslas"</item>
+		<item>"Otava"</item>
+		<item>"Vagadugu"</item>
+		<item>"Pago Pagas"</item>
+		<item>"Palikyras"</item>
+		<item>"Panama Sitis"</item>
+		<item>"Papeetė"</item>
+		<item>"Paramaribas"</item>
+		<item>"Paryžius"</item>
+		<item>"Filipsbergas"</item>
+		<item>"Pnompenis"</item>
+		<item>"Plimutas"</item>
+		<item>"Podgorica"</item>
+		<item>"Port Luisas"</item>
+		<item>"Port Morsbis"</item>
+		<item>"Port Vila"</item>
+		<item>"Port o Prensas"</item>
+		<item>"Port of Speinas"</item>
+		<item>"Porto Novas"</item>
+		<item>"Praha"</item>
+		<item>"Praja"</item>
+		<item>"Pretorija"</item>
+		<item>"Priština"</item>
+		<item>"Pchenjanas"</item>
+		<item>"Baigti"</item>
+		<item>"Rabatas"</item>
+		<item>"Reikjavikas"</item>
+		<item>"Ryga"</item>
+		<item>"Rijadas"</item>
+		<item>"Rod Taunas"</item>
+		<item>"Roma"</item>
+		<item>"Rozo"</item>
+		<item>"Saipanas"</item>
+		<item>"San Chosė"</item>
+		<item>"San Chuanas"</item>
+		<item>"San Marinas"</item>
+		<item>"San Salvadoras"</item>
+		<item>"Sana"</item>
+		<item>"Santjagas"</item>
+		<item>"Santo Domingas"</item>
+		<item>"San Tomė"</item>
+		<item>"Sarajevas"</item>
+		<item>"Seulas"</item>
+		<item>"Singapūras"</item>
+		<item>"Skopjė"</item>
+		<item>"Sofija"</item>
+		<item>"Šri Džajavardenapura Kotė"</item>
+		<item>"Sent. Džordžas"</item>
+		<item>"Sent Helieras"</item>
+		<item>"Sent Džonas"</item>
+		<item>"Sent Piter Portas"</item>
+		<item>"Sent Pjeras"</item>
+		<item>"Stanlis"</item>
+		<item>"Stokholmas"</item>
+		<item>"Sukrė"</item>
+		<item>"Taipėjus"</item>
+		<item>"Talinas"</item>
+		<item>"Tarava"</item>
+		<item>"Taškentas"</item>
+		<item>"Tbilisis"</item>
+		<item>"Timpu"</item>
+		<item>"Tirana"</item>
+		<item>"Tokijas"</item>
+		<item>"Torshaunas"</item>
+		<item>"Tripolė"</item>
+		<item>"Tunisas"</item>
+		<item>"Ulan Batoras"</item>
+		<item>"Vaducas"</item>
+		<item>"Valeta"</item>
+		<item>"Valis"</item>
+		<item>"Vatikanas"</item>
+		<item>"Viktorija"</item>
+		<item>"Viena"</item>
+		<item>"Vientianas"</item>
+		<item>"Vilnius"</item>
+		<item>"Varšuva"</item>
+		<item>"Vašingtonas"</item>
+		<item>"Velingtonas"</item>
+		<item>"Vakarų sala"</item>
+		<item>"Vilemstadas"</item>
+		<item>"Vindhukas"</item>
+		<item>"Jamusukras"</item>
+		<item>"Jaundė"</item>
+		<item>"Jarenas"</item>
+		<item>"Jerevanas"</item>
+		<item>"Bolivija"</item>
+		<item>"Novosibirskas"</item>
+		<item>"Karaliaučius"</item>
+		<item>"Asunsjonas"</item>
+		<item>"La Pasas"</item>
+		<item>"Kabarovskas"</item>
+		<item>"Južno Sachalinskas"</item>
+		<item>"Severo Kurilskas"</item>
+		<item>"Kamčiatkos Petropavlovskas"</item>
+		<item>"Anadyris"</item>
+		<item>"Samara"</item>
+		<item>"Melburnas"</item>
+		<item>"Sankt Peterburgas"</item>
+		<item>"Volgogradas"</item>
+		<item>"Astrachanė"</item>
+		<item>"Iževskas"</item>
+		<item>"Ufa"</item>
+		<item>"Čeliabinskas"</item>
+		<item>"Omskas"</item>
+		<item>"Barnaulas"</item>
+		<item>"Ulan Udė"</item>
+		<item>"Čita"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"1 Rusijos laiko juosta"</item>
+		<item>"2 Rusijos laiko juosta (Maskvos)"</item>
+		<item>"3 Rusijos laiko juosta"</item>
+		<item>"4 Rusijos laiko juosta"</item>
+		<item>"5 Rusijos laiko juosta"</item>
+		<item>"6 Rusijos laiko juosta"</item>
+		<item>"7 Rusijos laiko juosta"</item>
+		<item>"8 Rusijos laiko juosta"</item>
+		<item>"9 Rusijos laiko juosta"</item>
+		<item>"10 Rusijos laiko juosta"</item>
+		<item>"11 Rusijos laiko juosta"</item>
+	</string-array>
+	<string-array name="timezone_label_ATT">
+		<item>"Hermosiljas"</item>
+		<item>"Ojinaga"</item>
+		<item>"Kankunas"</item>
+		<item>"Merida"</item>
+		<item>"Monterėjus"</item>
+		<item>"Matamoros"</item>
+		<item>"Banderas Bay"</item>
+		<item>"Masatlanas"</item>
+	</string-array>
+	<!-- no translation found for wifi_hotspot_inactivity_timeout_options -->
+	<skip />
+	<string-array name="sim_slot">
+		<item>"(Nenurodyta)"</item>
+		<item>"1 SIM kortelės lizdas"</item>
+		<item>"2 SIM kortelės lizdas"</item>
+	</string-array>
+	<string-array name="wifi_ap_max_connection_entries">
+		<item>"1 naudotojas"</item>
+		<item>"2 naudotojai"</item>
+		<item>"3 naudotojai"</item>
+		<item>"4 naudotojai"</item>
+		<item>"5 naudotojai"</item>
+		<item>"6 naudotojai"</item>
+		<item>"7 naudotojai"</item>
+		<item>"8 naudotojai"</item>
+		<item>"9 vartotojai"</item>
+	</string-array>
+	<!-- no translation found for hide_account_list -->
+	<skip />
+	<string-array name="wifi_ap_wps_mode_entries">
+		<item>"Mygtuko paspaudimas"</item>
+		<item>"PIN kodas iš susieto įrenginio"</item>
+	</string-array>
+</resources>

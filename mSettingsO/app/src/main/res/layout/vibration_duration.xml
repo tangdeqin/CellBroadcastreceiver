@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Added for Task 3665462 by yonglin.liao 2016/12/30  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="0dip" >
+
+    <!--Added by yingying.qiao.hz for defect 4933243 on 2017/6/21 begin-->
+    <TextView
+        android:id="@+id/vibration_duration_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="17sp" />
+    <!--Added by yingying.qiao.hz for defect 4933243 on 2017/6/21 end-->
+    <!--Modified by yingying.qiao.hz for defect 4933243 on 2017/6/21 begin-->
+    <TextView
+        android:id="@+id/vibration_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"   
+        android:textColor="#898989"
+        android:textSize="14sp" />
+
+    <SeekBar
+        android:id="@+id/seek_vibration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:max="100" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dip"
+        android:orientation="horizontal" >
+
+        <!-- modified by miaoliu for task4834023 on 2017/5/23 begin -->
+        <Button
+            android:id="@+id/cancel_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/vibration_duration_cancel_new"
+            android:textSize="14sp" />
+        <!-- modified by miaoliu for task4834023 on 2017/5/23 end -->
+
+        <Button
+            android:id="@+id/default_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/vibration_default_label"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/confirm_btn"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@android:string/ok"
+            android:textSize="14sp" />
+        <!--Modified by yingying.qiao.hz for defect 4933243 on 2017/6/21 end-->
+    </LinearLayout>
+
+</LinearLayout>
