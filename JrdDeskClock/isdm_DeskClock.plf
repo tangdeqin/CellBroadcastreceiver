@@ -1,0 +1,53 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>This files contains DeskClock customization info</HISTORY>
+<HISTORY>2015-12-14: creation by fan.yang</HISTORY>
+<HISTORY>2015-12-14: Added def_alarm_firstdayOfWeek by fan.yang.hz for Task 1150916</HISTORY>
+<HISTORY>2017-02-06: Added def_timezone_ru_flag_inClock by kangsen.chen for defect 4068759 for version v1.0.0064.0</HISTORY>
+</TABLE_HISTORY>
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF ANDROID CAMERA</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_alarm_firstdayOfWeek</SDMID>
+<C_TYPE>AsciiString</C_TYPE>
+<C_NAME>def_alarm_firstdayOfWeek</C_NAME>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,8</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<VALUE>"-1"</VALUE>
+<FEATURE>DeskClock</FEATURE>
+<DESC>As there are different definitions for the 1st day of week in different regions, this item is 
+to define the 1st day of week for different releases."0"Saturday, "1"Sunday, "2":monday,"-1":Locale default</DESC>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_timezone_ru_flag_inClock</SDMID>
+<C_NAME>def_timezone_ru_flag_inClock</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<FEATURE>DeskClock</FEATURE>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<DESC>Display Russian time zone as "Russian Time Zone 1",the same function as system SDMID def_timezone_ru_flag. 
+either def_timezone_ru_flag or def_timezone_ru_flag_inClock is true,the function will be effective.
+0x01:true, 0x00:false.default is 0x00.for defect 4068759</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

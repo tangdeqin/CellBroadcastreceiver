@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+  <!--
+    this file is built by arct v:froyo_2011-03-23, Wed Sep 21 16:39:45 CST 2016
+  -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!---->
+  <string name="app_label">"時計"</string>
+  <!---->
+  <string name="alarm_list_title">"アラーム"</string>
+  <!---->
+  <string name="add_alarm">"アラームを追加"</string>
+  <!---->
+  <string name="menu_desk_clock">"卓上時計"</string>
+  <!---->
+  <string name="menu_edit_alarm">"アラームを編集"</string>
+  <!---->
+  <string name="delete_alarm">"アラームを削除"</string>
+  <!---->
+  <string name="enable_alarm">"アラームをONにする"</string>
+  <!---->
+  <string name="disable_alarm">"アラームをOFFにする"</string>
+  <!---->
+  <string name="delete_alarm_confirm">"このアラームを削除しますか？"</string>
+  <!---->
+  <string name="show_clock">"時計を表示"</string>
+  <!---->
+  <string name="hide_clock">"時計を隠す"</string>
+  <!---->
+  <string name="label">"ラベル"</string>
+  <!---->
+  <string name="default_label">"アラーム"</string>
+  <!---->
+  <string name="set_alarm">"アラームを設定"</string>
+  <!---->
+  <string name="alarm_vibrate">"バイブ"</string>
+  <!---->
+  <string name="alarm_repeat">"繰り返し"</string>
+  <!---->
+  <string name="alert">"アラーム音"</string>
+  <!---->
+  <string name="custom_ringtone">"カスタム着信音"</string>
+  <!---->
+  <string name="ringtone">"アラーム音"</string>
+  <!---->
+  <string name="time">"時間"</string>
+  <!---->
+  <string name="alarm_tomorrow">"明日"</string>
+  <!---->
+  <string name="alarm_today">"今日"</string>
+  <!---->
+  <string name="alarm_alert_wake_up">"起動\u0021"</string>
+  <!---->
+  <string name="alarm_alert_off_action_text">"オフ"</string>
+  <!---->
+  <string name="alarm_alert_dismiss_text">"無効"</string>
+  <!---->
+  <string name="alarm_alert_dismiss_now_text">"停止"</string>
+  <!---->
+  <string name="alarm_missed_title">"未通知アラーム"</string>
+  <!---->
+  <string name="alarm_missed_text">"<xliff:g id="alarm_time">%s</xliff:g> - <xliff:g id="alarm_label">%s</xliff:g>"</string>
+  <!---->
+  <string name="alarm_alert_snoozed_text">"スヌーズしました"</string>
+  <plurals name="alarm_alert_snooze_duration">
+    <item quantity="one">"1分"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%d</xliff:g> 分"</item>
+  </plurals>
+  <!---->
+  <string name="alarm_alert_off_text">"アラーム解除"</string>
+  <!---->
+  <string name="alarm_alert_snooze_text">"再通知"</string>
+  <plurals name="alarm_alert_snooze_set">
+    <item quantity="one">"1 分間スヌーズします。"</item>
+    <item quantity="other">"<xliff:g id="MINUTES">%d</xliff:g>分後に再通知します"</item>
+  </plurals>
+  <!---->
+  <string name="alarm_alert_snooze_until">"スヌーズ終了時刻: <xliff:g id="TIME">%s</xliff:g>"</string>
+  <!---->
+  <string name="alarm_alert_predismiss_title">"予約のアラーム"</string>
+  <!---->
+  <string name="missed_alarm_has_been_deleted">"無効なアラームが削除されました"</string>
+  <string-array name="timer_notifications">
+    <item>"残り1分未満"</item>
+    <item>"残り<xliff:g example="2 hours" id="HOURS">%1$s</xliff:g>"</item>
+    <item>"残り<xliff:g example="2 minutes" id="MINUTES">%2$s</xliff:g>"</item>
+    <item>"残り<xliff:g example="2 hours" id="HOURS">%1$s</xliff:g> <xliff:g example="2 minutes" id="MINUTES">%2$s</xliff:g>"</item>
+  </string-array>
+  <string-array name="alarm_set">
+    <item>"アラームは今から1分以内に設定されています。"</item>
+    <item>"アラームは<xliff:g example="2 days" id="DAYS">%1$s</xliff:g>後に設定されています。"</item>
+    <item>"アラームは<xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>後に設定されています。"</item>
+    <item>"アラームは<xliff:g example="2 days" id="DAYS">%1$s</xliff:g>と<xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>後に設定されています。"</item>
+    <item>"アラームは<xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+    <item>"アラームは<xliff:g example="2 days" id="DAYS">%1$s</xliff:g>と<xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+    <item>"アラームは<xliff:g example="2 hours" id="HOURS">%2$s</xliff:g>と<xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g>後に設定されています。"</item>
+    <item>"アラームは今から<xliff:g example="2 days" id="DAYS">%1$s</xliff:g>と<xliff:g example="2 hours" id="HOURS">%2$s</xliff:g><xliff:g example="2 minutes" id="MINUTES">%3$s</xliff:g>後に設定されました。"</item>
+  </string-array>
+  <plurals name="days">
+    <item quantity="one">"1日"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%s</xliff:g> 日"</item>
+  </plurals>
+  <plurals name="hours">
+    <item quantity="one">"1時間"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%s</xliff:g> 時間"</item>
+  </plurals>
+  <plurals name="minutes">
+    <item quantity="one">"1分"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%s</xliff:g>分"</item>
+  </plurals>
+  <!---->
+  <string name="every_day">"毎日"</string>
+  <!--translate [day_concat] from sourcecode xml -->
+  <string msgid="971998564991636532" name="day_concat">"、 "</string>
+  <!---->
+  <string name="clock_instructions">"時計の選択"</string>
+  <!---->
+  <string name="analog_gadget">"アナログ時計"</string>
+  <!---->
+  <string name="help">"ヘルプ"</string>
+  <!---->
+  <string name="settings">"設定"</string>
+  <!---->
+  <string name="snooze_duration_title">"スヌーズの長さ"</string>
+  <plurals name="snooze_duration">
+    <item quantity="one">"1分"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%d</xliff:g>分"</item>
+  </plurals>
+  <plurals name="snooze_picker_label">
+    <item quantity="one">"分"</item>
+    <item quantity="other">"分"</item>
+  </plurals>
+  <!---->
+  <string name="auto_silence_title">"消音までの時間"</string>
+  <plurals name="auto_silence_summary">
+    <item quantity="one">"1分"</item>
+    <item quantity="other">"<xliff:g example="7" id="formatted_number">%s</xliff:g>分"</item>
+  </plurals>
+  <!---->
+  <string name="auto_silence_never">"保存しない"</string>
+  <string-array name="auto_silence_entries">
+    <item>"1分"</item>
+    <item>"5分"</item>
+    <item>"10分"</item>
+    <item>"15分"</item>
+    <item>"20分"</item>
+    <item>"25分"</item>
+    <item>"保存しない"</item>
+  </string-array>
+  <!---->
+  <string name="week_start_title">"開始する週"</string>
+  <string-array name="week_start_entries">
+    <item>"土曜日"</item>
+    <item>"日曜日"</item>
+    <item>"月曜日"</item>
+  </string-array>
+  <!---->
+  <string name="done">"完了"</string>
+  <!---->
+  <string name="revert">"キャンセル"</string>
+  <!---->
+  <string name="delete">"削除"</string>
+  <!---->
+  <string name="alarm_volume_title">"アラームの音量"</string>
+  <!---->
+  <string name="silent_alarm_summary">"サイレント"</string>
+  <!---->
+  <string name="alarm_notify_text">"スヌーズ/アラーム停止"</string>
+  <!---->
+  <string name="alarm_notify_snooze_label">"<xliff:g id="LABEL">%s</xliff:g>（スヌーズ）"</string>
+  <!---->
+  <string name="alarm_notify_snooze_text">"アラームは<xliff:g id="TIME">%s</xliff:g>に設定されています。選択すると解除されます。"</string>
+  <!---->
+  <string name="volume_button_setting_title">"音量ボタン"</string>
+  <!---->
+  <string name="volume_button_dialog_title">"ボタンの設定"</string>
+  <string-array name="volume_button_setting_entries">
+    <item>"再通知"</item>
+    <item>"無効"</item>
+    <item>"何もしない"</item>
+  </string-array>
+  <!---->
+  <string name="default_ringtone_setting_title">"デフォルトの着信音を設定"</string>
+  <!---->
+  <string name="alarm_button_description">"アラーム"</string>
+  <!---->
+  <string name="gallery_button_description">"ギャラリー"</string>
+  <!---->
+  <string name="music_button_description">"音楽"</string>
+  <!---->
+  <string name="nightmode_button_description">"だんだん弱く"</string>
+  <!---->
+  <string name="home_button_description">"ランチャー"</string>
+  <!---->
+  <string name="desk_clock_button_description">"時計表示"</string>
+  <!---->
+  <string name="label_description">"ラベル"</string>
+  <!---->
+  <string name="ringtone_description">"アラーム音"</string>
+  <!---->
+  <string name="weather_fetch_failure">"現在、天気情報をご利用いただけません。"</string>
+  <!---->
+  <string name="alarm_klaxon_service_desc">"時計で設定したアラーム用のサウンド再生サービスです。"</string>
+  <!---->
+  <string name="loading_ringtone">"着信音を読み込み中\u2026"</string>
+  <!---->
+  <string name="timer_ring_service_desc">"時計で設定したタイマー用のサウンド再生サービスです。"</string>
+  <!---->
+  <string name="control_set_alarm">"アラームを設定"</string>
+  <!---->
+  <string name="menu_alarm">"アラーム"</string>
+  <!---->
+  <string name="menu_timer">"タイマー"</string>
+  <!---->
+  <string name="menu_clock">"時計"</string>
+  <!---->
+  <string name="menu_stopwatch">"ストップウォッチ"</string>
+  <!---->
+  <string name="button_alarms">"アラームを追加"</string>
+  <!---->
+  <string name="button_cities">"世界時計"</string>
+  <!---->
+  <string name="button_menu">"その他のオプション"</string>
+  <!---->
+  <string name="menu_item_settings">"設定"</string>
+  <!---->
+  <string name="menu_item_help">"ヘルプ"</string>
+  <!---->
+  <string name="menu_item_night_mode">"夜間モード"</string>
+  <!---->
+  <string name="menu_item_sort_by_gmt_offset">"時間で並び替え"</string>
+  <!---->
+  <string name="menu_item_sort_by_name">"並べ替え"</string>
+  <!---->
+  <string name="selected_cities_label">"選択した都市"</string>
+  <!---->
+  <string name="sw_resume_button">"再開"</string>
+  <!---->
+  <string name="sw_start_button">"開始"</string>
+  <!---->
+  <string name="sw_stop_button">"停止"</string>
+  <!---->
+  <string name="sw_lap_button">"順番"</string>
+  <!---->
+  <string name="sw_reset_button">"リセット"</string>
+  <!---->
+  <string name="sw_share_button">"共有"</string>
+  <!---->
+  <string name="hours_label">"H"</string>
+  <!---->
+  <string name="minutes_label">"m"</string>
+  <!---->
+  <string name="seconds_label">"s"</string>
+  <!---->
+  <string name="hours_label_description">"時間"</string>
+  <!---->
+  <string name="minutes_label_description">"分"</string>
+  <!---->
+  <string name="seconds_label_description">"秒"</string>
+  <!--translate [zero] from sourcecode xml -->
+  <string msgid="7102083421938355017" name="zero">"0"</string>
+  <!---->
+  <string name="sw_share_main">"時間は <xliff:g id="time">%s</xliff:g>です"</string>
+  <!---->
+  <string name="sw_share_laps">"ラップ時間："</string>
+  <!---->
+  <string name="sw_notification_lap_number">"ラップ<xliff:g id="NUMBER">%d</xliff:g>"</string>
+  <!-- string-array name="sw_lap_number_set" from sourcecode xml -->
+  <string-array name="sw_lap_number_set">
+    <item>"# <xliff:g id="NUMBER">%d</xliff:g>"</item>
+    <item>"# <xliff:g id="NUMBER">%02d</xliff:g>"</item>
+  </string-array>
+  <plurals name="Nhours_description">
+    <item quantity="one">"1時間"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%d</xliff:g> 時間"</item>
+  </plurals>
+  <plurals name="Nminutes_description">
+    <item quantity="one">"1分"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%d</xliff:g>分"</item>
+  </plurals>
+  <plurals name="Nseconds_description">
+    <item quantity="one">"1秒"</item>
+    <item quantity="other">"<xliff:g example="7" id="number">%d</xliff:g> 秒"</item>
+  </plurals>
+  <!---->
+  <string name="timer_add_timer">"タイマーを追加"</string>
+  <!---->
+  <string name="timer_start">"開始"</string>
+  <!---->
+  <string name="timer_delete">"削除"</string>
+  <!---->
+  <string name="timer_descriptive_delete">"削除 <xliff:g id="number_string">%s</xliff:g>"</string>
+  <!---->
+  <string name="timer_plus_one">"1分延長"</string>
+  <!---->
+  <string name="timer_plus_1_min">"1分追加"</string>
+  <!---->
+  <string name="timer_stop">"停止"</string>
+  <!---->
+  <string name="timer_done">"完了"</string>
+  <!---->
+  <string name="timer_reset">"リセット"</string>
+  <!---->
+  <string name="timer_cancel">"キャンセル"</string>
+  <!---->
+  <string name="timer_times_up">"時間切れ"</string>
+  <!---->
+  <string name="timer_notification_label">"タイマー"</string>
+  <!---->
+  <string name="timers_max_count_reached">"最大 4 タイマー"</string>
+  <string-array name="sw_share_strings">
+    <item>"あなたはかなりのスピード狂ですね。"</item>
+    <item>"つらい労働の成果をお楽しみください。"</item>
+    <item>"アンドロイドは速いことで有名ですが、あなたほどではありません。"</item>
+    <item>"肩の力を抜いて。"</item>
+    <item>"L33t回。"</item>
+    <item>"素晴らしいスピード。"</item>
+    <item>"もう一度タイムワープしましょう。"</item>
+    <item>"左にジャンプしましょう。"</item>
+    <item>"急ぐ傾向にありますね。"</item>
+    <item>"光の速度。"</item>
+  </string-array>
+  <!---->
+  <string name="home_label">"自宅"</string>
+  <!---->
+  <string name="cities_activity_title">"世界時計"</string>
+  <!---->
+  <string name="clock_settings">"時計"</string>
+  <!---->
+  <string name="clock_style">"スタイル"</string>
+  <string-array name="clock_style_entries">
+    <item>"アナログ"</item>
+    <item>"デジタル"</item>
+  </string-array>
+  <!---->
+  <string name="automatic_home_clock">"自宅の時計を自動表示"</string>
+  <!---->
+  <string name="automatic_home_clock_summary">"時差のある場所にいるときに自宅の時刻を追加する"</string>
+  <!---->
+  <string name="home_time_zone">"自国のタイムゾーン"</string>
+  <!---->
+  <string name="home_time_zone_title">"自国のタイムゾーン"</string>
+  <!---->
+  <string name="time_picker_cancel">"キャンセル"</string>
+  <!---->
+  <string name="time_picker_set">"OK"</string>
+  <!--translate [time_picker_time_seperator] from sourcecode xml -->
+  <string msgid="7484926510054777041" name="time_picker_time_seperator">":"</string>
+  <!--translate [time_picker_ampm_label] from sourcecode xml -->
+  <string msgid="6754113715199751083" name="time_picker_ampm_label">"--"</string>
+  <!--translate [time_picker_00_label] from sourcecode xml -->
+  <string msgid="6001006474735281911" name="time_picker_00_label">":00"</string>
+  <!--translate [time_picker_30_label] from sourcecode xml -->
+  <string msgid="1027250857384838129" name="time_picker_30_label">":30"</string>
+  <string-array name="timezone_labels">
+    <item>"マーシャル諸島"</item>
+    <item>"ミッドウェー諸島"</item>
+    <item>"ハワイ"</item>
+    <item>"アラスカ"</item>
+    <item>"アメリカ太平洋時間"</item>
+    <item>"ティフアナ"</item>
+    <item>"アリゾナ"</item>
+    <item>"チワワ"</item>
+    <item>"アメリカ山岳部時間"</item>
+    <item>"中央アメリカ"</item>
+    <item>"アメリカ中部時間"</item>
+    <item>"メキシコシティー"</item>
+    <item>"サスカチュワン"</item>
+    <item>"ボゴタ"</item>
+    <item>"アメリカ東部時間"</item>
+    <item>"カラカス"</item>
+    <item>"大西洋時間（バルバドス）"</item>
+    <item>"大西洋標準時（カナダ）"</item>
+    <item>"マナウス"</item>
+    <item>"サンチアゴ"</item>
+    <item>"ニューファンドランド"</item>
+    <item>"ブラジリア"</item>
+    <item>"ブエノスアイレス"</item>
+    <item>"グリーンランド"</item>
+    <item>"モンテビデオ"</item>
+    <item>"大西洋時間"</item>
+    <item>"アゾレス諸島"</item>
+    <item>"カーボベルデ諸島"</item>
+    <item>"カサブランカ"</item>
+    <item>"ロンドン、ダブリン"</item>
+    <item>"アムステルダム、ベルリン"</item>
+    <item>"ベオグラード"</item>
+    <item>"ブラッセル"</item>
+    <item>"サラエボ"</item>
+    <item>"ウィントフック"</item>
+    <item>"西アフリカ時間"</item>
+    <item>"アンマン、ヨルダン"</item>
+    <item>"アテネ、イスタンブール"</item>
+    <item>"ベイルート、レバノン"</item>
+    <item>"カイロ"</item>
+    <item>"ヘルシンキ"</item>
+    <item>"エルサレム"</item>
+    <item>"ミンスク"</item>
+    <item>"ハラレ"</item>
+    <item>"バグダッド"</item>
+    <item>"モスクワ"</item>
+    <item>"クウェート"</item>
+    <item>"ナイロビ"</item>
+    <item>"テヘラン"</item>
+    <item>"バクー"</item>
+    <item>"トビリシ"</item>
+    <item>"エレバン"</item>
+    <item>"ドバイ"</item>
+    <item>"カブール"</item>
+    <item>"イスラマバード、カラチ"</item>
+    <item>"ウラリスク"</item>
+    <item>"エカテリンブルグ"</item>
+    <item>"コルカタ"</item>
+    <item>"スリランカ"</item>
+    <item>"カトマンズ"</item>
+    <item>"アスタナ"</item>
+    <item>"ヤンゴン"</item>
+    <item>"クラスノヤルスク"</item>
+    <item>"バンコク"</item>
+    <item>"北京"</item>
+    <item>"香港"</item>
+    <item>"イルクーツク"</item>
+    <item>"クアラルンプール"</item>
+    <item>"パース"</item>
+    <item>"台北"</item>
+    <item>"ソウル"</item>
+    <item>"東京、大阪"</item>
+    <item>"ヤクーツク"</item>
+    <item>"アデレード"</item>
+    <item>"ダーウィン"</item>
+    <item>"ブリスベン"</item>
+    <item>"ホバート"</item>
+    <item>"シドニー、キャンベラ"</item>
+    <item>"ウラジオストク"</item>
+    <item>"グアム"</item>
+    <item>"マガダン"</item>
+    <item>"オークランド"</item>
+    <item>"フィジー共和国"</item>
+    <item>"トンガ"</item>
+    <item>"ジャカルタ"</item>
+		<item>"カリングラード"</item>
+		<item>"サマラ"</item>
+		<item>"ノボシビルスク"</item>
+		<item>"ユジノサハリンスク"</item>
+		<item>"セベロ―クリリスク"</item>
+		<item>"ペトロパブロフスク―カムチャツカ"</item>
+		<item>"アナジル"</item>
+		<item>"Saint Petersburg"</item>
+		<item>"Volgograd"</item>
+		<item>"Astrakhan"</item>
+		<item>"Izhevsk"</item>
+		<item>"Ufa"</item>
+		<item>"Chelyabinsk"</item>
+		<item>"Omsk"</item>
+		<item>"Barnaul"</item>
+		<item>"Ulan-Ude"</item>
+		<item>"Chita"</item>
+		<item>"ハバロフスク"</item>
+	</string-array>
+	<string-array name="russian_timezonename">
+		<item>"ロシアタイムゾーン1"</item>
+		<item>"ロシアタイムゾーン2（モスクワ）"</item>
+		<item>"ロシアタイムゾーン3"</item>
+		<item>"ロシアタイムゾーン4"</item>
+		<item>"ロシアタイムゾーン5"</item>
+		<item>"ロシアタイムゾーン6"</item>
+		<item>"ロシアタイムゾーン7"</item>
+		<item>"ロシアタイムゾーン8"</item>
+		<item>"ロシアタイムゾーン9"</item>
+		<item>"ロシアタイムゾーン10"</item>
+		<item>"ロシアタイムゾーン11"</item>
+	</string-array>
+  <!---->
+  <string name="alarm_settings">"アラーム"</string>
+  <!---->
+  <string name="stopwatch_service_desc">"通知を行うためのストップウォッチサービスです。"</string>
+  <!---->
+  <string name="swn_stopped">"停止"</string>
+  <!---->
+  <string name="description_direction_right">"停止するには右にスライド"</string>
+  <!---->
+  <string name="description_direction_left">"ｽﾇｰｽﾞするには左にｽﾗｲﾄﾞ"</string>
+  <!---->
+  <string name="description_direction_both">"左スワイプでスヌーズし、右スワイプで解除します。"</string>
+  <!---->
+  <string name="timer_stopped">"タイマーが停止しました"</string>
+  <!---->
+  <string name="timers_stopped">"<xliff:g example="7" id="number">%d</xliff:g>件のタイマーが停止しました"</string>
+  <!---->
+  <string name="all_timers_stopped_notif">"タップしてタイマーを表示します。"</string>
+  <!---->
+  <string name="timers_in_use">"<xliff:g example="7" id="number">%d</xliff:g> タイマー"</string>
+  <!---->
+  <string name="next_timer_notif">"次のタイマー: <xliff:g example="2 minutes remaining" id="time_remaining">%s</xliff:g>"</string>
+  <!---->
+  <string name="screensaver_settings">"ドリーム設定"</string>
+  <!---->
+  <string name="night_mode_title">"夜間モード"</string>
+  <!---->
+  <string name="night_mode_summary">"薄暗いディスプレイ (暗い空間向け)"</string>
+  <!---->
+  <string name="expand_alarm">"アラームを展開"</string>
+  <!---->
+  <string name="collapse_alarm">"アラームを折りたたむ"</string>
+  <!---->
+  <string name="alarm_undo">"元に戻す"</string>
+  <!---->
+  <string name="alarm_deleted">"アラームを削除しました。"</string>
+  <!--translate [slash] from sourcecode xml -->
+  <string msgid="2077577763821006919" name="slash">"/"</string>
+  <!--translate [world_day_of_week_label] from sourcecode xml -->
+  <string msgid="5911196322328341288" name="world_day_of_week_label">"/ <xliff:g id="LABEL">%s</xliff:g>"</string>
+  <!---->
+  <string name="next_alarm_description">"次のアラーム<xliff:g example="Wed 8:00am" id="alarm_time">%s</xliff:g>"</string>
+  <!---->
+  <string name="alarms_selected">"<xliff:g id="alarms">%d</xliff:g> が選択されました"</string>
+  <!---->
+  <string name="deleted_message">"削除済み"</string>
+  <plurals name="alarm_delete_confirmation">
+    <item quantity="one">"選択したアラームを削除しますか？"</item>
+    <item quantity="other">"選択したアラームを削除しますか？"</item>
+  </plurals>
+  <!---->
+  <string name="timer_delete_confirmation">"このタイマーを削除しますか？"</string>
+  <!---->
+  <string name="city_delete_confirmation">"この都市を削除しますか？"</string>
+  <!---->
+  <string name="digital_gadget">"デジタル時計"</string>
+  <!---->
+  <string name="no_alarms">"アラーム無し"</string>
+  <!---->
+  <string name="no_alarms_set">"アラーム未設定"</string>
+  <!---->
+  <string name="no_upcoming_alarms">"次のアラームはありません"</string>
+  <!--translate [time_format_12_mode] from sourcecode xml -->
+  <string msgid="1619464909892545536" name="time_format_12_mode">"h:mma"</string>
+  <!--translate [time_format_24_mode] from sourcecode xml -->
+  <string msgid="7998512313148074539" name="time_format_24_mode">"k:mm"</string>
+  <!--translate [weekday_time_format_12_mode] from sourcecode xml -->
+  <string msgid="8648842975829470646" name="weekday_time_format_12_mode">"EEE、h:mma"</string>
+  <!--translate [weekday_time_format_24_mode] from sourcecode xml -->
+  <string msgid="152964494051478631" name="weekday_time_format_24_mode">"EEE、k:mm"</string>
+  <!---->
+  <string name="invalid_time">"無効な時間 <xliff:g example="25" id="invalid_hour">%d</xliff:g> です<xliff:g example="63" id="invalid_minutes">%d</xliff:g> <xliff:g example="PM" id="invalid_ampm">%s</xliff:g>"</string>
+  <!---->
+  <string name="no_alarm_at">"<xliff:g example="14" id="alarm_time_hour">%d</xliff:g> のアラームはありません。<xliff:g example="23" id="alarm_time_minutes">%d</xliff:g>"</string>
+  <!---->
+  <string name="no_scheduled_alarms">"スケジュールされたアラームはありません"</string>
+  <!---->
+  <string name="no_label_specified">"指定されたラベルはありません"</string>
+  <!---->
+  <string name="no_alarms_with_label">"ラベルを含んでいるアラームがありません"</string>
+  <!---->
+  <string name="stopwatch_already_running">"ストップウォッチが実行中です"</string>
+  <!---->
+  <string name="stopwatch_isnt_running">"ストップウォッチが実行されていません"</string>
+  <!---->
+  <string name="stopwatch_cant_be_reset_because_is_running">"ストップウォッチは実行中のためリセットできません。"</string>
+  <!---->
+  <string name="stopwatch_stopped">"ストップウォッチが停止しました"</string>
+  <!---->
+  <string name="stopwatch_reset">"ストップウォッチがリセットしました"</string>
+  <!---->
+  <string name="stopwatch_lapped">"ストップウォッチがラップしました"</string>
+  <!---->
+  <string name="stopwatch_started">"ストップウォッチがスタートしました"</string>
+  <!---->
+  <string name="no_alarm_scheduled_for_this_time">"この時間にスケジュールされているアラームはありません"</string>
+  <!---->
+  <string name="alarm_is_dismissed">"<xliff:g example="14:20" id="alarm_time">%s</xliff:g> アラームが解除されました"</string>
+  <!---->
+  <string name="alarm_is_set">"アラームが設定されています <xliff:g example="14:20" id="alarm_time">%s</xliff:g>"</string>
+  <!---->
+  <string name="no_timer_set">"タイマーが設定されていません"</string>
+  <!---->
+  <string name="timer_deleted">"タイマーが削除されました"</string>
+  <!---->
+  <string name="timer_already_running">"タイマーが動いています。"</string>
+  <!---->
+  <string name="multiple_timers_available">"リクエストを完了できません。複数のタイマーが使用できます。"</string>
+  <!---->
+  <string name="timer_started">"タイマーがスタートしました"</string>
+  <!---->
+  <string name="timer_created">"タイマーが作成されました"</string>
+  <!---->
+  <string name="invalid_timer_length">"無効なタイマーの長さです"</string>
+  <!---->
+  <string name="timer_was_reset">"タイマーリセット"</string>
+  <!---->
+  <string name="timer_cant_be_reset_because_its_running">"タイマーは実行中のためリセットできません。リセットするにはタイマーを停止します。"</string>
+  <!---->
+  <string name="timer_already_stopped">"タイマーはすでに停止しています。"</string>
+  <!---->
+  <string name="no_city_selected">"都市が選択されていません"</string>
+  <!---->
+  <string name="the_city_you_specified_is_not_available">"指定した都市は使用できません。"</string>
+  <!---->
+  <string name="the_city_already_added">"都市はすでに追加されています。"</string>
+  <!---->
+  <string name="city_added">"<xliff:g example="Paris" id="city_name">%s</xliff:g> を追加しました"</string>
+  <!---->
+  <string name="city_deleted">"<xliff:g example="Paris" id="city_name">%s</xliff:g> が削除されました"</string>
+  <!---->
+  <string name="alarm_cant_be_dismissed_still_more_than_24_hours_away">"<xliff:g example="14:20" id="alarm_time">%s</xliff:g> アラームは解除できません。アラーム起動まで 24 時間以上あります。"</string>
+  <!---->
+  <string name="dismiss_alarm">"アラームを解除します"</string>
+  <!---->
+  <string name="pick_alarm_to_dismiss">"破棄するアラームを選択します。"</string>
+  <!---->
+  <string name="no_firing_alarms">"起動しているアラームはありません"</string>
+  <!---->
+  <string name="alarm_is_snoozed">"<xliff:g example="14:20" id="alarm_time">%s</xliff:g> アラーム（10 分間スヌーズ）"</string>
+  <string name="swipe_dismiss_instruction">右にスワイプして却下</string>
+  <string name="swipe_snooze_instruction">左にスワイプしてスヌーズ</string>
+  <!-- no translation found for denied_required_permission -->
+  <skip />
+  <!-- no translation found for def_alarm_firstdayOfWeek -->
+  <skip />
+  <!-- no translation found for exceed_editor_size_limitation -->
+  <skip />
+</resources>

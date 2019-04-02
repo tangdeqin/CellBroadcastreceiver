@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Wed Sep 21 16:39:45 CST 2016
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for category_alarm -->
+	<skip />
+	<!-- no translation found for category_clock -->
+	<skip />
+	<!-- no translation found for category_timer -->
+	<skip />
+	<!-- no translation found for category_stopwatch -->
+	<skip />
+	<!-- no translation found for action_dismiss -->
+	<skip />
+	<!-- no translation found for action_snooze -->
+	<skip />
+	<!-- no translation found for action_create -->
+	<skip />
+	<!-- no translation found for action_delete -->
+	<skip />
+	<!-- no translation found for action_update -->
+	<skip />
+	<!-- no translation found for action_start -->
+	<skip />
+	<!-- no translation found for action_stop -->
+	<skip />
+	<!-- no translation found for action_fire -->
+	<skip />
+	<!-- no translation found for action_reset -->
+	<skip />
+	<!-- no translation found for action_show -->
+	<skip />
+	<!-- no translation found for action_add_minute -->
+	<skip />
+	<!-- no translation found for action_lap -->
+	<skip />
+	<!-- no translation found for label_deskclock -->
+	<skip />
+	<!-- no translation found for label_notification -->
+	<skip />
+	<!-- no translation found for label_intent -->
+	<skip />
+</resources>
