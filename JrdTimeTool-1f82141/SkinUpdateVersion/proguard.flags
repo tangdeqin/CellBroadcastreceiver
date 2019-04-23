@@ -1,0 +1,11 @@
+-keep class com.jrdcom.timetool.timer.activity.TimerActivity {
+  public void onButtonClick(android.view.View);
+}
+
+-keep class com.jrdcom.timetool.countdown.activity.CountDownActivity {
+  public void onButtonClick(android.view.View);
+}
+
+-keep class com.jrdcom.timetool.R$* {
+*;
+}

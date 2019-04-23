@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dp"
+    android:layout_height="180dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/timer_alert_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="top|center"
+        android:singleLine="true"
+        android:text="@string/timer_alert_label"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/timer_alert_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="top|center"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="25dp"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="24sp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip" android:layout_marginTop="25dp"
+        android:background="?android:attr/dividerHorizontal" />
+
+    <Button
+        android:id="@+id/timer_alert_ok"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:gravity="center"
+        android:text="@string/timer_dialog_ok"
+        />
+
+</LinearLayout>
