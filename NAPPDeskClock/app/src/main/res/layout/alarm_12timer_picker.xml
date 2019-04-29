@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="180dp"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal" >
+
+    <!-- android:background="@drawable/pickerbox_background" -->
+
+    <com.android.deskclock.alarms.VerticalTextPicker
+        android:id="@+id/timerpicker_hour"
+        android:layout_width="72dip"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <com.android.deskclock.alarms.VerticalTextPicker
+        android:id="@+id/timerpicker_minute"
+        android:layout_width="72dip"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <com.android.deskclock.alarms.VerticalTextPicker
+        android:id="@+id/amPmpicker_timer"
+        android:layout_width="72dip"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+</LinearLayout>

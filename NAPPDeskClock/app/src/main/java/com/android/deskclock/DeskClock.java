@@ -152,14 +152,16 @@ public class DeskClock extends BaseActivity
         }
 
         // Configure the menu item controllers add behavior to the toolbar.
-        mOptionsMenuManager.addMenuItemController(
-                new NightModeMenuItemController(this), new SettingsMenuItemController(this));
+        //modify by deqin.tang to remove the  NightModeMenuItem
+/*        mOptionsMenuManager.addMenuItemController(
+                new NightModeMenuItemController(this), new SettingsMenuItemController(this));*/
+       mOptionsMenuManager.addMenuItemController( new SettingsMenuItemController(this));        
         mOptionsMenuManager.addMenuItemController(
                 MenuItemControllerFactory.getInstance().buildMenuItemControllers(this));
 
         // Inflate the menu during creation to avoid a double layout pass. Otherwise, the menu
         // inflation occurs *after* the initial draw and a second layout pass adds in the menu.
-        onCreateOptionsMenu(toolbar.getMenu());
+        //onCreateOptionsMenu(toolbar.getMenu());
 
         // Create the tabs that make up the user interface.
         mTabLayout = (TabLayout) findViewById(R.id.tabs);

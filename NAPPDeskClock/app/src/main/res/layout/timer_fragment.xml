@@ -77,7 +77,7 @@
 
     </FrameLayout>
 
-    <com.android.deskclock.timer.TimerSetupView
+    <com.android.deskclock.timer.CountDownPickerTcl
         android:id="@+id/timer_setup"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

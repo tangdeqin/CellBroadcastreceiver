@@ -49,10 +49,25 @@ import android.view.accessibility.AccessibilityManager;
 import android.widget.ImageView;
 import android.widget.TextClock;
 import android.widget.TextView;
+//add by junye.li for defect 2407806 begin
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
+import android.os.Message;
+import android.os.PowerManager;
+import android.provider.Settings;
+//add by junye.li for defect 2407806 end
+
+// add by kangsen.chen for defect 2791981 20160830 begin
+import android.content.SharedPreferences;
+// add by kangsen.chen for defect 2791981 20160830 end
 
 import com.android.deskclock.AnimatorUtils;
 import com.android.deskclock.BaseActivity;
 import com.android.deskclock.LogUtils;
+import android.util.Log;
+
 import com.android.deskclock.R;
 import com.android.deskclock.ThemeUtils;
 import com.android.deskclock.Utils;
@@ -236,7 +251,7 @@ public class AlarmActivity extends BaseActivity
     @Override
     protected void onResume() {
         super.onResume();
-
+        regSensor();
         // Re-query for AlarmInstance in case the state has changed externally
         final long instanceId = AlarmInstance.getId(getIntent().getData());
         mAlarmInstance = AlarmInstance.getInstance(getContentResolver(), instanceId);
@@ -271,7 +286,11 @@ public class AlarmActivity extends BaseActivity
     @Override
     protected void onPause() {
         super.onPause();
-
+        if(mSensorManager!=null && mSensorEventListener!=null){
+            LogUtils.v("mSensorManager unregister");
+                mSensorManager.unregisterListener(mSensorEventListener);
+        }
+    
         unbindAlarmService();
 
         // Skip if register didn't happen to avoid IllegalArgumentException
@@ -658,5 +677,108 @@ public class AlarmActivity extends BaseActivity
         });
 
         return alertAnimator;
+    }
+
+    private boolean mGestureEnable;
+    private SensorEventListener mSensorEventListener;
+    private SensorManager mSensorManager;
+    private Sensor mSensor;
+    private boolean mIsgetZ = false;
+    private boolean mIsFaceDown = false;
+    private boolean mSnoozeEnable;
+    private double mCurrentDegree = 0;
+    private static final int ALARM_SNOOZE_OR_DISSMISS = 100;
+    private static final int DELAY_SNOOZE_DISSMISS_TIME = 450;
+    private static final double DELTA_DEGREE = 2.5;
+    private void regSensor() {
+        mGestureEnable = (Settings.Global.getInt(getContentResolver(), "alarm_turnover_enable", 1) == 1);
+        Log.d("deqin.tang","mGestureEnable"+mGestureEnable);
+       mSnoozeEnable = (Settings.Global.getInt(getContentResolver(),
+                                       "snooze_enable", 1) == 1);
+        // Turn over the phone to mute the alarm
+        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        this.mIsgetZ = false;
+        if (mGestureEnable) {
+           Log.d("deqin.tang","mGestureEnable2");
+            mSensorEventListener = new SensorEventListener() {
+                @Override
+                public void onSensorChanged(SensorEvent event) {
+                    double gravitySpeed = Math.sqrt(Math.pow(event.values[SensorManager.DATA_X], 2)
+                            + Math.pow(event.values[SensorManager.DATA_Y], 2)
+                            + Math.pow(event.values[SensorManager.DATA_Z], 2));
+                    /* Converted into an degree in Z direction */
+                    double degrees = Math.toDegrees(Math.acos(event.values[SensorManager.DATA_Z]
+                            / gravitySpeed));
+                    /* If degrees is between 20 to 160, is a invalid degrees */
+                    if (degrees > 20 && degrees < 160) {
+                        return;
+                    }
+
+                    mCurrentDegree = degrees;
+                    /* Calculate face down or face up */
+                    if (mIsgetZ == false) {
+                        if (degrees >= 160 && degrees <= 180) {
+                            mIsFaceDown = true;
+                        } else if (degrees >= 0 && degrees <= 20) {
+                            mIsFaceDown = false;
+                        }
+                        mIsgetZ = true;
+                    }
+
+                    /* If degrees is this, send alarm snooze or dimiss mesage */
+                    if ((mIsFaceDown == false && degrees >= 160 && degrees <= 180)
+                            || (mIsFaceDown == true && degrees >= 0 && degrees <= 20)) {
+                        sendSnoozeDismissMessage(degrees);
+                        //Added by kangsen.chen for Defect 3531882 on 2016/11/21 begin
+                        mSensorManager.unregisterListener(mSensorEventListener, mSensor);
+                        //Added by kangsen.chen for Defect 3531882 on 2016/11/21 end
+                    }
+                }
+                @Override
+                public void onAccuracyChanged(Sensor sensor, int accuracy) {
+                }
+            };
+            mSensorManager.registerListener(mSensorEventListener, mSensor,
+                    SensorManager.SENSOR_DELAY_UI);
+        }
+    }
+
+    private void sendSnoozeDismissMessage(double degree) {
+        if (mSensorHandler != null) {
+            mSensorHandler.sendMessageDelayed(mSensorHandler.obtainMessage(ALARM_SNOOZE_OR_DISSMISS, degree),
+                    DELAY_SNOOZE_DISSMISS_TIME);
+        }
+    }
+    private Handler mSensorHandler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch (msg.what) {
+                case ALARM_SNOOZE_OR_DISSMISS:
+                    handleAlarmSnoozeDissmissMessage(msg);
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    };
+    private void handleAlarmSnoozeDissmissMessage(Message msg) {
+        double lastDegree = (Double) msg.obj;
+        if (Math.abs(lastDegree - mCurrentDegree) <= DELTA_DEGREE) {
+            mSensorHandler.removeMessages(ALARM_SNOOZE_OR_DISSMISS);
+            PowerManager powerManager = (PowerManager)getSystemService(Context.POWER_SERVICE);
+            boolean isScreenOn = powerManager != null
+                    && powerManager.isScreenOn();
+            if (!isScreenOn) {
+                return;
+            }
+           if (mSnoozeEnable) {
+                snooze();
+            }else{
+                    dismiss();
+            }
+        }
     }
 }

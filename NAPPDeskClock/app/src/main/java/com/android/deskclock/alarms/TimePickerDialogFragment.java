@@ -55,7 +55,8 @@ public class TimePickerDialogFragment extends DialogFragment {
         final int hour = args.getInt(ARG_HOUR, now.get(Calendar.HOUR_OF_DAY));
         final int minute = args.getInt(ARG_MINUTE, now.get(Calendar.MINUTE));
 
-        if (Utils.isLOrLater()) {
+       // if (Utils.isLOrLater()) {
+        if(false){
             final Context context = getActivity();
             return new TimePickerDialog(context, new TimePickerDialog.OnTimeSetListener() {
                 @Override
@@ -67,7 +68,7 @@ public class TimePickerDialogFragment extends DialogFragment {
             final AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
             final Context context = builder.getContext();
 
-            final TimePicker timePicker = new TimePicker(context);
+            final MyTimePicker timePicker = new MyTimePicker(context);
             timePicker.setCurrentHour(hour);
             timePicker.setCurrentMinute(minute);
             timePicker.setIs24HourView(DateFormat.is24HourFormat(context));

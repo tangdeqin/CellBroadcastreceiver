@@ -77,7 +77,7 @@ public final class TimerFragment extends DeskClockFragment {
     /** Updates the {@link #mPageIndicators} in response to timers being added or removed. */
     private final TimerListener mTimerWatcher = new TimerWatcher();
 
-    private TimerSetupView mCreateTimerView;
+    private CountDownPickerTcl mCreateTimerView;
     private ViewPager mViewPager;
     private TimerPagerAdapter mAdapter;
     private View mTimersView;
@@ -115,7 +115,7 @@ public final class TimerFragment extends DeskClockFragment {
         mViewPager.addOnPageChangeListener(mTimerPageChangeListener);
 
         mTimersView = view.findViewById(R.id.timer_view);
-        mCreateTimerView = (TimerSetupView) view.findViewById(R.id.timer_setup);
+        mCreateTimerView = (CountDownPickerTcl) view.findViewById(R.id.timer_setup);
         mCreateTimerView.setFabContainer(this);
         mPageIndicators = new ImageView[] {
                 (ImageView) view.findViewById(R.id.page_indicator0),
@@ -315,7 +315,7 @@ public final class TimerFragment extends DeskClockFragment {
             right.setClickable(true);
             right.setText(R.string.timer_add_timer);
             right.setContentDescription(right.getResources().getString(R.string.timer_add_timer));
-            right.setVisibility(VISIBLE);
+            right.setVisibility(INVISIBLE);
 
         } else if (mCurrentView == mCreateTimerView) {
             left.setClickable(true);
