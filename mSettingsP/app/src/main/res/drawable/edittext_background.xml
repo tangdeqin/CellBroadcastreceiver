@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Begin Added by jinlong.lu for XR5446826 on 17-10-31 -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="line">
-    <stroke android:width="2dp" android:color="#00a5f7"/>
-    <padding android:bottom="30dp"/>
-</shape>
-<!--End Added by jinlong.lu for XR5446826 on 17-10-31 -->

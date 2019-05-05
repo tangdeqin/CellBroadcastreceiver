@@ -1,3 +1,0 @@
-gradle clean aR
-adb install -r -d app/build/outputs/apk/release/app-release.apk
-
